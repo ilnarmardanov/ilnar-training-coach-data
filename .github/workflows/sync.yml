@@ -1,0 +1,72 @@
+name: Sync coach context
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "5 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-coach-context
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out mirror repository
+        uses: actions/checkout@v4
+
+      - name: Fetch and validate coach context
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          candidate="$(mktemp)"
+          candidate_normalized="$(mktemp)"
+          current_normalized="$(mktemp)"
+          trap 'rm -f "$candidate" "$candidate_normalized" "$current_normalized"' EXIT
+
+          status="$(curl --silent --show-error --location \
+            --max-time 30 \
+            --output "$candidate" \
+            --write-out '%{http_code}' \
+            'https://ololoca.com/ilnar-training/context.json')"
+
+          if [[ "$status" != "200" ]]; then
+            echo "Coach context returned HTTP $status" >&2
+            exit 1
+          fi
+
+          jq -e '
+            type == "object" and
+            (.sourceStateUpdatedAt | type == "string") and
+            (.sourceStateUpdatedAt | test("^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}(\\.[0-9]+)?Z$"))
+          ' "$candidate" >/dev/null
+
+          jq -S 'del(.responseGeneratedAt)' "$candidate" > "$candidate_normalized"
+          if [[ -f current.json ]] && jq -S 'del(.responseGeneratedAt)' current.json > "$current_normalized" 2>/dev/null && cmp -s "$candidate_normalized" "$current_normalized"; then
+            echo "Authoritative coach context is unchanged."
+            exit 0
+          fi
+
+          mv "$candidate" current.json
+
+      - name: Commit changed context
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if git diff --quiet -- current.json; then
+            echo "No content change to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add current.json
+          git commit -m "Update coach context: $(jq -r '.sourceStateUpdatedAt' current.json)"
+          git push
