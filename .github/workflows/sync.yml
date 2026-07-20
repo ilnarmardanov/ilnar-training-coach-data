@@ -1,9 +1,12 @@
 name: Sync coach context
 
 on:
+  repository_dispatch:
+    types: [coach-state-changed]
   workflow_dispatch:
   schedule:
-    - cron: "5 * * * *"
+    # Recovery watchdog only; normal synchronization is event-driven.
+    - cron: "17 3 * * *"
 
 permissions:
   contents: write
@@ -16,11 +19,15 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     timeout-minutes: 5
+    env:
+      EXPECTED_SOURCE_STATE_UPDATED_AT: ${{ github.event.client_payload.expectedSourceStateUpdatedAt || '' }}
+      EXPECTED_STATE_HASH: ${{ github.event.client_payload.expectedStateHash || '' }}
+      MUTATION_REASON: ${{ github.event.client_payload.mutationReason || github.event_name }}
     steps:
       - name: Check out mirror repository
         uses: actions/checkout@v4
 
-      - name: Fetch and validate coach context
+      - name: Poll, validate, and stage coach context
         shell: bash
         run: |
           set -euo pipefail
@@ -30,28 +37,66 @@ jobs:
           current_normalized="$(mktemp)"
           trap 'rm -f "$candidate" "$candidate_normalized" "$current_normalized"' EXIT
 
-          status="$(curl --silent --show-error --location \
-            --max-time 30 \
-            --header 'Cache-Control: no-cache' \
-            --header 'Pragma: no-cache' \
-            --output "$candidate" \
-            --write-out '%{http_code}' \
-            "https://ololoca.com/ilnar-training/context.json?sync=$(date +%s)")"
+          echo "Event: $GITHUB_EVENT_NAME"
+          echo "Mutation reason: $MUTATION_REASON"
+          echo "Expected sourceStateUpdatedAt: ${EXPECTED_SOURCE_STATE_UPDATED_AT:-not supplied}"
+          echo "Expected canonical state hash: ${EXPECTED_STATE_HASH:-not supplied}"
 
-          if [[ "$status" != "200" ]]; then
-            echo "Coach context returned HTTP $status" >&2
+          matched=false
+          delays=(0 5 10 20 30 60)
+          for delay in "${delays[@]}"; do
+            if (( delay > 0 )); then sleep "$delay"; fi
+
+            cache_buster="$(date +%s)-$RANDOM-$delay"
+            status="$(curl --silent --show-error --location \
+              --max-time 30 \
+              --header 'Cache-Control: no-cache' \
+              --header 'Pragma: no-cache' \
+              --output "$candidate" \
+              --write-out '%{http_code}' \
+              "https://ololoca.com/ilnar-training/context.json?sync=$cache_buster")" || status="000"
+
+            if [[ "$status" != "200" ]]; then
+              echo "Attempt after ${delay}s returned HTTP $status"
+              continue
+            fi
+
+            if ! jq -e '
+              type == "object" and
+              (.sourceStateUpdatedAt | type == "string") and
+              (.sourceStateUpdatedAt | test("^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}(\\.[0-9]+)?Z$"))
+            ' "$candidate" >/dev/null; then
+              echo "Attempt after ${delay}s returned invalid coach JSON"
+              continue
+            fi
+
+            actual_updated_at="$(jq -r '.sourceStateUpdatedAt' "$candidate")"
+            jq -cS 'del(.responseGeneratedAt)' "$candidate" | tr -d '\n' > "$candidate_normalized"
+            actual_hash="$(sha256sum "$candidate_normalized" | awk '{print $1}')"
+
+            timestamp_ready=true
+            if [[ -n "$EXPECTED_SOURCE_STATE_UPDATED_AT" && "$actual_updated_at" < "$EXPECTED_SOURCE_STATE_UPDATED_AT" ]]; then
+              timestamp_ready=false
+            fi
+            hash_ready=true
+            if [[ -n "$EXPECTED_STATE_HASH" && "$actual_hash" != "$EXPECTED_STATE_HASH" ]]; then
+              hash_ready=false
+            fi
+
+            echo "Attempt after ${delay}s: sourceStateUpdatedAt=$actual_updated_at stateHash=$actual_hash timestampReady=$timestamp_ready hashReady=$hash_ready"
+            if [[ "$timestamp_ready" == true && "$hash_ready" == true ]]; then
+              matched=true
+              break
+            fi
+          done
+
+          if [[ "$matched" != true ]]; then
+            echo "Expected authoritative coach state did not become visible; preserving current.json." >&2
             exit 1
           fi
 
-          jq -e '
-            type == "object" and
-            (.sourceStateUpdatedAt | type == "string") and
-            (.sourceStateUpdatedAt | test("^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}(\\.[0-9]+)?Z$"))
-          ' "$candidate" >/dev/null
-
-          jq -S 'del(.responseGeneratedAt)' "$candidate" > "$candidate_normalized"
-          if [[ -f current.json ]] && jq -S 'del(.responseGeneratedAt)' current.json > "$current_normalized" 2>/dev/null && cmp -s "$candidate_normalized" "$current_normalized"; then
-            echo "Authoritative coach context is unchanged."
+          if [[ -f current.json ]] && jq -cS 'del(.responseGeneratedAt)' current.json 2>/dev/null | tr -d '\n' > "$current_normalized" && cmp -s "$candidate_normalized" "$current_normalized"; then
+            echo "Authoritative coach context is substantively unchanged."
             exit 0
           fi
 
