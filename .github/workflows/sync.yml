@@ -32,9 +32,11 @@ jobs:
 
           status="$(curl --silent --show-error --location \
             --max-time 30 \
+            --header 'Cache-Control: no-cache' \
+            --header 'Pragma: no-cache' \
             --output "$candidate" \
             --write-out '%{http_code}' \
-            'https://ololoca.com/ilnar-training/context.json')"
+            "https://ololoca.com/ilnar-training/context.json?sync=$(date +%s)")"
 
           if [[ "$status" != "200" ]]; then
             echo "Coach context returned HTTP $status" >&2
