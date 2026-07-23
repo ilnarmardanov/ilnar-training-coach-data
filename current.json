@@ -3050,7 +3050,7 @@
       "actualResult": null,
       "actualSetCount": null,
       "completed": false,
-      "edited": true,
+      "edited": false,
       "exerciseId": "seated_leg_curl",
       "firstUse": false,
       "generatedTarget": {
@@ -3104,7 +3104,7 @@
         "recentLoadIncrease": false,
         "reviewRequired": false
       },
-      "workingSetCount": 3,
+      "workingSetCount": 2,
       "workingTarget": {
         "load": {
           "kind": "numeric",
@@ -3113,7 +3113,6 @@
           "value": 55
         },
         "reps": [
-          12,
           12,
           12
         ]
@@ -3624,7 +3623,7 @@
         "actualResult": null,
         "actualSetCount": null,
         "completed": false,
-        "edited": true,
+        "edited": false,
         "exerciseId": "seated_leg_curl",
         "firstUse": false,
         "generatedTarget": {
@@ -3678,7 +3677,7 @@
           "recentLoadIncrease": false,
           "reviewRequired": false
         },
-        "workingSetCount": 3,
+        "workingSetCount": 2,
         "workingTarget": {
           "load": {
             "kind": "numeric",
@@ -3687,7 +3686,6 @@
             "value": 55
           },
           "reps": [
-            12,
             12,
             12
           ]
@@ -7531,7 +7529,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-07-23T12:21:02.508Z",
+  "responseGeneratedAt": "2026-07-23T12:22:09.320Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -10755,7 +10753,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-07-23T12:20:31.367Z",
+  "sourceStateUpdatedAt": "2026-07-23T12:21:48.399Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
