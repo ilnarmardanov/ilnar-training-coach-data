@@ -34,8 +34,9 @@ jobs:
 
           candidate="$(mktemp)"
           candidate_normalized="$(mktemp)"
+          candidate_pretty="$(mktemp)"
           current_normalized="$(mktemp)"
-          trap 'rm -f "$candidate" "$candidate_normalized" "$current_normalized"' EXIT
+          trap 'rm -f "$candidate" "$candidate_normalized" "$candidate_pretty" "$current_normalized"' EXIT
 
           echo "Event: $GITHUB_EVENT_NAME"
           echo "Mutation reason: $MUTATION_REASON"
@@ -100,7 +101,10 @@ jobs:
             exit 0
           fi
 
-          mv "$candidate" current.json
+          # Stable two-space JSON with a final newline. Semantic comparison above
+          # remains canonical and therefore ignores formatting-only differences.
+          jq --sort-keys --indent 2 '.' "$candidate" > "$candidate_pretty"
+          mv "$candidate_pretty" current.json
 
       - name: Commit changed context
         shell: bash
