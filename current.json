@@ -3314,11 +3314,22 @@
     },
     {
       "activeVariantId": "machine_shoulder_press",
-      "actualResult": null,
-      "actualSetCount": null,
-      "completed": false,
+      "actualResult": {
+        "load": {
+          "kind": "numeric",
+          "mode": "total",
+          "unit": "kg",
+          "value": 12.5
+        },
+        "reps": [
+          10,
+          10
+        ]
+      },
+      "actualSetCount": 2,
+      "completed": true,
       "currentSessionOverride": null,
-      "edited": false,
+      "edited": true,
       "exerciseFamilyId": "vertical_press",
       "exerciseId": "machine_shoulder_press",
       "firstUse": true,
@@ -3338,7 +3349,7 @@
       "issueNotes": null,
       "name": "Machine Shoulder Press",
       "order": 3,
-      "outcome": "planned",
+      "outcome": "completed",
       "persistentPrimaryVariantId": "machine_shoulder_press",
       "plannedPrimaryVariantId": "machine_shoulder_press",
       "prescription": {
@@ -3438,7 +3449,7 @@
           "kind": "numeric",
           "mode": "total",
           "unit": "kg",
-          "value": 10
+          "value": 12.5
         },
         "reps": [
           10,
@@ -4855,11 +4866,22 @@
       },
       {
         "activeVariantId": "machine_shoulder_press",
-        "actualResult": null,
-        "actualSetCount": null,
-        "completed": false,
+        "actualResult": {
+          "load": {
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 12.5
+          },
+          "reps": [
+            10,
+            10
+          ]
+        },
+        "actualSetCount": 2,
+        "completed": true,
         "currentSessionOverride": null,
-        "edited": false,
+        "edited": true,
         "exerciseFamilyId": "vertical_press",
         "exerciseId": "machine_shoulder_press",
         "firstUse": true,
@@ -4879,7 +4901,7 @@
         "issueNotes": null,
         "name": "Machine Shoulder Press",
         "order": 3,
-        "outcome": "planned",
+        "outcome": "completed",
         "persistentPrimaryVariantId": "machine_shoulder_press",
         "plannedPrimaryVariantId": "machine_shoulder_press",
         "prescription": {
@@ -4979,7 +5001,7 @@
             "kind": "numeric",
             "mode": "total",
             "unit": "kg",
-            "value": 10
+            "value": 12.5
           },
           "reps": [
             10,
@@ -10880,7 +10902,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-07-24T04:24:20.511Z",
+  "responseGeneratedAt": "2026-07-24T04:38:09.803Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -14198,7 +14220,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-07-24T04:23:47.445Z",
+  "sourceStateUpdatedAt": "2026-07-24T04:37:39.729Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
