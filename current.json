@@ -3298,8 +3298,18 @@
   "currentExercises": [
     {
       "activeVariantId": "leg_press",
-      "actualResult": null,
-      "actualSetCount": null,
+      "actualResult": {
+        "load": {
+          "kind": "label",
+          "label": "Base + 5 kg per side",
+          "mode": "base_resistance"
+        },
+        "reps": [
+          11,
+          11
+        ]
+      },
+      "actualSetCount": 2,
       "completed": false,
       "currentSessionOverride": null,
       "edited": false,
@@ -3318,11 +3328,11 @@
           11
         ]
       },
-      "issue": null,
+      "issue": "other",
       "issueNotes": null,
       "name": "Leg Press",
       "order": 1,
-      "outcome": "planned",
+      "outcome": "skipped",
       "persistentPrimaryVariantId": "leg_press",
       "plannedPrimaryVariantId": "leg_press",
       "prescription": {
@@ -3357,7 +3367,7 @@
           "label": "Base",
           "mode": "base_resistance"
         },
-        "progressionBlocked": false,
+        "progressionBlocked": true,
         "proposedLoad": null,
         "recentLoadIncrease": true,
         "reviewRequired": false
@@ -5183,8 +5193,18 @@
     "exercises": [
       {
         "activeVariantId": "leg_press",
-        "actualResult": null,
-        "actualSetCount": null,
+        "actualResult": {
+          "load": {
+            "kind": "label",
+            "label": "Base + 5 kg per side",
+            "mode": "base_resistance"
+          },
+          "reps": [
+            11,
+            11
+          ]
+        },
+        "actualSetCount": 2,
         "completed": false,
         "currentSessionOverride": null,
         "edited": false,
@@ -5203,11 +5223,11 @@
             11
           ]
         },
-        "issue": null,
+        "issue": "other",
         "issueNotes": null,
         "name": "Leg Press",
         "order": 1,
-        "outcome": "planned",
+        "outcome": "skipped",
         "persistentPrimaryVariantId": "leg_press",
         "plannedPrimaryVariantId": "leg_press",
         "prescription": {
@@ -5242,7 +5262,7 @@
             "label": "Base",
             "mode": "base_resistance"
           },
-          "progressionBlocked": false,
+          "progressionBlocked": true,
           "proposedLoad": null,
           "recentLoadIncrease": true,
           "reviewRequired": false
@@ -13067,7 +13087,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-07-24T10:08:28.796Z",
+  "responseGeneratedAt": "2026-07-24T10:19:08.814Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -17291,7 +17311,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-07-24T10:07:52.267Z",
+  "sourceStateUpdatedAt": "2026-07-24T10:18:43.209Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
