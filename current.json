@@ -2916,6 +2916,11 @@
       "date": "2026-07-10",
       "recordedAt": "2026-07-10T12:00:00.000Z",
       "valueKg": 54.1
+    },
+    {
+      "date": "2026-07-24",
+      "recordedAt": "2026-07-24T03:41:18.933Z",
+      "valueKg": 54.7
     }
   ],
   "cardioPlan": {
@@ -4499,9 +4504,9 @@
     }
   ],
   "currentNotes": {
-    "date": "2026-07-12",
-    "notes": "Вторая тренировка. На 5-6 силовой появилась головная боль левое полушарие район виска и выше. Самочувствие в целом хорошее. Тошноты и других проблем нет. Плохо спал ночь перед тренировкой. Мало и плохо. Буквально через 15 минут прошло. Видимо от перегруза в моменте. ",
-    "updatedAt": "2026-07-12T07:57:16.173Z"
+    "date": "2026-07-24",
+    "notes": "",
+    "updatedAt": "2026-07-24T03:41:37.153Z"
   },
   "currentPhase": "phase_2",
   "currentSession": {
@@ -10689,7 +10694,7 @@
       "minimum": 55
     },
     "proteinCalculation": "approximately 1.6 g/kg rolling body weight, rounded to 5 g and capped near 1.8 g/kg",
-    "proteinTargetGrams": 85,
+    "proteinTargetGrams": 90,
     "trainingDayGuidanceRu": [
       "По возможности съешьте обычный приём пищи за 60–120 минут до тренировки.",
       "Добавьте углеводы и примерно 20–30 г белка.",
@@ -10831,7 +10836,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-07-24T02:38:48.567Z",
+  "responseGeneratedAt": "2026-07-24T03:41:55.482Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -14149,7 +14154,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-07-24T02:38:14.276Z",
+  "sourceStateUpdatedAt": "2026-07-24T03:41:37.153Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
