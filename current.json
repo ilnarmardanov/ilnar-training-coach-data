@@ -1580,7 +1580,7 @@
           "low_row",
           "hip_thrust",
           "machine_lateral_raise",
-          "supported_calf_raise",
+          "standing_machine_calf_raise",
           "pallof_press"
         ],
         "exercises": [
@@ -1669,7 +1669,7 @@
           "lat_pulldown",
           "hip_thrust",
           "reverse_pec_deck",
-          "supported_calf_raise",
+          "standing_machine_calf_raise",
           "dead_bug"
         ],
         "exercises": [
@@ -1758,7 +1758,7 @@
           "low_row",
           "hip_thrust",
           "machine_lateral_raise",
-          "supported_calf_raise",
+          "standing_machine_calf_raise",
           "pallof_press"
         ],
         "exercises": [
@@ -1847,7 +1847,7 @@
           "lat_pulldown",
           "hip_thrust",
           "reverse_pec_deck",
-          "supported_calf_raise",
+          "standing_machine_calf_raise",
           "dead_bug"
         ],
         "exercises": [
@@ -1936,7 +1936,7 @@
           "low_row",
           "machine_lateral_raise",
           "triceps_pressdown",
-          "supported_calf_raise",
+          "standing_machine_calf_raise",
           "pallof_press"
         ],
         "exercises": [
@@ -2115,7 +2115,7 @@
           "lat_pulldown",
           "machine_lateral_raise",
           "seated_leg_curl",
-          "supported_calf_raise"
+          "standing_machine_calf_raise"
         ],
         "exercises": [
           {
@@ -2203,7 +2203,7 @@
           "hip_thrust",
           "seated_leg_curl",
           "machine_lateral_raise",
-          "supported_calf_raise",
+          "standing_machine_calf_raise",
           "pallof_press"
         ],
         "exercises": [
@@ -2382,7 +2382,7 @@
           "seated_leg_curl",
           "machine_lateral_raise",
           "triceps_pressdown",
-          "supported_calf_raise"
+          "standing_machine_calf_raise"
         ],
         "exercises": [
           {
@@ -2470,7 +2470,7 @@
           "lat_pulldown",
           "seated_leg_curl",
           "machine_lateral_raise",
-          "supported_calf_raise",
+          "standing_machine_calf_raise",
           "pallof_press"
         ],
         "exercises": [
@@ -2826,7 +2826,7 @@
           "lat_pulldown",
           "low_row",
           "hip_thrust",
-          "supported_calf_raise",
+          "standing_machine_calf_raise",
           "dead_bug"
         ],
         "exercises": [
@@ -2988,20 +2988,21 @@
   },
   "currentExercises": [
     {
-      "activeVariantId": "supported_step_up",
+      "activeVariantId": "pendulum_squat",
       "actualResult": null,
       "actualSetCount": null,
       "completed": false,
       "currentSessionOverride": null,
       "edited": false,
       "exerciseFamilyId": "strength_b_knee_dominant",
-      "exerciseId": "supported_step_up",
+      "exerciseId": "pendulum_squat",
       "firstUse": true,
       "generatedTarget": {
         "load": {
-          "kind": "label",
-          "label": "Body weight",
-          "mode": "base_resistance"
+          "kind": "numeric",
+          "mode": "per_side",
+          "unit": "kg",
+          "value": 0
         },
         "reps": [
           8,
@@ -3010,16 +3011,16 @@
       },
       "issue": null,
       "issueNotes": null,
-      "name": "Supported Step-Up",
+      "name": "Pendulum Squat",
       "order": 1,
       "outcome": "planned",
-      "persistentPrimaryVariantId": "supported_step_up",
-      "plannedPrimaryVariantId": "supported_step_up",
+      "persistentPrimaryVariantId": "pendulum_squat",
+      "plannedPrimaryVariantId": "pendulum_squat",
       "prescription": {
-        "exerciseId": "supported_step_up",
+        "exerciseId": "pendulum_squat",
         "repRange": {
           "lower": 8,
-          "perSide": true,
+          "perSide": false,
           "upper": 10
         },
         "workingSets": 2
@@ -3038,88 +3039,31 @@
         "recentLoadIncrease": false,
         "reviewRequired": false
       },
-      "unavailableVariantReasons": {
-        "pendulum_squat": [
-          "Approved setup Short",
-          "Approved correct-execution Short"
-        ],
-        "single_leg_leg_press": [
-          "Complete variant content",
-          "Confirmed equipment profile",
-          "Approved setup Short",
-          "Approved correct-execution Short"
-        ],
-        "supported_step_up": [
-          "Approved vertical setup Short",
-          "Approved vertical correct-execution Short"
-        ]
-      },
+      "unavailableVariantReasons": {},
       "variantProgression": {
         "baselineConfirmedAt": null,
         "baselineLoad": null,
         "retainedTarget": null,
-        "tracks": {
-          "supported_step_up:2x8-10:side": {
-            "baselineConfirmed": false,
-            "generatedTarget": {
-              "load": {
-                "kind": "label",
-                "label": "Body weight",
-                "mode": "base_resistance"
-              },
-              "reps": [
-                8,
-                8
-              ]
-            },
-            "previousResult": null,
-            "progressionContext": {
-              "automaticLoadIncreasePending": false,
-              "consecutiveTopConfirmations": 0,
-              "equipmentSetupRequired": false,
-              "increaseMessage": null,
-              "increaseWarningRequired": false,
-              "loadIncreaseDue": false,
-              "masteredLoad": null,
-              "progressionBlocked": false,
-              "proposedLoad": null,
-              "recentLoadIncrease": false,
-              "reviewRequired": false
-            },
-            "workingTarget": {
-              "load": {
-                "kind": "label",
-                "label": "Body weight",
-                "mode": "base_resistance"
-              },
-              "reps": [
-                8,
-                8
-              ]
-            }
-          }
-        },
-        "variantId": "supported_step_up"
+        "tracks": {},
+        "variantId": "pendulum_squat"
       },
       "variantStatus": "active",
-      "variantTier": "minimal_equipment",
+      "variantTier": "primary",
       "videoPair": {
-        "complete": false,
-        "count": 0,
-        "executionApproved": false,
-        "missingRequirements": [
-          "Approved vertical setup Short",
-          "Approved vertical correct-execution Short"
-        ],
-        "orientation": null,
-        "setupApproved": false
+        "complete": true,
+        "count": 2,
+        "executionApproved": true,
+        "missingRequirements": [],
+        "orientation": "9:16",
+        "setupApproved": true
       },
       "workingSetCount": 2,
       "workingTarget": {
         "load": {
-          "kind": "label",
-          "label": "Body weight",
-          "mode": "base_resistance"
+          "kind": "numeric",
+          "mode": "per_side",
+          "unit": "kg",
+          "value": 0
         },
         "reps": [
           8,
@@ -4563,20 +4507,21 @@
   "currentSession": {
     "exercises": [
       {
-        "activeVariantId": "supported_step_up",
+        "activeVariantId": "pendulum_squat",
         "actualResult": null,
         "actualSetCount": null,
         "completed": false,
         "currentSessionOverride": null,
         "edited": false,
         "exerciseFamilyId": "strength_b_knee_dominant",
-        "exerciseId": "supported_step_up",
+        "exerciseId": "pendulum_squat",
         "firstUse": true,
         "generatedTarget": {
           "load": {
-            "kind": "label",
-            "label": "Body weight",
-            "mode": "base_resistance"
+            "kind": "numeric",
+            "mode": "per_side",
+            "unit": "kg",
+            "value": 0
           },
           "reps": [
             8,
@@ -4585,16 +4530,16 @@
         },
         "issue": null,
         "issueNotes": null,
-        "name": "Supported Step-Up",
+        "name": "Pendulum Squat",
         "order": 1,
         "outcome": "planned",
-        "persistentPrimaryVariantId": "supported_step_up",
-        "plannedPrimaryVariantId": "supported_step_up",
+        "persistentPrimaryVariantId": "pendulum_squat",
+        "plannedPrimaryVariantId": "pendulum_squat",
         "prescription": {
-          "exerciseId": "supported_step_up",
+          "exerciseId": "pendulum_squat",
           "repRange": {
             "lower": 8,
-            "perSide": true,
+            "perSide": false,
             "upper": 10
           },
           "workingSets": 2
@@ -4613,88 +4558,31 @@
           "recentLoadIncrease": false,
           "reviewRequired": false
         },
-        "unavailableVariantReasons": {
-          "pendulum_squat": [
-            "Approved setup Short",
-            "Approved correct-execution Short"
-          ],
-          "single_leg_leg_press": [
-            "Complete variant content",
-            "Confirmed equipment profile",
-            "Approved setup Short",
-            "Approved correct-execution Short"
-          ],
-          "supported_step_up": [
-            "Approved vertical setup Short",
-            "Approved vertical correct-execution Short"
-          ]
-        },
+        "unavailableVariantReasons": {},
         "variantProgression": {
           "baselineConfirmedAt": null,
           "baselineLoad": null,
           "retainedTarget": null,
-          "tracks": {
-            "supported_step_up:2x8-10:side": {
-              "baselineConfirmed": false,
-              "generatedTarget": {
-                "load": {
-                  "kind": "label",
-                  "label": "Body weight",
-                  "mode": "base_resistance"
-                },
-                "reps": [
-                  8,
-                  8
-                ]
-              },
-              "previousResult": null,
-              "progressionContext": {
-                "automaticLoadIncreasePending": false,
-                "consecutiveTopConfirmations": 0,
-                "equipmentSetupRequired": false,
-                "increaseMessage": null,
-                "increaseWarningRequired": false,
-                "loadIncreaseDue": false,
-                "masteredLoad": null,
-                "progressionBlocked": false,
-                "proposedLoad": null,
-                "recentLoadIncrease": false,
-                "reviewRequired": false
-              },
-              "workingTarget": {
-                "load": {
-                  "kind": "label",
-                  "label": "Body weight",
-                  "mode": "base_resistance"
-                },
-                "reps": [
-                  8,
-                  8
-                ]
-              }
-            }
-          },
-          "variantId": "supported_step_up"
+          "tracks": {},
+          "variantId": "pendulum_squat"
         },
         "variantStatus": "active",
-        "variantTier": "minimal_equipment",
+        "variantTier": "primary",
         "videoPair": {
-          "complete": false,
-          "count": 0,
-          "executionApproved": false,
-          "missingRequirements": [
-            "Approved vertical setup Short",
-            "Approved vertical correct-execution Short"
-          ],
-          "orientation": null,
-          "setupApproved": false
+          "complete": true,
+          "count": 2,
+          "executionApproved": true,
+          "missingRequirements": [],
+          "orientation": "9:16",
+          "setupApproved": true
         },
         "workingSetCount": 2,
         "workingTarget": {
           "load": {
-            "kind": "label",
-            "label": "Body weight",
-            "mode": "base_resistance"
+            "kind": "numeric",
+            "mode": "per_side",
+            "unit": "kg",
+            "value": 0
           },
           "reps": [
             8,
@@ -6433,6 +6321,22 @@
       "unit": "kg",
       "upperRepetitions": 12
     },
+    "pendulum_squat": {
+      "availableLoads": [
+        0
+      ],
+      "configured": true,
+      "displayLabel": "Added load per side",
+      "loadMode": "per_side",
+      "lowerRepetitions": 8,
+      "machineStartingResistanceExcluded": true,
+      "maximumAutomaticPercentageJump": 10,
+      "mode": "available_loads",
+      "requiredTopConfirmations": 2,
+      "roundingBehavior": "next_available",
+      "unit": "kg",
+      "upperRepetitions": 10
+    },
     "reverse_pec_deck": {
       "availableLoads": [],
       "configured": false,
@@ -6472,6 +6376,19 @@
       "roundingBehavior": "next_available",
       "unit": "kg",
       "upperRepetitions": 12
+    },
+    "single_leg_leg_press": {
+      "availableLoads": [],
+      "configured": true,
+      "loadMode": "total",
+      "lowerRepetitions": 8,
+      "manualFirstUseLoad": true,
+      "maximumAutomaticPercentageJump": 10,
+      "mode": "available_loads",
+      "requiredTopConfirmations": 2,
+      "roundingBehavior": "next_available",
+      "unit": "kg",
+      "upperRepetitions": 10
     },
     "standing_machine_calf_raise": {
       "configured": false,
@@ -8457,6 +8374,231 @@
       "videoUrls": [],
       "workingSets": 2
     },
+    "pendulum_squat": {
+      "active": true,
+      "actualBaselineLoad": null,
+      "adjustmentRu": "Подберите положение стоп и безопасный ограничитель по контролируемой безболезненной амплитуде; не указывайте непроверенные номера настроек.",
+      "alternatives": [
+        {
+          "category": "fallback",
+          "name": "Supported Step-Up",
+          "suggestedRepRange": "8–10 per leg",
+          "techniqueDifferenceRu": "История и прогрессия остаются независимыми от Pendulum Squat.",
+          "whenToUseRu": "Минимальное оборудование или собственный вес."
+        },
+        {
+          "category": "equipment_alternative",
+          "name": "Single-Leg Leg Press",
+          "suggestedRepRange": "8–10 per leg",
+          "techniqueDifferenceRu": "Это отдельная односторонняя альтернатива; настройте тренажёр заново.",
+          "whenToUseRu": "Когда доступен подходящий тренажёр для жима одной ногой."
+        },
+        {
+          "category": "separate_strength_a_primary",
+          "name": "Bilateral Leg Press",
+          "suggestedRepRange": "Programmed Strength A range",
+          "techniqueDifferenceRu": "Не переносите прогрессию между упражнениями.",
+          "whenToUseRu": "Остаётся основным упражнением Strength A и не заменяется."
+        }
+      ],
+      "approvedVideo": {
+        "approvalStatus": "provisional_selected_by_assistant",
+        "aspectRatio": "9:16",
+        "contentType": "short",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/_u7MQbb0fWs",
+        "language": "en",
+        "platform": "youtube",
+        "publicUrl": "https://www.youtube.com/shorts/_u7MQbb0fWs",
+        "reviewedAt": "2026-07-24",
+        "role": "execution",
+        "shortsUrl": "https://www.youtube.com/shorts/_u7MQbb0fWs",
+        "sourceName": "YouTube",
+        "thumbnailUrl": "https://i.ytimg.com/vi/_u7MQbb0fWs/hqdefault.jpg",
+        "title": "How To Pendulum Squat Machine",
+        "verifiedAt": "2026-07-24",
+        "videoId": "_u7MQbb0fWs",
+        "watchUrl": "https://www.youtube.com/shorts/_u7MQbb0fWs"
+      },
+      "baselineConfirmedAt": null,
+      "breathingRu": [
+        "Вдохните и напрягите корпус перед опусканием.",
+        "Сохраняйте внутрибрюшное давление в трудной нижней части.",
+        "Выдыхайте во время или после подъёма, не теряя контроль; заново подготовьтесь перед следующим повтором."
+      ],
+      "cardioExclusions": [
+        "Stepmill"
+      ],
+      "commonMistakesRu": [
+        "Стопы расположены слишком низко для доступной подвижности голеностопа.",
+        "Пятки отрываются, а колени заваливаются внутрь.",
+        "Спина или таз теряют контакт с опорой.",
+        "Глубина превышает контролируемую амплитуду.",
+        "Слишком быстрое опускание или отбив снизу.",
+        "Слишком быстрое добавление блинов.",
+        "Разблокировка до напряжения корпуса.",
+        "Резкое разгибание коленей или небезопасная установка замка."
+      ],
+      "effortGuidanceRu": "На первом знакомстве оставляйте примерно 2–3 повтора в запасе; приближайтесь к рабочему усилию только после подтверждения техники и переносимости.",
+      "equipment": "Plate-loaded Pendulum Squat machine, added plates, and stable footwear",
+      "equipmentProfile": {
+        "availableLoads": [
+          0
+        ],
+        "configured": true,
+        "displayLabel": "Added load per side",
+        "loadMode": "per_side",
+        "lowerRepetitions": 8,
+        "machineStartingResistanceExcluded": true,
+        "maximumAutomaticPercentageJump": 10,
+        "mode": "available_loads",
+        "requiredTopConfirmations": 2,
+        "roundingBehavior": "next_available",
+        "unit": "kg",
+        "upperRepetitions": 10
+      },
+      "executionStepsRu": [
+        "Встаньте в тренажёр и создайте давление всей стопой.",
+        "Напрягите корпус и сохраняйте контакт спины и таза с подушкой.",
+        "Разблокируйте тренажёр под контролем.",
+        "Медленно опускайтесь, сгибая колени и тазобедренные суставы.",
+        "Направляйте колени туда же, куда смотрят носки.",
+        "Опускайтесь только пока сохраняются опора всей стопой, контакт с подушкой, контроль и комфорт.",
+        "Не отбивайтесь из нижней точки.",
+        "Поднимайтесь, давя всей стопой.",
+        "Завершайте разгибание коленей плавно, без резкого удара в блокировку.",
+        "Возвращайте замок только из устойчивого верхнего положения."
+      ],
+      "exerciseId": "pendulum_squat",
+      "firstUseGuidanceRu": [
+        "Покажите 0 кг добавленной нагрузки на сторону.",
+        "Перед первым рабочим подходом выполните одно контролируемое ознакомительное повторение.",
+        "Если значение не подходит, измените нагрузку или общий результат повторов; число подходов задаёт программа.",
+        "Первый успешно завершённый фактический результат становится базой."
+      ],
+      "intendedRole": "primary_first_exercise_strength_b",
+      "keyCuesRu": [
+        "Вся стопа на платформе.",
+        "Колени следуют за носками.",
+        "Спина и таз остаются на подушке.",
+        "Контроль вниз.",
+        "Без отбива.",
+        "Толкайте платформу от себя.",
+        "Плавная смена направления.",
+        "Устойчиво установите замок."
+      ],
+      "loadDisplayLabel": "Added load per side",
+      "loadIncrement": null,
+      "movementFamily": "knee_dominant_squat",
+      "name": "Pendulum Squat",
+      "primaryMuscles": [
+        "quadriceps"
+      ],
+      "progressionExplanationRu": "Первый успешно завершённый результат становится базой. Затем применяется обычная автоматическая прогрессия; будущие шаги нагрузки не выводятся, пока реальные доступные значения не введены пользователем.",
+      "progressionType": "double_progression",
+      "purposeRu": [
+        "Тренирует квадрицепсы в устойчивой глубокой траектории приседа.",
+        "Дополнительно нагружает ягодичные и приводящие мышцы.",
+        "Даёт высокий стимул нижней части тела при меньших требованиях к равновесию и осевой нагрузке, чем присед со свободной штангой."
+      ],
+      "releaseStatus": "available",
+      "repRange": {
+        "lower": 8,
+        "perSide": false,
+        "upper": 10
+      },
+      "restIntervalSeconds": 150,
+      "restRecommendationSeconds": 150,
+      "secondaryMuscles": [
+        "glutes",
+        "adductors"
+      ],
+      "setupInstructionRu": "Начните первое знакомство без добавленных блинов; перед разблокировкой полностью упритесь в подушки, возьмитесь за рукояти и напрягите корпус.",
+      "setupInstructionsRu": [
+        "Проверьте замок, ограничитель, плечевые и спинные подушки и платформу.",
+        "На первом использовании начните без добавленных блинов.",
+        "Поставьте стопы примерно на ширине таза или плеч около середины платформы; носки направьте вперёд или слегка наружу.",
+        "Подберите положение стоп, при котором вся стопа остаётся на платформе и доступна комфортная контролируемая глубина.",
+        "Плотно прижмите плечи и спину к подушкам, возьмитесь за рукояти и напрягите корпус.",
+        "Разблокируйте тренажёр только в устойчивом положении и полной готовности."
+      ],
+      "startingPositionRu": "Вся стопа на платформе, колени направлены по линии носков, спина и таз прижаты к опоре, корпус напряжён, руки держат рукояти.",
+      "stopReportConditionsRu": [
+        "Острая или нарастающая боль в колене, боль в ахилловом сухожилии, защемление в тазобедренном суставе или боль в спине.",
+        "Потеря устойчивого положения у подушки или контроля нижней точки.",
+        "Головокружение, предобморочное состояние, необычная слабость или нарушение зрения.",
+        "Неисправность замка или ограничителя.",
+        "Повторный отрыв пяток, который не исправляется положением стоп или уменьшением глубины."
+      ],
+      "suggestedStartLoad": {
+        "kind": "numeric",
+        "mode": "per_side",
+        "unit": "kg",
+        "value": 0
+      },
+      "techniquePointsRu": [
+        "Сохраняйте давление всей стопой и направление коленей по носкам.",
+        "Не отрывайте спину или таз от подушки.",
+        "Опускайтесь 2–3 секунды, плавно меняйте направление и поднимайтесь без рывка."
+      ],
+      "tempoRecommendationRu": "Опускание примерно 2–3 секунды, короткая контролируемая смена направления и плавный подъём; пауза нужна только если помогает технике.",
+      "userEditable": {
+        "load": true,
+        "repetitionsPerSet": false,
+        "workingSets": false
+      },
+      "videoFallbackTextRu": "Активация заблокирована до получения двух одобренных Shorts: настройка/исходное положение и правильное выполнение.",
+      "videoGate": {
+        "approvalStatus": "provisional_selected_by_assistant",
+        "approvedUrls": [
+          "https://www.youtube.com/shorts/osuAv8uHTYk",
+          "https://www.youtube.com/shorts/_u7MQbb0fWs"
+        ],
+        "passed": true,
+        "requiredRoles": [
+          "setup_and_starting_position",
+          "correct_execution"
+        ]
+      },
+      "videoGuides": {
+        "execution": {
+          "approvalStatus": "provisional_selected_by_assistant",
+          "aspectRatio": "9:16",
+          "contentType": "short",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/_u7MQbb0fWs",
+          "language": "en",
+          "platform": "youtube",
+          "publicUrl": "https://www.youtube.com/shorts/_u7MQbb0fWs",
+          "reviewedAt": "2026-07-24",
+          "role": "execution",
+          "shortsUrl": "https://www.youtube.com/shorts/_u7MQbb0fWs",
+          "sourceName": "YouTube",
+          "thumbnailUrl": "https://i.ytimg.com/vi/_u7MQbb0fWs/hqdefault.jpg",
+          "title": "How To Pendulum Squat Machine",
+          "verifiedAt": "2026-07-24",
+          "videoId": "_u7MQbb0fWs",
+          "watchUrl": "https://www.youtube.com/shorts/_u7MQbb0fWs"
+        },
+        "setup": {
+          "approvalStatus": "provisional_selected_by_assistant",
+          "aspectRatio": "9:16",
+          "contentType": "short",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/osuAv8uHTYk",
+          "language": "en",
+          "platform": "youtube",
+          "publicUrl": "https://www.youtube.com/shorts/osuAv8uHTYk",
+          "reviewedAt": "2026-07-24",
+          "role": "setup",
+          "shortsUrl": "https://www.youtube.com/shorts/osuAv8uHTYk",
+          "sourceName": "YouTube",
+          "thumbnailUrl": "https://i.ytimg.com/vi/osuAv8uHTYk/hqdefault.jpg",
+          "title": "How to use the pendulum squat",
+          "verifiedAt": "2026-07-24",
+          "videoId": "osuAv8uHTYk",
+          "watchUrl": "https://www.youtube.com/shorts/osuAv8uHTYk"
+        }
+      },
+      "workingSets": 2
+    },
     "reverse_pec_deck": {
       "active": false,
       "actualBaselineLoad": null,
@@ -8759,6 +8901,180 @@
       "videoUrls": [],
       "workingSets": 2
     },
+    "single_leg_leg_press": {
+      "active": false,
+      "actualBaselineLoad": null,
+      "adjustmentRu": "Подберите положение сиденья и стопы так, чтобы в нижней точке таз не подкручивался и пятка не отрывалась.",
+      "alternatives": [
+        {
+          "category": "primary",
+          "name": "Pendulum Squat",
+          "suggestedRepRange": "8–10",
+          "techniqueDifferenceRu": "Отдельная двусторонняя прогрессия.",
+          "whenToUseRu": "Основной вариант Strength B."
+        },
+        {
+          "category": "minimal_equipment",
+          "name": "Supported Step-Up",
+          "suggestedRepRange": "8–10 per side",
+          "techniqueDifferenceRu": "Начните с веса тела.",
+          "whenToUseRu": "Когда тренажёр недоступен."
+        },
+        {
+          "category": "separate_strength_a_primary",
+          "name": "Bilateral Leg Press",
+          "suggestedRepRange": "Programmed Strength A range",
+          "techniqueDifferenceRu": "Не переносите нагрузку между вариантами.",
+          "whenToUseRu": "Только в Strength A."
+        }
+      ],
+      "approvedVideo": {
+        "approvalStatus": "provisional_selected_by_assistant",
+        "aspectRatio": "9:16",
+        "contentType": "short",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/sxCi8gXHKCc",
+        "language": "en",
+        "platform": "youtube",
+        "publicUrl": "https://www.youtube.com/shorts/sxCi8gXHKCc",
+        "reviewedAt": "2026-07-24",
+        "role": "execution",
+        "shortsUrl": "https://www.youtube.com/shorts/sxCi8gXHKCc",
+        "sourceName": "YouTube",
+        "thumbnailUrl": "https://i.ytimg.com/vi/sxCi8gXHKCc/hqdefault.jpg",
+        "title": "Lower Body Exercise Demo: Single Leg Leg Press #shorts",
+        "verifiedAt": "2026-07-24",
+        "videoId": "sxCi8gXHKCc",
+        "watchUrl": "https://www.youtube.com/shorts/sxCi8gXHKCc"
+      },
+      "baselineConfirmedAt": null,
+      "breathingRu": [
+        "Вдохните и напрягите корпус перед опусканием.",
+        "Выдыхайте во время жима, не теряя опору корпуса."
+      ],
+      "commonMistakesRu": [
+        "Перенос нагрузки с Bilateral Leg Press без новой настройки.",
+        "Слишком глубокое опускание с подкручиванием таза.",
+        "Отрыв пятки или завал колена внутрь.",
+        "Помощь второй ногой."
+      ],
+      "effortGuidanceRu": "Первый подход выполняйте консервативно, оставляя 2–3 повтора в запасе.",
+      "equipment": "Horizontal or seated Leg Press machine",
+      "equipmentProfile": {
+        "availableLoads": [],
+        "configured": true,
+        "loadMode": "total",
+        "lowerRepetitions": 8,
+        "manualFirstUseLoad": true,
+        "maximumAutomaticPercentageJump": 10,
+        "mode": "available_loads",
+        "requiredTopConfirmations": 2,
+        "roundingBehavior": "next_available",
+        "unit": "kg",
+        "upperRepetitions": 10
+      },
+      "executionStepsRu": [
+        "Опускайте платформу под контролем, сохраняя колено по линии носка.",
+        "Остановитесь до потери контакта таза, поясницы или пятки.",
+        "Выжмите платформу всей стопой без резкого блокирования колена.",
+        "Выполните обе стороны с одной нагрузкой; более слабая или первая сторона ограничивает вторую."
+      ],
+      "exerciseId": "single_leg_leg_press",
+      "keyCuesRu": [
+        "Вся стопа на платформе.",
+        "Колено следует за носком.",
+        "Таз остаётся у спинки.",
+        "Одинаковая нагрузка для обеих сторон."
+      ],
+      "loadIncrement": null,
+      "movementFamily": "unilateral_knee_dominant_press",
+      "name": "Single-Leg Leg Press",
+      "primaryMuscles": [
+        "quadriceps",
+        "glutes"
+      ],
+      "progressionExplanationRu": "Первый успешно завершённый результат создаёт отдельную базу. Не переносите нагрузку и прогрессию с Bilateral Leg Press или Pendulum Squat.",
+      "progressionType": "double_progression",
+      "releaseStatus": "available",
+      "repRange": {
+        "lower": 8,
+        "perSide": true,
+        "upper": 10
+      },
+      "restIntervalSeconds": 90,
+      "restRecommendationSeconds": 75,
+      "secondaryMuscles": [
+        "hamstrings",
+        "adductors"
+      ],
+      "setupInstructionRu": "Настройте сиденье для безболезненной амплитуды, полностью поставьте одну стопу на платформу и начните с лёгкой нагрузки.",
+      "setupInstructionsRu": [
+        "Настройте спинку так, чтобы таз и поясница сохраняли контакт с опорой.",
+        "Поставьте рабочую стопу полностью на платформу, колено направьте по линии носка.",
+        "Сначала выберите лёгкую нагрузку отдельно от Bilateral Leg Press."
+      ],
+      "startingPositionRu": "Таз и спина прижаты, рабочая стопа полностью на платформе, свободная нога находится в безопасном устойчивом положении.",
+      "stopReportConditionsRu": [
+        "Острая или нарастающая боль.",
+        "Невозможность удержать таз, поясницу или пятку.",
+        "Заметная разница сторон, при которой безопасная техника не сохраняется."
+      ],
+      "suggestedStartLoad": {
+        "kind": "label",
+        "label": "Set load",
+        "mode": "base_resistance"
+      },
+      "techniquePointsRu": [
+        "Сохраняйте таз и корпус неподвижными.",
+        "Не позволяйте колену заваливаться внутрь.",
+        "Используйте одинаковую контролируемую амплитуду с обеих сторон."
+      ],
+      "tempoRecommendationRu": "Опускайте платформу 2–3 секунды и выжимайте плавно без отбива.",
+      "userEditable": {
+        "load": true,
+        "repetitionsPerSet": false,
+        "workingSets": false
+      },
+      "videoFallbackTextRu": "Если видео не загружается, используйте инструкции по настройке и выполнению выше.",
+      "videoGuides": {
+        "execution": {
+          "approvalStatus": "provisional_selected_by_assistant",
+          "aspectRatio": "9:16",
+          "contentType": "short",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/sxCi8gXHKCc",
+          "language": "en",
+          "platform": "youtube",
+          "publicUrl": "https://www.youtube.com/shorts/sxCi8gXHKCc",
+          "reviewedAt": "2026-07-24",
+          "role": "execution",
+          "shortsUrl": "https://www.youtube.com/shorts/sxCi8gXHKCc",
+          "sourceName": "YouTube",
+          "thumbnailUrl": "https://i.ytimg.com/vi/sxCi8gXHKCc/hqdefault.jpg",
+          "title": "Lower Body Exercise Demo: Single Leg Leg Press #shorts",
+          "verifiedAt": "2026-07-24",
+          "videoId": "sxCi8gXHKCc",
+          "watchUrl": "https://www.youtube.com/shorts/sxCi8gXHKCc"
+        },
+        "setup": {
+          "approvalStatus": "provisional_selected_by_assistant",
+          "aspectRatio": "9:16",
+          "contentType": "short",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/DmN1yJ69Ljs",
+          "language": "en",
+          "platform": "youtube",
+          "publicUrl": "https://www.youtube.com/shorts/DmN1yJ69Ljs",
+          "reviewedAt": "2026-07-24",
+          "role": "setup",
+          "shortsUrl": "https://www.youtube.com/shorts/DmN1yJ69Ljs",
+          "sourceName": "YouTube",
+          "thumbnailUrl": "https://i.ytimg.com/vi/DmN1yJ69Ljs/hqdefault.jpg",
+          "title": "How To: Single Leg Leg Press",
+          "verifiedAt": "2026-07-24",
+          "videoId": "DmN1yJ69Ljs",
+          "watchUrl": "https://www.youtube.com/shorts/DmN1yJ69Ljs"
+        }
+      },
+      "workingSets": 2
+    },
     "standing_machine_calf_raise": {
       "active": false,
       "actualBaselineLoad": null,
@@ -9045,16 +9361,22 @@
         }
       ],
       "approvedVideo": {
-        "embedUrl": "https://www.youtube-nocookie.com/embed/wfhXnLILqdk",
+        "approvalStatus": "provisional_selected_by_assistant",
+        "aspectRatio": "9:16",
+        "contentType": "short",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/4Db0Nb0f8kk",
         "language": "en",
         "platform": "youtube",
-        "publicUrl": "https://www.fitmetrics.ch/en/exercise/65529be4a992b-step-ups",
-        "source": "FitMetrics",
-        "sourceName": "FitMetrics",
-        "thumbnailUrl": "https://i.ytimg.com/vi/wfhXnLILqdk/hqdefault.jpg",
-        "title": "Step ups",
-        "validatedAt": "2026-07-22",
-        "videoId": "wfhXnLILqdk"
+        "publicUrl": "https://www.youtube.com/shorts/4Db0Nb0f8kk",
+        "reviewedAt": "2026-07-24",
+        "role": "execution",
+        "shortsUrl": "https://www.youtube.com/shorts/4Db0Nb0f8kk",
+        "sourceName": "Fitonomy",
+        "thumbnailUrl": "https://i.ytimg.com/vi/4Db0Nb0f8kk/hqdefault.jpg",
+        "title": "How to do step-ups correctly",
+        "verifiedAt": "2026-07-24",
+        "videoId": "4Db0Nb0f8kk",
+        "watchUrl": "https://www.youtube.com/shorts/4Db0Nb0f8kk"
       },
       "baselineConfirmedAt": null,
       "breathingRu": [
@@ -9139,24 +9461,48 @@
         "Опускайтесь медленно."
       ],
       "tempoRecommendationRu": "Подъём за 1–2 секунды, короткая пауза, возврат за 2–3 секунды.",
+      "userEditable": {
+        "load": true,
+        "repetitionsPerSet": false,
+        "workingSets": false
+      },
       "videoFallbackTextRu": "Если видео временно недоступно, следуйте разделам Setup, Technique, Breathing и Key cues для Supported Step-Up.",
       "videoGuides": {
-        "technique": {
-          "aspectRatio": "16:9",
-          "contentType": "reference",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/wfhXnLILqdk",
+        "execution": {
+          "approvalStatus": "provisional_selected_by_assistant",
+          "aspectRatio": "9:16",
+          "contentType": "short",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/4Db0Nb0f8kk",
           "language": "en",
           "platform": "youtube",
-          "publicUrl": "https://www.fitmetrics.ch/en/exercise/65529be4a992b-step-ups",
-          "role": "technique",
-          "source": "FitMetrics",
-          "sourceName": "FitMetrics",
-          "thumbnailUrl": "https://i.ytimg.com/vi/wfhXnLILqdk/hqdefault.jpg",
-          "title": "Step ups",
-          "validatedAt": "2026-07-22",
-          "verifiedAt": "2026-07-22",
-          "videoId": "wfhXnLILqdk",
-          "watchUrl": "https://www.fitmetrics.ch/en/exercise/65529be4a992b-step-ups"
+          "publicUrl": "https://www.youtube.com/shorts/4Db0Nb0f8kk",
+          "reviewedAt": "2026-07-24",
+          "role": "execution",
+          "shortsUrl": "https://www.youtube.com/shorts/4Db0Nb0f8kk",
+          "sourceName": "Fitonomy",
+          "thumbnailUrl": "https://i.ytimg.com/vi/4Db0Nb0f8kk/hqdefault.jpg",
+          "title": "How to do step-ups correctly",
+          "verifiedAt": "2026-07-24",
+          "videoId": "4Db0Nb0f8kk",
+          "watchUrl": "https://www.youtube.com/shorts/4Db0Nb0f8kk"
+        },
+        "setup": {
+          "approvalStatus": "provisional_selected_by_assistant",
+          "aspectRatio": "9:16",
+          "contentType": "short",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/z7YBQi6rW28",
+          "language": "en",
+          "platform": "youtube",
+          "publicUrl": "https://www.youtube.com/shorts/z7YBQi6rW28",
+          "reviewedAt": "2026-07-24",
+          "role": "setup",
+          "shortsUrl": "https://www.youtube.com/shorts/z7YBQi6rW28",
+          "sourceName": "Vie Athletics",
+          "thumbnailUrl": "https://i.ytimg.com/vi/z7YBQi6rW28/hqdefault.jpg",
+          "title": "Bodyweight Step Up",
+          "verifiedAt": "2026-07-24",
+          "videoId": "z7YBQi6rW28",
+          "watchUrl": "https://www.youtube.com/shorts/z7YBQi6rW28"
         }
       },
       "workingSets": 2
@@ -9950,68 +10296,52 @@
     "strength_b_knee_dominant": {
       "availableVariantIds": [
         "supported_step_up",
-        "pendulum_squat",
-        "single_leg_leg_press"
+        "single_leg_leg_press",
+        "pendulum_squat"
       ],
       "exerciseFamilyId": "strength_b_knee_dominant",
       "lockedPrimaryVariantId": "pendulum_squat",
       "name": "Strength B knee-dominant",
-      "primaryVariantId": "supported_step_up",
-      "temporaryPrimaryReason": "Locked primary is blocked by incomplete approved video package",
+      "primaryVariantId": "pendulum_squat",
+      "temporaryPrimaryReason": null,
       "variants": {
         "pendulum_squat": {
           "exerciseFamilyId": "strength_b_knee_dominant",
-          "exerciseId": null,
-          "familyId": "strength_b_knee_dominant",
+          "exerciseId": "pendulum_squat",
           "firstUseNoteRu": "2 × 8–10; 0 кг с каждой стороны до первого подтверждённого результата.",
-          "missingRequirements": [
-            "Approved setup Short",
-            "Approved correct-execution Short"
-          ],
+          "missingRequirements": [],
           "name": "Pendulum Squat",
-          "selectable": false,
-          "status": "blocked",
+          "selectable": true,
+          "status": "active",
           "tier": "primary",
           "variantId": "pendulum_squat",
           "videoPair": {
-            "complete": false,
-            "count": 0,
-            "executionApproved": false,
-            "missingRequirements": [
-              "Approved setup Short",
-              "Approved correct-execution Short"
-            ],
-            "orientation": null,
-            "setupApproved": false
+            "complete": true,
+            "count": 2,
+            "executionApproved": true,
+            "missingRequirements": [],
+            "orientation": "9:16",
+            "setupApproved": true
           },
-          "whenToUseRu": "Заблокированный основной вариант Strength B."
+          "whenToUseRu": "Основной вариант Strength B на Pendulum Squat."
         },
         "single_leg_leg_press": {
           "exerciseFamilyId": "strength_b_knee_dominant",
-          "exerciseId": null,
-          "familyId": "strength_b_knee_dominant",
+          "exerciseId": "single_leg_leg_press",
           "firstUseNoteRu": "Новая независимая исходная нагрузка обязательна.",
-          "missingRequirements": [
-            "Complete variant content",
-            "Confirmed equipment profile",
-            "Approved setup Short",
-            "Approved correct-execution Short"
-          ],
+          "missingRequirements": [],
           "name": "Single-Leg Leg Press",
-          "selectable": false,
-          "status": "blocked",
+          "selectable": true,
+          "status": "available",
           "tier": "equivalent_equipment",
           "variantId": "single_leg_leg_press",
           "videoPair": {
-            "complete": false,
-            "count": 0,
-            "executionApproved": false,
-            "missingRequirements": [
-              "Approved setup Short",
-              "Approved correct-execution Short"
-            ],
-            "orientation": null,
-            "setupApproved": false
+            "complete": true,
+            "count": 2,
+            "executionApproved": true,
+            "missingRequirements": [],
+            "orientation": "9:16",
+            "setupApproved": true
           },
           "whenToUseRu": "Эквивалентный вариант на подходящем тренажёре."
         },
@@ -10019,27 +10349,21 @@
           "exerciseFamilyId": "strength_b_knee_dominant",
           "exerciseId": "supported_step_up",
           "firstUseNoteRu": "Первый завершённый результат создаёт отдельную исходную точку.",
-          "missingRequirements": [
-            "Approved vertical setup Short",
-            "Approved vertical correct-execution Short"
-          ],
+          "missingRequirements": [],
           "name": "Supported Step-Up",
-          "selectable": false,
+          "selectable": true,
           "status": "active",
           "tier": "minimal_equipment",
           "variantId": "supported_step_up",
           "videoPair": {
-            "complete": false,
-            "count": 0,
-            "executionApproved": false,
-            "missingRequirements": [
-              "Approved vertical setup Short",
-              "Approved vertical correct-execution Short"
-            ],
-            "orientation": null,
-            "setupApproved": false
+            "complete": true,
+            "count": 2,
+            "executionApproved": true,
+            "missingRequirements": [],
+            "orientation": "9:16",
+            "setupApproved": true
           },
-          "whenToUseRu": "Временный производственный вариант, пока Pendulum Squat заблокирован."
+          "whenToUseRu": "Минимальный вариант с устойчивой платформой и опорой."
         }
       }
     },
@@ -10152,8 +10476,10 @@
     "machine_lateral_raise": "machine_lateral_raise",
     "machine_shoulder_press": "machine_shoulder_press",
     "pallof_press": "pallof_press",
+    "pendulum_squat": "pendulum_squat",
     "reverse_pec_deck": "reverse_pec_deck",
     "seated_leg_curl": "seated_leg_curl",
+    "single_leg_leg_press": "single_leg_leg_press",
     "standing_machine_calf_raise": "standing_machine_calf_raise",
     "supported_calf_raise": "supported_calf_raise",
     "supported_step_up": "supported_step_up",
@@ -10505,7 +10831,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-07-23T13:08:52.606Z",
+  "responseGeneratedAt": "2026-07-24T02:38:48.567Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -13823,7 +14149,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-07-23T13:08:16.771Z",
+  "sourceStateUpdatedAt": "2026-07-24T02:38:14.276Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
@@ -14936,6 +15262,13 @@
       },
       "variantId": "pallof_press"
     },
+    "pendulum_squat": {
+      "baselineConfirmedAt": null,
+      "baselineLoad": null,
+      "retainedTarget": null,
+      "tracks": {},
+      "variantId": "pendulum_squat"
+    },
     "reverse_pec_deck": {
       "baselineConfirmedAt": null,
       "baselineLoad": null,
@@ -15068,6 +15401,13 @@
         }
       },
       "variantId": "seated_leg_curl"
+    },
+    "single_leg_leg_press": {
+      "baselineConfirmedAt": null,
+      "baselineLoad": null,
+      "retainedTarget": null,
+      "tracks": {},
+      "variantId": "single_leg_leg_press"
     },
     "standing_machine_calf_raise": {
       "baselineConfirmedAt": null,
