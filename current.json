@@ -3332,7 +3332,7 @@
       "issueNotes": null,
       "name": "Leg Press",
       "order": 1,
-      "outcome": "skipped",
+      "outcome": "incomplete",
       "persistentPrimaryVariantId": "leg_press",
       "plannedPrimaryVariantId": "leg_press",
       "prescription": {
@@ -5227,7 +5227,7 @@
         "issueNotes": null,
         "name": "Leg Press",
         "order": 1,
-        "outcome": "skipped",
+        "outcome": "incomplete",
         "persistentPrimaryVariantId": "leg_press",
         "plannedPrimaryVariantId": "leg_press",
         "prescription": {
@@ -13104,7 +13104,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-07-24T13:17:03.461Z",
+  "responseGeneratedAt": "2026-07-24T13:42:10.889Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -17328,7 +17328,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-07-24T10:19:07.777Z",
+  "sourceStateUpdatedAt": "2026-07-24T13:41:37.018Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
