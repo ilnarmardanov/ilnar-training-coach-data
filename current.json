@@ -3310,7 +3310,7 @@
         ]
       },
       "actualSetCount": 2,
-      "completed": false,
+      "completed": true,
       "currentSessionOverride": null,
       "edited": false,
       "exerciseFamilyId": "strength_a_knee_dominant",
@@ -3332,7 +3332,7 @@
       "issueNotes": null,
       "name": "Leg Press",
       "order": 1,
-      "outcome": "incomplete",
+      "outcome": "completed",
       "persistentPrimaryVariantId": "leg_press",
       "plannedPrimaryVariantId": "leg_press",
       "prescription": {
@@ -5205,7 +5205,7 @@
           ]
         },
         "actualSetCount": 2,
-        "completed": false,
+        "completed": true,
         "currentSessionOverride": null,
         "edited": false,
         "exerciseFamilyId": "strength_a_knee_dominant",
@@ -5227,7 +5227,7 @@
         "issueNotes": null,
         "name": "Leg Press",
         "order": 1,
-        "outcome": "incomplete",
+        "outcome": "completed",
         "persistentPrimaryVariantId": "leg_press",
         "plannedPrimaryVariantId": "leg_press",
         "prescription": {
@@ -13104,7 +13104,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-07-24T13:42:10.889Z",
+  "responseGeneratedAt": "2026-07-24T13:43:46.922Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -17328,7 +17328,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-07-24T13:41:37.018Z",
+  "sourceStateUpdatedAt": "2026-07-24T13:43:04.264Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
