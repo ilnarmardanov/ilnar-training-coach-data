@@ -3089,9 +3089,20 @@
     },
     {
       "activeVariantId": "seated_leg_curl",
-      "actualResult": null,
-      "actualSetCount": null,
-      "completed": false,
+      "actualResult": {
+        "load": {
+          "kind": "numeric",
+          "mode": "total",
+          "unit": "kg",
+          "value": 55
+        },
+        "reps": [
+          12,
+          12
+        ]
+      },
+      "actualSetCount": 2,
+      "completed": true,
       "currentSessionOverride": null,
       "edited": false,
       "exerciseFamilyId": "exercise_seated_leg_curl",
@@ -3113,7 +3124,7 @@
       "issueNotes": null,
       "name": "Seated Leg Curl",
       "order": 2,
-      "outcome": "planned",
+      "outcome": "completed",
       "persistentPrimaryVariantId": "seated_leg_curl",
       "plannedPrimaryVariantId": "seated_leg_curl",
       "prescription": {
@@ -4619,9 +4630,20 @@
       },
       {
         "activeVariantId": "seated_leg_curl",
-        "actualResult": null,
-        "actualSetCount": null,
-        "completed": false,
+        "actualResult": {
+          "load": {
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 55
+          },
+          "reps": [
+            12,
+            12
+          ]
+        },
+        "actualSetCount": 2,
+        "completed": true,
         "currentSessionOverride": null,
         "edited": false,
         "exerciseFamilyId": "exercise_seated_leg_curl",
@@ -4643,7 +4665,7 @@
         "issueNotes": null,
         "name": "Seated Leg Curl",
         "order": 2,
-        "outcome": "planned",
+        "outcome": "completed",
         "persistentPrimaryVariantId": "seated_leg_curl",
         "plannedPrimaryVariantId": "seated_leg_curl",
         "prescription": {
@@ -10858,7 +10880,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-07-24T04:13:52.484Z",
+  "responseGeneratedAt": "2026-07-24T04:24:20.511Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -14176,7 +14198,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-07-24T04:13:16.494Z",
+  "sourceStateUpdatedAt": "2026-07-24T04:23:47.445Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
