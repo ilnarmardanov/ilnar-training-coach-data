@@ -1789,7 +1789,7 @@
       },
       "phase2_strength_b": {
         "exerciseIds": [
-          "supported_step_up",
+          "pendulum_squat",
           "seated_leg_curl",
           "machine_shoulder_press",
           "low_row",
@@ -1800,10 +1800,10 @@
         ],
         "exercises": [
           {
-            "exerciseId": "supported_step_up",
+            "exerciseId": "pendulum_squat",
             "repRange": {
               "lower": 8,
-              "perSide": true,
+              "perSide": false,
               "upper": 10
             },
             "workingSets": 2
@@ -3305,6 +3305,7 @@
       "edited": false,
       "exerciseFamilyId": "strength_a_knee_dominant",
       "exerciseId": "leg_press",
+      "exerciseNote": null,
       "firstUse": false,
       "generatedTarget": {
         "load": {
@@ -3361,7 +3362,26 @@
         "recentLoadIncrease": true,
         "reviewRequired": false
       },
-      "unavailableVariantReasons": {},
+      "unavailableVariantReasons": {
+        "goblet_squat_to_box": [
+          "Complete variant content",
+          "Confirmed load behavior",
+          "Approved vertical setup Short",
+          "Approved vertical correct-execution Short"
+        ],
+        "shua_g8919_linear_leg_press": [
+          "Complete variant content",
+          "Confirmed load behavior",
+          "Approved vertical setup Short",
+          "Approved vertical correct-execution Short"
+        ],
+        "supported_sit_to_stand": [
+          "Complete variant content",
+          "Confirmed load behavior",
+          "Approved vertical setup Short",
+          "Approved vertical correct-execution Short"
+        ]
+      },
       "variantProgression": {
         "baselineConfirmedAt": null,
         "baselineLoad": null,
@@ -3520,8 +3540,9 @@
       "completed": false,
       "currentSessionOverride": null,
       "edited": false,
-      "exerciseFamilyId": "exercise_seated_leg_curl",
+      "exerciseFamilyId": "knee_flexion",
       "exerciseId": "seated_leg_curl",
+      "exerciseNote": null,
       "firstUse": false,
       "generatedTarget": {
         "load": {
@@ -3586,7 +3607,26 @@
         "recentLoadIncrease": true,
         "reviewRequired": false
       },
-      "unavailableVariantReasons": {},
+      "unavailableVariantReasons": {
+        "bridge_walkout": [
+          "Complete variant content",
+          "Confirmed load behavior",
+          "Approved vertical setup Short",
+          "Approved vertical correct-execution Short"
+        ],
+        "shua_g8807_prone_leg_curl": [
+          "Complete variant content",
+          "Confirmed load behavior",
+          "Approved vertical setup Short",
+          "Approved vertical correct-execution Short"
+        ],
+        "slider_leg_curl": [
+          "Complete variant content",
+          "Confirmed load behavior",
+          "Approved vertical setup Short",
+          "Approved vertical correct-execution Short"
+        ]
+      },
       "variantProgression": {
         "baselineConfirmedAt": "2026-07-24T05:16:42.248Z",
         "baselineLoad": {
@@ -3744,8 +3784,9 @@
       "completed": false,
       "currentSessionOverride": null,
       "edited": false,
-      "exerciseFamilyId": "exercise_chest_press",
+      "exerciseFamilyId": "horizontal_press",
       "exerciseId": "chest_press",
+      "exerciseNote": null,
       "firstUse": false,
       "generatedTarget": {
         "load": {
@@ -3805,7 +3846,26 @@
         "recentLoadIncrease": true,
         "reviewRequired": false
       },
-      "unavailableVariantReasons": {},
+      "unavailableVariantReasons": {
+        "dumbbell_bench_press": [
+          "Complete variant content",
+          "Confirmed load behavior",
+          "Approved vertical setup Short",
+          "Approved vertical correct-execution Short"
+        ],
+        "incline_push_up": [
+          "Complete variant content",
+          "Confirmed load behavior",
+          "Approved vertical setup Short",
+          "Approved vertical correct-execution Short"
+        ],
+        "shua_g8801_chest_press": [
+          "Complete variant content",
+          "Confirmed load behavior",
+          "Approved vertical setup Short",
+          "Approved vertical correct-execution Short"
+        ]
+      },
       "variantProgression": {
         "baselineConfirmedAt": null,
         "baselineLoad": null,
@@ -3975,6 +4035,7 @@
       "edited": false,
       "exerciseFamilyId": "horizontal_row",
       "exerciseId": "low_row",
+      "exerciseNote": null,
       "firstUse": false,
       "generatedTarget": {
         "load": {
@@ -4040,6 +4101,18 @@
           "Confirmed equipment profile",
           "Approved setup Short",
           "Approved correct-execution Short"
+        ],
+        "one_arm_dumbbell_row": [
+          "Complete variant content",
+          "Confirmed load behavior",
+          "Approved vertical setup Short",
+          "Approved vertical correct-execution Short"
+        ],
+        "prone_w_raise_row_fallback": [
+          "Complete variant content",
+          "Confirmed load behavior",
+          "Approved vertical setup Short",
+          "Approved vertical correct-execution Short"
         ]
       },
       "variantProgression": {
@@ -4206,6 +4279,7 @@
       "edited": false,
       "exerciseFamilyId": "vertical_pull",
       "exerciseId": "lat_pulldown",
+      "exerciseNote": null,
       "firstUse": false,
       "generatedTarget": {
         "load": {
@@ -4260,7 +4334,14 @@
         "recentLoadIncrease": false,
         "reviewRequired": false
       },
-      "unavailableVariantReasons": {},
+      "unavailableVariantReasons": {
+        "band_kneeling_lat_pulldown": [
+          "Complete variant content",
+          "Confirmed load behavior",
+          "Approved vertical setup Short",
+          "Approved vertical correct-execution Short"
+        ]
+      },
       "variantProgression": {
         "baselineConfirmedAt": "2026-07-24T05:16:42.248Z",
         "baselineLoad": {
@@ -4415,6 +4496,7 @@
       "edited": false,
       "exerciseFamilyId": "hip_extension",
       "exerciseId": "hip_thrust",
+      "exerciseNote": null,
       "firstUse": false,
       "generatedTarget": {
         "load": {
@@ -4640,8 +4722,9 @@
       "completed": false,
       "currentSessionOverride": null,
       "edited": false,
-      "exerciseFamilyId": "exercise_leg_extension",
+      "exerciseFamilyId": "knee_extension",
       "exerciseId": "leg_extension",
+      "exerciseNote": null,
       "firstUse": false,
       "generatedTarget": {
         "load": {
@@ -4696,7 +4779,26 @@
         "recentLoadIncrease": false,
         "reviewRequired": false
       },
-      "unavailableVariantReasons": {},
+      "unavailableVariantReasons": {
+        "band_leg_extension": [
+          "Complete variant content",
+          "Confirmed load behavior",
+          "Approved vertical setup Short",
+          "Approved vertical correct-execution Short"
+        ],
+        "shua_g8806_leg_extension": [
+          "Complete variant content",
+          "Confirmed load behavior",
+          "Approved vertical setup Short",
+          "Approved vertical correct-execution Short"
+        ],
+        "wall_sit_quad_fallback": [
+          "Complete variant content",
+          "Confirmed load behavior",
+          "Approved vertical setup Short",
+          "Approved vertical correct-execution Short"
+        ]
+      },
       "variantProgression": {
         "baselineConfirmedAt": "2026-07-24T05:16:42.248Z",
         "baselineLoad": {
@@ -4849,8 +4951,9 @@
       "completed": false,
       "currentSessionOverride": null,
       "edited": false,
-      "exerciseFamilyId": "exercise_pallof_press",
+      "exerciseFamilyId": "anti_rotation",
       "exerciseId": "pallof_press",
+      "exerciseNote": null,
       "firstUse": false,
       "generatedTarget": {
         "load": {
@@ -4905,7 +5008,20 @@
         "recentLoadIncrease": false,
         "reviewRequired": false
       },
-      "unavailableVariantReasons": {},
+      "unavailableVariantReasons": {
+        "band_pallof_press": [
+          "Complete variant content",
+          "Confirmed load behavior",
+          "Approved vertical setup Short",
+          "Approved vertical correct-execution Short"
+        ],
+        "side_plank_from_knees": [
+          "Complete variant content",
+          "Confirmed load behavior",
+          "Approved vertical setup Short",
+          "Approved vertical correct-execution Short"
+        ]
+      },
       "variantProgression": {
         "baselineConfirmedAt": null,
         "baselineLoad": null,
@@ -5074,6 +5190,7 @@
         "edited": false,
         "exerciseFamilyId": "strength_a_knee_dominant",
         "exerciseId": "leg_press",
+        "exerciseNote": null,
         "firstUse": false,
         "generatedTarget": {
           "load": {
@@ -5130,7 +5247,26 @@
           "recentLoadIncrease": true,
           "reviewRequired": false
         },
-        "unavailableVariantReasons": {},
+        "unavailableVariantReasons": {
+          "goblet_squat_to_box": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "shua_g8919_linear_leg_press": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "supported_sit_to_stand": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ]
+        },
         "variantProgression": {
           "baselineConfirmedAt": null,
           "baselineLoad": null,
@@ -5289,8 +5425,9 @@
         "completed": false,
         "currentSessionOverride": null,
         "edited": false,
-        "exerciseFamilyId": "exercise_seated_leg_curl",
+        "exerciseFamilyId": "knee_flexion",
         "exerciseId": "seated_leg_curl",
+        "exerciseNote": null,
         "firstUse": false,
         "generatedTarget": {
           "load": {
@@ -5355,7 +5492,26 @@
           "recentLoadIncrease": true,
           "reviewRequired": false
         },
-        "unavailableVariantReasons": {},
+        "unavailableVariantReasons": {
+          "bridge_walkout": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "shua_g8807_prone_leg_curl": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "slider_leg_curl": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ]
+        },
         "variantProgression": {
           "baselineConfirmedAt": "2026-07-24T05:16:42.248Z",
           "baselineLoad": {
@@ -5513,8 +5669,9 @@
         "completed": false,
         "currentSessionOverride": null,
         "edited": false,
-        "exerciseFamilyId": "exercise_chest_press",
+        "exerciseFamilyId": "horizontal_press",
         "exerciseId": "chest_press",
+        "exerciseNote": null,
         "firstUse": false,
         "generatedTarget": {
           "load": {
@@ -5574,7 +5731,26 @@
           "recentLoadIncrease": true,
           "reviewRequired": false
         },
-        "unavailableVariantReasons": {},
+        "unavailableVariantReasons": {
+          "dumbbell_bench_press": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "incline_push_up": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "shua_g8801_chest_press": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ]
+        },
         "variantProgression": {
           "baselineConfirmedAt": null,
           "baselineLoad": null,
@@ -5744,6 +5920,7 @@
         "edited": false,
         "exerciseFamilyId": "horizontal_row",
         "exerciseId": "low_row",
+        "exerciseNote": null,
         "firstUse": false,
         "generatedTarget": {
           "load": {
@@ -5809,6 +5986,18 @@
             "Confirmed equipment profile",
             "Approved setup Short",
             "Approved correct-execution Short"
+          ],
+          "one_arm_dumbbell_row": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "prone_w_raise_row_fallback": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
           ]
         },
         "variantProgression": {
@@ -5975,6 +6164,7 @@
         "edited": false,
         "exerciseFamilyId": "vertical_pull",
         "exerciseId": "lat_pulldown",
+        "exerciseNote": null,
         "firstUse": false,
         "generatedTarget": {
           "load": {
@@ -6029,7 +6219,14 @@
           "recentLoadIncrease": false,
           "reviewRequired": false
         },
-        "unavailableVariantReasons": {},
+        "unavailableVariantReasons": {
+          "band_kneeling_lat_pulldown": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ]
+        },
         "variantProgression": {
           "baselineConfirmedAt": "2026-07-24T05:16:42.248Z",
           "baselineLoad": {
@@ -6184,6 +6381,7 @@
         "edited": false,
         "exerciseFamilyId": "hip_extension",
         "exerciseId": "hip_thrust",
+        "exerciseNote": null,
         "firstUse": false,
         "generatedTarget": {
           "load": {
@@ -6409,8 +6607,9 @@
         "completed": false,
         "currentSessionOverride": null,
         "edited": false,
-        "exerciseFamilyId": "exercise_leg_extension",
+        "exerciseFamilyId": "knee_extension",
         "exerciseId": "leg_extension",
+        "exerciseNote": null,
         "firstUse": false,
         "generatedTarget": {
           "load": {
@@ -6465,7 +6664,26 @@
           "recentLoadIncrease": false,
           "reviewRequired": false
         },
-        "unavailableVariantReasons": {},
+        "unavailableVariantReasons": {
+          "band_leg_extension": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "shua_g8806_leg_extension": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "wall_sit_quad_fallback": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ]
+        },
         "variantProgression": {
           "baselineConfirmedAt": "2026-07-24T05:16:42.248Z",
           "baselineLoad": {
@@ -6618,8 +6836,9 @@
         "completed": false,
         "currentSessionOverride": null,
         "edited": false,
-        "exerciseFamilyId": "exercise_pallof_press",
+        "exerciseFamilyId": "anti_rotation",
         "exerciseId": "pallof_press",
+        "exerciseNote": null,
         "firstUse": false,
         "generatedTarget": {
           "load": {
@@ -6674,7 +6893,20 @@
           "recentLoadIncrease": false,
           "reviewRequired": false
         },
-        "unavailableVariantReasons": {},
+        "unavailableVariantReasons": {
+          "band_pallof_press": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "side_plank_from_knees": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ]
+        },
         "variantProgression": {
           "baselineConfirmedAt": null,
           "baselineLoad": null,
@@ -10484,294 +10716,53 @@
     }
   },
   "exerciseFamilies": {
-    "calf_raise": {
+    "anti_rotation": {
       "availableVariantIds": [
-        "supported_calf_raise",
-        "standing_machine_calf_raise"
+        "pallof_press",
+        "band_pallof_press",
+        "side_plank_from_knees"
       ],
-      "exerciseFamilyId": "calf_raise",
-      "lockedPrimaryVariantId": null,
-      "name": "Calf raise",
-      "primaryVariantId": "standing_machine_calf_raise",
-      "temporaryPrimaryReason": null,
-      "variants": {
-        "standing_machine_calf_raise": {
-          "exerciseFamilyId": "calf_raise",
-          "exerciseId": "standing_machine_calf_raise",
-          "firstUseNoteRu": "Первый завершённый результат создаёт отдельную исходную точку.",
-          "missingRequirements": [
-            "Confirmed equipment profile",
-            "Approved vertical setup Short",
-            "Approved vertical correct-execution Short"
-          ],
-          "name": "Standing Machine Calf Raise",
-          "selectable": false,
-          "status": "incomplete",
-          "tier": "primary",
-          "variantId": "standing_machine_calf_raise",
-          "videoPair": {
-            "complete": false,
-            "count": 0,
-            "executionApproved": false,
-            "missingRequirements": [
-              "Approved vertical setup Short",
-              "Approved vertical correct-execution Short"
-            ],
-            "orientation": null,
-            "setupApproved": false
-          },
-          "whenToUseRu": "Текущий основной вариант этой роли."
-        },
-        "supported_calf_raise": {
-          "exerciseFamilyId": "calf_raise",
-          "exerciseId": "supported_calf_raise",
-          "firstUseNoteRu": "Первый завершённый результат создаёт отдельную исходную точку.",
-          "missingRequirements": [
-            "Retired legacy identity; use Standing Machine Calf Raise in future templates"
-          ],
-          "name": "Supported Calf Raise",
-          "selectable": false,
-          "status": "retired",
-          "tier": "field_fallback",
-          "variantId": "supported_calf_raise",
-          "videoPair": {
-            "complete": false,
-            "count": 0,
-            "executionApproved": false,
-            "missingRequirements": [
-              "Approved vertical setup Short",
-              "Approved vertical correct-execution Short"
-            ],
-            "orientation": null,
-            "setupApproved": false
-          },
-          "whenToUseRu": "Используйте только как подтверждённую замену в той же роли."
-        }
-      }
-    },
-    "exercise_cable_biceps_curl": {
-      "availableVariantIds": [
-        "cable_biceps_curl"
-      ],
-      "exerciseFamilyId": "exercise_cable_biceps_curl",
-      "lockedPrimaryVariantId": null,
-      "name": "Cable Biceps Curl",
-      "primaryVariantId": "cable_biceps_curl",
-      "temporaryPrimaryReason": null,
-      "variants": {
-        "cable_biceps_curl": {
-          "exerciseFamilyId": "exercise_cable_biceps_curl",
-          "exerciseId": "cable_biceps_curl",
-          "firstUseNoteRu": "Первый завершённый результат создаёт отдельную исходную точку.",
-          "missingRequirements": [
-            "Approved vertical setup Short",
-            "Approved vertical correct-execution Short"
-          ],
-          "name": "Cable Biceps Curl",
-          "selectable": false,
-          "status": "incomplete",
-          "tier": "primary",
-          "variantId": "cable_biceps_curl",
-          "videoPair": {
-            "complete": false,
-            "count": 0,
-            "executionApproved": false,
-            "missingRequirements": [
-              "Approved vertical setup Short",
-              "Approved vertical correct-execution Short"
-            ],
-            "orientation": null,
-            "setupApproved": false
-          },
-          "whenToUseRu": "Текущий основной вариант этой роли."
-        }
-      }
-    },
-    "exercise_cable_face_pull": {
-      "availableVariantIds": [
-        "cable_face_pull"
-      ],
-      "exerciseFamilyId": "exercise_cable_face_pull",
-      "lockedPrimaryVariantId": null,
-      "name": "Cable Face Pull",
-      "primaryVariantId": "cable_face_pull",
-      "temporaryPrimaryReason": null,
-      "variants": {
-        "cable_face_pull": {
-          "exerciseFamilyId": "exercise_cable_face_pull",
-          "exerciseId": "cable_face_pull",
-          "firstUseNoteRu": "Первый завершённый результат создаёт отдельную исходную точку.",
-          "missingRequirements": [
-            "Approved vertical setup Short",
-            "Approved vertical correct-execution Short"
-          ],
-          "name": "Cable Face Pull",
-          "selectable": false,
-          "status": "incomplete",
-          "tier": "primary",
-          "variantId": "cable_face_pull",
-          "videoPair": {
-            "complete": false,
-            "count": 0,
-            "executionApproved": false,
-            "missingRequirements": [
-              "Approved vertical setup Short",
-              "Approved vertical correct-execution Short"
-            ],
-            "orientation": null,
-            "setupApproved": false
-          },
-          "whenToUseRu": "Текущий основной вариант этой роли."
-        }
-      }
-    },
-    "exercise_chest_press": {
-      "availableVariantIds": [
-        "chest_press"
-      ],
-      "exerciseFamilyId": "exercise_chest_press",
-      "lockedPrimaryVariantId": null,
-      "name": "Chest Press",
-      "primaryVariantId": "chest_press",
-      "temporaryPrimaryReason": null,
-      "variants": {
-        "chest_press": {
-          "exerciseFamilyId": "exercise_chest_press",
-          "exerciseId": "chest_press",
-          "firstUseNoteRu": "Первый завершённый результат создаёт отдельную исходную точку.",
-          "missingRequirements": [],
-          "name": "Chest Press",
-          "selectable": true,
-          "status": "active",
-          "tier": "primary",
-          "variantId": "chest_press",
-          "videoPair": {
-            "complete": true,
-            "count": 2,
-            "executionApproved": true,
-            "missingRequirements": [],
-            "orientation": "9:16",
-            "setupApproved": true
-          },
-          "whenToUseRu": "Текущий основной вариант этой роли."
-        }
-      }
-    },
-    "exercise_dead_bug": {
-      "availableVariantIds": [
-        "dead_bug"
-      ],
-      "exerciseFamilyId": "exercise_dead_bug",
-      "lockedPrimaryVariantId": null,
-      "name": "Dead Bug",
-      "primaryVariantId": "dead_bug",
-      "temporaryPrimaryReason": null,
-      "variants": {
-        "dead_bug": {
-          "exerciseFamilyId": "exercise_dead_bug",
-          "exerciseId": "dead_bug",
-          "firstUseNoteRu": "Base resistance is recorded explicitly.",
-          "missingRequirements": [],
-          "name": "Dead Bug",
-          "selectable": true,
-          "status": "active",
-          "tier": "primary",
-          "variantId": "dead_bug",
-          "videoPair": {
-            "complete": true,
-            "count": 2,
-            "executionApproved": true,
-            "missingRequirements": [],
-            "orientation": "9:16",
-            "setupApproved": true
-          },
-          "whenToUseRu": "Текущий основной вариант этой роли."
-        }
-      }
-    },
-    "exercise_leg_extension": {
-      "availableVariantIds": [
-        "leg_extension"
-      ],
-      "exerciseFamilyId": "exercise_leg_extension",
-      "lockedPrimaryVariantId": null,
-      "name": "Leg Extension",
-      "primaryVariantId": "leg_extension",
-      "temporaryPrimaryReason": null,
-      "variants": {
-        "leg_extension": {
-          "exerciseFamilyId": "exercise_leg_extension",
-          "exerciseId": "leg_extension",
-          "firstUseNoteRu": "Первый завершённый результат создаёт отдельную исходную точку.",
-          "missingRequirements": [],
-          "name": "Leg Extension",
-          "selectable": true,
-          "status": "active",
-          "tier": "primary",
-          "variantId": "leg_extension",
-          "videoPair": {
-            "complete": true,
-            "count": 2,
-            "executionApproved": true,
-            "missingRequirements": [],
-            "orientation": "9:16",
-            "setupApproved": true
-          },
-          "whenToUseRu": "Текущий основной вариант этой роли."
-        }
-      }
-    },
-    "exercise_machine_lateral_raise": {
-      "availableVariantIds": [
-        "machine_lateral_raise"
-      ],
-      "exerciseFamilyId": "exercise_machine_lateral_raise",
-      "lockedPrimaryVariantId": null,
-      "name": "Machine Lateral Raise",
-      "primaryVariantId": "machine_lateral_raise",
-      "temporaryPrimaryReason": null,
-      "variants": {
-        "machine_lateral_raise": {
-          "exerciseFamilyId": "exercise_machine_lateral_raise",
-          "exerciseId": "machine_lateral_raise",
-          "firstUseNoteRu": "Первый завершённый результат создаёт отдельную исходную точку.",
-          "missingRequirements": [
-            "Confirmed equipment profile",
-            "Approved vertical setup Short",
-            "Approved vertical correct-execution Short"
-          ],
-          "name": "Machine Lateral Raise",
-          "selectable": false,
-          "status": "incomplete",
-          "tier": "primary",
-          "variantId": "machine_lateral_raise",
-          "videoPair": {
-            "complete": false,
-            "count": 0,
-            "executionApproved": false,
-            "missingRequirements": [
-              "Approved vertical setup Short",
-              "Approved vertical correct-execution Short"
-            ],
-            "orientation": null,
-            "setupApproved": false
-          },
-          "whenToUseRu": "Текущий основной вариант этой роли."
-        }
-      }
-    },
-    "exercise_pallof_press": {
-      "availableVariantIds": [
-        "pallof_press"
-      ],
-      "exerciseFamilyId": "exercise_pallof_press",
+      "exerciseFamilyId": "anti_rotation",
       "lockedPrimaryVariantId": null,
       "name": "Pallof Press",
       "primaryVariantId": "pallof_press",
       "temporaryPrimaryReason": null,
+      "userFacingAlternativeLimit": 3,
+      "userFacingAlternativeVariantIds": [
+        "band_pallof_press",
+        "side_plank_from_knees"
+      ],
       "variants": {
+        "band_pallof_press": {
+          "exerciseFamilyId": "anti_rotation",
+          "exerciseId": null,
+          "firstUseNoteRu": "Отдельная исходная точка после первого успешно завершённого результата.",
+          "missingRequirements": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "name": "Band Pallof Press",
+          "selectable": false,
+          "status": "incomplete",
+          "tier": "minimal_equipment",
+          "variantId": "band_pallof_press",
+          "videoPair": {
+            "complete": false,
+            "count": 0,
+            "executionApproved": false,
+            "missingRequirements": [
+              "Approved vertical setup Short",
+              "Approved vertical correct-execution Short"
+            ],
+            "orientation": null,
+            "setupApproved": false
+          },
+          "whenToUseRu": "Практичная замена с минимальным оборудованием."
+        },
         "pallof_press": {
-          "exerciseFamilyId": "exercise_pallof_press",
+          "exerciseFamilyId": "anti_rotation",
           "exerciseId": "pallof_press",
           "firstUseNoteRu": "Первый завершённый результат создаёт отдельную исходную точку.",
           "missingRequirements": [],
@@ -10789,33 +10780,22 @@
             "setupApproved": true
           },
           "whenToUseRu": "Текущий основной вариант этой роли."
-        }
-      }
-    },
-    "exercise_reverse_pec_deck": {
-      "availableVariantIds": [
-        "reverse_pec_deck"
-      ],
-      "exerciseFamilyId": "exercise_reverse_pec_deck",
-      "lockedPrimaryVariantId": null,
-      "name": "Reverse Pec Deck",
-      "primaryVariantId": "reverse_pec_deck",
-      "temporaryPrimaryReason": null,
-      "variants": {
-        "reverse_pec_deck": {
-          "exerciseFamilyId": "exercise_reverse_pec_deck",
-          "exerciseId": "reverse_pec_deck",
-          "firstUseNoteRu": "Первый завершённый результат создаёт отдельную исходную точку.",
+        },
+        "side_plank_from_knees": {
+          "exerciseFamilyId": "anti_rotation",
+          "exerciseId": null,
+          "firstUseNoteRu": "Отдельная исходная точка после первого успешно завершённого результата.",
           "missingRequirements": [
-            "Confirmed equipment profile",
+            "Complete variant content",
+            "Confirmed load behavior",
             "Approved vertical setup Short",
             "Approved vertical correct-execution Short"
           ],
-          "name": "Reverse Pec Deck",
+          "name": "Side Plank from Knees",
           "selectable": false,
           "status": "incomplete",
-          "tier": "primary",
-          "variantId": "reverse_pec_deck",
+          "tier": "field_fallback",
+          "variantId": "side_plank_from_knees",
           "videoPair": {
             "complete": false,
             "count": 0,
@@ -10827,54 +10807,115 @@
             "orientation": null,
             "setupApproved": false
           },
-          "whenToUseRu": "Текущий основной вариант этой роли."
+          "whenToUseRu": "Резервный вариант для дома, поездки или тренировки без оборудования."
         }
       }
     },
-    "exercise_seated_leg_curl": {
+    "elbow_extension": {
       "availableVariantIds": [
-        "seated_leg_curl"
+        "triceps_pressdown",
+        "shua_g8826_triceps_press",
+        "band_pressdown",
+        "close_grip_incline_push_up"
       ],
-      "exerciseFamilyId": "exercise_seated_leg_curl",
-      "lockedPrimaryVariantId": null,
-      "name": "Seated Leg Curl",
-      "primaryVariantId": "seated_leg_curl",
-      "temporaryPrimaryReason": null,
-      "variants": {
-        "seated_leg_curl": {
-          "exerciseFamilyId": "exercise_seated_leg_curl",
-          "exerciseId": "seated_leg_curl",
-          "firstUseNoteRu": "Первый завершённый результат создаёт отдельную исходную точку.",
-          "missingRequirements": [],
-          "name": "Seated Leg Curl",
-          "selectable": true,
-          "status": "active",
-          "tier": "primary",
-          "variantId": "seated_leg_curl",
-          "videoPair": {
-            "complete": true,
-            "count": 2,
-            "executionApproved": true,
-            "missingRequirements": [],
-            "orientation": "9:16",
-            "setupApproved": true
-          },
-          "whenToUseRu": "Текущий основной вариант этой роли."
-        }
-      }
-    },
-    "exercise_triceps_pressdown": {
-      "availableVariantIds": [
-        "triceps_pressdown"
-      ],
-      "exerciseFamilyId": "exercise_triceps_pressdown",
+      "exerciseFamilyId": "elbow_extension",
       "lockedPrimaryVariantId": null,
       "name": "Triceps Pressdown",
       "primaryVariantId": "triceps_pressdown",
       "temporaryPrimaryReason": null,
+      "userFacingAlternativeLimit": 3,
+      "userFacingAlternativeVariantIds": [
+        "shua_g8826_triceps_press",
+        "band_pressdown",
+        "close_grip_incline_push_up"
+      ],
       "variants": {
+        "band_pressdown": {
+          "exerciseFamilyId": "elbow_extension",
+          "exerciseId": null,
+          "firstUseNoteRu": "Отдельная исходная точка после первого успешно завершённого результата.",
+          "missingRequirements": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "name": "Band Pressdown",
+          "selectable": false,
+          "status": "incomplete",
+          "tier": "minimal_equipment",
+          "variantId": "band_pressdown",
+          "videoPair": {
+            "complete": false,
+            "count": 0,
+            "executionApproved": false,
+            "missingRequirements": [
+              "Approved vertical setup Short",
+              "Approved vertical correct-execution Short"
+            ],
+            "orientation": null,
+            "setupApproved": false
+          },
+          "whenToUseRu": "Практичная замена с минимальным оборудованием."
+        },
+        "close_grip_incline_push_up": {
+          "exerciseFamilyId": "elbow_extension",
+          "exerciseId": null,
+          "firstUseNoteRu": "Отдельная исходная точка после первого успешно завершённого результата.",
+          "missingRequirements": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "name": "Close-Grip Incline Push-Up",
+          "selectable": false,
+          "status": "incomplete",
+          "tier": "field_fallback",
+          "variantId": "close_grip_incline_push_up",
+          "videoPair": {
+            "complete": false,
+            "count": 0,
+            "executionApproved": false,
+            "missingRequirements": [
+              "Approved vertical setup Short",
+              "Approved vertical correct-execution Short"
+            ],
+            "orientation": null,
+            "setupApproved": false
+          },
+          "whenToUseRu": "Резервный вариант для дома, поездки или тренировки без оборудования."
+        },
+        "shua_g8826_triceps_press": {
+          "exerciseFamilyId": "elbow_extension",
+          "exerciseId": null,
+          "firstUseNoteRu": "Отдельная исходная точка после первого успешно завершённого результата.",
+          "missingRequirements": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "name": "SHUA G8826 Triceps Press",
+          "selectable": false,
+          "status": "incomplete",
+          "tier": "equivalent_equipment",
+          "variantId": "shua_g8826_triceps_press",
+          "videoPair": {
+            "complete": false,
+            "count": 0,
+            "executionApproved": false,
+            "missingRequirements": [
+              "Approved vertical setup Short",
+              "Approved vertical correct-execution Short"
+            ],
+            "orientation": null,
+            "setupApproved": false
+          },
+          "whenToUseRu": "Эквивалентный вариант на другом подтверждённом оборудовании."
+        },
         "triceps_pressdown": {
-          "exerciseFamilyId": "exercise_triceps_pressdown",
+          "exerciseFamilyId": "elbow_extension",
           "exerciseId": "triceps_pressdown",
           "firstUseNoteRu": "Первый завершённый результат создаёт отдельную исходную точку.",
           "missingRequirements": [
@@ -10901,6 +10942,137 @@
         }
       }
     },
+    "elbow_flexion": {
+      "availableVariantIds": [
+        "cable_biceps_curl",
+        "shua_g8825_biceps_curl",
+        "dumbbell_curl",
+        "self_resisted_towel_curl"
+      ],
+      "exerciseFamilyId": "elbow_flexion",
+      "lockedPrimaryVariantId": null,
+      "name": "Cable Biceps Curl",
+      "primaryVariantId": "cable_biceps_curl",
+      "temporaryPrimaryReason": null,
+      "userFacingAlternativeLimit": 3,
+      "userFacingAlternativeVariantIds": [
+        "shua_g8825_biceps_curl",
+        "dumbbell_curl",
+        "self_resisted_towel_curl"
+      ],
+      "variants": {
+        "cable_biceps_curl": {
+          "exerciseFamilyId": "elbow_flexion",
+          "exerciseId": "cable_biceps_curl",
+          "firstUseNoteRu": "Первый завершённый результат создаёт отдельную исходную точку.",
+          "missingRequirements": [
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "name": "Cable Biceps Curl",
+          "selectable": false,
+          "status": "incomplete",
+          "tier": "primary",
+          "variantId": "cable_biceps_curl",
+          "videoPair": {
+            "complete": false,
+            "count": 0,
+            "executionApproved": false,
+            "missingRequirements": [
+              "Approved vertical setup Short",
+              "Approved vertical correct-execution Short"
+            ],
+            "orientation": null,
+            "setupApproved": false
+          },
+          "whenToUseRu": "Текущий основной вариант этой роли."
+        },
+        "dumbbell_curl": {
+          "exerciseFamilyId": "elbow_flexion",
+          "exerciseId": null,
+          "firstUseNoteRu": "Отдельная исходная точка после первого успешно завершённого результата.",
+          "missingRequirements": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "name": "Dumbbell Curl",
+          "selectable": false,
+          "status": "incomplete",
+          "tier": "minimal_equipment",
+          "variantId": "dumbbell_curl",
+          "videoPair": {
+            "complete": false,
+            "count": 0,
+            "executionApproved": false,
+            "missingRequirements": [
+              "Approved vertical setup Short",
+              "Approved vertical correct-execution Short"
+            ],
+            "orientation": null,
+            "setupApproved": false
+          },
+          "whenToUseRu": "Практичная замена с минимальным оборудованием."
+        },
+        "self_resisted_towel_curl": {
+          "exerciseFamilyId": "elbow_flexion",
+          "exerciseId": null,
+          "firstUseNoteRu": "Отдельная исходная точка после первого успешно завершённого результата.",
+          "missingRequirements": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "name": "Self-Resisted Towel Curl",
+          "selectable": false,
+          "status": "incomplete",
+          "tier": "field_fallback",
+          "variantId": "self_resisted_towel_curl",
+          "videoPair": {
+            "complete": false,
+            "count": 0,
+            "executionApproved": false,
+            "missingRequirements": [
+              "Approved vertical setup Short",
+              "Approved vertical correct-execution Short"
+            ],
+            "orientation": null,
+            "setupApproved": false
+          },
+          "whenToUseRu": "Резервный вариант для дома, поездки или тренировки без оборудования."
+        },
+        "shua_g8825_biceps_curl": {
+          "exerciseFamilyId": "elbow_flexion",
+          "exerciseId": null,
+          "firstUseNoteRu": "Отдельная исходная точка после первого успешно завершённого результата.",
+          "missingRequirements": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "name": "SHUA G8825 Biceps Curl",
+          "selectable": false,
+          "status": "incomplete",
+          "tier": "equivalent_equipment",
+          "variantId": "shua_g8825_biceps_curl",
+          "videoPair": {
+            "complete": false,
+            "count": 0,
+            "executionApproved": false,
+            "missingRequirements": [
+              "Approved vertical setup Short",
+              "Approved vertical correct-execution Short"
+            ],
+            "orientation": null,
+            "setupApproved": false
+          },
+          "whenToUseRu": "Эквивалентный вариант на другом подтверждённом оборудовании."
+        }
+      }
+    },
     "hip_extension": {
       "availableVariantIds": [
         "hip_thrust",
@@ -10913,6 +11085,12 @@
       "name": "Hip extension",
       "primaryVariantId": "hip_thrust",
       "temporaryPrimaryReason": null,
+      "userFacingAlternativeLimit": 3,
+      "userFacingAlternativeVariantIds": [
+        "barbell_hip_thrust",
+        "dumbbell_hip_thrust",
+        "glute_bridge"
+      ],
       "variants": {
         "barbell_hip_thrust": {
           "exerciseFamilyId": "hip_extension",
@@ -11022,16 +11200,149 @@
         }
       }
     },
+    "horizontal_press": {
+      "availableVariantIds": [
+        "chest_press",
+        "shua_g8801_chest_press",
+        "dumbbell_bench_press",
+        "incline_push_up"
+      ],
+      "exerciseFamilyId": "horizontal_press",
+      "lockedPrimaryVariantId": null,
+      "name": "Chest Press",
+      "primaryVariantId": "chest_press",
+      "temporaryPrimaryReason": null,
+      "userFacingAlternativeLimit": 3,
+      "userFacingAlternativeVariantIds": [
+        "shua_g8801_chest_press",
+        "dumbbell_bench_press",
+        "incline_push_up"
+      ],
+      "variants": {
+        "chest_press": {
+          "exerciseFamilyId": "horizontal_press",
+          "exerciseId": "chest_press",
+          "firstUseNoteRu": "Первый завершённый результат создаёт отдельную исходную точку.",
+          "missingRequirements": [],
+          "name": "Chest Press",
+          "selectable": true,
+          "status": "active",
+          "tier": "primary",
+          "variantId": "chest_press",
+          "videoPair": {
+            "complete": true,
+            "count": 2,
+            "executionApproved": true,
+            "missingRequirements": [],
+            "orientation": "9:16",
+            "setupApproved": true
+          },
+          "whenToUseRu": "Текущий основной вариант этой роли."
+        },
+        "dumbbell_bench_press": {
+          "exerciseFamilyId": "horizontal_press",
+          "exerciseId": null,
+          "firstUseNoteRu": "Отдельная исходная точка после первого успешно завершённого результата.",
+          "missingRequirements": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "name": "Dumbbell Bench Press",
+          "selectable": false,
+          "status": "incomplete",
+          "tier": "minimal_equipment",
+          "variantId": "dumbbell_bench_press",
+          "videoPair": {
+            "complete": false,
+            "count": 0,
+            "executionApproved": false,
+            "missingRequirements": [
+              "Approved vertical setup Short",
+              "Approved vertical correct-execution Short"
+            ],
+            "orientation": null,
+            "setupApproved": false
+          },
+          "whenToUseRu": "Практичная замена с минимальным оборудованием."
+        },
+        "incline_push_up": {
+          "exerciseFamilyId": "horizontal_press",
+          "exerciseId": null,
+          "firstUseNoteRu": "Отдельная исходная точка после первого успешно завершённого результата.",
+          "missingRequirements": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "name": "Incline Push-Up",
+          "selectable": false,
+          "status": "incomplete",
+          "tier": "field_fallback",
+          "variantId": "incline_push_up",
+          "videoPair": {
+            "complete": false,
+            "count": 0,
+            "executionApproved": false,
+            "missingRequirements": [
+              "Approved vertical setup Short",
+              "Approved vertical correct-execution Short"
+            ],
+            "orientation": null,
+            "setupApproved": false
+          },
+          "whenToUseRu": "Резервный вариант для дома, поездки или тренировки без оборудования."
+        },
+        "shua_g8801_chest_press": {
+          "exerciseFamilyId": "horizontal_press",
+          "exerciseId": null,
+          "firstUseNoteRu": "Отдельная исходная точка после первого успешно завершённого результата.",
+          "missingRequirements": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "name": "SHUA G8801 Chest Press",
+          "selectable": false,
+          "status": "incomplete",
+          "tier": "equivalent_equipment",
+          "variantId": "shua_g8801_chest_press",
+          "videoPair": {
+            "complete": false,
+            "count": 0,
+            "executionApproved": false,
+            "missingRequirements": [
+              "Approved vertical setup Short",
+              "Approved vertical correct-execution Short"
+            ],
+            "orientation": null,
+            "setupApproved": false
+          },
+          "whenToUseRu": "Эквивалентный вариант на другом подтверждённом оборудовании."
+        }
+      }
+    },
     "horizontal_row": {
       "availableVariantIds": [
         "low_row",
-        "iso_high_row"
+        "iso_high_row",
+        "one_arm_dumbbell_row",
+        "prone_w_raise_row_fallback"
       ],
       "exerciseFamilyId": "horizontal_row",
       "lockedPrimaryVariantId": null,
       "name": "Upper-back row",
       "primaryVariantId": "low_row",
       "temporaryPrimaryReason": null,
+      "userFacingAlternativeLimit": 3,
+      "userFacingAlternativeVariantIds": [
+        "iso_high_row",
+        "one_arm_dumbbell_row",
+        "prone_w_raise_row_fallback"
+      ],
       "variants": {
         "iso_high_row": {
           "exerciseFamilyId": "horizontal_row",
@@ -11044,7 +11355,7 @@
             "Approved setup Short",
             "Approved correct-execution Short"
           ],
-          "name": "ISO High Row",
+          "name": "SHUA ISO-High Row",
           "selectable": false,
           "status": "blocked",
           "tier": "equivalent_equipment",
@@ -11081,19 +11392,796 @@
             "setupApproved": true
           },
           "whenToUseRu": "Текущий основной вариант этой роли."
+        },
+        "one_arm_dumbbell_row": {
+          "exerciseFamilyId": "horizontal_row",
+          "exerciseId": null,
+          "firstUseNoteRu": "Отдельная исходная точка после первого успешно завершённого результата.",
+          "missingRequirements": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "name": "One-Arm Dumbbell Row",
+          "selectable": false,
+          "status": "incomplete",
+          "tier": "minimal_equipment",
+          "variantId": "one_arm_dumbbell_row",
+          "videoPair": {
+            "complete": false,
+            "count": 0,
+            "executionApproved": false,
+            "missingRequirements": [
+              "Approved vertical setup Short",
+              "Approved vertical correct-execution Short"
+            ],
+            "orientation": null,
+            "setupApproved": false
+          },
+          "whenToUseRu": "Практичная замена с минимальным оборудованием."
+        },
+        "prone_w_raise_row_fallback": {
+          "exerciseFamilyId": "horizontal_row",
+          "exerciseId": null,
+          "firstUseNoteRu": "Отдельная исходная точка после первого успешно завершённого результата.",
+          "missingRequirements": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "name": "Prone W Raise",
+          "selectable": false,
+          "status": "incomplete",
+          "tier": "field_fallback",
+          "variantId": "prone_w_raise_row_fallback",
+          "videoPair": {
+            "complete": false,
+            "count": 0,
+            "executionApproved": false,
+            "missingRequirements": [
+              "Approved vertical setup Short",
+              "Approved vertical correct-execution Short"
+            ],
+            "orientation": null,
+            "setupApproved": false
+          },
+          "whenToUseRu": "Резервный вариант для дома, поездки или тренировки без оборудования."
+        }
+      }
+    },
+    "knee_extension": {
+      "availableVariantIds": [
+        "leg_extension",
+        "shua_g8806_leg_extension",
+        "band_leg_extension",
+        "wall_sit_quad_fallback"
+      ],
+      "exerciseFamilyId": "knee_extension",
+      "lockedPrimaryVariantId": null,
+      "name": "Leg Extension",
+      "primaryVariantId": "leg_extension",
+      "temporaryPrimaryReason": null,
+      "userFacingAlternativeLimit": 3,
+      "userFacingAlternativeVariantIds": [
+        "shua_g8806_leg_extension",
+        "band_leg_extension",
+        "wall_sit_quad_fallback"
+      ],
+      "variants": {
+        "band_leg_extension": {
+          "exerciseFamilyId": "knee_extension",
+          "exerciseId": null,
+          "firstUseNoteRu": "Отдельная исходная точка после первого успешно завершённого результата.",
+          "missingRequirements": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "name": "Band Leg Extension",
+          "selectable": false,
+          "status": "incomplete",
+          "tier": "minimal_equipment",
+          "variantId": "band_leg_extension",
+          "videoPair": {
+            "complete": false,
+            "count": 0,
+            "executionApproved": false,
+            "missingRequirements": [
+              "Approved vertical setup Short",
+              "Approved vertical correct-execution Short"
+            ],
+            "orientation": null,
+            "setupApproved": false
+          },
+          "whenToUseRu": "Практичная замена с минимальным оборудованием."
+        },
+        "leg_extension": {
+          "exerciseFamilyId": "knee_extension",
+          "exerciseId": "leg_extension",
+          "firstUseNoteRu": "Первый завершённый результат создаёт отдельную исходную точку.",
+          "missingRequirements": [],
+          "name": "Leg Extension",
+          "selectable": true,
+          "status": "active",
+          "tier": "primary",
+          "variantId": "leg_extension",
+          "videoPair": {
+            "complete": true,
+            "count": 2,
+            "executionApproved": true,
+            "missingRequirements": [],
+            "orientation": "9:16",
+            "setupApproved": true
+          },
+          "whenToUseRu": "Текущий основной вариант этой роли."
+        },
+        "shua_g8806_leg_extension": {
+          "exerciseFamilyId": "knee_extension",
+          "exerciseId": null,
+          "firstUseNoteRu": "Отдельная исходная точка после первого успешно завершённого результата.",
+          "missingRequirements": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "name": "SHUA G8806 Leg Extension",
+          "selectable": false,
+          "status": "incomplete",
+          "tier": "equivalent_equipment",
+          "variantId": "shua_g8806_leg_extension",
+          "videoPair": {
+            "complete": false,
+            "count": 0,
+            "executionApproved": false,
+            "missingRequirements": [
+              "Approved vertical setup Short",
+              "Approved vertical correct-execution Short"
+            ],
+            "orientation": null,
+            "setupApproved": false
+          },
+          "whenToUseRu": "Эквивалентный вариант на другом подтверждённом оборудовании."
+        },
+        "wall_sit_quad_fallback": {
+          "exerciseFamilyId": "knee_extension",
+          "exerciseId": null,
+          "firstUseNoteRu": "Отдельная исходная точка после первого успешно завершённого результата.",
+          "missingRequirements": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "name": "Wall Sit",
+          "selectable": false,
+          "status": "incomplete",
+          "tier": "field_fallback",
+          "variantId": "wall_sit_quad_fallback",
+          "videoPair": {
+            "complete": false,
+            "count": 0,
+            "executionApproved": false,
+            "missingRequirements": [
+              "Approved vertical setup Short",
+              "Approved vertical correct-execution Short"
+            ],
+            "orientation": null,
+            "setupApproved": false
+          },
+          "whenToUseRu": "Резервный вариант для дома, поездки или тренировки без оборудования."
+        }
+      }
+    },
+    "knee_flexion": {
+      "availableVariantIds": [
+        "seated_leg_curl",
+        "shua_g8807_prone_leg_curl",
+        "slider_leg_curl",
+        "bridge_walkout"
+      ],
+      "exerciseFamilyId": "knee_flexion",
+      "lockedPrimaryVariantId": null,
+      "name": "Seated Leg Curl",
+      "primaryVariantId": "seated_leg_curl",
+      "temporaryPrimaryReason": null,
+      "userFacingAlternativeLimit": 3,
+      "userFacingAlternativeVariantIds": [
+        "shua_g8807_prone_leg_curl",
+        "slider_leg_curl",
+        "bridge_walkout"
+      ],
+      "variants": {
+        "bridge_walkout": {
+          "exerciseFamilyId": "knee_flexion",
+          "exerciseId": null,
+          "firstUseNoteRu": "Отдельная исходная точка после первого успешно завершённого результата.",
+          "missingRequirements": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "name": "Bridge Walkout",
+          "selectable": false,
+          "status": "incomplete",
+          "tier": "field_fallback",
+          "variantId": "bridge_walkout",
+          "videoPair": {
+            "complete": false,
+            "count": 0,
+            "executionApproved": false,
+            "missingRequirements": [
+              "Approved vertical setup Short",
+              "Approved vertical correct-execution Short"
+            ],
+            "orientation": null,
+            "setupApproved": false
+          },
+          "whenToUseRu": "Резервный вариант для дома, поездки или тренировки без оборудования."
+        },
+        "seated_leg_curl": {
+          "exerciseFamilyId": "knee_flexion",
+          "exerciseId": "seated_leg_curl",
+          "firstUseNoteRu": "Первый завершённый результат создаёт отдельную исходную точку.",
+          "missingRequirements": [],
+          "name": "Seated Leg Curl",
+          "selectable": true,
+          "status": "active",
+          "tier": "primary",
+          "variantId": "seated_leg_curl",
+          "videoPair": {
+            "complete": true,
+            "count": 2,
+            "executionApproved": true,
+            "missingRequirements": [],
+            "orientation": "9:16",
+            "setupApproved": true
+          },
+          "whenToUseRu": "Текущий основной вариант этой роли."
+        },
+        "shua_g8807_prone_leg_curl": {
+          "exerciseFamilyId": "knee_flexion",
+          "exerciseId": null,
+          "firstUseNoteRu": "Отдельная исходная точка после первого успешно завершённого результата.",
+          "missingRequirements": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "name": "SHUA Prone Leg Curl",
+          "selectable": false,
+          "status": "incomplete",
+          "tier": "equivalent_equipment",
+          "variantId": "shua_g8807_prone_leg_curl",
+          "videoPair": {
+            "complete": false,
+            "count": 0,
+            "executionApproved": false,
+            "missingRequirements": [
+              "Approved vertical setup Short",
+              "Approved vertical correct-execution Short"
+            ],
+            "orientation": null,
+            "setupApproved": false
+          },
+          "whenToUseRu": "Эквивалентный вариант на другом подтверждённом оборудовании."
+        },
+        "slider_leg_curl": {
+          "exerciseFamilyId": "knee_flexion",
+          "exerciseId": null,
+          "firstUseNoteRu": "Отдельная исходная точка после первого успешно завершённого результата.",
+          "missingRequirements": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "name": "Slider Leg Curl",
+          "selectable": false,
+          "status": "incomplete",
+          "tier": "minimal_equipment",
+          "variantId": "slider_leg_curl",
+          "videoPair": {
+            "complete": false,
+            "count": 0,
+            "executionApproved": false,
+            "missingRequirements": [
+              "Approved vertical setup Short",
+              "Approved vertical correct-execution Short"
+            ],
+            "orientation": null,
+            "setupApproved": false
+          },
+          "whenToUseRu": "Практичная замена с минимальным оборудованием."
+        }
+      }
+    },
+    "plantar_flexion": {
+      "availableVariantIds": [
+        "supported_calf_raise",
+        "standing_machine_calf_raise",
+        "dumbbell_supported_calf_raise",
+        "bodyweight_supported_calf_raise"
+      ],
+      "exerciseFamilyId": "plantar_flexion",
+      "lockedPrimaryVariantId": null,
+      "name": "Calf raise",
+      "primaryVariantId": "supported_calf_raise",
+      "temporaryPrimaryReason": null,
+      "userFacingAlternativeLimit": 3,
+      "userFacingAlternativeVariantIds": [
+        "dumbbell_supported_calf_raise",
+        "bodyweight_supported_calf_raise"
+      ],
+      "variants": {
+        "bodyweight_supported_calf_raise": {
+          "exerciseFamilyId": "plantar_flexion",
+          "exerciseId": null,
+          "firstUseNoteRu": "Отдельная исходная точка после первого успешно завершённого результата.",
+          "missingRequirements": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "name": "Bodyweight Supported Calf Raise",
+          "selectable": false,
+          "status": "incomplete",
+          "tier": "field_fallback",
+          "variantId": "bodyweight_supported_calf_raise",
+          "videoPair": {
+            "complete": false,
+            "count": 0,
+            "executionApproved": false,
+            "missingRequirements": [
+              "Approved vertical setup Short",
+              "Approved vertical correct-execution Short"
+            ],
+            "orientation": null,
+            "setupApproved": false
+          },
+          "whenToUseRu": "Резервный вариант для дома, поездки или тренировки без оборудования."
+        },
+        "dumbbell_supported_calf_raise": {
+          "exerciseFamilyId": "plantar_flexion",
+          "exerciseId": null,
+          "firstUseNoteRu": "Отдельная исходная точка после первого успешно завершённого результата.",
+          "missingRequirements": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "name": "Dumbbell Supported Calf Raise",
+          "selectable": false,
+          "status": "incomplete",
+          "tier": "minimal_equipment",
+          "variantId": "dumbbell_supported_calf_raise",
+          "videoPair": {
+            "complete": false,
+            "count": 0,
+            "executionApproved": false,
+            "missingRequirements": [
+              "Approved vertical setup Short",
+              "Approved vertical correct-execution Short"
+            ],
+            "orientation": null,
+            "setupApproved": false
+          },
+          "whenToUseRu": "Практичная замена с минимальным оборудованием."
+        },
+        "standing_machine_calf_raise": {
+          "exerciseFamilyId": "plantar_flexion",
+          "exerciseId": "standing_machine_calf_raise",
+          "firstUseNoteRu": "Первый завершённый результат создаёт отдельную исходную точку.",
+          "missingRequirements": [
+            "Confirmed equipment profile",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "name": "Standing Machine Calf Raise",
+          "selectable": false,
+          "status": "incomplete",
+          "tier": "equivalent_equipment",
+          "variantId": "standing_machine_calf_raise",
+          "videoPair": {
+            "complete": false,
+            "count": 0,
+            "executionApproved": false,
+            "missingRequirements": [
+              "Approved vertical setup Short",
+              "Approved vertical correct-execution Short"
+            ],
+            "orientation": null,
+            "setupApproved": false
+          },
+          "whenToUseRu": "Используйте только как подтверждённую замену в той же роли."
+        },
+        "supported_calf_raise": {
+          "exerciseFamilyId": "plantar_flexion",
+          "exerciseId": "supported_calf_raise",
+          "firstUseNoteRu": "Первый завершённый результат создаёт отдельную исходную точку.",
+          "missingRequirements": [
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "name": "Supported Calf Raise",
+          "selectable": false,
+          "status": "incomplete",
+          "tier": "primary",
+          "variantId": "supported_calf_raise",
+          "videoPair": {
+            "complete": false,
+            "count": 0,
+            "executionApproved": false,
+            "missingRequirements": [
+              "Approved vertical setup Short",
+              "Approved vertical correct-execution Short"
+            ],
+            "orientation": null,
+            "setupApproved": false
+          },
+          "whenToUseRu": "Текущий основной вариант этой роли."
+        }
+      }
+    },
+    "rear_deltoid_horizontal_abduction": {
+      "availableVariantIds": [
+        "reverse_pec_deck",
+        "chest_supported_dumbbell_reverse_fly",
+        "prone_w_raise_rear_delt"
+      ],
+      "exerciseFamilyId": "rear_deltoid_horizontal_abduction",
+      "lockedPrimaryVariantId": null,
+      "name": "Reverse Pec Deck",
+      "primaryVariantId": "reverse_pec_deck",
+      "temporaryPrimaryReason": null,
+      "userFacingAlternativeLimit": 3,
+      "userFacingAlternativeVariantIds": [
+        "chest_supported_dumbbell_reverse_fly",
+        "prone_w_raise_rear_delt"
+      ],
+      "variants": {
+        "chest_supported_dumbbell_reverse_fly": {
+          "exerciseFamilyId": "rear_deltoid_horizontal_abduction",
+          "exerciseId": null,
+          "firstUseNoteRu": "Отдельная исходная точка после первого успешно завершённого результата.",
+          "missingRequirements": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "name": "Chest-Supported Dumbbell Reverse Fly",
+          "selectable": false,
+          "status": "incomplete",
+          "tier": "minimal_equipment",
+          "variantId": "chest_supported_dumbbell_reverse_fly",
+          "videoPair": {
+            "complete": false,
+            "count": 0,
+            "executionApproved": false,
+            "missingRequirements": [
+              "Approved vertical setup Short",
+              "Approved vertical correct-execution Short"
+            ],
+            "orientation": null,
+            "setupApproved": false
+          },
+          "whenToUseRu": "Практичная замена с минимальным оборудованием."
+        },
+        "prone_w_raise_rear_delt": {
+          "exerciseFamilyId": "rear_deltoid_horizontal_abduction",
+          "exerciseId": null,
+          "firstUseNoteRu": "Отдельная исходная точка после первого успешно завершённого результата.",
+          "missingRequirements": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "name": "Prone W Raise",
+          "selectable": false,
+          "status": "incomplete",
+          "tier": "field_fallback",
+          "variantId": "prone_w_raise_rear_delt",
+          "videoPair": {
+            "complete": false,
+            "count": 0,
+            "executionApproved": false,
+            "missingRequirements": [
+              "Approved vertical setup Short",
+              "Approved vertical correct-execution Short"
+            ],
+            "orientation": null,
+            "setupApproved": false
+          },
+          "whenToUseRu": "Резервный вариант для дома, поездки или тренировки без оборудования."
+        },
+        "reverse_pec_deck": {
+          "exerciseFamilyId": "rear_deltoid_horizontal_abduction",
+          "exerciseId": "reverse_pec_deck",
+          "firstUseNoteRu": "Первый завершённый результат создаёт отдельную исходную точку.",
+          "missingRequirements": [
+            "Confirmed equipment profile",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "name": "Reverse Pec Deck",
+          "selectable": false,
+          "status": "incomplete",
+          "tier": "primary",
+          "variantId": "reverse_pec_deck",
+          "videoPair": {
+            "complete": false,
+            "count": 0,
+            "executionApproved": false,
+            "missingRequirements": [
+              "Approved vertical setup Short",
+              "Approved vertical correct-execution Short"
+            ],
+            "orientation": null,
+            "setupApproved": false
+          },
+          "whenToUseRu": "Текущий основной вариант этой роли."
+        }
+      }
+    },
+    "scapular_retraction_external_rotation": {
+      "availableVariantIds": [
+        "cable_face_pull",
+        "band_face_pull",
+        "prone_y_w_raise"
+      ],
+      "exerciseFamilyId": "scapular_retraction_external_rotation",
+      "lockedPrimaryVariantId": null,
+      "name": "Cable Face Pull",
+      "primaryVariantId": "cable_face_pull",
+      "temporaryPrimaryReason": null,
+      "userFacingAlternativeLimit": 3,
+      "userFacingAlternativeVariantIds": [
+        "band_face_pull",
+        "prone_y_w_raise"
+      ],
+      "variants": {
+        "band_face_pull": {
+          "exerciseFamilyId": "scapular_retraction_external_rotation",
+          "exerciseId": null,
+          "firstUseNoteRu": "Отдельная исходная точка после первого успешно завершённого результата.",
+          "missingRequirements": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "name": "Band Face Pull",
+          "selectable": false,
+          "status": "incomplete",
+          "tier": "minimal_equipment",
+          "variantId": "band_face_pull",
+          "videoPair": {
+            "complete": false,
+            "count": 0,
+            "executionApproved": false,
+            "missingRequirements": [
+              "Approved vertical setup Short",
+              "Approved vertical correct-execution Short"
+            ],
+            "orientation": null,
+            "setupApproved": false
+          },
+          "whenToUseRu": "Практичная замена с минимальным оборудованием."
+        },
+        "cable_face_pull": {
+          "exerciseFamilyId": "scapular_retraction_external_rotation",
+          "exerciseId": "cable_face_pull",
+          "firstUseNoteRu": "Первый завершённый результат создаёт отдельную исходную точку.",
+          "missingRequirements": [
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "name": "Cable Face Pull",
+          "selectable": false,
+          "status": "incomplete",
+          "tier": "primary",
+          "variantId": "cable_face_pull",
+          "videoPair": {
+            "complete": false,
+            "count": 0,
+            "executionApproved": false,
+            "missingRequirements": [
+              "Approved vertical setup Short",
+              "Approved vertical correct-execution Short"
+            ],
+            "orientation": null,
+            "setupApproved": false
+          },
+          "whenToUseRu": "Текущий основной вариант этой роли."
+        },
+        "prone_y_w_raise": {
+          "exerciseFamilyId": "scapular_retraction_external_rotation",
+          "exerciseId": null,
+          "firstUseNoteRu": "Отдельная исходная точка после первого успешно завершённого результата.",
+          "missingRequirements": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "name": "Prone Y/W Raise",
+          "selectable": false,
+          "status": "incomplete",
+          "tier": "field_fallback",
+          "variantId": "prone_y_w_raise",
+          "videoPair": {
+            "complete": false,
+            "count": 0,
+            "executionApproved": false,
+            "missingRequirements": [
+              "Approved vertical setup Short",
+              "Approved vertical correct-execution Short"
+            ],
+            "orientation": null,
+            "setupApproved": false
+          },
+          "whenToUseRu": "Резервный вариант для дома, поездки или тренировки без оборудования."
+        }
+      }
+    },
+    "shoulder_abduction": {
+      "availableVariantIds": [
+        "machine_lateral_raise",
+        "etenon_pc2012_lateral_raise",
+        "dumbbell_lateral_raise"
+      ],
+      "exerciseFamilyId": "shoulder_abduction",
+      "lockedPrimaryVariantId": null,
+      "name": "Machine Lateral Raise",
+      "primaryVariantId": "machine_lateral_raise",
+      "temporaryPrimaryReason": null,
+      "userFacingAlternativeLimit": 3,
+      "userFacingAlternativeVariantIds": [
+        "etenon_pc2012_lateral_raise",
+        "dumbbell_lateral_raise"
+      ],
+      "variants": {
+        "dumbbell_lateral_raise": {
+          "exerciseFamilyId": "shoulder_abduction",
+          "exerciseId": null,
+          "firstUseNoteRu": "Отдельная исходная точка после первого успешно завершённого результата.",
+          "missingRequirements": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "name": "Dumbbell Lateral Raise",
+          "selectable": false,
+          "status": "incomplete",
+          "tier": "minimal_equipment",
+          "variantId": "dumbbell_lateral_raise",
+          "videoPair": {
+            "complete": false,
+            "count": 0,
+            "executionApproved": false,
+            "missingRequirements": [
+              "Approved vertical setup Short",
+              "Approved vertical correct-execution Short"
+            ],
+            "orientation": null,
+            "setupApproved": false
+          },
+          "whenToUseRu": "Практичная замена с минимальным оборудованием."
+        },
+        "etenon_pc2012_lateral_raise": {
+          "exerciseFamilyId": "shoulder_abduction",
+          "exerciseId": null,
+          "firstUseNoteRu": "Отдельная исходная точка после первого успешно завершённого результата.",
+          "missingRequirements": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "name": "Etenon PC2012 Lateral Raise",
+          "selectable": false,
+          "status": "incomplete",
+          "tier": "equivalent_equipment",
+          "variantId": "etenon_pc2012_lateral_raise",
+          "videoPair": {
+            "complete": false,
+            "count": 0,
+            "executionApproved": false,
+            "missingRequirements": [
+              "Approved vertical setup Short",
+              "Approved vertical correct-execution Short"
+            ],
+            "orientation": null,
+            "setupApproved": false
+          },
+          "whenToUseRu": "Эквивалентный вариант на другом подтверждённом оборудовании."
+        },
+        "machine_lateral_raise": {
+          "exerciseFamilyId": "shoulder_abduction",
+          "exerciseId": "machine_lateral_raise",
+          "firstUseNoteRu": "Первый завершённый результат создаёт отдельную исходную точку.",
+          "missingRequirements": [
+            "Confirmed equipment profile",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "name": "Machine Lateral Raise",
+          "selectable": false,
+          "status": "incomplete",
+          "tier": "primary",
+          "variantId": "machine_lateral_raise",
+          "videoPair": {
+            "complete": false,
+            "count": 0,
+            "executionApproved": false,
+            "missingRequirements": [
+              "Approved vertical setup Short",
+              "Approved vertical correct-execution Short"
+            ],
+            "orientation": null,
+            "setupApproved": false
+          },
+          "whenToUseRu": "Текущий основной вариант этой роли."
         }
       }
     },
     "strength_a_knee_dominant": {
       "availableVariantIds": [
-        "leg_press"
+        "leg_press",
+        "shua_g8919_linear_leg_press",
+        "goblet_squat_to_box",
+        "supported_sit_to_stand"
       ],
       "exerciseFamilyId": "strength_a_knee_dominant",
       "lockedPrimaryVariantId": null,
       "name": "Strength A knee-dominant",
       "primaryVariantId": "leg_press",
       "temporaryPrimaryReason": null,
+      "userFacingAlternativeLimit": 3,
+      "userFacingAlternativeVariantIds": [
+        "shua_g8919_linear_leg_press",
+        "goblet_squat_to_box",
+        "supported_sit_to_stand"
+      ],
       "variants": {
+        "goblet_squat_to_box": {
+          "exerciseFamilyId": "strength_a_knee_dominant",
+          "exerciseId": null,
+          "firstUseNoteRu": "Отдельная исходная точка после первого успешно завершённого результата.",
+          "missingRequirements": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "name": "Goblet Squat to Box",
+          "selectable": false,
+          "status": "incomplete",
+          "tier": "minimal_equipment",
+          "variantId": "goblet_squat_to_box",
+          "videoPair": {
+            "complete": false,
+            "count": 0,
+            "executionApproved": false,
+            "missingRequirements": [
+              "Approved vertical setup Short",
+              "Approved vertical correct-execution Short"
+            ],
+            "orientation": null,
+            "setupApproved": false
+          },
+          "whenToUseRu": "Практичная замена с минимальным оборудованием."
+        },
         "leg_press": {
           "exerciseFamilyId": "strength_a_knee_dominant",
           "exerciseId": "leg_press",
@@ -11113,6 +12201,62 @@
             "setupApproved": true
           },
           "whenToUseRu": "Текущий основной вариант этой роли."
+        },
+        "shua_g8919_linear_leg_press": {
+          "exerciseFamilyId": "strength_a_knee_dominant",
+          "exerciseId": null,
+          "firstUseNoteRu": "Отдельная исходная точка после первого успешно завершённого результата.",
+          "missingRequirements": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "name": "SHUA ISO-Lateral Linear Leg Press",
+          "selectable": false,
+          "status": "incomplete",
+          "tier": "equivalent_equipment",
+          "variantId": "shua_g8919_linear_leg_press",
+          "videoPair": {
+            "complete": false,
+            "count": 0,
+            "executionApproved": false,
+            "missingRequirements": [
+              "Approved vertical setup Short",
+              "Approved vertical correct-execution Short"
+            ],
+            "orientation": null,
+            "setupApproved": false
+          },
+          "whenToUseRu": "Эквивалентный вариант на другом подтверждённом оборудовании."
+        },
+        "supported_sit_to_stand": {
+          "exerciseFamilyId": "strength_a_knee_dominant",
+          "exerciseId": null,
+          "firstUseNoteRu": "Отдельная исходная точка после первого успешно завершённого результата.",
+          "missingRequirements": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "name": "Supported Sit-to-Stand",
+          "selectable": false,
+          "status": "incomplete",
+          "tier": "field_fallback",
+          "variantId": "supported_sit_to_stand",
+          "videoPair": {
+            "complete": false,
+            "count": 0,
+            "executionApproved": false,
+            "missingRequirements": [
+              "Approved vertical setup Short",
+              "Approved vertical correct-execution Short"
+            ],
+            "orientation": null,
+            "setupApproved": false
+          },
+          "whenToUseRu": "Резервный вариант для дома, поездки или тренировки без оборудования."
         }
       }
     },
@@ -11120,14 +12264,50 @@
       "availableVariantIds": [
         "supported_step_up",
         "single_leg_leg_press",
-        "pendulum_squat"
+        "pendulum_squat",
+        "bh_pl845b_super_squat",
+        "supported_sit_to_stand_strength_b"
       ],
       "exerciseFamilyId": "strength_b_knee_dominant",
       "lockedPrimaryVariantId": "pendulum_squat",
       "name": "Strength B knee-dominant",
       "primaryVariantId": "pendulum_squat",
       "temporaryPrimaryReason": null,
+      "userFacingAlternativeLimit": 3,
+      "userFacingAlternativeVariantIds": [
+        "bh_pl845b_super_squat",
+        "supported_step_up",
+        "supported_sit_to_stand_strength_b"
+      ],
       "variants": {
+        "bh_pl845b_super_squat": {
+          "exerciseFamilyId": "strength_b_knee_dominant",
+          "exerciseId": null,
+          "firstUseNoteRu": "Отдельная исходная точка после первого успешно завершённого результата.",
+          "missingRequirements": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "name": "BH Fitness PL845B Super Squat",
+          "selectable": false,
+          "status": "incomplete",
+          "tier": "equivalent_equipment",
+          "variantId": "bh_pl845b_super_squat",
+          "videoPair": {
+            "complete": false,
+            "count": 0,
+            "executionApproved": false,
+            "missingRequirements": [
+              "Approved vertical setup Short",
+              "Approved vertical correct-execution Short"
+            ],
+            "orientation": null,
+            "setupApproved": false
+          },
+          "whenToUseRu": "Эквивалентный вариант на другом подтверждённом оборудовании."
+        },
         "pendulum_squat": {
           "exerciseFamilyId": "strength_b_knee_dominant",
           "exerciseId": "pendulum_squat",
@@ -11168,6 +12348,34 @@
           },
           "whenToUseRu": "Эквивалентный вариант на подходящем тренажёре."
         },
+        "supported_sit_to_stand_strength_b": {
+          "exerciseFamilyId": "strength_b_knee_dominant",
+          "exerciseId": null,
+          "firstUseNoteRu": "Отдельная исходная точка после первого успешно завершённого результата.",
+          "missingRequirements": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "name": "Supported Sit-to-Stand",
+          "selectable": false,
+          "status": "incomplete",
+          "tier": "field_fallback",
+          "variantId": "supported_sit_to_stand_strength_b",
+          "videoPair": {
+            "complete": false,
+            "count": 0,
+            "executionApproved": false,
+            "missingRequirements": [
+              "Approved vertical setup Short",
+              "Approved vertical correct-execution Short"
+            ],
+            "orientation": null,
+            "setupApproved": false
+          },
+          "whenToUseRu": "Резервный вариант для дома, поездки или тренировки без оборудования."
+        },
         "supported_step_up": {
           "exerciseFamilyId": "strength_b_knee_dominant",
           "exerciseId": "supported_step_up",
@@ -11190,17 +12398,149 @@
         }
       }
     },
+    "trunk_control": {
+      "availableVariantIds": [
+        "dead_bug",
+        "band_dead_bug",
+        "bird_dog"
+      ],
+      "exerciseFamilyId": "trunk_control",
+      "lockedPrimaryVariantId": null,
+      "name": "Dead Bug",
+      "primaryVariantId": "dead_bug",
+      "temporaryPrimaryReason": null,
+      "userFacingAlternativeLimit": 3,
+      "userFacingAlternativeVariantIds": [
+        "band_dead_bug",
+        "bird_dog"
+      ],
+      "variants": {
+        "band_dead_bug": {
+          "exerciseFamilyId": "trunk_control",
+          "exerciseId": null,
+          "firstUseNoteRu": "Отдельная исходная точка после первого успешно завершённого результата.",
+          "missingRequirements": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "name": "Band-Resisted Dead Bug",
+          "selectable": false,
+          "status": "incomplete",
+          "tier": "minimal_equipment",
+          "variantId": "band_dead_bug",
+          "videoPair": {
+            "complete": false,
+            "count": 0,
+            "executionApproved": false,
+            "missingRequirements": [
+              "Approved vertical setup Short",
+              "Approved vertical correct-execution Short"
+            ],
+            "orientation": null,
+            "setupApproved": false
+          },
+          "whenToUseRu": "Практичная замена с минимальным оборудованием."
+        },
+        "bird_dog": {
+          "exerciseFamilyId": "trunk_control",
+          "exerciseId": null,
+          "firstUseNoteRu": "Отдельная исходная точка после первого успешно завершённого результата.",
+          "missingRequirements": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "name": "Bird Dog",
+          "selectable": false,
+          "status": "incomplete",
+          "tier": "field_fallback",
+          "variantId": "bird_dog",
+          "videoPair": {
+            "complete": false,
+            "count": 0,
+            "executionApproved": false,
+            "missingRequirements": [
+              "Approved vertical setup Short",
+              "Approved vertical correct-execution Short"
+            ],
+            "orientation": null,
+            "setupApproved": false
+          },
+          "whenToUseRu": "Резервный вариант для дома, поездки или тренировки без оборудования."
+        },
+        "dead_bug": {
+          "exerciseFamilyId": "trunk_control",
+          "exerciseId": "dead_bug",
+          "firstUseNoteRu": "Base resistance is recorded explicitly.",
+          "missingRequirements": [],
+          "name": "Dead Bug",
+          "selectable": true,
+          "status": "active",
+          "tier": "primary",
+          "variantId": "dead_bug",
+          "videoPair": {
+            "complete": true,
+            "count": 2,
+            "executionApproved": true,
+            "missingRequirements": [],
+            "orientation": "9:16",
+            "setupApproved": true
+          },
+          "whenToUseRu": "Текущий основной вариант этой роли."
+        }
+      }
+    },
     "vertical_press": {
       "availableVariantIds": [
         "machine_shoulder_press",
-        "plate_loaded_shoulder_press"
+        "plate_loaded_shoulder_press",
+        "shua_g8802_shoulder_press",
+        "seated_dumbbell_shoulder_press",
+        "high_incline_pike_push_up"
       ],
       "exerciseFamilyId": "vertical_press",
       "lockedPrimaryVariantId": null,
       "name": "Vertical press",
       "primaryVariantId": "machine_shoulder_press",
       "temporaryPrimaryReason": null,
+      "userFacingAlternativeLimit": 3,
+      "userFacingAlternativeVariantIds": [
+        "shua_g8802_shoulder_press",
+        "seated_dumbbell_shoulder_press",
+        "high_incline_pike_push_up"
+      ],
       "variants": {
+        "high_incline_pike_push_up": {
+          "exerciseFamilyId": "vertical_press",
+          "exerciseId": null,
+          "firstUseNoteRu": "Отдельная исходная точка после первого успешно завершённого результата.",
+          "missingRequirements": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "name": "High-Incline Pike Push-Up",
+          "selectable": false,
+          "status": "incomplete",
+          "tier": "field_fallback",
+          "variantId": "high_incline_pike_push_up",
+          "videoPair": {
+            "complete": false,
+            "count": 0,
+            "executionApproved": false,
+            "missingRequirements": [
+              "Approved vertical setup Short",
+              "Approved vertical correct-execution Short"
+            ],
+            "orientation": null,
+            "setupApproved": false
+          },
+          "whenToUseRu": "Резервный вариант для дома, поездки или тренировки без оборудования."
+        },
         "machine_shoulder_press": {
           "exerciseFamilyId": "vertical_press",
           "exerciseId": "machine_shoulder_press",
@@ -11250,19 +12590,108 @@
             "setupApproved": false
           },
           "whenToUseRu": "После подтверждения точной модели тренажёра."
+        },
+        "seated_dumbbell_shoulder_press": {
+          "exerciseFamilyId": "vertical_press",
+          "exerciseId": null,
+          "firstUseNoteRu": "Отдельная исходная точка после первого успешно завершённого результата.",
+          "missingRequirements": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "name": "Seated Dumbbell Shoulder Press",
+          "selectable": false,
+          "status": "incomplete",
+          "tier": "minimal_equipment",
+          "variantId": "seated_dumbbell_shoulder_press",
+          "videoPair": {
+            "complete": false,
+            "count": 0,
+            "executionApproved": false,
+            "missingRequirements": [
+              "Approved vertical setup Short",
+              "Approved vertical correct-execution Short"
+            ],
+            "orientation": null,
+            "setupApproved": false
+          },
+          "whenToUseRu": "Практичная замена с минимальным оборудованием."
+        },
+        "shua_g8802_shoulder_press": {
+          "exerciseFamilyId": "vertical_press",
+          "exerciseId": null,
+          "firstUseNoteRu": "Отдельная исходная точка после первого успешно завершённого результата.",
+          "missingRequirements": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "name": "SHUA G8802 Shoulder Press",
+          "selectable": false,
+          "status": "incomplete",
+          "tier": "equivalent_equipment",
+          "variantId": "shua_g8802_shoulder_press",
+          "videoPair": {
+            "complete": false,
+            "count": 0,
+            "executionApproved": false,
+            "missingRequirements": [
+              "Approved vertical setup Short",
+              "Approved vertical correct-execution Short"
+            ],
+            "orientation": null,
+            "setupApproved": false
+          },
+          "whenToUseRu": "Эквивалентный вариант на другом подтверждённом оборудовании."
         }
       }
     },
     "vertical_pull": {
       "availableVariantIds": [
-        "lat_pulldown"
+        "lat_pulldown",
+        "band_kneeling_lat_pulldown"
       ],
       "exerciseFamilyId": "vertical_pull",
       "lockedPrimaryVariantId": null,
       "name": "Vertical pull",
       "primaryVariantId": "lat_pulldown",
       "temporaryPrimaryReason": null,
+      "userFacingAlternativeLimit": 3,
+      "userFacingAlternativeVariantIds": [
+        "band_kneeling_lat_pulldown"
+      ],
       "variants": {
+        "band_kneeling_lat_pulldown": {
+          "exerciseFamilyId": "vertical_pull",
+          "exerciseId": null,
+          "firstUseNoteRu": "Отдельная исходная точка после первого успешно завершённого результата.",
+          "missingRequirements": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "name": "Band Kneeling Lat Pulldown",
+          "selectable": false,
+          "status": "incomplete",
+          "tier": "minimal_equipment",
+          "variantId": "band_kneeling_lat_pulldown",
+          "videoPair": {
+            "complete": false,
+            "count": 0,
+            "executionApproved": false,
+            "missingRequirements": [
+              "Approved vertical setup Short",
+              "Approved vertical correct-execution Short"
+            ],
+            "orientation": null,
+            "setupApproved": false
+          },
+          "whenToUseRu": "Практичная замена с минимальным оборудованием."
+        },
         "lat_pulldown": {
           "exerciseFamilyId": "vertical_pull",
           "exerciseId": "lat_pulldown",
@@ -11326,10 +12755,10 @@
   "nextWorkout": {
     "exercises": [
       {
-        "exerciseId": "supported_step_up",
+        "exerciseId": "pendulum_squat",
         "repRange": {
           "lower": 8,
-          "perSide": true,
+          "perSide": false,
           "upper": 10
         },
         "workingSets": 2
@@ -11638,7 +13067,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-07-24T08:05:39.920Z",
+  "responseGeneratedAt": "2026-07-24T10:08:28.796Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -13121,7 +14550,7 @@
             ]
           },
           "actualVariantId": "leg_extension",
-          "exerciseFamilyId": "exercise_leg_extension",
+          "exerciseFamilyId": "knee_extension",
           "exerciseId": "leg_extension",
           "issue": null,
           "order": 2,
@@ -13141,7 +14570,7 @@
             ]
           },
           "actualVariantId": "chest_press",
-          "exerciseFamilyId": "exercise_chest_press",
+          "exerciseFamilyId": "horizontal_press",
           "exerciseId": "chest_press",
           "issue": null,
           "order": 3,
@@ -13221,7 +14650,7 @@
             ]
           },
           "actualVariantId": "pallof_press",
-          "exerciseFamilyId": "exercise_pallof_press",
+          "exerciseFamilyId": "anti_rotation",
           "exerciseId": "pallof_press",
           "issue": null,
           "order": 7,
@@ -13297,7 +14726,7 @@
             ]
           },
           "actualVariantId": "seated_leg_curl",
-          "exerciseFamilyId": "exercise_seated_leg_curl",
+          "exerciseFamilyId": "knee_flexion",
           "exerciseId": "seated_leg_curl",
           "generatedTarget": {
             "load": {
@@ -13342,7 +14771,7 @@
             ]
           },
           "actualVariantId": "chest_press",
-          "exerciseFamilyId": "exercise_chest_press",
+          "exerciseFamilyId": "horizontal_press",
           "exerciseId": "chest_press",
           "generatedTarget": {
             "load": {
@@ -13522,7 +14951,7 @@
             ]
           },
           "actualVariantId": "leg_extension",
-          "exerciseFamilyId": "exercise_leg_extension",
+          "exerciseFamilyId": "knee_extension",
           "exerciseId": "leg_extension",
           "generatedTarget": {
             "load": {
@@ -13567,7 +14996,7 @@
             ]
           },
           "actualVariantId": "pallof_press",
-          "exerciseFamilyId": "exercise_pallof_press",
+          "exerciseFamilyId": "anti_rotation",
           "exerciseId": "pallof_press",
           "generatedTarget": {
             "load": {
@@ -13665,7 +15094,7 @@
             ]
           },
           "actualVariantId": "seated_leg_curl",
-          "exerciseFamilyId": "exercise_seated_leg_curl",
+          "exerciseFamilyId": "knee_flexion",
           "exerciseId": "seated_leg_curl",
           "generatedTarget": {
             "load": {
@@ -13710,7 +15139,7 @@
             ]
           },
           "actualVariantId": "chest_press",
-          "exerciseFamilyId": "exercise_chest_press",
+          "exerciseFamilyId": "horizontal_press",
           "exerciseId": "chest_press",
           "generatedTarget": {
             "load": {
@@ -13890,7 +15319,7 @@
             ]
           },
           "actualVariantId": "leg_extension",
-          "exerciseFamilyId": "exercise_leg_extension",
+          "exerciseFamilyId": "knee_extension",
           "exerciseId": "leg_extension",
           "generatedTarget": {
             "load": {
@@ -13935,7 +15364,7 @@
             ]
           },
           "actualVariantId": "pallof_press",
-          "exerciseFamilyId": "exercise_pallof_press",
+          "exerciseFamilyId": "anti_rotation",
           "exerciseId": "pallof_press",
           "generatedTarget": {
             "load": {
@@ -14034,7 +15463,7 @@
             ]
           },
           "actualVariantId": "seated_leg_curl",
-          "exerciseFamilyId": "exercise_seated_leg_curl",
+          "exerciseFamilyId": "knee_flexion",
           "exerciseId": "seated_leg_curl",
           "generatedTarget": {
             "load": {
@@ -14079,7 +15508,7 @@
             ]
           },
           "actualVariantId": "chest_press",
-          "exerciseFamilyId": "exercise_chest_press",
+          "exerciseFamilyId": "horizontal_press",
           "exerciseId": "chest_press",
           "generatedTarget": {
             "load": {
@@ -14259,7 +15688,7 @@
             ]
           },
           "actualVariantId": "leg_extension",
-          "exerciseFamilyId": "exercise_leg_extension",
+          "exerciseFamilyId": "knee_extension",
           "exerciseId": "leg_extension",
           "generatedTarget": {
             "load": {
@@ -14304,7 +15733,7 @@
             ]
           },
           "actualVariantId": "pallof_press",
-          "exerciseFamilyId": "exercise_pallof_press",
+          "exerciseFamilyId": "anti_rotation",
           "exerciseId": "pallof_press",
           "generatedTarget": {
             "load": {
@@ -14403,7 +15832,7 @@
             ]
           },
           "actualVariantId": "seated_leg_curl",
-          "exerciseFamilyId": "exercise_seated_leg_curl",
+          "exerciseFamilyId": "knee_flexion",
           "exerciseId": "seated_leg_curl",
           "generatedTarget": {
             "load": {
@@ -14448,7 +15877,7 @@
             ]
           },
           "actualVariantId": "chest_press",
-          "exerciseFamilyId": "exercise_chest_press",
+          "exerciseFamilyId": "horizontal_press",
           "exerciseId": "chest_press",
           "generatedTarget": {
             "load": {
@@ -14628,7 +16057,7 @@
             ]
           },
           "actualVariantId": "leg_extension",
-          "exerciseFamilyId": "exercise_leg_extension",
+          "exerciseFamilyId": "knee_extension",
           "exerciseId": "leg_extension",
           "generatedTarget": {
             "load": {
@@ -14673,7 +16102,7 @@
             ]
           },
           "actualVariantId": "pallof_press",
-          "exerciseFamilyId": "exercise_pallof_press",
+          "exerciseFamilyId": "anti_rotation",
           "exerciseId": "pallof_press",
           "generatedTarget": {
             "load": {
@@ -14796,7 +16225,7 @@
             ]
           },
           "actualVariantId": "seated_leg_curl",
-          "exerciseFamilyId": "exercise_seated_leg_curl",
+          "exerciseFamilyId": "knee_flexion",
           "exerciseId": "seated_leg_curl",
           "generatedTarget": {
             "load": {
@@ -14853,7 +16282,7 @@
             ]
           },
           "actualVariantId": "chest_press",
-          "exerciseFamilyId": "exercise_chest_press",
+          "exerciseFamilyId": "horizontal_press",
           "exerciseId": "chest_press",
           "generatedTarget": {
             "load": {
@@ -15136,7 +16565,7 @@
             ]
           },
           "actualVariantId": "leg_extension",
-          "exerciseFamilyId": "exercise_leg_extension",
+          "exerciseFamilyId": "knee_extension",
           "exerciseId": "leg_extension",
           "generatedTarget": {
             "load": {
@@ -15208,7 +16637,7 @@
             ]
           },
           "actualVariantId": "pallof_press",
-          "exerciseFamilyId": "exercise_pallof_press",
+          "exerciseFamilyId": "anti_rotation",
           "exerciseId": "pallof_press",
           "generatedTarget": {
             "load": {
@@ -15862,7 +17291,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-07-24T08:05:01.654Z",
+  "sourceStateUpdatedAt": "2026-07-24T10:07:52.267Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
@@ -17472,7 +18901,7 @@
     "phase2_strength_b": {
       "active": true,
       "exerciseIds": [
-        "supported_step_up",
+        "pendulum_squat",
         "seated_leg_curl",
         "machine_shoulder_press",
         "low_row",
@@ -17483,10 +18912,10 @@
       ],
       "exercises": [
         {
-          "exerciseId": "supported_step_up",
+          "exerciseId": "pendulum_squat",
           "repRange": {
             "lower": 8,
-            "perSide": true,
+            "perSide": false,
             "upper": 10
           },
           "workingSets": 2
