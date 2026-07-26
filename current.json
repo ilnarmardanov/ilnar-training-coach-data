@@ -3315,7 +3315,7 @@
       "edited": false,
       "exerciseFamilyId": "strength_a_knee_dominant",
       "exerciseId": "leg_press",
-      "exerciseNote": "Затылок в правой части начал болеть и яота",
+      "exerciseNote": "Затылок в правой части начал болеть и остановил упражнение.",
       "firstUse": false,
       "generatedTarget": {
         "load": {
@@ -5210,7 +5210,7 @@
         "edited": false,
         "exerciseFamilyId": "strength_a_knee_dominant",
         "exerciseId": "leg_press",
-        "exerciseNote": "Затылок в правой части начал болеть и яота",
+        "exerciseNote": "Затылок в правой части начал болеть и остановил упражнение.",
         "firstUse": false,
         "generatedTarget": {
           "load": {
@@ -13104,7 +13104,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-07-26T06:07:41.848Z",
+  "responseGeneratedAt": "2026-07-26T06:08:37.566Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -17328,7 +17328,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-07-26T06:07:29.744Z",
+  "sourceStateUpdatedAt": "2026-07-26T06:07:36.750Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
