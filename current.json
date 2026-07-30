@@ -3545,20 +3545,9 @@
     },
     {
       "activeVariantId": "seated_leg_curl",
-      "actualResult": {
-        "load": {
-          "kind": "numeric",
-          "mode": "total",
-          "unit": "kg",
-          "value": 60
-        },
-        "reps": [
-          10,
-          10
-        ]
-      },
-      "actualSetCount": 2,
-      "completed": true,
+      "actualResult": null,
+      "actualSetCount": null,
+      "completed": false,
       "currentSessionOverride": null,
       "edited": false,
       "exerciseFamilyId": "knee_flexion",
@@ -3581,7 +3570,7 @@
       "issueNotes": null,
       "name": "Seated Leg Curl",
       "order": 2,
-      "outcome": "completed",
+      "outcome": "planned",
       "persistentPrimaryVariantId": "seated_leg_curl",
       "plannedPrimaryVariantId": "seated_leg_curl",
       "prescription": {
@@ -3800,20 +3789,9 @@
     },
     {
       "activeVariantId": "chest_press",
-      "actualResult": {
-        "load": {
-          "kind": "numeric",
-          "mode": "per_side",
-          "unit": "kg",
-          "value": 12.5
-        },
-        "reps": [
-          11,
-          11
-        ]
-      },
-      "actualSetCount": 2,
-      "completed": true,
+      "actualResult": null,
+      "actualSetCount": null,
+      "completed": false,
       "currentSessionOverride": null,
       "edited": false,
       "exerciseFamilyId": "horizontal_press",
@@ -3836,7 +3814,7 @@
       "issueNotes": null,
       "name": "Chest Press",
       "order": 3,
-      "outcome": "completed",
+      "outcome": "planned",
       "persistentPrimaryVariantId": "chest_press",
       "plannedPrimaryVariantId": "chest_press",
       "prescription": {
@@ -4060,20 +4038,9 @@
     },
     {
       "activeVariantId": "low_row",
-      "actualResult": {
-        "load": {
-          "kind": "numeric",
-          "mode": "total",
-          "unit": "kg",
-          "value": 60
-        },
-        "reps": [
-          11,
-          11
-        ]
-      },
-      "actualSetCount": 2,
-      "completed": true,
+      "actualResult": null,
+      "actualSetCount": null,
+      "completed": false,
       "currentSessionOverride": null,
       "edited": false,
       "exerciseFamilyId": "horizontal_row",
@@ -4096,7 +4063,7 @@
       "issueNotes": null,
       "name": "Low Row",
       "order": 4,
-      "outcome": "completed",
+      "outcome": "planned",
       "persistentPrimaryVariantId": "low_row",
       "plannedPrimaryVariantId": "low_row",
       "prescription": {
@@ -5473,20 +5440,9 @@
       },
       {
         "activeVariantId": "seated_leg_curl",
-        "actualResult": {
-          "load": {
-            "kind": "numeric",
-            "mode": "total",
-            "unit": "kg",
-            "value": 60
-          },
-          "reps": [
-            10,
-            10
-          ]
-        },
-        "actualSetCount": 2,
-        "completed": true,
+        "actualResult": null,
+        "actualSetCount": null,
+        "completed": false,
         "currentSessionOverride": null,
         "edited": false,
         "exerciseFamilyId": "knee_flexion",
@@ -5509,7 +5465,7 @@
         "issueNotes": null,
         "name": "Seated Leg Curl",
         "order": 2,
-        "outcome": "completed",
+        "outcome": "planned",
         "persistentPrimaryVariantId": "seated_leg_curl",
         "plannedPrimaryVariantId": "seated_leg_curl",
         "prescription": {
@@ -5728,20 +5684,9 @@
       },
       {
         "activeVariantId": "chest_press",
-        "actualResult": {
-          "load": {
-            "kind": "numeric",
-            "mode": "per_side",
-            "unit": "kg",
-            "value": 12.5
-          },
-          "reps": [
-            11,
-            11
-          ]
-        },
-        "actualSetCount": 2,
-        "completed": true,
+        "actualResult": null,
+        "actualSetCount": null,
+        "completed": false,
         "currentSessionOverride": null,
         "edited": false,
         "exerciseFamilyId": "horizontal_press",
@@ -5764,7 +5709,7 @@
         "issueNotes": null,
         "name": "Chest Press",
         "order": 3,
-        "outcome": "completed",
+        "outcome": "planned",
         "persistentPrimaryVariantId": "chest_press",
         "plannedPrimaryVariantId": "chest_press",
         "prescription": {
@@ -5988,20 +5933,9 @@
       },
       {
         "activeVariantId": "low_row",
-        "actualResult": {
-          "load": {
-            "kind": "numeric",
-            "mode": "total",
-            "unit": "kg",
-            "value": 60
-          },
-          "reps": [
-            11,
-            11
-          ]
-        },
-        "actualSetCount": 2,
-        "completed": true,
+        "actualResult": null,
+        "actualSetCount": null,
+        "completed": false,
         "currentSessionOverride": null,
         "edited": false,
         "exerciseFamilyId": "horizontal_row",
@@ -6024,7 +5958,7 @@
         "issueNotes": null,
         "name": "Low Row",
         "order": 4,
-        "outcome": "completed",
+        "outcome": "planned",
         "persistentPrimaryVariantId": "low_row",
         "plannedPrimaryVariantId": "low_row",
         "prescription": {
@@ -13170,7 +13104,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-07-26T06:22:56.768Z",
+  "responseGeneratedAt": "2026-07-30T12:43:48.719Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -17394,7 +17328,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-07-26T06:22:20.284Z",
+  "sourceStateUpdatedAt": "2026-07-30T12:43:12.765Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
