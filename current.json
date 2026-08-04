@@ -3382,11 +3382,22 @@
   "currentExercises": [
     {
       "activeVariantId": "leg_press",
-      "actualResult": null,
-      "actualSetCount": null,
-      "completed": false,
+      "actualResult": {
+        "load": {
+          "kind": "numeric",
+          "mode": "total",
+          "unit": "kg",
+          "value": 0
+        },
+        "reps": [
+          11,
+          11
+        ]
+      },
+      "actualSetCount": 2,
+      "completed": true,
       "currentSessionOverride": null,
-      "edited": false,
+      "edited": true,
       "exerciseFamilyId": "strength_a_knee_dominant",
       "exerciseId": "leg_press",
       "exerciseNote": null,
@@ -3406,7 +3417,7 @@
       "issueNotes": null,
       "name": "Leg Press",
       "order": 1,
-      "outcome": "planned",
+      "outcome": "completed",
       "persistentPrimaryVariantId": "leg_press",
       "plannedPrimaryVariantId": "leg_press",
       "prescription": {
@@ -3441,7 +3452,7 @@
           "label": "Base",
           "mode": "base_resistance"
         },
-        "progressionBlocked": true,
+        "progressionBlocked": false,
         "proposedLoad": null,
         "recentLoadIncrease": true,
         "reviewRequired": false
@@ -3596,9 +3607,10 @@
       "workingSetCount": 2,
       "workingTarget": {
         "load": {
-          "kind": "label",
-          "label": "Base + 5 kg per side",
-          "mode": "base_resistance"
+          "kind": "numeric",
+          "mode": "total",
+          "unit": "kg",
+          "value": 0
         },
         "reps": [
           11,
@@ -5246,11 +5258,22 @@
     "exercises": [
       {
         "activeVariantId": "leg_press",
-        "actualResult": null,
-        "actualSetCount": null,
-        "completed": false,
+        "actualResult": {
+          "load": {
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 0
+          },
+          "reps": [
+            11,
+            11
+          ]
+        },
+        "actualSetCount": 2,
+        "completed": true,
         "currentSessionOverride": null,
-        "edited": false,
+        "edited": true,
         "exerciseFamilyId": "strength_a_knee_dominant",
         "exerciseId": "leg_press",
         "exerciseNote": null,
@@ -5270,7 +5293,7 @@
         "issueNotes": null,
         "name": "Leg Press",
         "order": 1,
-        "outcome": "planned",
+        "outcome": "completed",
         "persistentPrimaryVariantId": "leg_press",
         "plannedPrimaryVariantId": "leg_press",
         "prescription": {
@@ -5305,7 +5328,7 @@
             "label": "Base",
             "mode": "base_resistance"
           },
-          "progressionBlocked": true,
+          "progressionBlocked": false,
           "proposedLoad": null,
           "recentLoadIncrease": true,
           "reviewRequired": false
@@ -5460,9 +5483,10 @@
         "workingSetCount": 2,
         "workingTarget": {
           "load": {
-            "kind": "label",
-            "label": "Base + 5 kg per side",
-            "mode": "base_resistance"
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 0
           },
           "reps": [
             11,
@@ -13126,7 +13150,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-07-30T14:26:43.140Z",
+  "responseGeneratedAt": "2026-08-04T15:28:37.237Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -18631,7 +18655,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-07-30T14:26:29.206Z",
+  "sourceStateUpdatedAt": "2026-08-04T15:28:03.351Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
