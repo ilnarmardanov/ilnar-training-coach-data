@@ -3624,7 +3624,7 @@
       "actualSetCount": null,
       "completed": false,
       "currentSessionOverride": null,
-      "edited": false,
+      "edited": true,
       "exerciseFamilyId": "knee_flexion",
       "exerciseId": "seated_leg_curl",
       "exerciseNote": null,
@@ -3844,11 +3844,11 @@
           "kind": "numeric",
           "mode": "total",
           "unit": "kg",
-          "value": 60
+          "value": 55
         },
         "reps": [
-          11,
-          11
+          10,
+          10
         ]
       }
     },
@@ -5500,7 +5500,7 @@
         "actualSetCount": null,
         "completed": false,
         "currentSessionOverride": null,
-        "edited": false,
+        "edited": true,
         "exerciseFamilyId": "knee_flexion",
         "exerciseId": "seated_leg_curl",
         "exerciseNote": null,
@@ -5720,11 +5720,11 @@
             "kind": "numeric",
             "mode": "total",
             "unit": "kg",
-            "value": 60
+            "value": 55
           },
           "reps": [
-            11,
-            11
+            10,
+            10
           ]
         }
       },
@@ -13150,7 +13150,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-08-04T15:28:37.237Z",
+  "responseGeneratedAt": "2026-08-04T15:30:42.181Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -18655,7 +18655,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-08-04T15:28:03.351Z",
+  "sourceStateUpdatedAt": "2026-08-04T15:29:55.974Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
