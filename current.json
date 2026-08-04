@@ -3620,9 +3620,20 @@
     },
     {
       "activeVariantId": "seated_leg_curl",
-      "actualResult": null,
-      "actualSetCount": null,
-      "completed": false,
+      "actualResult": {
+        "load": {
+          "kind": "numeric",
+          "mode": "total",
+          "unit": "kg",
+          "value": 55
+        },
+        "reps": [
+          10,
+          10
+        ]
+      },
+      "actualSetCount": 2,
+      "completed": true,
       "currentSessionOverride": null,
       "edited": true,
       "exerciseFamilyId": "knee_flexion",
@@ -3645,7 +3656,7 @@
       "issueNotes": null,
       "name": "Seated Leg Curl",
       "order": 2,
-      "outcome": "planned",
+      "outcome": "completed",
       "persistentPrimaryVariantId": "seated_leg_curl",
       "plannedPrimaryVariantId": "seated_leg_curl",
       "prescription": {
@@ -3858,7 +3869,7 @@
       "actualSetCount": null,
       "completed": false,
       "currentSessionOverride": null,
-      "edited": false,
+      "edited": true,
       "exerciseFamilyId": "horizontal_press",
       "exerciseId": "chest_press",
       "exerciseNote": null,
@@ -4073,11 +4084,11 @@
           "kind": "numeric",
           "mode": "per_side",
           "unit": "kg",
-          "value": 12.5
+          "value": 10
         },
         "reps": [
-          12,
-          12
+          10,
+          10
         ]
       }
     },
@@ -5496,9 +5507,20 @@
       },
       {
         "activeVariantId": "seated_leg_curl",
-        "actualResult": null,
-        "actualSetCount": null,
-        "completed": false,
+        "actualResult": {
+          "load": {
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 55
+          },
+          "reps": [
+            10,
+            10
+          ]
+        },
+        "actualSetCount": 2,
+        "completed": true,
         "currentSessionOverride": null,
         "edited": true,
         "exerciseFamilyId": "knee_flexion",
@@ -5521,7 +5543,7 @@
         "issueNotes": null,
         "name": "Seated Leg Curl",
         "order": 2,
-        "outcome": "planned",
+        "outcome": "completed",
         "persistentPrimaryVariantId": "seated_leg_curl",
         "plannedPrimaryVariantId": "seated_leg_curl",
         "prescription": {
@@ -5734,7 +5756,7 @@
         "actualSetCount": null,
         "completed": false,
         "currentSessionOverride": null,
-        "edited": false,
+        "edited": true,
         "exerciseFamilyId": "horizontal_press",
         "exerciseId": "chest_press",
         "exerciseNote": null,
@@ -5949,11 +5971,11 @@
             "kind": "numeric",
             "mode": "per_side",
             "unit": "kg",
-            "value": 12.5
+            "value": 10
           },
           "reps": [
-            12,
-            12
+            10,
+            10
           ]
         }
       },
@@ -13150,7 +13172,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-08-04T15:30:42.181Z",
+  "responseGeneratedAt": "2026-08-04T15:33:14.069Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -18655,7 +18677,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-08-04T15:29:55.974Z",
+  "sourceStateUpdatedAt": "2026-08-04T15:32:39.324Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
