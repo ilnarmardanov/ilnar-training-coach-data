@@ -4837,9 +4837,20 @@
     },
     {
       "activeVariantId": "leg_extension",
-      "actualResult": null,
-      "actualSetCount": null,
-      "completed": false,
+      "actualResult": {
+        "load": {
+          "kind": "numeric",
+          "mode": "total",
+          "unit": "kg",
+          "value": 55
+        },
+        "reps": [
+          10,
+          10
+        ]
+      },
+      "actualSetCount": 2,
+      "completed": true,
       "currentSessionOverride": null,
       "edited": true,
       "exerciseFamilyId": "knee_extension",
@@ -4862,7 +4873,7 @@
       "issueNotes": null,
       "name": "Leg Extension",
       "order": 7,
-      "outcome": "planned",
+      "outcome": "completed",
       "persistentPrimaryVariantId": "leg_extension",
       "plannedPrimaryVariantId": "leg_extension",
       "prescription": {
@@ -5086,11 +5097,22 @@
     },
     {
       "activeVariantId": "pallof_press",
-      "actualResult": null,
-      "actualSetCount": null,
-      "completed": false,
+      "actualResult": {
+        "load": {
+          "kind": "numeric",
+          "mode": "total",
+          "unit": "kg",
+          "value": 27.2
+        },
+        "reps": [
+          12,
+          12
+        ]
+      },
+      "actualSetCount": 2,
+      "completed": true,
       "currentSessionOverride": null,
-      "edited": false,
+      "edited": true,
       "exerciseFamilyId": "anti_rotation",
       "exerciseId": "pallof_press",
       "exerciseNote": null,
@@ -5111,7 +5133,7 @@
       "issueNotes": null,
       "name": "Pallof Press",
       "order": 8,
-      "outcome": "planned",
+      "outcome": "completed",
       "persistentPrimaryVariantId": "pallof_press",
       "plannedPrimaryVariantId": "pallof_press",
       "prescription": {
@@ -5294,7 +5316,7 @@
           "kind": "numeric",
           "mode": "total",
           "unit": "kg",
-          "value": 31.8
+          "value": 27.2
         },
         "reps": [
           12,
@@ -6768,9 +6790,20 @@
       },
       {
         "activeVariantId": "leg_extension",
-        "actualResult": null,
-        "actualSetCount": null,
-        "completed": false,
+        "actualResult": {
+          "load": {
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 55
+          },
+          "reps": [
+            10,
+            10
+          ]
+        },
+        "actualSetCount": 2,
+        "completed": true,
         "currentSessionOverride": null,
         "edited": true,
         "exerciseFamilyId": "knee_extension",
@@ -6793,7 +6826,7 @@
         "issueNotes": null,
         "name": "Leg Extension",
         "order": 7,
-        "outcome": "planned",
+        "outcome": "completed",
         "persistentPrimaryVariantId": "leg_extension",
         "plannedPrimaryVariantId": "leg_extension",
         "prescription": {
@@ -7017,11 +7050,22 @@
       },
       {
         "activeVariantId": "pallof_press",
-        "actualResult": null,
-        "actualSetCount": null,
-        "completed": false,
+        "actualResult": {
+          "load": {
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 27.2
+          },
+          "reps": [
+            12,
+            12
+          ]
+        },
+        "actualSetCount": 2,
+        "completed": true,
         "currentSessionOverride": null,
-        "edited": false,
+        "edited": true,
         "exerciseFamilyId": "anti_rotation",
         "exerciseId": "pallof_press",
         "exerciseNote": null,
@@ -7042,7 +7086,7 @@
         "issueNotes": null,
         "name": "Pallof Press",
         "order": 8,
-        "outcome": "planned",
+        "outcome": "completed",
         "persistentPrimaryVariantId": "pallof_press",
         "plannedPrimaryVariantId": "pallof_press",
         "prescription": {
@@ -7225,7 +7269,7 @@
             "kind": "numeric",
             "mode": "total",
             "unit": "kg",
-            "value": 31.8
+            "value": 27.2
           },
           "reps": [
             12,
@@ -13260,7 +13304,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-08-06T06:27:03.004Z",
+  "responseGeneratedAt": "2026-08-06T06:37:45.545Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -18765,7 +18809,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-08-06T06:26:22.661Z",
+  "sourceStateUpdatedAt": "2026-08-06T06:37:29.152Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
