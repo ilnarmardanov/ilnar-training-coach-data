@@ -4598,9 +4598,20 @@
     },
     {
       "activeVariantId": "hip_thrust",
-      "actualResult": null,
-      "actualSetCount": null,
-      "completed": false,
+      "actualResult": {
+        "load": {
+          "kind": "numeric",
+          "mode": "total",
+          "unit": "kg",
+          "value": 60
+        },
+        "reps": [
+          13,
+          13
+        ]
+      },
+      "actualSetCount": 2,
+      "completed": true,
       "currentSessionOverride": null,
       "edited": true,
       "exerciseFamilyId": "hip_extension",
@@ -4623,7 +4634,7 @@
       "issueNotes": null,
       "name": "Hip Thrust",
       "order": 6,
-      "outcome": "planned",
+      "outcome": "completed",
       "persistentPrimaryVariantId": "hip_thrust",
       "plannedPrimaryVariantId": "hip_thrust",
       "prescription": {
@@ -6518,9 +6529,20 @@
       },
       {
         "activeVariantId": "hip_thrust",
-        "actualResult": null,
-        "actualSetCount": null,
-        "completed": false,
+        "actualResult": {
+          "load": {
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 60
+          },
+          "reps": [
+            13,
+            13
+          ]
+        },
+        "actualSetCount": 2,
+        "completed": true,
         "currentSessionOverride": null,
         "edited": true,
         "exerciseFamilyId": "hip_extension",
@@ -6543,7 +6565,7 @@
         "issueNotes": null,
         "name": "Hip Thrust",
         "order": 6,
-        "outcome": "planned",
+        "outcome": "completed",
         "persistentPrimaryVariantId": "hip_thrust",
         "plannedPrimaryVariantId": "hip_thrust",
         "prescription": {
@@ -13238,7 +13260,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-08-06T06:24:44.491Z",
+  "responseGeneratedAt": "2026-08-06T06:27:03.004Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -18743,7 +18765,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-08-06T06:23:54.236Z",
+  "sourceStateUpdatedAt": "2026-08-06T06:26:22.661Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
