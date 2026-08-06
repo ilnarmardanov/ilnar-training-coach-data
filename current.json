@@ -4350,9 +4350,20 @@
     },
     {
       "activeVariantId": "lat_pulldown",
-      "actualResult": null,
-      "actualSetCount": null,
-      "completed": false,
+      "actualResult": {
+        "load": {
+          "kind": "numeric",
+          "mode": "total",
+          "unit": "kg",
+          "value": 55
+        },
+        "reps": [
+          10,
+          10
+        ]
+      },
+      "actualSetCount": 2,
+      "completed": true,
       "currentSessionOverride": null,
       "edited": true,
       "exerciseFamilyId": "vertical_pull",
@@ -4375,7 +4386,7 @@
       "issueNotes": null,
       "name": "Lat Pulldown",
       "order": 5,
-      "outcome": "planned",
+      "outcome": "completed",
       "persistentPrimaryVariantId": "lat_pulldown",
       "plannedPrimaryVariantId": "lat_pulldown",
       "prescription": {
@@ -4591,7 +4602,7 @@
       "actualSetCount": null,
       "completed": false,
       "currentSessionOverride": null,
-      "edited": false,
+      "edited": true,
       "exerciseFamilyId": "hip_extension",
       "exerciseId": "hip_thrust",
       "exerciseNote": null,
@@ -4805,11 +4816,11 @@
           "kind": "numeric",
           "mode": "total",
           "unit": "kg",
-          "value": 65
+          "value": 60
         },
         "reps": [
-          15,
-          15
+          10,
+          10
         ]
       }
     },
@@ -6259,9 +6270,20 @@
       },
       {
         "activeVariantId": "lat_pulldown",
-        "actualResult": null,
-        "actualSetCount": null,
-        "completed": false,
+        "actualResult": {
+          "load": {
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 55
+          },
+          "reps": [
+            10,
+            10
+          ]
+        },
+        "actualSetCount": 2,
+        "completed": true,
         "currentSessionOverride": null,
         "edited": true,
         "exerciseFamilyId": "vertical_pull",
@@ -6284,7 +6306,7 @@
         "issueNotes": null,
         "name": "Lat Pulldown",
         "order": 5,
-        "outcome": "planned",
+        "outcome": "completed",
         "persistentPrimaryVariantId": "lat_pulldown",
         "plannedPrimaryVariantId": "lat_pulldown",
         "prescription": {
@@ -6500,7 +6522,7 @@
         "actualSetCount": null,
         "completed": false,
         "currentSessionOverride": null,
-        "edited": false,
+        "edited": true,
         "exerciseFamilyId": "hip_extension",
         "exerciseId": "hip_thrust",
         "exerciseNote": null,
@@ -6714,11 +6736,11 @@
             "kind": "numeric",
             "mode": "total",
             "unit": "kg",
-            "value": 65
+            "value": 60
           },
           "reps": [
-            15,
-            15
+            10,
+            10
           ]
         }
       },
@@ -13216,7 +13238,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-08-06T06:17:39.706Z",
+  "responseGeneratedAt": "2026-08-06T06:21:35.090Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -18721,7 +18743,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-08-06T06:17:06.147Z",
+  "sourceStateUpdatedAt": "2026-08-06T06:20:58.403Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
