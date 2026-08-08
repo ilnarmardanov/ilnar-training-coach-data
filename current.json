@@ -4264,9 +4264,20 @@
     },
     {
       "activeVariantId": "lat_pulldown",
-      "actualResult": null,
-      "actualSetCount": null,
-      "completed": false,
+      "actualResult": {
+        "load": {
+          "kind": "numeric",
+          "mode": "total",
+          "unit": "kg",
+          "value": 55
+        },
+        "reps": [
+          10,
+          10
+        ]
+      },
+      "actualSetCount": 2,
+      "completed": true,
       "currentSessionOverride": null,
       "edited": true,
       "exerciseFamilyId": "vertical_pull",
@@ -4289,7 +4300,7 @@
       "issueNotes": null,
       "name": "Lat Pulldown",
       "order": 5,
-      "outcome": "planned",
+      "outcome": "completed",
       "persistentPrimaryVariantId": "lat_pulldown",
       "plannedPrimaryVariantId": "lat_pulldown",
       "prescription": {
@@ -4740,9 +4751,20 @@
     },
     {
       "activeVariantId": "leg_extension",
-      "actualResult": null,
-      "actualSetCount": null,
-      "completed": false,
+      "actualResult": {
+        "load": {
+          "kind": "numeric",
+          "mode": "total",
+          "unit": "kg",
+          "value": 55
+        },
+        "reps": [
+          10,
+          10
+        ]
+      },
+      "actualSetCount": 2,
+      "completed": true,
       "currentSessionOverride": null,
       "edited": true,
       "exerciseFamilyId": "knee_extension",
@@ -4765,7 +4787,7 @@
       "issueNotes": null,
       "name": "Leg Extension",
       "order": 7,
-      "outcome": "planned",
+      "outcome": "completed",
       "persistentPrimaryVariantId": "leg_extension",
       "plannedPrimaryVariantId": "leg_extension",
       "prescription": {
@@ -6083,9 +6105,20 @@
       },
       {
         "activeVariantId": "lat_pulldown",
-        "actualResult": null,
-        "actualSetCount": null,
-        "completed": false,
+        "actualResult": {
+          "load": {
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 55
+          },
+          "reps": [
+            10,
+            10
+          ]
+        },
+        "actualSetCount": 2,
+        "completed": true,
         "currentSessionOverride": null,
         "edited": true,
         "exerciseFamilyId": "vertical_pull",
@@ -6108,7 +6141,7 @@
         "issueNotes": null,
         "name": "Lat Pulldown",
         "order": 5,
-        "outcome": "planned",
+        "outcome": "completed",
         "persistentPrimaryVariantId": "lat_pulldown",
         "plannedPrimaryVariantId": "lat_pulldown",
         "prescription": {
@@ -6559,9 +6592,20 @@
       },
       {
         "activeVariantId": "leg_extension",
-        "actualResult": null,
-        "actualSetCount": null,
-        "completed": false,
+        "actualResult": {
+          "load": {
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 55
+          },
+          "reps": [
+            10,
+            10
+          ]
+        },
+        "actualSetCount": 2,
+        "completed": true,
         "currentSessionOverride": null,
         "edited": true,
         "exerciseFamilyId": "knee_extension",
@@ -6584,7 +6628,7 @@
         "issueNotes": null,
         "name": "Leg Extension",
         "order": 7,
-        "outcome": "planned",
+        "outcome": "completed",
         "persistentPrimaryVariantId": "leg_extension",
         "plannedPrimaryVariantId": "leg_extension",
         "prescription": {
@@ -13031,7 +13075,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-08-08T06:17:44.787Z",
+  "responseGeneratedAt": "2026-08-08T06:25:52.303Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -19143,7 +19187,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-08-08T06:17:15.876Z",
+  "sourceStateUpdatedAt": "2026-08-08T06:25:26.251Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
