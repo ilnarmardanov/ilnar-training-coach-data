@@ -4335,7 +4335,7 @@
       "actualSetCount": null,
       "completed": false,
       "currentSessionOverride": null,
-      "edited": false,
+      "edited": true,
       "exerciseFamilyId": "vertical_pull",
       "exerciseId": "lat_pulldown",
       "exerciseNote": null,
@@ -4558,7 +4558,7 @@
           "kind": "numeric",
           "mode": "total",
           "unit": "kg",
-          "value": 60
+          "value": 55
         },
         "reps": [
           10,
@@ -6231,7 +6231,7 @@
         "actualSetCount": null,
         "completed": false,
         "currentSessionOverride": null,
-        "edited": false,
+        "edited": true,
         "exerciseFamilyId": "vertical_pull",
         "exerciseId": "lat_pulldown",
         "exerciseNote": null,
@@ -6454,7 +6454,7 @@
             "kind": "numeric",
             "mode": "total",
             "unit": "kg",
-            "value": 60
+            "value": 55
           },
           "reps": [
             10,
@@ -13184,7 +13184,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-08-10T09:44:57.312Z",
+  "responseGeneratedAt": "2026-08-10T09:46:07.607Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -19897,7 +19897,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-08-10T09:44:18.612Z",
+  "sourceStateUpdatedAt": "2026-08-10T09:44:51.020Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
