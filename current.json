@@ -4528,11 +4528,11 @@
           "kind": "numeric",
           "mode": "total",
           "unit": "kg",
-          "value": 55
+          "value": 60
         },
         "reps": [
-          12,
-          12
+          10,
+          10
         ]
       }
     },
@@ -6346,11 +6346,11 @@
             "kind": "numeric",
             "mode": "total",
             "unit": "kg",
-            "value": 55
+            "value": 60
           },
           "reps": [
-            12,
-            12
+            10,
+            10
           ]
         }
       },
@@ -13036,7 +13036,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-08-15T03:20:50.585Z",
+  "responseGeneratedAt": "2026-08-15T03:23:07.347Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -21547,7 +21547,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-08-15T03:20:40.070Z",
+  "sourceStateUpdatedAt": "2026-08-15T03:22:29.484Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
