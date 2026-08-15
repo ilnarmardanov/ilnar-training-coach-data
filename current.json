@@ -3825,9 +3825,20 @@
     },
     {
       "activeVariantId": "machine_shoulder_press",
-      "actualResult": null,
-      "actualSetCount": null,
-      "completed": false,
+      "actualResult": {
+        "load": {
+          "kind": "numeric",
+          "mode": "total",
+          "unit": "kg",
+          "value": 10
+        },
+        "reps": [
+          11,
+          11
+        ]
+      },
+      "actualSetCount": 2,
+      "completed": true,
       "currentSessionOverride": null,
       "edited": false,
       "exerciseFamilyId": "vertical_press",
@@ -3850,7 +3861,7 @@
       "issueNotes": null,
       "name": "Machine Shoulder Press",
       "order": 3,
-      "outcome": "planned",
+      "outcome": "completed",
       "persistentPrimaryVariantId": "machine_shoulder_press",
       "plannedPrimaryVariantId": "machine_shoulder_press",
       "prescription": {
@@ -5621,9 +5632,20 @@
       },
       {
         "activeVariantId": "machine_shoulder_press",
-        "actualResult": null,
-        "actualSetCount": null,
-        "completed": false,
+        "actualResult": {
+          "load": {
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 10
+          },
+          "reps": [
+            11,
+            11
+          ]
+        },
+        "actualSetCount": 2,
+        "completed": true,
         "currentSessionOverride": null,
         "edited": false,
         "exerciseFamilyId": "vertical_press",
@@ -5646,7 +5668,7 @@
         "issueNotes": null,
         "name": "Machine Shoulder Press",
         "order": 3,
-        "outcome": "planned",
+        "outcome": "completed",
         "persistentPrimaryVariantId": "machine_shoulder_press",
         "plannedPrimaryVariantId": "machine_shoulder_press",
         "prescription": {
@@ -12992,7 +13014,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-08-15T03:14:30.922Z",
+  "responseGeneratedAt": "2026-08-15T03:17:04.290Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -21503,7 +21525,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-08-15T03:13:54.674Z",
+  "sourceStateUpdatedAt": "2026-08-15T03:16:29.392Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
