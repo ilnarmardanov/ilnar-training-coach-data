@@ -4056,9 +4056,20 @@
     },
     {
       "activeVariantId": "low_row",
-      "actualResult": null,
-      "actualSetCount": null,
-      "completed": false,
+      "actualResult": {
+        "load": {
+          "kind": "numeric",
+          "mode": "total",
+          "unit": "kg",
+          "value": 55
+        },
+        "reps": [
+          10,
+          10
+        ]
+      },
+      "actualSetCount": 2,
+      "completed": true,
       "currentSessionOverride": null,
       "edited": true,
       "exerciseFamilyId": "horizontal_row",
@@ -4081,7 +4092,7 @@
       "issueNotes": null,
       "name": "Low Row",
       "order": 4,
-      "outcome": "planned",
+      "outcome": "completed",
       "persistentPrimaryVariantId": "low_row",
       "plannedPrimaryVariantId": "low_row",
       "prescription": {
@@ -4314,7 +4325,7 @@
       "actualSetCount": null,
       "completed": false,
       "currentSessionOverride": null,
-      "edited": false,
+      "edited": true,
       "exerciseFamilyId": "vertical_pull",
       "exerciseId": "lat_pulldown",
       "exerciseNote": null,
@@ -4517,7 +4528,7 @@
           "kind": "numeric",
           "mode": "total",
           "unit": "kg",
-          "value": 60
+          "value": 55
         },
         "reps": [
           12,
@@ -5863,9 +5874,20 @@
       },
       {
         "activeVariantId": "low_row",
-        "actualResult": null,
-        "actualSetCount": null,
-        "completed": false,
+        "actualResult": {
+          "load": {
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 55
+          },
+          "reps": [
+            10,
+            10
+          ]
+        },
+        "actualSetCount": 2,
+        "completed": true,
         "currentSessionOverride": null,
         "edited": true,
         "exerciseFamilyId": "horizontal_row",
@@ -5888,7 +5910,7 @@
         "issueNotes": null,
         "name": "Low Row",
         "order": 4,
-        "outcome": "planned",
+        "outcome": "completed",
         "persistentPrimaryVariantId": "low_row",
         "plannedPrimaryVariantId": "low_row",
         "prescription": {
@@ -6121,7 +6143,7 @@
         "actualSetCount": null,
         "completed": false,
         "currentSessionOverride": null,
-        "edited": false,
+        "edited": true,
         "exerciseFamilyId": "vertical_pull",
         "exerciseId": "lat_pulldown",
         "exerciseNote": null,
@@ -6324,7 +6346,7 @@
             "kind": "numeric",
             "mode": "total",
             "unit": "kg",
-            "value": 60
+            "value": 55
           },
           "reps": [
             12,
@@ -13014,7 +13036,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-08-15T03:17:04.290Z",
+  "responseGeneratedAt": "2026-08-15T03:20:50.585Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -21525,7 +21547,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-08-15T03:16:29.392Z",
+  "sourceStateUpdatedAt": "2026-08-15T03:20:40.070Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
