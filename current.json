@@ -17,9 +17,9 @@
   "annualProgram": {
     "annualProgramId": "ilnar-year-1",
     "annualProgramVersion": "1.0.0",
-    "completedSessionCount": 14,
+    "completedSessionCount": 15,
     "currentPhaseId": "phase_2",
-    "currentPhaseSessionIndex": 8,
+    "currentPhaseSessionIndex": 9,
     "pendingRecoveryRequest": null,
     "phaseExtensions": [],
     "phases": [
@@ -38,7 +38,7 @@
         ]
       },
       {
-        "completedSessionCount": 8,
+        "completedSessionCount": 9,
         "name": "Foundation Expansion",
         "number": 2,
         "phaseId": "phase_2",
@@ -238,13 +238,13 @@
             "mode": "base_resistance"
           },
           "reps": [
-            11,
-            11
+            12,
+            12
           ]
         },
         "progressionContext": {
           "automaticLoadIncreasePending": false,
-          "consecutiveTopConfirmations": 0,
+          "consecutiveTopConfirmations": 1,
           "equipmentSetupRequired": false,
           "increaseMessage": null,
           "increaseWarningRequired": false,
@@ -338,13 +338,13 @@
             "value": 60
           },
           "reps": [
-            14,
-            14
+            15,
+            15
           ]
         },
         "progressionContext": {
           "automaticLoadIncreasePending": false,
-          "consecutiveTopConfirmations": 0,
+          "consecutiveTopConfirmations": 1,
           "equipmentSetupRequired": false,
           "increaseMessage": null,
           "increaseWarningRequired": false,
@@ -378,8 +378,8 @@
             "value": 60
           },
           "reps": [
-            12,
-            12
+            11,
+            11
           ]
         },
         "previousResult": {
@@ -390,8 +390,8 @@
             "value": 60
           },
           "reps": [
-            11,
-            11
+            10,
+            10
           ]
         },
         "progressionContext": {
@@ -415,8 +415,8 @@
             "value": 60
           },
           "reps": [
-            12,
-            12
+            11,
+            11
           ]
         }
       },
@@ -442,13 +442,13 @@
             "value": 60
           },
           "reps": [
-            11,
-            11
+            12,
+            12
           ]
         },
         "progressionContext": {
           "automaticLoadIncreasePending": false,
-          "consecutiveTopConfirmations": 0,
+          "consecutiveTopConfirmations": 1,
           "equipmentSetupRequired": false,
           "increaseMessage": null,
           "increaseWarningRequired": false,
@@ -546,8 +546,8 @@
             "value": 55
           },
           "reps": [
-            12,
-            12
+            10,
+            10
           ]
         },
         "progressionContext": {
@@ -596,8 +596,8 @@
             "value": 10
           },
           "reps": [
-            11,
-            11
+            12,
+            12
           ]
         },
         "previousResult": {
@@ -608,8 +608,8 @@
             "value": 10
           },
           "reps": [
-            10,
-            10
+            11,
+            11
           ]
         },
         "progressionContext": {
@@ -633,8 +633,8 @@
             "value": 10
           },
           "reps": [
-            11,
-            11
+            12,
+            12
           ]
         }
       },
@@ -769,8 +769,8 @@
             "value": 55
           },
           "reps": [
-            12,
-            12
+            10,
+            10
           ]
         },
         "progressionContext": {
@@ -965,13 +965,13 @@
             "mode": "base_resistance"
           },
           "reps": [
-            11,
-            11
+            12,
+            12
           ]
         },
         "progressionContext": {
           "automaticLoadIncreasePending": false,
-          "consecutiveTopConfirmations": 0,
+          "consecutiveTopConfirmations": 1,
           "equipmentSetupRequired": false,
           "increaseMessage": null,
           "increaseWarningRequired": false,
@@ -1038,13 +1038,13 @@
             "value": 60
           },
           "reps": [
-            14,
-            14
+            15,
+            15
           ]
         },
         "progressionContext": {
           "automaticLoadIncreasePending": false,
-          "consecutiveTopConfirmations": 0,
+          "consecutiveTopConfirmations": 1,
           "equipmentSetupRequired": false,
           "increaseMessage": null,
           "increaseWarningRequired": false,
@@ -1075,6 +1075,7 @@
         "actualResult": null,
         "actualSetCount": 2,
         "completed": false,
+        "edited": true,
         "exerciseFamilyId": "vertical_pull",
         "exerciseId": "lat_pulldown",
         "exerciseNote": null,
@@ -1087,8 +1088,8 @@
             "value": 60
           },
           "reps": [
-            12,
-            12
+            11,
+            11
           ]
         },
         "issue": null,
@@ -1112,8 +1113,8 @@
             "value": 60
           },
           "reps": [
-            11,
-            11
+            10,
+            10
           ]
         },
         "progressionContext": {
@@ -1139,8 +1140,8 @@
             "value": 60
           },
           "reps": [
-            12,
-            12
+            11,
+            11
           ]
         }
       },
@@ -1186,13 +1187,13 @@
             "value": 60
           },
           "reps": [
-            11,
-            11
+            12,
+            12
           ]
         },
         "progressionContext": {
           "automaticLoadIncreasePending": false,
-          "consecutiveTopConfirmations": 0,
+          "consecutiveTopConfirmations": 1,
           "equipmentSetupRequired": false,
           "increaseMessage": null,
           "increaseWarningRequired": false,
@@ -1297,6 +1298,7 @@
         "actualResult": null,
         "actualSetCount": 2,
         "completed": false,
+        "edited": true,
         "exerciseFamilyId": "horizontal_row",
         "exerciseId": "low_row",
         "exerciseNote": null,
@@ -1334,8 +1336,8 @@
             "value": 55
           },
           "reps": [
-            12,
-            12
+            10,
+            10
           ]
         },
         "progressionContext": {
@@ -1393,8 +1395,8 @@
             "value": 10
           },
           "reps": [
-            11,
-            11
+            12,
+            12
           ]
         },
         "issue": null,
@@ -1418,8 +1420,8 @@
             "value": 10
           },
           "reps": [
-            10,
-            10
+            11,
+            11
           ]
         },
         "progressionContext": {
@@ -1445,8 +1447,8 @@
             "value": 10
           },
           "reps": [
-            11,
-            11
+            12,
+            12
           ]
         }
       },
@@ -1608,6 +1610,7 @@
         "actualResult": null,
         "actualSetCount": 2,
         "completed": false,
+        "edited": true,
         "exerciseFamilyId": "knee_flexion",
         "exerciseId": "seated_leg_curl",
         "exerciseNote": null,
@@ -1645,8 +1648,8 @@
             "value": 55
           },
           "reps": [
-            12,
-            12
+            10,
+            10
           ]
         },
         "progressionContext": {
@@ -1688,7 +1691,7 @@
         }
       }
     },
-    "templateRotationIndex": 0,
+    "templateRotationIndex": 1,
     "workoutTemplates": {
       "phase1_strength_a": {
         "exerciseIds": [
@@ -3383,93 +3386,83 @@
   },
   "currentExercises": [
     {
-      "activeVariantId": "pendulum_squat",
-      "actualResult": {
-        "load": {
-          "kind": "numeric",
-          "mode": "per_side",
-          "unit": "kg",
-          "value": 0
-        },
-        "reps": [
-          10,
-          10
-        ]
-      },
-      "actualSetCount": 2,
-      "completed": true,
+      "activeVariantId": "leg_press",
+      "actualResult": null,
+      "actualSetCount": null,
+      "completed": false,
       "currentSessionOverride": null,
       "edited": false,
-      "exerciseFamilyId": "strength_b_knee_dominant",
-      "exerciseId": "pendulum_squat",
+      "exerciseFamilyId": "strength_a_knee_dominant",
+      "exerciseId": "leg_press",
       "exerciseNote": null,
       "firstUse": false,
       "generatedTarget": {
         "load": {
           "kind": "numeric",
-          "mode": "per_side",
+          "mode": "total",
           "unit": "kg",
           "value": 0
         },
         "reps": [
-          10,
-          10
+          12,
+          12
         ]
       },
       "issue": null,
       "issueNotes": null,
-      "name": "Pendulum Squat",
+      "name": "Leg Press",
       "order": 1,
-      "outcome": "completed",
-      "persistentPrimaryVariantId": "pendulum_squat",
-      "plannedPrimaryVariantId": "pendulum_squat",
+      "outcome": "planned",
+      "persistentPrimaryVariantId": "leg_press",
+      "plannedPrimaryVariantId": "leg_press",
       "prescription": {
-        "exerciseId": "pendulum_squat",
+        "exerciseId": "leg_press",
         "repRange": {
-          "lower": 8,
+          "lower": 10,
           "perSide": false,
-          "upper": 10
+          "upper": 12
         },
         "workingSets": 2
       },
       "previousResult": {
         "load": {
           "kind": "numeric",
-          "mode": "per_side",
+          "mode": "total",
           "unit": "kg",
           "value": 0
         },
         "reps": [
-          10,
-          10
+          11,
+          11
         ]
       },
       "progressionContext": {
         "automaticLoadIncreasePending": false,
         "consecutiveTopConfirmations": 0,
-        "equipmentSetupRequired": true,
+        "equipmentSetupRequired": false,
         "increaseMessage": null,
         "increaseWarningRequired": false,
-        "loadIncreaseDue": true,
-        "masteredLoad": {
-          "kind": "numeric",
-          "mode": "per_side",
-          "unit": "kg",
-          "value": 0
-        },
+        "loadIncreaseDue": false,
+        "masteredLoad": null,
         "progressionBlocked": false,
         "proposedLoad": null,
         "recentLoadIncrease": false,
         "reviewRequired": false
       },
       "unavailableVariantReasons": {
-        "bh_pl845b_super_squat": [
+        "goblet_squat_to_box": [
           "Complete variant content",
           "Confirmed load behavior",
           "Approved vertical setup Short",
           "Approved vertical correct-execution Short"
         ],
-        "supported_sit_to_stand_strength_b": [
+        "shua_g8919_linear_leg_press": [
+          "Complete variant content",
+          "Confirmed load behavior",
+          "Approved vertical setup Short",
+          "Approved vertical correct-execution Short"
+        ],
+        "supported_sit_to_stand": [
           "Complete variant content",
           "Confirmed load behavior",
           "Approved vertical setup Short",
@@ -3477,52 +3470,46 @@
         ]
       },
       "variantProgression": {
-        "baselineConfirmedAt": "2026-07-24T05:16:42.248Z",
+        "baselineConfirmedAt": "2026-07-30T14:26:28.079Z",
         "baselineLoad": {
-          "kind": "numeric",
-          "mode": "per_side",
-          "unit": "kg",
-          "value": 0
+          "kind": "label",
+          "label": "Base + 5 kg per side",
+          "mode": "base_resistance"
         },
         "retainedTarget": {
-          "exerciseId": "pendulum_squat",
+          "exerciseId": "leg_press",
           "generatedTarget": {
             "load": {
               "kind": "numeric",
-              "mode": "per_side",
+              "mode": "total",
               "unit": "kg",
               "value": 0
             },
             "reps": [
-              10,
-              10
+              12,
+              12
             ]
           },
           "previousResult": {
             "load": {
               "kind": "numeric",
-              "mode": "per_side",
+              "mode": "total",
               "unit": "kg",
               "value": 0
             },
             "reps": [
-              10,
-              10
+              11,
+              11
             ]
           },
           "progressionContext": {
             "automaticLoadIncreasePending": false,
             "consecutiveTopConfirmations": 0,
-            "equipmentSetupRequired": true,
+            "equipmentSetupRequired": false,
             "increaseMessage": null,
             "increaseWarningRequired": false,
-            "loadIncreaseDue": true,
-            "masteredLoad": {
-              "kind": "numeric",
-              "mode": "per_side",
-              "unit": "kg",
-              "value": 0
-            },
+            "loadIncreaseDue": false,
+            "masteredLoad": null,
             "progressionBlocked": false,
             "proposedLoad": null,
             "recentLoadIncrease": false,
@@ -3531,18 +3518,72 @@
           "workingTarget": {
             "load": {
               "kind": "numeric",
-              "mode": "per_side",
+              "mode": "total",
               "unit": "kg",
               "value": 0
             },
             "reps": [
-              10,
-              10
+              12,
+              12
             ]
           }
         },
-        "tracks": {},
-        "variantId": "pendulum_squat"
+        "tracks": {
+          "leg_press:2x10-12": {
+            "baselineConfirmed": true,
+            "generatedTarget": {
+              "load": {
+                "kind": "label",
+                "label": "Base + 5 kg per side",
+                "mode": "base_resistance"
+              },
+              "reps": [
+                11,
+                11
+              ]
+            },
+            "previousResult": {
+              "load": {
+                "kind": "label",
+                "label": "Base + 5 kg per side",
+                "mode": "base_resistance"
+              },
+              "reps": [
+                10,
+                10
+              ]
+            },
+            "progressionContext": {
+              "automaticLoadIncreasePending": false,
+              "consecutiveTopConfirmations": 0,
+              "equipmentSetupRequired": false,
+              "increaseMessage": null,
+              "increaseWarningRequired": false,
+              "loadIncreaseDue": false,
+              "masteredLoad": {
+                "kind": "label",
+                "label": "Base",
+                "mode": "base_resistance"
+              },
+              "progressionBlocked": false,
+              "proposedLoad": null,
+              "recentLoadIncrease": true,
+              "reviewRequired": false
+            },
+            "workingTarget": {
+              "load": {
+                "kind": "label",
+                "label": "Base + 5 kg per side",
+                "mode": "base_resistance"
+              },
+              "reps": [
+                11,
+                11
+              ]
+            }
+          }
+        },
+        "variantId": "leg_press"
       },
       "variantStatus": "active",
       "variantTier": "primary",
@@ -3558,34 +3599,23 @@
       "workingTarget": {
         "load": {
           "kind": "numeric",
-          "mode": "per_side",
+          "mode": "total",
           "unit": "kg",
           "value": 0
         },
         "reps": [
-          10,
-          10
+          12,
+          12
         ]
       }
     },
     {
       "activeVariantId": "seated_leg_curl",
-      "actualResult": {
-        "load": {
-          "kind": "numeric",
-          "mode": "total",
-          "unit": "kg",
-          "value": 55
-        },
-        "reps": [
-          10,
-          10
-        ]
-      },
-      "actualSetCount": 2,
-      "completed": true,
+      "actualResult": null,
+      "actualSetCount": null,
+      "completed": false,
       "currentSessionOverride": null,
-      "edited": true,
+      "edited": false,
       "exerciseFamilyId": "knee_flexion",
       "exerciseId": "seated_leg_curl",
       "exerciseNote": null,
@@ -3606,7 +3636,7 @@
       "issueNotes": null,
       "name": "Seated Leg Curl",
       "order": 2,
-      "outcome": "completed",
+      "outcome": "planned",
       "persistentPrimaryVariantId": "seated_leg_curl",
       "plannedPrimaryVariantId": "seated_leg_curl",
       "prescription": {
@@ -3626,8 +3656,8 @@
           "value": 55
         },
         "reps": [
-          12,
-          12
+          10,
+          10
         ]
       },
       "progressionContext": {
@@ -3703,8 +3733,8 @@
               "value": 55
             },
             "reps": [
-              12,
-              12
+              10,
+              10
             ]
           },
           "progressionContext": {
@@ -3815,7 +3845,7 @@
           "kind": "numeric",
           "mode": "total",
           "unit": "kg",
-          "value": 55
+          "value": 60
         },
         "reps": [
           10,
@@ -3824,48 +3854,37 @@
       }
     },
     {
-      "activeVariantId": "machine_shoulder_press",
-      "actualResult": {
-        "load": {
-          "kind": "numeric",
-          "mode": "total",
-          "unit": "kg",
-          "value": 10
-        },
-        "reps": [
-          11,
-          11
-        ]
-      },
-      "actualSetCount": 2,
-      "completed": true,
+      "activeVariantId": "chest_press",
+      "actualResult": null,
+      "actualSetCount": null,
+      "completed": false,
       "currentSessionOverride": null,
       "edited": false,
-      "exerciseFamilyId": "vertical_press",
-      "exerciseId": "machine_shoulder_press",
+      "exerciseFamilyId": "horizontal_press",
+      "exerciseId": "chest_press",
       "exerciseNote": null,
       "firstUse": false,
       "generatedTarget": {
         "load": {
           "kind": "numeric",
-          "mode": "total",
+          "mode": "per_side",
           "unit": "kg",
           "value": 10
         },
         "reps": [
-          11,
-          11
+          12,
+          12
         ]
       },
       "issue": null,
       "issueNotes": null,
-      "name": "Machine Shoulder Press",
+      "name": "Chest Press",
       "order": 3,
-      "outcome": "completed",
-      "persistentPrimaryVariantId": "machine_shoulder_press",
-      "plannedPrimaryVariantId": "machine_shoulder_press",
+      "outcome": "planned",
+      "persistentPrimaryVariantId": "chest_press",
+      "plannedPrimaryVariantId": "chest_press",
       "prescription": {
-        "exerciseId": "machine_shoulder_press",
+        "exerciseId": "chest_press",
         "repRange": {
           "lower": 10,
           "perSide": false,
@@ -3876,13 +3895,13 @@
       "previousResult": {
         "load": {
           "kind": "numeric",
-          "mode": "total",
+          "mode": "per_side",
           "unit": "kg",
           "value": 10
         },
         "reps": [
-          10,
-          10
+          11,
+          11
         ]
       },
       "progressionContext": {
@@ -3899,26 +3918,19 @@
         "reviewRequired": false
       },
       "unavailableVariantReasons": {
-        "high_incline_pike_push_up": [
+        "dumbbell_bench_press": [
           "Complete variant content",
           "Confirmed load behavior",
           "Approved vertical setup Short",
           "Approved vertical correct-execution Short"
         ],
-        "plate_loaded_shoulder_press": [
-          "Confirmed equipment identity",
-          "Complete variant content",
-          "Confirmed load profile",
-          "Approved setup Short",
-          "Approved correct-execution Short"
-        ],
-        "seated_dumbbell_shoulder_press": [
+        "incline_push_up": [
           "Complete variant content",
           "Confirmed load behavior",
           "Approved vertical setup Short",
           "Approved vertical correct-execution Short"
         ],
-        "shua_g8802_shoulder_press": [
+        "shua_g8801_chest_press": [
           "Complete variant content",
           "Confirmed load behavior",
           "Approved vertical setup Short",
@@ -3926,37 +3938,37 @@
         ]
       },
       "variantProgression": {
-        "baselineConfirmedAt": "2026-07-24T05:16:42.248Z",
+        "baselineConfirmedAt": "2026-07-30T14:26:28.079Z",
         "baselineLoad": {
           "kind": "numeric",
-          "mode": "total",
+          "mode": "per_side",
           "unit": "kg",
           "value": 12.5
         },
         "retainedTarget": {
-          "exerciseId": "machine_shoulder_press",
+          "exerciseId": "chest_press",
           "generatedTarget": {
             "load": {
               "kind": "numeric",
-              "mode": "total",
+              "mode": "per_side",
+              "unit": "kg",
+              "value": 10
+            },
+            "reps": [
+              12,
+              12
+            ]
+          },
+          "previousResult": {
+            "load": {
+              "kind": "numeric",
+              "mode": "per_side",
               "unit": "kg",
               "value": 10
             },
             "reps": [
               11,
               11
-            ]
-          },
-          "previousResult": {
-            "load": {
-              "kind": "numeric",
-              "mode": "total",
-              "unit": "kg",
-              "value": 10
-            },
-            "reps": [
-              10,
-              10
             ]
           },
           "progressionContext": {
@@ -3975,32 +3987,43 @@
           "workingTarget": {
             "load": {
               "kind": "numeric",
-              "mode": "total",
+              "mode": "per_side",
               "unit": "kg",
               "value": 10
             },
             "reps": [
-              11,
-              11
+              12,
+              12
             ]
           }
         },
         "tracks": {
-          "machine_shoulder_press:2x10-12": {
-            "baselineConfirmed": false,
+          "chest_press:2x10-12": {
+            "baselineConfirmed": true,
             "generatedTarget": {
               "load": {
                 "kind": "numeric",
-                "mode": "total",
+                "mode": "per_side",
                 "unit": "kg",
-                "value": 10
+                "value": 12.5
+              },
+              "reps": [
+                11,
+                11
+              ]
+            },
+            "previousResult": {
+              "load": {
+                "kind": "numeric",
+                "mode": "per_side",
+                "unit": "kg",
+                "value": 12.5
               },
               "reps": [
                 10,
                 10
               ]
             },
-            "previousResult": null,
             "progressionContext": {
               "automaticLoadIncreasePending": false,
               "consecutiveTopConfirmations": 0,
@@ -4008,27 +4031,32 @@
               "increaseMessage": null,
               "increaseWarningRequired": false,
               "loadIncreaseDue": false,
-              "masteredLoad": null,
+              "masteredLoad": {
+                "kind": "numeric",
+                "mode": "per_side",
+                "unit": "kg",
+                "value": 10
+              },
               "progressionBlocked": false,
               "proposedLoad": null,
-              "recentLoadIncrease": false,
+              "recentLoadIncrease": true,
               "reviewRequired": false
             },
             "workingTarget": {
               "load": {
                 "kind": "numeric",
-                "mode": "total",
+                "mode": "per_side",
                 "unit": "kg",
-                "value": 10
+                "value": 12.5
               },
               "reps": [
-                10,
-                10
+                11,
+                11
               ]
             }
           }
         },
-        "variantId": "machine_shoulder_press"
+        "variantId": "chest_press"
       },
       "variantStatus": "active",
       "variantTier": "primary",
@@ -4044,34 +4072,23 @@
       "workingTarget": {
         "load": {
           "kind": "numeric",
-          "mode": "total",
+          "mode": "per_side",
           "unit": "kg",
           "value": 10
         },
         "reps": [
-          11,
-          11
+          12,
+          12
         ]
       }
     },
     {
       "activeVariantId": "low_row",
-      "actualResult": {
-        "load": {
-          "kind": "numeric",
-          "mode": "total",
-          "unit": "kg",
-          "value": 55
-        },
-        "reps": [
-          10,
-          10
-        ]
-      },
-      "actualSetCount": 2,
-      "completed": true,
+      "actualResult": null,
+      "actualSetCount": null,
+      "completed": false,
       "currentSessionOverride": null,
-      "edited": true,
+      "edited": false,
       "exerciseFamilyId": "horizontal_row",
       "exerciseId": "low_row",
       "exerciseNote": null,
@@ -4092,7 +4109,7 @@
       "issueNotes": null,
       "name": "Low Row",
       "order": 4,
-      "outcome": "completed",
+      "outcome": "planned",
       "persistentPrimaryVariantId": "low_row",
       "plannedPrimaryVariantId": "low_row",
       "prescription": {
@@ -4112,8 +4129,8 @@
           "value": 55
         },
         "reps": [
-          12,
-          12
+          10,
+          10
         ]
       },
       "progressionContext": {
@@ -4189,8 +4206,8 @@
               "value": 55
             },
             "reps": [
-              12,
-              12
+              10,
+              10
             ]
           },
           "progressionContext": {
@@ -4311,7 +4328,7 @@
           "kind": "numeric",
           "mode": "total",
           "unit": "kg",
-          "value": 55
+          "value": 60
         },
         "reps": [
           10,
@@ -4321,22 +4338,11 @@
     },
     {
       "activeVariantId": "lat_pulldown",
-      "actualResult": {
-        "load": {
-          "kind": "numeric",
-          "mode": "total",
-          "unit": "kg",
-          "value": 60
-        },
-        "reps": [
-          10,
-          10
-        ]
-      },
-      "actualSetCount": 2,
-      "completed": true,
+      "actualResult": null,
+      "actualSetCount": null,
+      "completed": false,
       "currentSessionOverride": null,
-      "edited": true,
+      "edited": false,
       "exerciseFamilyId": "vertical_pull",
       "exerciseId": "lat_pulldown",
       "exerciseNote": null,
@@ -4349,15 +4355,15 @@
           "value": 60
         },
         "reps": [
-          12,
-          12
+          11,
+          11
         ]
       },
       "issue": null,
       "issueNotes": null,
       "name": "Lat Pulldown",
       "order": 5,
-      "outcome": "completed",
+      "outcome": "planned",
       "persistentPrimaryVariantId": "lat_pulldown",
       "plannedPrimaryVariantId": "lat_pulldown",
       "prescription": {
@@ -4377,8 +4383,8 @@
           "value": 60
         },
         "reps": [
-          11,
-          11
+          10,
+          10
         ]
       },
       "progressionContext": {
@@ -4420,8 +4426,8 @@
               "value": 60
             },
             "reps": [
-              12,
-              12
+              11,
+              11
             ]
           },
           "previousResult": {
@@ -4432,8 +4438,8 @@
               "value": 60
             },
             "reps": [
-              11,
-              11
+              10,
+              10
             ]
           },
           "progressionContext": {
@@ -4457,8 +4463,8 @@
               "value": 60
             },
             "reps": [
-              12,
-              12
+              11,
+              11
             ]
           }
         },
@@ -4542,27 +4548,16 @@
           "value": 60
         },
         "reps": [
-          10,
-          10
+          11,
+          11
         ]
       }
     },
     {
       "activeVariantId": "hip_thrust",
-      "actualResult": {
-        "load": {
-          "kind": "numeric",
-          "mode": "total",
-          "unit": "kg",
-          "value": 60
-        },
-        "reps": [
-          15,
-          15
-        ]
-      },
-      "actualSetCount": 2,
-      "completed": true,
+      "actualResult": null,
+      "actualSetCount": null,
+      "completed": false,
       "currentSessionOverride": null,
       "edited": false,
       "exerciseFamilyId": "hip_extension",
@@ -4585,7 +4580,7 @@
       "issueNotes": null,
       "name": "Hip Thrust",
       "order": 6,
-      "outcome": "completed",
+      "outcome": "planned",
       "persistentPrimaryVariantId": "hip_thrust",
       "plannedPrimaryVariantId": "hip_thrust",
       "prescription": {
@@ -4605,13 +4600,13 @@
           "value": 60
         },
         "reps": [
-          14,
-          14
+          15,
+          15
         ]
       },
       "progressionContext": {
         "automaticLoadIncreasePending": false,
-        "consecutiveTopConfirmations": 0,
+        "consecutiveTopConfirmations": 1,
         "equipmentSetupRequired": false,
         "increaseMessage": null,
         "increaseWarningRequired": false,
@@ -4671,13 +4666,13 @@
               "value": 60
             },
             "reps": [
-              14,
-              14
+              15,
+              15
             ]
           },
           "progressionContext": {
             "automaticLoadIncreasePending": false,
-            "consecutiveTopConfirmations": 0,
+            "consecutiveTopConfirmations": 1,
             "equipmentSetupRequired": false,
             "increaseMessage": null,
             "increaseWarningRequired": false,
@@ -4833,13 +4828,13 @@
           "value": 60
         },
         "reps": [
-          11,
-          11
+          12,
+          12
         ]
       },
       "progressionContext": {
         "automaticLoadIncreasePending": false,
-        "consecutiveTopConfirmations": 0,
+        "consecutiveTopConfirmations": 1,
         "equipmentSetupRequired": false,
         "increaseMessage": null,
         "increaseWarningRequired": false,
@@ -4900,13 +4895,13 @@
               "value": 60
             },
             "reps": [
-              11,
-              11
+              12,
+              12
             ]
           },
           "progressionContext": {
             "automaticLoadIncreasePending": false,
-            "consecutiveTopConfirmations": 0,
+            "consecutiveTopConfirmations": 1,
             "equipmentSetupRequired": false,
             "increaseMessage": null,
             "increaseWarningRequired": false,
@@ -5016,52 +5011,54 @@
       }
     },
     {
-      "activeVariantId": "dead_bug",
+      "activeVariantId": "pallof_press",
       "actualResult": null,
       "actualSetCount": null,
       "completed": false,
       "currentSessionOverride": null,
       "edited": false,
-      "exerciseFamilyId": "trunk_control",
-      "exerciseId": "dead_bug",
+      "exerciseFamilyId": "anti_rotation",
+      "exerciseId": "pallof_press",
       "exerciseNote": null,
       "firstUse": false,
       "generatedTarget": {
         "load": {
-          "kind": "label",
-          "label": "Body weight",
-          "mode": "base_resistance"
+          "kind": "numeric",
+          "mode": "total",
+          "unit": "kg",
+          "value": 27.2
         },
         "reps": [
-          12,
-          12
+          10,
+          10
         ]
       },
       "issue": null,
       "issueNotes": null,
-      "name": "Dead Bug",
+      "name": "Pallof Press",
       "order": 8,
       "outcome": "planned",
-      "persistentPrimaryVariantId": "dead_bug",
-      "plannedPrimaryVariantId": "dead_bug",
+      "persistentPrimaryVariantId": "pallof_press",
+      "plannedPrimaryVariantId": "pallof_press",
       "prescription": {
-        "exerciseId": "dead_bug",
+        "exerciseId": "pallof_press",
         "repRange": {
           "lower": 8,
-          "perSide": false,
+          "perSide": true,
           "upper": 12
         },
         "workingSets": 2
       },
       "previousResult": {
         "load": {
-          "kind": "label",
-          "label": "Body weight",
-          "mode": "base_resistance"
+          "kind": "numeric",
+          "mode": "total",
+          "unit": "kg",
+          "value": 27.2
         },
         "reps": [
-          11,
-          11
+          9,
+          9
         ]
       },
       "progressionContext": {
@@ -5078,13 +5075,13 @@
         "reviewRequired": false
       },
       "unavailableVariantReasons": {
-        "band_dead_bug": [
+        "band_pallof_press": [
           "Complete variant content",
           "Confirmed load behavior",
           "Approved vertical setup Short",
           "Approved vertical correct-execution Short"
         ],
-        "bird_dog": [
+        "side_plank_from_knees": [
           "Complete variant content",
           "Confirmed load behavior",
           "Approved vertical setup Short",
@@ -5092,34 +5089,37 @@
         ]
       },
       "variantProgression": {
-        "baselineConfirmedAt": "2026-07-24T05:16:42.248Z",
+        "baselineConfirmedAt": "2026-07-30T14:26:28.079Z",
         "baselineLoad": {
-          "kind": "label",
-          "label": "Body weight",
-          "mode": "base_resistance"
+          "kind": "numeric",
+          "mode": "total",
+          "unit": "kg",
+          "value": 31.8
         },
         "retainedTarget": {
-          "exerciseId": "dead_bug",
+          "exerciseId": "pallof_press",
           "generatedTarget": {
             "load": {
-              "kind": "label",
-              "label": "Body weight",
-              "mode": "base_resistance"
+              "kind": "numeric",
+              "mode": "total",
+              "unit": "kg",
+              "value": 27.2
             },
             "reps": [
-              12,
-              12
+              10,
+              10
             ]
           },
           "previousResult": {
             "load": {
-              "kind": "label",
-              "label": "Body weight",
-              "mode": "base_resistance"
+              "kind": "numeric",
+              "mode": "total",
+              "unit": "kg",
+              "value": 27.2
             },
             "reps": [
-              11,
-              11
+              9,
+              9
             ]
           },
           "progressionContext": {
@@ -5137,31 +5137,44 @@
           },
           "workingTarget": {
             "load": {
-              "kind": "label",
-              "label": "Body weight",
-              "mode": "base_resistance"
+              "kind": "numeric",
+              "mode": "total",
+              "unit": "kg",
+              "value": 27.2
             },
             "reps": [
-              12,
-              12
+              10,
+              10
             ]
           }
         },
         "tracks": {
-          "dead_bug:2x8-12:side": {
-            "baselineConfirmed": false,
+          "pallof_press:2x8-12:side": {
+            "baselineConfirmed": true,
             "generatedTarget": {
               "load": {
-                "kind": "label",
-                "label": "Body weight",
-                "mode": "base_resistance"
+                "kind": "numeric",
+                "mode": "total",
+                "unit": "kg",
+                "value": 31.8
               },
               "reps": [
-                8,
-                8
+                12,
+                12
               ]
             },
-            "previousResult": null,
+            "previousResult": {
+              "load": {
+                "kind": "numeric",
+                "mode": "total",
+                "unit": "kg",
+                "value": 31.8
+              },
+              "reps": [
+                11,
+                11
+              ]
+            },
             "progressionContext": {
               "automaticLoadIncreasePending": false,
               "consecutiveTopConfirmations": 0,
@@ -5177,18 +5190,19 @@
             },
             "workingTarget": {
               "load": {
-                "kind": "label",
-                "label": "Body weight",
-                "mode": "base_resistance"
+                "kind": "numeric",
+                "mode": "total",
+                "unit": "kg",
+                "value": 31.8
               },
               "reps": [
-                8,
-                8
+                12,
+                12
               ]
             }
           }
         },
-        "variantId": "dead_bug"
+        "variantId": "pallof_press"
       },
       "variantStatus": "active",
       "variantTier": "primary",
@@ -5203,13 +5217,14 @@
       "workingSetCount": 2,
       "workingTarget": {
         "load": {
-          "kind": "label",
-          "label": "Body weight",
-          "mode": "base_resistance"
+          "kind": "numeric",
+          "mode": "total",
+          "unit": "kg",
+          "value": 27.2
         },
         "reps": [
-          12,
-          12
+          10,
+          10
         ]
       }
     }
@@ -5223,93 +5238,83 @@
   "currentSession": {
     "exercises": [
       {
-        "activeVariantId": "pendulum_squat",
-        "actualResult": {
-          "load": {
-            "kind": "numeric",
-            "mode": "per_side",
-            "unit": "kg",
-            "value": 0
-          },
-          "reps": [
-            10,
-            10
-          ]
-        },
-        "actualSetCount": 2,
-        "completed": true,
+        "activeVariantId": "leg_press",
+        "actualResult": null,
+        "actualSetCount": null,
+        "completed": false,
         "currentSessionOverride": null,
         "edited": false,
-        "exerciseFamilyId": "strength_b_knee_dominant",
-        "exerciseId": "pendulum_squat",
+        "exerciseFamilyId": "strength_a_knee_dominant",
+        "exerciseId": "leg_press",
         "exerciseNote": null,
         "firstUse": false,
         "generatedTarget": {
           "load": {
             "kind": "numeric",
-            "mode": "per_side",
+            "mode": "total",
             "unit": "kg",
             "value": 0
           },
           "reps": [
-            10,
-            10
+            12,
+            12
           ]
         },
         "issue": null,
         "issueNotes": null,
-        "name": "Pendulum Squat",
+        "name": "Leg Press",
         "order": 1,
-        "outcome": "completed",
-        "persistentPrimaryVariantId": "pendulum_squat",
-        "plannedPrimaryVariantId": "pendulum_squat",
+        "outcome": "planned",
+        "persistentPrimaryVariantId": "leg_press",
+        "plannedPrimaryVariantId": "leg_press",
         "prescription": {
-          "exerciseId": "pendulum_squat",
+          "exerciseId": "leg_press",
           "repRange": {
-            "lower": 8,
+            "lower": 10,
             "perSide": false,
-            "upper": 10
+            "upper": 12
           },
           "workingSets": 2
         },
         "previousResult": {
           "load": {
             "kind": "numeric",
-            "mode": "per_side",
+            "mode": "total",
             "unit": "kg",
             "value": 0
           },
           "reps": [
-            10,
-            10
+            11,
+            11
           ]
         },
         "progressionContext": {
           "automaticLoadIncreasePending": false,
           "consecutiveTopConfirmations": 0,
-          "equipmentSetupRequired": true,
+          "equipmentSetupRequired": false,
           "increaseMessage": null,
           "increaseWarningRequired": false,
-          "loadIncreaseDue": true,
-          "masteredLoad": {
-            "kind": "numeric",
-            "mode": "per_side",
-            "unit": "kg",
-            "value": 0
-          },
+          "loadIncreaseDue": false,
+          "masteredLoad": null,
           "progressionBlocked": false,
           "proposedLoad": null,
           "recentLoadIncrease": false,
           "reviewRequired": false
         },
         "unavailableVariantReasons": {
-          "bh_pl845b_super_squat": [
+          "goblet_squat_to_box": [
             "Complete variant content",
             "Confirmed load behavior",
             "Approved vertical setup Short",
             "Approved vertical correct-execution Short"
           ],
-          "supported_sit_to_stand_strength_b": [
+          "shua_g8919_linear_leg_press": [
+            "Complete variant content",
+            "Confirmed load behavior",
+            "Approved vertical setup Short",
+            "Approved vertical correct-execution Short"
+          ],
+          "supported_sit_to_stand": [
             "Complete variant content",
             "Confirmed load behavior",
             "Approved vertical setup Short",
@@ -5317,52 +5322,46 @@
           ]
         },
         "variantProgression": {
-          "baselineConfirmedAt": "2026-07-24T05:16:42.248Z",
+          "baselineConfirmedAt": "2026-07-30T14:26:28.079Z",
           "baselineLoad": {
-            "kind": "numeric",
-            "mode": "per_side",
-            "unit": "kg",
-            "value": 0
+            "kind": "label",
+            "label": "Base + 5 kg per side",
+            "mode": "base_resistance"
           },
           "retainedTarget": {
-            "exerciseId": "pendulum_squat",
+            "exerciseId": "leg_press",
             "generatedTarget": {
               "load": {
                 "kind": "numeric",
-                "mode": "per_side",
+                "mode": "total",
                 "unit": "kg",
                 "value": 0
               },
               "reps": [
-                10,
-                10
+                12,
+                12
               ]
             },
             "previousResult": {
               "load": {
                 "kind": "numeric",
-                "mode": "per_side",
+                "mode": "total",
                 "unit": "kg",
                 "value": 0
               },
               "reps": [
-                10,
-                10
+                11,
+                11
               ]
             },
             "progressionContext": {
               "automaticLoadIncreasePending": false,
               "consecutiveTopConfirmations": 0,
-              "equipmentSetupRequired": true,
+              "equipmentSetupRequired": false,
               "increaseMessage": null,
               "increaseWarningRequired": false,
-              "loadIncreaseDue": true,
-              "masteredLoad": {
-                "kind": "numeric",
-                "mode": "per_side",
-                "unit": "kg",
-                "value": 0
-              },
+              "loadIncreaseDue": false,
+              "masteredLoad": null,
               "progressionBlocked": false,
               "proposedLoad": null,
               "recentLoadIncrease": false,
@@ -5371,18 +5370,72 @@
             "workingTarget": {
               "load": {
                 "kind": "numeric",
-                "mode": "per_side",
+                "mode": "total",
                 "unit": "kg",
                 "value": 0
               },
               "reps": [
-                10,
-                10
+                12,
+                12
               ]
             }
           },
-          "tracks": {},
-          "variantId": "pendulum_squat"
+          "tracks": {
+            "leg_press:2x10-12": {
+              "baselineConfirmed": true,
+              "generatedTarget": {
+                "load": {
+                  "kind": "label",
+                  "label": "Base + 5 kg per side",
+                  "mode": "base_resistance"
+                },
+                "reps": [
+                  11,
+                  11
+                ]
+              },
+              "previousResult": {
+                "load": {
+                  "kind": "label",
+                  "label": "Base + 5 kg per side",
+                  "mode": "base_resistance"
+                },
+                "reps": [
+                  10,
+                  10
+                ]
+              },
+              "progressionContext": {
+                "automaticLoadIncreasePending": false,
+                "consecutiveTopConfirmations": 0,
+                "equipmentSetupRequired": false,
+                "increaseMessage": null,
+                "increaseWarningRequired": false,
+                "loadIncreaseDue": false,
+                "masteredLoad": {
+                  "kind": "label",
+                  "label": "Base",
+                  "mode": "base_resistance"
+                },
+                "progressionBlocked": false,
+                "proposedLoad": null,
+                "recentLoadIncrease": true,
+                "reviewRequired": false
+              },
+              "workingTarget": {
+                "load": {
+                  "kind": "label",
+                  "label": "Base + 5 kg per side",
+                  "mode": "base_resistance"
+                },
+                "reps": [
+                  11,
+                  11
+                ]
+              }
+            }
+          },
+          "variantId": "leg_press"
         },
         "variantStatus": "active",
         "variantTier": "primary",
@@ -5398,34 +5451,23 @@
         "workingTarget": {
           "load": {
             "kind": "numeric",
-            "mode": "per_side",
+            "mode": "total",
             "unit": "kg",
             "value": 0
           },
           "reps": [
-            10,
-            10
+            12,
+            12
           ]
         }
       },
       {
         "activeVariantId": "seated_leg_curl",
-        "actualResult": {
-          "load": {
-            "kind": "numeric",
-            "mode": "total",
-            "unit": "kg",
-            "value": 55
-          },
-          "reps": [
-            10,
-            10
-          ]
-        },
-        "actualSetCount": 2,
-        "completed": true,
+        "actualResult": null,
+        "actualSetCount": null,
+        "completed": false,
         "currentSessionOverride": null,
-        "edited": true,
+        "edited": false,
         "exerciseFamilyId": "knee_flexion",
         "exerciseId": "seated_leg_curl",
         "exerciseNote": null,
@@ -5446,7 +5488,7 @@
         "issueNotes": null,
         "name": "Seated Leg Curl",
         "order": 2,
-        "outcome": "completed",
+        "outcome": "planned",
         "persistentPrimaryVariantId": "seated_leg_curl",
         "plannedPrimaryVariantId": "seated_leg_curl",
         "prescription": {
@@ -5466,8 +5508,8 @@
             "value": 55
           },
           "reps": [
-            12,
-            12
+            10,
+            10
           ]
         },
         "progressionContext": {
@@ -5543,8 +5585,8 @@
                 "value": 55
               },
               "reps": [
-                12,
-                12
+                10,
+                10
               ]
             },
             "progressionContext": {
@@ -5655,7 +5697,7 @@
             "kind": "numeric",
             "mode": "total",
             "unit": "kg",
-            "value": 55
+            "value": 60
           },
           "reps": [
             10,
@@ -5664,48 +5706,37 @@
         }
       },
       {
-        "activeVariantId": "machine_shoulder_press",
-        "actualResult": {
-          "load": {
-            "kind": "numeric",
-            "mode": "total",
-            "unit": "kg",
-            "value": 10
-          },
-          "reps": [
-            11,
-            11
-          ]
-        },
-        "actualSetCount": 2,
-        "completed": true,
+        "activeVariantId": "chest_press",
+        "actualResult": null,
+        "actualSetCount": null,
+        "completed": false,
         "currentSessionOverride": null,
         "edited": false,
-        "exerciseFamilyId": "vertical_press",
-        "exerciseId": "machine_shoulder_press",
+        "exerciseFamilyId": "horizontal_press",
+        "exerciseId": "chest_press",
         "exerciseNote": null,
         "firstUse": false,
         "generatedTarget": {
           "load": {
             "kind": "numeric",
-            "mode": "total",
+            "mode": "per_side",
             "unit": "kg",
             "value": 10
           },
           "reps": [
-            11,
-            11
+            12,
+            12
           ]
         },
         "issue": null,
         "issueNotes": null,
-        "name": "Machine Shoulder Press",
+        "name": "Chest Press",
         "order": 3,
-        "outcome": "completed",
-        "persistentPrimaryVariantId": "machine_shoulder_press",
-        "plannedPrimaryVariantId": "machine_shoulder_press",
+        "outcome": "planned",
+        "persistentPrimaryVariantId": "chest_press",
+        "plannedPrimaryVariantId": "chest_press",
         "prescription": {
-          "exerciseId": "machine_shoulder_press",
+          "exerciseId": "chest_press",
           "repRange": {
             "lower": 10,
             "perSide": false,
@@ -5716,13 +5747,13 @@
         "previousResult": {
           "load": {
             "kind": "numeric",
-            "mode": "total",
+            "mode": "per_side",
             "unit": "kg",
             "value": 10
           },
           "reps": [
-            10,
-            10
+            11,
+            11
           ]
         },
         "progressionContext": {
@@ -5739,26 +5770,19 @@
           "reviewRequired": false
         },
         "unavailableVariantReasons": {
-          "high_incline_pike_push_up": [
+          "dumbbell_bench_press": [
             "Complete variant content",
             "Confirmed load behavior",
             "Approved vertical setup Short",
             "Approved vertical correct-execution Short"
           ],
-          "plate_loaded_shoulder_press": [
-            "Confirmed equipment identity",
-            "Complete variant content",
-            "Confirmed load profile",
-            "Approved setup Short",
-            "Approved correct-execution Short"
-          ],
-          "seated_dumbbell_shoulder_press": [
+          "incline_push_up": [
             "Complete variant content",
             "Confirmed load behavior",
             "Approved vertical setup Short",
             "Approved vertical correct-execution Short"
           ],
-          "shua_g8802_shoulder_press": [
+          "shua_g8801_chest_press": [
             "Complete variant content",
             "Confirmed load behavior",
             "Approved vertical setup Short",
@@ -5766,37 +5790,37 @@
           ]
         },
         "variantProgression": {
-          "baselineConfirmedAt": "2026-07-24T05:16:42.248Z",
+          "baselineConfirmedAt": "2026-07-30T14:26:28.079Z",
           "baselineLoad": {
             "kind": "numeric",
-            "mode": "total",
+            "mode": "per_side",
             "unit": "kg",
             "value": 12.5
           },
           "retainedTarget": {
-            "exerciseId": "machine_shoulder_press",
+            "exerciseId": "chest_press",
             "generatedTarget": {
               "load": {
                 "kind": "numeric",
-                "mode": "total",
+                "mode": "per_side",
+                "unit": "kg",
+                "value": 10
+              },
+              "reps": [
+                12,
+                12
+              ]
+            },
+            "previousResult": {
+              "load": {
+                "kind": "numeric",
+                "mode": "per_side",
                 "unit": "kg",
                 "value": 10
               },
               "reps": [
                 11,
                 11
-              ]
-            },
-            "previousResult": {
-              "load": {
-                "kind": "numeric",
-                "mode": "total",
-                "unit": "kg",
-                "value": 10
-              },
-              "reps": [
-                10,
-                10
               ]
             },
             "progressionContext": {
@@ -5815,32 +5839,43 @@
             "workingTarget": {
               "load": {
                 "kind": "numeric",
-                "mode": "total",
+                "mode": "per_side",
                 "unit": "kg",
                 "value": 10
               },
               "reps": [
-                11,
-                11
+                12,
+                12
               ]
             }
           },
           "tracks": {
-            "machine_shoulder_press:2x10-12": {
-              "baselineConfirmed": false,
+            "chest_press:2x10-12": {
+              "baselineConfirmed": true,
               "generatedTarget": {
                 "load": {
                   "kind": "numeric",
-                  "mode": "total",
+                  "mode": "per_side",
                   "unit": "kg",
-                  "value": 10
+                  "value": 12.5
+                },
+                "reps": [
+                  11,
+                  11
+                ]
+              },
+              "previousResult": {
+                "load": {
+                  "kind": "numeric",
+                  "mode": "per_side",
+                  "unit": "kg",
+                  "value": 12.5
                 },
                 "reps": [
                   10,
                   10
                 ]
               },
-              "previousResult": null,
               "progressionContext": {
                 "automaticLoadIncreasePending": false,
                 "consecutiveTopConfirmations": 0,
@@ -5848,27 +5883,32 @@
                 "increaseMessage": null,
                 "increaseWarningRequired": false,
                 "loadIncreaseDue": false,
-                "masteredLoad": null,
+                "masteredLoad": {
+                  "kind": "numeric",
+                  "mode": "per_side",
+                  "unit": "kg",
+                  "value": 10
+                },
                 "progressionBlocked": false,
                 "proposedLoad": null,
-                "recentLoadIncrease": false,
+                "recentLoadIncrease": true,
                 "reviewRequired": false
               },
               "workingTarget": {
                 "load": {
                   "kind": "numeric",
-                  "mode": "total",
+                  "mode": "per_side",
                   "unit": "kg",
-                  "value": 10
+                  "value": 12.5
                 },
                 "reps": [
-                  10,
-                  10
+                  11,
+                  11
                 ]
               }
             }
           },
-          "variantId": "machine_shoulder_press"
+          "variantId": "chest_press"
         },
         "variantStatus": "active",
         "variantTier": "primary",
@@ -5884,34 +5924,23 @@
         "workingTarget": {
           "load": {
             "kind": "numeric",
-            "mode": "total",
+            "mode": "per_side",
             "unit": "kg",
             "value": 10
           },
           "reps": [
-            11,
-            11
+            12,
+            12
           ]
         }
       },
       {
         "activeVariantId": "low_row",
-        "actualResult": {
-          "load": {
-            "kind": "numeric",
-            "mode": "total",
-            "unit": "kg",
-            "value": 55
-          },
-          "reps": [
-            10,
-            10
-          ]
-        },
-        "actualSetCount": 2,
-        "completed": true,
+        "actualResult": null,
+        "actualSetCount": null,
+        "completed": false,
         "currentSessionOverride": null,
-        "edited": true,
+        "edited": false,
         "exerciseFamilyId": "horizontal_row",
         "exerciseId": "low_row",
         "exerciseNote": null,
@@ -5932,7 +5961,7 @@
         "issueNotes": null,
         "name": "Low Row",
         "order": 4,
-        "outcome": "completed",
+        "outcome": "planned",
         "persistentPrimaryVariantId": "low_row",
         "plannedPrimaryVariantId": "low_row",
         "prescription": {
@@ -5952,8 +5981,8 @@
             "value": 55
           },
           "reps": [
-            12,
-            12
+            10,
+            10
           ]
         },
         "progressionContext": {
@@ -6029,8 +6058,8 @@
                 "value": 55
               },
               "reps": [
-                12,
-                12
+                10,
+                10
               ]
             },
             "progressionContext": {
@@ -6151,7 +6180,7 @@
             "kind": "numeric",
             "mode": "total",
             "unit": "kg",
-            "value": 55
+            "value": 60
           },
           "reps": [
             10,
@@ -6161,22 +6190,11 @@
       },
       {
         "activeVariantId": "lat_pulldown",
-        "actualResult": {
-          "load": {
-            "kind": "numeric",
-            "mode": "total",
-            "unit": "kg",
-            "value": 60
-          },
-          "reps": [
-            10,
-            10
-          ]
-        },
-        "actualSetCount": 2,
-        "completed": true,
+        "actualResult": null,
+        "actualSetCount": null,
+        "completed": false,
         "currentSessionOverride": null,
-        "edited": true,
+        "edited": false,
         "exerciseFamilyId": "vertical_pull",
         "exerciseId": "lat_pulldown",
         "exerciseNote": null,
@@ -6189,15 +6207,15 @@
             "value": 60
           },
           "reps": [
-            12,
-            12
+            11,
+            11
           ]
         },
         "issue": null,
         "issueNotes": null,
         "name": "Lat Pulldown",
         "order": 5,
-        "outcome": "completed",
+        "outcome": "planned",
         "persistentPrimaryVariantId": "lat_pulldown",
         "plannedPrimaryVariantId": "lat_pulldown",
         "prescription": {
@@ -6217,8 +6235,8 @@
             "value": 60
           },
           "reps": [
-            11,
-            11
+            10,
+            10
           ]
         },
         "progressionContext": {
@@ -6260,8 +6278,8 @@
                 "value": 60
               },
               "reps": [
-                12,
-                12
+                11,
+                11
               ]
             },
             "previousResult": {
@@ -6272,8 +6290,8 @@
                 "value": 60
               },
               "reps": [
-                11,
-                11
+                10,
+                10
               ]
             },
             "progressionContext": {
@@ -6297,8 +6315,8 @@
                 "value": 60
               },
               "reps": [
-                12,
-                12
+                11,
+                11
               ]
             }
           },
@@ -6382,27 +6400,16 @@
             "value": 60
           },
           "reps": [
-            10,
-            10
+            11,
+            11
           ]
         }
       },
       {
         "activeVariantId": "hip_thrust",
-        "actualResult": {
-          "load": {
-            "kind": "numeric",
-            "mode": "total",
-            "unit": "kg",
-            "value": 60
-          },
-          "reps": [
-            15,
-            15
-          ]
-        },
-        "actualSetCount": 2,
-        "completed": true,
+        "actualResult": null,
+        "actualSetCount": null,
+        "completed": false,
         "currentSessionOverride": null,
         "edited": false,
         "exerciseFamilyId": "hip_extension",
@@ -6425,7 +6432,7 @@
         "issueNotes": null,
         "name": "Hip Thrust",
         "order": 6,
-        "outcome": "completed",
+        "outcome": "planned",
         "persistentPrimaryVariantId": "hip_thrust",
         "plannedPrimaryVariantId": "hip_thrust",
         "prescription": {
@@ -6445,13 +6452,13 @@
             "value": 60
           },
           "reps": [
-            14,
-            14
+            15,
+            15
           ]
         },
         "progressionContext": {
           "automaticLoadIncreasePending": false,
-          "consecutiveTopConfirmations": 0,
+          "consecutiveTopConfirmations": 1,
           "equipmentSetupRequired": false,
           "increaseMessage": null,
           "increaseWarningRequired": false,
@@ -6511,13 +6518,13 @@
                 "value": 60
               },
               "reps": [
-                14,
-                14
+                15,
+                15
               ]
             },
             "progressionContext": {
               "automaticLoadIncreasePending": false,
-              "consecutiveTopConfirmations": 0,
+              "consecutiveTopConfirmations": 1,
               "equipmentSetupRequired": false,
               "increaseMessage": null,
               "increaseWarningRequired": false,
@@ -6673,13 +6680,13 @@
             "value": 60
           },
           "reps": [
-            11,
-            11
+            12,
+            12
           ]
         },
         "progressionContext": {
           "automaticLoadIncreasePending": false,
-          "consecutiveTopConfirmations": 0,
+          "consecutiveTopConfirmations": 1,
           "equipmentSetupRequired": false,
           "increaseMessage": null,
           "increaseWarningRequired": false,
@@ -6740,13 +6747,13 @@
                 "value": 60
               },
               "reps": [
-                11,
-                11
+                12,
+                12
               ]
             },
             "progressionContext": {
               "automaticLoadIncreasePending": false,
-              "consecutiveTopConfirmations": 0,
+              "consecutiveTopConfirmations": 1,
               "equipmentSetupRequired": false,
               "increaseMessage": null,
               "increaseWarningRequired": false,
@@ -6856,52 +6863,54 @@
         }
       },
       {
-        "activeVariantId": "dead_bug",
+        "activeVariantId": "pallof_press",
         "actualResult": null,
         "actualSetCount": null,
         "completed": false,
         "currentSessionOverride": null,
         "edited": false,
-        "exerciseFamilyId": "trunk_control",
-        "exerciseId": "dead_bug",
+        "exerciseFamilyId": "anti_rotation",
+        "exerciseId": "pallof_press",
         "exerciseNote": null,
         "firstUse": false,
         "generatedTarget": {
           "load": {
-            "kind": "label",
-            "label": "Body weight",
-            "mode": "base_resistance"
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 27.2
           },
           "reps": [
-            12,
-            12
+            10,
+            10
           ]
         },
         "issue": null,
         "issueNotes": null,
-        "name": "Dead Bug",
+        "name": "Pallof Press",
         "order": 8,
         "outcome": "planned",
-        "persistentPrimaryVariantId": "dead_bug",
-        "plannedPrimaryVariantId": "dead_bug",
+        "persistentPrimaryVariantId": "pallof_press",
+        "plannedPrimaryVariantId": "pallof_press",
         "prescription": {
-          "exerciseId": "dead_bug",
+          "exerciseId": "pallof_press",
           "repRange": {
             "lower": 8,
-            "perSide": false,
+            "perSide": true,
             "upper": 12
           },
           "workingSets": 2
         },
         "previousResult": {
           "load": {
-            "kind": "label",
-            "label": "Body weight",
-            "mode": "base_resistance"
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 27.2
           },
           "reps": [
-            11,
-            11
+            9,
+            9
           ]
         },
         "progressionContext": {
@@ -6918,13 +6927,13 @@
           "reviewRequired": false
         },
         "unavailableVariantReasons": {
-          "band_dead_bug": [
+          "band_pallof_press": [
             "Complete variant content",
             "Confirmed load behavior",
             "Approved vertical setup Short",
             "Approved vertical correct-execution Short"
           ],
-          "bird_dog": [
+          "side_plank_from_knees": [
             "Complete variant content",
             "Confirmed load behavior",
             "Approved vertical setup Short",
@@ -6932,34 +6941,37 @@
           ]
         },
         "variantProgression": {
-          "baselineConfirmedAt": "2026-07-24T05:16:42.248Z",
+          "baselineConfirmedAt": "2026-07-30T14:26:28.079Z",
           "baselineLoad": {
-            "kind": "label",
-            "label": "Body weight",
-            "mode": "base_resistance"
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 31.8
           },
           "retainedTarget": {
-            "exerciseId": "dead_bug",
+            "exerciseId": "pallof_press",
             "generatedTarget": {
               "load": {
-                "kind": "label",
-                "label": "Body weight",
-                "mode": "base_resistance"
+                "kind": "numeric",
+                "mode": "total",
+                "unit": "kg",
+                "value": 27.2
               },
               "reps": [
-                12,
-                12
+                10,
+                10
               ]
             },
             "previousResult": {
               "load": {
-                "kind": "label",
-                "label": "Body weight",
-                "mode": "base_resistance"
+                "kind": "numeric",
+                "mode": "total",
+                "unit": "kg",
+                "value": 27.2
               },
               "reps": [
-                11,
-                11
+                9,
+                9
               ]
             },
             "progressionContext": {
@@ -6977,31 +6989,44 @@
             },
             "workingTarget": {
               "load": {
-                "kind": "label",
-                "label": "Body weight",
-                "mode": "base_resistance"
+                "kind": "numeric",
+                "mode": "total",
+                "unit": "kg",
+                "value": 27.2
               },
               "reps": [
-                12,
-                12
+                10,
+                10
               ]
             }
           },
           "tracks": {
-            "dead_bug:2x8-12:side": {
-              "baselineConfirmed": false,
+            "pallof_press:2x8-12:side": {
+              "baselineConfirmed": true,
               "generatedTarget": {
                 "load": {
-                  "kind": "label",
-                  "label": "Body weight",
-                  "mode": "base_resistance"
+                  "kind": "numeric",
+                  "mode": "total",
+                  "unit": "kg",
+                  "value": 31.8
                 },
                 "reps": [
-                  8,
-                  8
+                  12,
+                  12
                 ]
               },
-              "previousResult": null,
+              "previousResult": {
+                "load": {
+                  "kind": "numeric",
+                  "mode": "total",
+                  "unit": "kg",
+                  "value": 31.8
+                },
+                "reps": [
+                  11,
+                  11
+                ]
+              },
               "progressionContext": {
                 "automaticLoadIncreasePending": false,
                 "consecutiveTopConfirmations": 0,
@@ -7017,18 +7042,19 @@
               },
               "workingTarget": {
                 "load": {
-                  "kind": "label",
-                  "label": "Body weight",
-                  "mode": "base_resistance"
+                  "kind": "numeric",
+                  "mode": "total",
+                  "unit": "kg",
+                  "value": 31.8
                 },
                 "reps": [
-                  8,
-                  8
+                  12,
+                  12
                 ]
               }
             }
           },
-          "variantId": "dead_bug"
+          "variantId": "pallof_press"
         },
         "variantStatus": "active",
         "variantTier": "primary",
@@ -7043,31 +7069,32 @@
         "workingSetCount": 2,
         "workingTarget": {
           "load": {
-            "kind": "label",
-            "label": "Body weight",
-            "mode": "base_resistance"
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 27.2
           },
           "reps": [
-            12,
-            12
+            10,
+            10
           ]
         }
       }
     ],
-    "name": "Strength B",
+    "name": "Strength A",
     "phaseId": "phase_2",
-    "sessionId": "phase_2-phase2_strength_b-9",
+    "sessionId": "phase_2-phase2_strength_a-10",
     "sessionIssues": [],
-    "sessionNumber": 9,
-    "templateId": "phase2_strength_b",
+    "sessionNumber": 10,
+    "templateId": "phase2_strength_a",
     "totalSessions": 18
   },
   "currentWorkout": {
-    "name": "Strength B",
+    "name": "Strength A",
     "phaseId": "phase_2",
-    "sessionId": "phase_2-phase2_strength_b-9",
-    "sessionNumber": 9,
-    "templateId": "phase2_strength_b",
+    "sessionId": "phase_2-phase2_strength_a-10",
+    "sessionNumber": 10,
+    "templateId": "phase2_strength_a",
     "totalSessions": 18
   },
   "equipmentProfiles": {
@@ -12768,11 +12795,11 @@
   "nextWorkout": {
     "exercises": [
       {
-        "exerciseId": "leg_press",
+        "exerciseId": "pendulum_squat",
         "repRange": {
-          "lower": 10,
+          "lower": 8,
           "perSide": false,
-          "upper": 12
+          "upper": 10
         },
         "workingSets": 2
       },
@@ -12786,7 +12813,7 @@
         "workingSets": 2
       },
       {
-        "exerciseId": "chest_press",
+        "exerciseId": "machine_shoulder_press",
         "repRange": {
           "lower": 10,
           "perSide": false,
@@ -12831,7 +12858,7 @@
         "workingSets": 2
       },
       {
-        "exerciseId": "pallof_press",
+        "exerciseId": "dead_bug",
         "repRange": {
           "lower": 8,
           "perSide": true,
@@ -12840,10 +12867,10 @@
         "workingSets": 2
       }
     ],
-    "name": "Strength A",
+    "name": "Strength B",
     "phaseId": "phase_2",
-    "phaseSessionIndex": 9,
-    "templateId": "phase2_strength_a"
+    "phaseSessionIndex": 10,
+    "templateId": "phase2_strength_b"
   },
   "nutritionGuide": {
     "calorieReference": "≈ 2,200 kcal",
@@ -12969,8 +12996,8 @@
   "programState": {
     "activePhaseId": "phase_2",
     "completedPhase1StrengthSessions": 6,
-    "currentPhaseSession": 9,
-    "nextWorkoutTemplateId": "phase2_strength_b",
+    "currentPhaseSession": 10,
+    "nextWorkoutTemplateId": "phase2_strength_a",
     "phases": {
       "phase_1": {
         "completedStrengthSessions": 6,
@@ -12978,7 +13005,7 @@
         "totalStrengthSessions": 6
       },
       "phase_2": {
-        "completedStrengthSessions": 8,
+        "completedStrengthSessions": 9,
         "sequence": [
           "phase2_strength_b",
           "phase2_strength_a"
@@ -13074,13 +13101,13 @@
     "title": "Between workouts"
   },
   "recoveryState": {
-    "lastClassifiedAt": "2026-08-10T10:06:40.252Z",
-    "lastCompletedStrengthSessionDate": "2026-08-10",
+    "lastClassifiedAt": "2026-08-15T03:39:34.478Z",
+    "lastCompletedStrengthSessionDate": "2026-08-15",
     "mode": "normal",
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-08-15T03:35:25.679Z",
+  "responseGeneratedAt": "2026-08-15T03:39:47.653Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -13155,13 +13182,13 @@
             "mode": "base_resistance"
           },
           "reps": [
-            11,
-            11
+            12,
+            12
           ]
         },
         "progressionContext": {
           "automaticLoadIncreasePending": false,
-          "consecutiveTopConfirmations": 0,
+          "consecutiveTopConfirmations": 1,
           "equipmentSetupRequired": false,
           "increaseMessage": null,
           "increaseWarningRequired": false,
@@ -13255,13 +13282,13 @@
             "value": 60
           },
           "reps": [
-            14,
-            14
+            15,
+            15
           ]
         },
         "progressionContext": {
           "automaticLoadIncreasePending": false,
-          "consecutiveTopConfirmations": 0,
+          "consecutiveTopConfirmations": 1,
           "equipmentSetupRequired": false,
           "increaseMessage": null,
           "increaseWarningRequired": false,
@@ -13295,8 +13322,8 @@
             "value": 60
           },
           "reps": [
-            12,
-            12
+            11,
+            11
           ]
         },
         "previousResult": {
@@ -13307,8 +13334,8 @@
             "value": 60
           },
           "reps": [
-            11,
-            11
+            10,
+            10
           ]
         },
         "progressionContext": {
@@ -13332,8 +13359,8 @@
             "value": 60
           },
           "reps": [
-            12,
-            12
+            11,
+            11
           ]
         }
       },
@@ -13359,13 +13386,13 @@
             "value": 60
           },
           "reps": [
-            11,
-            11
+            12,
+            12
           ]
         },
         "progressionContext": {
           "automaticLoadIncreasePending": false,
-          "consecutiveTopConfirmations": 0,
+          "consecutiveTopConfirmations": 1,
           "equipmentSetupRequired": false,
           "increaseMessage": null,
           "increaseWarningRequired": false,
@@ -13463,8 +13490,8 @@
             "value": 55
           },
           "reps": [
-            12,
-            12
+            10,
+            10
           ]
         },
         "progressionContext": {
@@ -13513,8 +13540,8 @@
             "value": 10
           },
           "reps": [
-            11,
-            11
+            12,
+            12
           ]
         },
         "previousResult": {
@@ -13525,8 +13552,8 @@
             "value": 10
           },
           "reps": [
-            10,
-            10
+            11,
+            11
           ]
         },
         "progressionContext": {
@@ -13550,8 +13577,8 @@
             "value": 10
           },
           "reps": [
-            11,
-            11
+            12,
+            12
           ]
         }
       },
@@ -13686,8 +13713,8 @@
             "value": 55
           },
           "reps": [
-            12,
-            12
+            10,
+            10
           ]
         },
         "progressionContext": {
@@ -13881,13 +13908,13 @@
             "mode": "base_resistance"
           },
           "reps": [
-            11,
-            11
+            12,
+            12
           ]
         },
         "progressionContext": {
           "automaticLoadIncreasePending": false,
-          "consecutiveTopConfirmations": 0,
+          "consecutiveTopConfirmations": 1,
           "equipmentSetupRequired": false,
           "increaseMessage": null,
           "increaseWarningRequired": false,
@@ -13954,13 +13981,13 @@
             "value": 60
           },
           "reps": [
-            14,
-            14
+            15,
+            15
           ]
         },
         "progressionContext": {
           "automaticLoadIncreasePending": false,
-          "consecutiveTopConfirmations": 0,
+          "consecutiveTopConfirmations": 1,
           "equipmentSetupRequired": false,
           "increaseMessage": null,
           "increaseWarningRequired": false,
@@ -13991,6 +14018,7 @@
         "actualResult": null,
         "actualSetCount": 2,
         "completed": false,
+        "edited": true,
         "exerciseFamilyId": "vertical_pull",
         "exerciseId": "lat_pulldown",
         "exerciseNote": null,
@@ -14003,8 +14031,8 @@
             "value": 60
           },
           "reps": [
-            12,
-            12
+            11,
+            11
           ]
         },
         "issue": null,
@@ -14028,8 +14056,8 @@
             "value": 60
           },
           "reps": [
-            11,
-            11
+            10,
+            10
           ]
         },
         "progressionContext": {
@@ -14055,8 +14083,8 @@
             "value": 60
           },
           "reps": [
-            12,
-            12
+            11,
+            11
           ]
         }
       },
@@ -14102,13 +14130,13 @@
             "value": 60
           },
           "reps": [
-            11,
-            11
+            12,
+            12
           ]
         },
         "progressionContext": {
           "automaticLoadIncreasePending": false,
-          "consecutiveTopConfirmations": 0,
+          "consecutiveTopConfirmations": 1,
           "equipmentSetupRequired": false,
           "increaseMessage": null,
           "increaseWarningRequired": false,
@@ -14213,6 +14241,7 @@
         "actualResult": null,
         "actualSetCount": 2,
         "completed": false,
+        "edited": true,
         "exerciseFamilyId": "horizontal_row",
         "exerciseId": "low_row",
         "exerciseNote": null,
@@ -14250,8 +14279,8 @@
             "value": 55
           },
           "reps": [
-            12,
-            12
+            10,
+            10
           ]
         },
         "progressionContext": {
@@ -14309,8 +14338,8 @@
             "value": 10
           },
           "reps": [
-            11,
-            11
+            12,
+            12
           ]
         },
         "issue": null,
@@ -14334,8 +14363,8 @@
             "value": 10
           },
           "reps": [
-            10,
-            10
+            11,
+            11
           ]
         },
         "progressionContext": {
@@ -14361,8 +14390,8 @@
             "value": 10
           },
           "reps": [
-            11,
-            11
+            12,
+            12
           ]
         }
       },
@@ -14524,6 +14553,7 @@
         "actualResult": null,
         "actualSetCount": 2,
         "completed": false,
+        "edited": true,
         "exerciseFamilyId": "knee_flexion",
         "exerciseId": "seated_leg_curl",
         "exerciseNote": null,
@@ -14561,8 +14591,8 @@
             "value": 55
           },
           "reps": [
-            12,
-            12
+            10,
+            10
           ]
         },
         "progressionContext": {
@@ -21588,10 +21618,622 @@
       "sessionIssues": [],
       "sessionNumber": 8,
       "templateId": "phase2_strength_a"
+    },
+    {
+      "completedAt": "2026-08-15T03:39:34.478Z",
+      "completedLocalDate": "2026-08-15",
+      "exercises": [
+        {
+          "actualResult": {
+            "load": {
+              "kind": "numeric",
+              "mode": "per_side",
+              "unit": "kg",
+              "value": 0
+            },
+            "reps": [
+              10,
+              10
+            ]
+          },
+          "actualSetCount": 2,
+          "actualVariantId": "pendulum_squat",
+          "exerciseFamilyId": "strength_b_knee_dominant",
+          "exerciseId": "pendulum_squat",
+          "generatedTarget": {
+            "load": {
+              "kind": "numeric",
+              "mode": "per_side",
+              "unit": "kg",
+              "value": 0
+            },
+            "reps": [
+              10,
+              10
+            ]
+          },
+          "issue": null,
+          "outcome": "completed",
+          "plannedPrimaryVariantId": "pendulum_squat",
+          "prescription": {
+            "exerciseId": "pendulum_squat",
+            "repRange": {
+              "lower": 8,
+              "perSide": false,
+              "upper": 10
+            },
+            "workingSets": 2
+          },
+          "progressionAfter": {
+            "automaticLoadIncreasePending": false,
+            "consecutiveTopConfirmations": 0,
+            "equipmentSetupRequired": true,
+            "increaseMessage": null,
+            "increaseWarningRequired": false,
+            "loadIncreaseDue": true,
+            "masteredLoad": {
+              "kind": "numeric",
+              "mode": "per_side",
+              "unit": "kg",
+              "value": 0
+            },
+            "progressionBlocked": false,
+            "proposedLoad": null,
+            "recentLoadIncrease": false,
+            "reviewRequired": false
+          },
+          "progressionBefore": {
+            "automaticLoadIncreasePending": false,
+            "consecutiveTopConfirmations": 0,
+            "equipmentSetupRequired": true,
+            "increaseMessage": null,
+            "increaseWarningRequired": false,
+            "loadIncreaseDue": true,
+            "masteredLoad": {
+              "kind": "numeric",
+              "mode": "per_side",
+              "unit": "kg",
+              "value": 0
+            },
+            "progressionBlocked": false,
+            "proposedLoad": null,
+            "recentLoadIncrease": false,
+            "reviewRequired": false
+          },
+          "variantOverride": null
+        },
+        {
+          "actualResult": {
+            "load": {
+              "kind": "numeric",
+              "mode": "total",
+              "unit": "kg",
+              "value": 55
+            },
+            "reps": [
+              10,
+              10
+            ]
+          },
+          "actualSetCount": 2,
+          "actualVariantId": "seated_leg_curl",
+          "exerciseFamilyId": "knee_flexion",
+          "exerciseId": "seated_leg_curl",
+          "generatedTarget": {
+            "load": {
+              "kind": "numeric",
+              "mode": "total",
+              "unit": "kg",
+              "value": 60
+            },
+            "reps": [
+              10,
+              10
+            ]
+          },
+          "issue": null,
+          "outcome": "completed",
+          "plannedPrimaryVariantId": "seated_leg_curl",
+          "prescription": {
+            "exerciseId": "seated_leg_curl",
+            "repRange": {
+              "lower": 10,
+              "perSide": false,
+              "upper": 12
+            },
+            "workingSets": 2
+          },
+          "progressionAfter": {
+            "automaticLoadIncreasePending": true,
+            "consecutiveTopConfirmations": 0,
+            "equipmentSetupRequired": false,
+            "increaseMessage": "Load increased automatically from 55 kg to 60 kg.",
+            "increaseWarningRequired": false,
+            "loadIncreaseDue": false,
+            "masteredLoad": {
+              "kind": "numeric",
+              "mode": "total",
+              "unit": "kg",
+              "value": 55
+            },
+            "progressionBlocked": false,
+            "proposedLoad": {
+              "kind": "numeric",
+              "mode": "total",
+              "unit": "kg",
+              "value": 60
+            },
+            "recentLoadIncrease": true,
+            "reviewRequired": false
+          },
+          "progressionBefore": {
+            "automaticLoadIncreasePending": true,
+            "consecutiveTopConfirmations": 0,
+            "equipmentSetupRequired": false,
+            "increaseMessage": "Load increased automatically from 55 kg to 60 kg.",
+            "increaseWarningRequired": false,
+            "loadIncreaseDue": false,
+            "masteredLoad": {
+              "kind": "numeric",
+              "mode": "total",
+              "unit": "kg",
+              "value": 55
+            },
+            "progressionBlocked": false,
+            "proposedLoad": {
+              "kind": "numeric",
+              "mode": "total",
+              "unit": "kg",
+              "value": 60
+            },
+            "recentLoadIncrease": true,
+            "reviewRequired": false
+          },
+          "variantOverride": null
+        },
+        {
+          "actualResult": {
+            "load": {
+              "kind": "numeric",
+              "mode": "total",
+              "unit": "kg",
+              "value": 10
+            },
+            "reps": [
+              11,
+              11
+            ]
+          },
+          "actualSetCount": 2,
+          "actualVariantId": "machine_shoulder_press",
+          "exerciseFamilyId": "vertical_press",
+          "exerciseId": "machine_shoulder_press",
+          "generatedTarget": {
+            "load": {
+              "kind": "numeric",
+              "mode": "total",
+              "unit": "kg",
+              "value": 10
+            },
+            "reps": [
+              11,
+              11
+            ]
+          },
+          "issue": null,
+          "outcome": "completed",
+          "plannedPrimaryVariantId": "machine_shoulder_press",
+          "prescription": {
+            "exerciseId": "machine_shoulder_press",
+            "repRange": {
+              "lower": 10,
+              "perSide": false,
+              "upper": 12
+            },
+            "workingSets": 2
+          },
+          "progressionAfter": {
+            "automaticLoadIncreasePending": false,
+            "consecutiveTopConfirmations": 0,
+            "equipmentSetupRequired": false,
+            "increaseMessage": null,
+            "increaseWarningRequired": false,
+            "loadIncreaseDue": false,
+            "masteredLoad": null,
+            "progressionBlocked": false,
+            "proposedLoad": null,
+            "recentLoadIncrease": false,
+            "reviewRequired": false
+          },
+          "progressionBefore": {
+            "automaticLoadIncreasePending": false,
+            "consecutiveTopConfirmations": 0,
+            "equipmentSetupRequired": false,
+            "increaseMessage": null,
+            "increaseWarningRequired": false,
+            "loadIncreaseDue": false,
+            "masteredLoad": null,
+            "progressionBlocked": false,
+            "proposedLoad": null,
+            "recentLoadIncrease": false,
+            "reviewRequired": false
+          },
+          "variantOverride": null
+        },
+        {
+          "actualResult": {
+            "load": {
+              "kind": "numeric",
+              "mode": "total",
+              "unit": "kg",
+              "value": 55
+            },
+            "reps": [
+              10,
+              10
+            ]
+          },
+          "actualSetCount": 2,
+          "actualVariantId": "low_row",
+          "exerciseFamilyId": "horizontal_row",
+          "exerciseId": "low_row",
+          "generatedTarget": {
+            "load": {
+              "kind": "numeric",
+              "mode": "total",
+              "unit": "kg",
+              "value": 60
+            },
+            "reps": [
+              10,
+              10
+            ]
+          },
+          "issue": null,
+          "outcome": "completed",
+          "plannedPrimaryVariantId": "low_row",
+          "prescription": {
+            "exerciseId": "low_row",
+            "repRange": {
+              "lower": 10,
+              "perSide": false,
+              "upper": 12
+            },
+            "workingSets": 2
+          },
+          "progressionAfter": {
+            "automaticLoadIncreasePending": true,
+            "consecutiveTopConfirmations": 0,
+            "equipmentSetupRequired": false,
+            "increaseMessage": "Load increased automatically from 55 kg to 60 kg.",
+            "increaseWarningRequired": false,
+            "loadIncreaseDue": false,
+            "masteredLoad": {
+              "kind": "numeric",
+              "mode": "total",
+              "unit": "kg",
+              "value": 55
+            },
+            "progressionBlocked": false,
+            "proposedLoad": {
+              "kind": "numeric",
+              "mode": "total",
+              "unit": "kg",
+              "value": 60
+            },
+            "recentLoadIncrease": true,
+            "reviewRequired": false
+          },
+          "progressionBefore": {
+            "automaticLoadIncreasePending": true,
+            "consecutiveTopConfirmations": 0,
+            "equipmentSetupRequired": false,
+            "increaseMessage": "Load increased automatically from 55 kg to 60 kg.",
+            "increaseWarningRequired": false,
+            "loadIncreaseDue": false,
+            "masteredLoad": {
+              "kind": "numeric",
+              "mode": "total",
+              "unit": "kg",
+              "value": 55
+            },
+            "progressionBlocked": false,
+            "proposedLoad": {
+              "kind": "numeric",
+              "mode": "total",
+              "unit": "kg",
+              "value": 60
+            },
+            "recentLoadIncrease": true,
+            "reviewRequired": false
+          },
+          "variantOverride": null
+        },
+        {
+          "actualResult": {
+            "load": {
+              "kind": "numeric",
+              "mode": "total",
+              "unit": "kg",
+              "value": 60
+            },
+            "reps": [
+              10,
+              10
+            ]
+          },
+          "actualSetCount": 2,
+          "actualVariantId": "lat_pulldown",
+          "exerciseFamilyId": "vertical_pull",
+          "exerciseId": "lat_pulldown",
+          "generatedTarget": {
+            "load": {
+              "kind": "numeric",
+              "mode": "total",
+              "unit": "kg",
+              "value": 60
+            },
+            "reps": [
+              12,
+              12
+            ]
+          },
+          "issue": null,
+          "outcome": "completed",
+          "plannedPrimaryVariantId": "lat_pulldown",
+          "prescription": {
+            "exerciseId": "lat_pulldown",
+            "repRange": {
+              "lower": 10,
+              "perSide": false,
+              "upper": 12
+            },
+            "workingSets": 2
+          },
+          "progressionAfter": {
+            "automaticLoadIncreasePending": false,
+            "consecutiveTopConfirmations": 0,
+            "equipmentSetupRequired": false,
+            "increaseMessage": null,
+            "increaseWarningRequired": false,
+            "loadIncreaseDue": false,
+            "masteredLoad": null,
+            "progressionBlocked": false,
+            "proposedLoad": null,
+            "recentLoadIncrease": false,
+            "reviewRequired": false
+          },
+          "progressionBefore": {
+            "automaticLoadIncreasePending": false,
+            "consecutiveTopConfirmations": 0,
+            "equipmentSetupRequired": false,
+            "increaseMessage": null,
+            "increaseWarningRequired": false,
+            "loadIncreaseDue": false,
+            "masteredLoad": null,
+            "progressionBlocked": false,
+            "proposedLoad": null,
+            "recentLoadIncrease": false,
+            "reviewRequired": false
+          },
+          "variantOverride": null
+        },
+        {
+          "actualResult": {
+            "load": {
+              "kind": "numeric",
+              "mode": "total",
+              "unit": "kg",
+              "value": 60
+            },
+            "reps": [
+              15,
+              15
+            ]
+          },
+          "actualSetCount": 2,
+          "actualVariantId": "hip_thrust",
+          "exerciseFamilyId": "hip_extension",
+          "exerciseId": "hip_thrust",
+          "generatedTarget": {
+            "load": {
+              "kind": "numeric",
+              "mode": "total",
+              "unit": "kg",
+              "value": 60
+            },
+            "reps": [
+              15,
+              15
+            ]
+          },
+          "issue": null,
+          "outcome": "completed",
+          "plannedPrimaryVariantId": "hip_thrust",
+          "prescription": {
+            "exerciseId": "hip_thrust",
+            "repRange": {
+              "lower": 12,
+              "perSide": false,
+              "upper": 15
+            },
+            "workingSets": 2
+          },
+          "progressionAfter": {
+            "automaticLoadIncreasePending": false,
+            "consecutiveTopConfirmations": 1,
+            "equipmentSetupRequired": false,
+            "increaseMessage": null,
+            "increaseWarningRequired": false,
+            "loadIncreaseDue": false,
+            "masteredLoad": null,
+            "progressionBlocked": false,
+            "proposedLoad": null,
+            "recentLoadIncrease": false,
+            "reviewRequired": false
+          },
+          "progressionBefore": {
+            "automaticLoadIncreasePending": false,
+            "consecutiveTopConfirmations": 0,
+            "equipmentSetupRequired": false,
+            "increaseMessage": null,
+            "increaseWarningRequired": false,
+            "loadIncreaseDue": false,
+            "masteredLoad": null,
+            "progressionBlocked": false,
+            "proposedLoad": null,
+            "recentLoadIncrease": false,
+            "reviewRequired": false
+          },
+          "variantOverride": null
+        },
+        {
+          "actualResult": {
+            "load": {
+              "kind": "numeric",
+              "mode": "total",
+              "unit": "kg",
+              "value": 60
+            },
+            "reps": [
+              12,
+              12
+            ]
+          },
+          "actualSetCount": 2,
+          "actualVariantId": "leg_extension",
+          "exerciseFamilyId": "knee_extension",
+          "exerciseId": "leg_extension",
+          "generatedTarget": {
+            "load": {
+              "kind": "numeric",
+              "mode": "total",
+              "unit": "kg",
+              "value": 60
+            },
+            "reps": [
+              12,
+              12
+            ]
+          },
+          "issue": null,
+          "outcome": "completed",
+          "plannedPrimaryVariantId": "leg_extension",
+          "prescription": {
+            "exerciseId": "leg_extension",
+            "repRange": {
+              "lower": 10,
+              "perSide": false,
+              "upper": 12
+            },
+            "workingSets": 2
+          },
+          "progressionAfter": {
+            "automaticLoadIncreasePending": false,
+            "consecutiveTopConfirmations": 1,
+            "equipmentSetupRequired": false,
+            "increaseMessage": null,
+            "increaseWarningRequired": false,
+            "loadIncreaseDue": false,
+            "masteredLoad": null,
+            "progressionBlocked": false,
+            "proposedLoad": null,
+            "recentLoadIncrease": false,
+            "reviewRequired": false
+          },
+          "progressionBefore": {
+            "automaticLoadIncreasePending": false,
+            "consecutiveTopConfirmations": 0,
+            "equipmentSetupRequired": false,
+            "increaseMessage": null,
+            "increaseWarningRequired": false,
+            "loadIncreaseDue": false,
+            "masteredLoad": null,
+            "progressionBlocked": false,
+            "proposedLoad": null,
+            "recentLoadIncrease": false,
+            "reviewRequired": false
+          },
+          "variantOverride": null
+        },
+        {
+          "actualResult": {
+            "load": {
+              "kind": "label",
+              "label": "Body weight",
+              "mode": "base_resistance"
+            },
+            "reps": [
+              12,
+              12
+            ]
+          },
+          "actualSetCount": 2,
+          "actualVariantId": "dead_bug",
+          "exerciseFamilyId": "trunk_control",
+          "exerciseId": "dead_bug",
+          "generatedTarget": {
+            "load": {
+              "kind": "label",
+              "label": "Body weight",
+              "mode": "base_resistance"
+            },
+            "reps": [
+              12,
+              12
+            ]
+          },
+          "issue": null,
+          "outcome": "completed",
+          "plannedPrimaryVariantId": "dead_bug",
+          "prescription": {
+            "exerciseId": "dead_bug",
+            "repRange": {
+              "lower": 8,
+              "perSide": false,
+              "upper": 12
+            },
+            "workingSets": 2
+          },
+          "progressionAfter": {
+            "automaticLoadIncreasePending": false,
+            "consecutiveTopConfirmations": 1,
+            "equipmentSetupRequired": false,
+            "increaseMessage": null,
+            "increaseWarningRequired": false,
+            "loadIncreaseDue": false,
+            "masteredLoad": null,
+            "progressionBlocked": false,
+            "proposedLoad": null,
+            "recentLoadIncrease": false,
+            "reviewRequired": false
+          },
+          "progressionBefore": {
+            "automaticLoadIncreasePending": false,
+            "consecutiveTopConfirmations": 0,
+            "equipmentSetupRequired": false,
+            "increaseMessage": null,
+            "increaseWarningRequired": false,
+            "loadIncreaseDue": false,
+            "masteredLoad": null,
+            "progressionBlocked": false,
+            "proposedLoad": null,
+            "recentLoadIncrease": false,
+            "reviewRequired": false
+          },
+          "variantOverride": null
+        }
+      ],
+      "phaseId": "phase_2",
+      "recoverySession": false,
+      "sessionId": "phase_2-phase2_strength_b-9",
+      "sessionIssues": [],
+      "sessionNumber": 9,
+      "templateId": "phase2_strength_b"
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-08-15T03:34:46.906Z",
+  "sourceStateUpdatedAt": "2026-08-15T03:39:34.478Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
@@ -21805,13 +22447,13 @@
             "mode": "base_resistance"
           },
           "reps": [
-            11,
-            11
+            12,
+            12
           ]
         },
         "progressionContext": {
           "automaticLoadIncreasePending": false,
-          "consecutiveTopConfirmations": 0,
+          "consecutiveTopConfirmations": 1,
           "equipmentSetupRequired": false,
           "increaseMessage": null,
           "increaseWarningRequired": false,
@@ -21907,13 +22549,13 @@
             "value": 60
           },
           "reps": [
-            14,
-            14
+            15,
+            15
           ]
         },
         "progressionContext": {
           "automaticLoadIncreasePending": false,
-          "consecutiveTopConfirmations": 0,
+          "consecutiveTopConfirmations": 1,
           "equipmentSetupRequired": false,
           "increaseMessage": null,
           "increaseWarningRequired": false,
@@ -22016,8 +22658,8 @@
             "value": 60
           },
           "reps": [
-            12,
-            12
+            11,
+            11
           ]
         },
         "previousResult": {
@@ -22028,8 +22670,8 @@
             "value": 60
           },
           "reps": [
-            11,
-            11
+            10,
+            10
           ]
         },
         "progressionContext": {
@@ -22053,8 +22695,8 @@
             "value": 60
           },
           "reps": [
-            12,
-            12
+            11,
+            11
           ]
         }
       },
@@ -22149,13 +22791,13 @@
             "value": 60
           },
           "reps": [
-            11,
-            11
+            12,
+            12
           ]
         },
         "progressionContext": {
           "automaticLoadIncreasePending": false,
-          "consecutiveTopConfirmations": 0,
+          "consecutiveTopConfirmations": 1,
           "equipmentSetupRequired": false,
           "increaseMessage": null,
           "increaseWarningRequired": false,
@@ -22386,8 +23028,8 @@
             "value": 55
           },
           "reps": [
-            12,
-            12
+            10,
+            10
           ]
         },
         "progressionContext": {
@@ -22517,8 +23159,8 @@
             "value": 10
           },
           "reps": [
-            11,
-            11
+            12,
+            12
           ]
         },
         "previousResult": {
@@ -22529,8 +23171,8 @@
             "value": 10
           },
           "reps": [
-            10,
-            10
+            11,
+            11
           ]
         },
         "progressionContext": {
@@ -22554,8 +23196,8 @@
             "value": 10
           },
           "reps": [
-            11,
-            11
+            12,
+            12
           ]
         }
       },
@@ -22825,8 +23467,8 @@
             "value": 55
           },
           "reps": [
-            12,
-            12
+            10,
+            10
           ]
         },
         "progressionContext": {
