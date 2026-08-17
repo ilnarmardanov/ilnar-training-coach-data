@@ -3391,7 +3391,7 @@
       "actualSetCount": null,
       "completed": false,
       "currentSessionOverride": null,
-      "edited": false,
+      "edited": true,
       "exerciseFamilyId": "strength_a_knee_dominant",
       "exerciseId": "leg_press",
       "exerciseNote": null,
@@ -3604,8 +3604,8 @@
           "value": 0
         },
         "reps": [
-          12,
-          12
+          10,
+          10
         ]
       }
     },
@@ -5243,7 +5243,7 @@
         "actualSetCount": null,
         "completed": false,
         "currentSessionOverride": null,
-        "edited": false,
+        "edited": true,
         "exerciseFamilyId": "strength_a_knee_dominant",
         "exerciseId": "leg_press",
         "exerciseNote": null,
@@ -5456,8 +5456,8 @@
             "value": 0
           },
           "reps": [
-            12,
-            12
+            10,
+            10
           ]
         }
       },
@@ -13107,7 +13107,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-08-15T03:39:47.653Z",
+  "responseGeneratedAt": "2026-08-17T06:08:19.563Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -22233,7 +22233,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-08-15T03:39:34.478Z",
+  "sourceStateUpdatedAt": "2026-08-17T06:07:41.644Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
