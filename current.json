@@ -3387,9 +3387,20 @@
   "currentExercises": [
     {
       "activeVariantId": "leg_press",
-      "actualResult": null,
-      "actualSetCount": null,
-      "completed": false,
+      "actualResult": {
+        "load": {
+          "kind": "numeric",
+          "mode": "total",
+          "unit": "kg",
+          "value": 0
+        },
+        "reps": [
+          10,
+          10
+        ]
+      },
+      "actualSetCount": 2,
+      "completed": true,
       "currentSessionOverride": null,
       "edited": true,
       "exerciseFamilyId": "strength_a_knee_dominant",
@@ -3412,7 +3423,7 @@
       "issueNotes": null,
       "name": "Leg Press",
       "order": 1,
-      "outcome": "planned",
+      "outcome": "completed",
       "persistentPrimaryVariantId": "leg_press",
       "plannedPrimaryVariantId": "leg_press",
       "prescription": {
@@ -3611,9 +3622,20 @@
     },
     {
       "activeVariantId": "seated_leg_curl",
-      "actualResult": null,
-      "actualSetCount": null,
-      "completed": false,
+      "actualResult": {
+        "load": {
+          "kind": "numeric",
+          "mode": "total",
+          "unit": "kg",
+          "value": 60
+        },
+        "reps": [
+          10,
+          10
+        ]
+      },
+      "actualSetCount": 2,
+      "completed": true,
       "currentSessionOverride": null,
       "edited": false,
       "exerciseFamilyId": "knee_flexion",
@@ -3636,7 +3658,7 @@
       "issueNotes": null,
       "name": "Seated Leg Curl",
       "order": 2,
-      "outcome": "planned",
+      "outcome": "completed",
       "persistentPrimaryVariantId": "seated_leg_curl",
       "plannedPrimaryVariantId": "seated_leg_curl",
       "prescription": {
@@ -5239,9 +5261,20 @@
     "exercises": [
       {
         "activeVariantId": "leg_press",
-        "actualResult": null,
-        "actualSetCount": null,
-        "completed": false,
+        "actualResult": {
+          "load": {
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 0
+          },
+          "reps": [
+            10,
+            10
+          ]
+        },
+        "actualSetCount": 2,
+        "completed": true,
         "currentSessionOverride": null,
         "edited": true,
         "exerciseFamilyId": "strength_a_knee_dominant",
@@ -5264,7 +5297,7 @@
         "issueNotes": null,
         "name": "Leg Press",
         "order": 1,
-        "outcome": "planned",
+        "outcome": "completed",
         "persistentPrimaryVariantId": "leg_press",
         "plannedPrimaryVariantId": "leg_press",
         "prescription": {
@@ -5463,9 +5496,20 @@
       },
       {
         "activeVariantId": "seated_leg_curl",
-        "actualResult": null,
-        "actualSetCount": null,
-        "completed": false,
+        "actualResult": {
+          "load": {
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 60
+          },
+          "reps": [
+            10,
+            10
+          ]
+        },
+        "actualSetCount": 2,
+        "completed": true,
         "currentSessionOverride": null,
         "edited": false,
         "exerciseFamilyId": "knee_flexion",
@@ -5488,7 +5532,7 @@
         "issueNotes": null,
         "name": "Seated Leg Curl",
         "order": 2,
-        "outcome": "planned",
+        "outcome": "completed",
         "persistentPrimaryVariantId": "seated_leg_curl",
         "plannedPrimaryVariantId": "seated_leg_curl",
         "prescription": {
@@ -13107,7 +13151,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-08-17T06:08:19.563Z",
+  "responseGeneratedAt": "2026-08-17T06:12:44.095Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -22233,7 +22277,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-08-17T06:07:41.644Z",
+  "sourceStateUpdatedAt": "2026-08-17T06:12:09.086Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
