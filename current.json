@@ -4117,11 +4117,22 @@
     },
     {
       "activeVariantId": "low_row",
-      "actualResult": null,
-      "actualSetCount": null,
-      "completed": false,
+      "actualResult": {
+        "load": {
+          "kind": "numeric",
+          "mode": "total",
+          "unit": "kg",
+          "value": 55
+        },
+        "reps": [
+          10,
+          10
+        ]
+      },
+      "actualSetCount": 2,
+      "completed": true,
       "currentSessionOverride": null,
-      "edited": false,
+      "edited": true,
       "exerciseFamilyId": "horizontal_row",
       "exerciseId": "low_row",
       "exerciseNote": null,
@@ -4142,7 +4153,7 @@
       "issueNotes": null,
       "name": "Low Row",
       "order": 4,
-      "outcome": "planned",
+      "outcome": "completed",
       "persistentPrimaryVariantId": "low_row",
       "plannedPrimaryVariantId": "low_row",
       "prescription": {
@@ -4361,7 +4372,7 @@
           "kind": "numeric",
           "mode": "total",
           "unit": "kg",
-          "value": 60
+          "value": 55
         },
         "reps": [
           10,
@@ -6002,11 +6013,22 @@
       },
       {
         "activeVariantId": "low_row",
-        "actualResult": null,
-        "actualSetCount": null,
-        "completed": false,
+        "actualResult": {
+          "load": {
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 55
+          },
+          "reps": [
+            10,
+            10
+          ]
+        },
+        "actualSetCount": 2,
+        "completed": true,
         "currentSessionOverride": null,
-        "edited": false,
+        "edited": true,
         "exerciseFamilyId": "horizontal_row",
         "exerciseId": "low_row",
         "exerciseNote": null,
@@ -6027,7 +6049,7 @@
         "issueNotes": null,
         "name": "Low Row",
         "order": 4,
-        "outcome": "planned",
+        "outcome": "completed",
         "persistentPrimaryVariantId": "low_row",
         "plannedPrimaryVariantId": "low_row",
         "prescription": {
@@ -6246,7 +6268,7 @@
             "kind": "numeric",
             "mode": "total",
             "unit": "kg",
-            "value": 60
+            "value": 55
           },
           "reps": [
             10,
@@ -13173,7 +13195,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-08-17T06:16:45.031Z",
+  "responseGeneratedAt": "2026-08-17T06:21:22.398Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -22299,7 +22321,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-08-17T06:16:00.721Z",
+  "sourceStateUpdatedAt": "2026-08-17T06:21:09.395Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
