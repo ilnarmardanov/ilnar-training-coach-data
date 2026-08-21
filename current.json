@@ -4356,9 +4356,20 @@
     },
     {
       "activeVariantId": "lat_pulldown",
-      "actualResult": null,
-      "actualSetCount": null,
-      "completed": false,
+      "actualResult": {
+        "load": {
+          "kind": "numeric",
+          "mode": "total",
+          "unit": "kg",
+          "value": 60
+        },
+        "reps": [
+          12,
+          12
+        ]
+      },
+      "actualSetCount": 2,
+      "completed": true,
       "currentSessionOverride": null,
       "edited": false,
       "exerciseFamilyId": "vertical_pull",
@@ -4381,7 +4392,7 @@
       "issueNotes": null,
       "name": "Lat Pulldown",
       "order": 5,
-      "outcome": "planned",
+      "outcome": "completed",
       "persistentPrimaryVariantId": "lat_pulldown",
       "plannedPrimaryVariantId": "lat_pulldown",
       "prescription": {
@@ -6264,9 +6275,20 @@
       },
       {
         "activeVariantId": "lat_pulldown",
-        "actualResult": null,
-        "actualSetCount": null,
-        "completed": false,
+        "actualResult": {
+          "load": {
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 60
+          },
+          "reps": [
+            12,
+            12
+          ]
+        },
+        "actualSetCount": 2,
+        "completed": true,
         "currentSessionOverride": null,
         "edited": false,
         "exerciseFamilyId": "vertical_pull",
@@ -6289,7 +6311,7 @@
         "issueNotes": null,
         "name": "Lat Pulldown",
         "order": 5,
-        "outcome": "planned",
+        "outcome": "completed",
         "persistentPrimaryVariantId": "lat_pulldown",
         "plannedPrimaryVariantId": "lat_pulldown",
         "prescription": {
@@ -13223,7 +13245,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-08-21T04:39:09.748Z",
+  "responseGeneratedAt": "2026-08-21T04:43:09.931Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -23602,7 +23624,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-08-21T04:38:51.878Z",
+  "sourceStateUpdatedAt": "2026-08-21T04:42:33.380Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
