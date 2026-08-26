@@ -3854,9 +3854,20 @@
     },
     {
       "activeVariantId": "chest_press",
-      "actualResult": null,
-      "actualSetCount": null,
-      "completed": false,
+      "actualResult": {
+        "load": {
+          "kind": "numeric",
+          "mode": "per_side",
+          "unit": "kg",
+          "value": 12.5
+        },
+        "reps": [
+          11,
+          11
+        ]
+      },
+      "actualSetCount": 2,
+      "completed": true,
       "currentSessionOverride": null,
       "edited": false,
       "exerciseFamilyId": "horizontal_press",
@@ -3879,7 +3890,7 @@
       "issueNotes": null,
       "name": "Chest Press",
       "order": 3,
-      "outcome": "planned",
+      "outcome": "completed",
       "persistentPrimaryVariantId": "chest_press",
       "plannedPrimaryVariantId": "chest_press",
       "prescription": {
@@ -5739,9 +5750,20 @@
       },
       {
         "activeVariantId": "chest_press",
-        "actualResult": null,
-        "actualSetCount": null,
-        "completed": false,
+        "actualResult": {
+          "load": {
+            "kind": "numeric",
+            "mode": "per_side",
+            "unit": "kg",
+            "value": 12.5
+          },
+          "reps": [
+            11,
+            11
+          ]
+        },
+        "actualSetCount": 2,
+        "completed": true,
         "currentSessionOverride": null,
         "edited": false,
         "exerciseFamilyId": "horizontal_press",
@@ -5764,7 +5786,7 @@
         "issueNotes": null,
         "name": "Chest Press",
         "order": 3,
-        "outcome": "planned",
+        "outcome": "completed",
         "persistentPrimaryVariantId": "chest_press",
         "plannedPrimaryVariantId": "chest_press",
         "prescription": {
@@ -13170,7 +13192,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-08-26T04:46:29.586Z",
+  "responseGeneratedAt": "2026-08-26T04:52:51.456Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -25965,7 +25987,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-08-26T04:45:53.458Z",
+  "sourceStateUpdatedAt": "2026-08-26T04:52:16.215Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
