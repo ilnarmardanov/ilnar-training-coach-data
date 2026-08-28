@@ -3351,6 +3351,11 @@
       "date": "2026-08-10",
       "recordedAt": "2026-08-10T10:06:16.964Z",
       "valueKg": 54.8
+    },
+    {
+      "date": "2026-08-28",
+      "recordedAt": "2026-08-28T07:45:01.983Z",
+      "valueKg": 56
     }
   ],
   "cardioPlan": {
@@ -12888,7 +12893,12 @@
       "Добавьте углеводы и примерно 20–30 г белка.",
       "Сразу после тренировки добавки не обязательны; подойдёт обычный приём пищи."
     ],
-    "trendRecommendation": null,
+    "trendRecommendation": {
+      "amountKcalPerDay": 0,
+      "requiresConfirmation": false,
+      "type": "keep",
+      "weeklyChangeKg": 0.24907338769458814
+    },
     "weightGainTargetKgPerWeek": {
       "maximum": 0.3,
       "minimum": 0.15
@@ -13008,7 +13018,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-08-26T05:18:38.567Z",
+  "responseGeneratedAt": "2026-08-28T07:45:40.315Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -26467,7 +26477,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-08-26T05:18:25.995Z",
+  "sourceStateUpdatedAt": "2026-08-28T07:45:01.983Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
