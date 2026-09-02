@@ -4650,9 +4650,20 @@
     },
     {
       "activeVariantId": "machine_lateral_raise",
-      "actualResult": null,
-      "actualSetCount": null,
-      "completed": false,
+      "actualResult": {
+        "load": {
+          "kind": "numeric",
+          "mode": "total",
+          "unit": "kg",
+          "value": 25
+        },
+        "reps": [
+          12,
+          12
+        ]
+      },
+      "actualSetCount": 2,
+      "completed": true,
       "currentSessionOverride": null,
       "edited": true,
       "exerciseFamilyId": "shoulder_abduction",
@@ -4674,7 +4685,7 @@
       "issueNotes": null,
       "name": "Machine Lateral Raise",
       "order": 6,
-      "outcome": "planned",
+      "outcome": "completed",
       "persistentPrimaryVariantId": "machine_lateral_raise",
       "plannedPrimaryVariantId": "machine_lateral_raise",
       "prescription": {
@@ -4745,7 +4756,7 @@
           "kind": "numeric",
           "mode": "total",
           "unit": "kg",
-          "value": 22.7
+          "value": 25
         },
         "reps": [
           12,
@@ -6334,9 +6345,20 @@
       },
       {
         "activeVariantId": "machine_lateral_raise",
-        "actualResult": null,
-        "actualSetCount": null,
-        "completed": false,
+        "actualResult": {
+          "load": {
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 25
+          },
+          "reps": [
+            12,
+            12
+          ]
+        },
+        "actualSetCount": 2,
+        "completed": true,
         "currentSessionOverride": null,
         "edited": true,
         "exerciseFamilyId": "shoulder_abduction",
@@ -6358,7 +6380,7 @@
         "issueNotes": null,
         "name": "Machine Lateral Raise",
         "order": 6,
-        "outcome": "planned",
+        "outcome": "completed",
         "persistentPrimaryVariantId": "machine_lateral_raise",
         "plannedPrimaryVariantId": "machine_lateral_raise",
         "prescription": {
@@ -6429,7 +6451,7 @@
             "kind": "numeric",
             "mode": "total",
             "unit": "kg",
-            "value": 22.7
+            "value": 25
           },
           "reps": [
             12,
@@ -12814,7 +12836,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-09-02T05:53:36.267Z",
+  "responseGeneratedAt": "2026-09-02T05:57:13.052Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -27509,7 +27531,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-09-02T05:53:01.150Z",
+  "sourceStateUpdatedAt": "2026-09-02T05:56:52.053Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
