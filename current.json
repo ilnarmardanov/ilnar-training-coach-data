@@ -4146,9 +4146,20 @@
     },
     {
       "activeVariantId": "low_row",
-      "actualResult": null,
-      "actualSetCount": null,
-      "completed": false,
+      "actualResult": {
+        "load": {
+          "kind": "numeric",
+          "mode": "total",
+          "unit": "kg",
+          "value": 65
+        },
+        "reps": [
+          12,
+          12
+        ]
+      },
+      "actualSetCount": 2,
+      "completed": true,
       "currentSessionOverride": null,
       "edited": true,
       "exerciseFamilyId": "horizontal_row",
@@ -4171,7 +4182,7 @@
       "issueNotes": null,
       "name": "Low Row",
       "order": 4,
-      "outcome": "planned",
+      "outcome": "completed",
       "persistentPrimaryVariantId": "low_row",
       "plannedPrimaryVariantId": "low_row",
       "prescription": {
@@ -5807,9 +5818,20 @@
       },
       {
         "activeVariantId": "low_row",
-        "actualResult": null,
-        "actualSetCount": null,
-        "completed": false,
+        "actualResult": {
+          "load": {
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 65
+          },
+          "reps": [
+            12,
+            12
+          ]
+        },
+        "actualSetCount": 2,
+        "completed": true,
         "currentSessionOverride": null,
         "edited": true,
         "exerciseFamilyId": "horizontal_row",
@@ -5832,7 +5854,7 @@
         "issueNotes": null,
         "name": "Low Row",
         "order": 4,
-        "outcome": "planned",
+        "outcome": "completed",
         "persistentPrimaryVariantId": "low_row",
         "plannedPrimaryVariantId": "low_row",
         "prescription": {
@@ -12768,7 +12790,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-09-02T05:38:32.726Z",
+  "responseGeneratedAt": "2026-09-02T05:43:51.581Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -27463,7 +27485,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-09-02T05:38:20.773Z",
+  "sourceStateUpdatedAt": "2026-09-02T05:43:13.547Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
