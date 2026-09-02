@@ -4654,7 +4654,7 @@
       "actualSetCount": null,
       "completed": false,
       "currentSessionOverride": null,
-      "edited": false,
+      "edited": true,
       "exerciseFamilyId": "shoulder_abduction",
       "exerciseId": "machine_lateral_raise",
       "exerciseNote": null,
@@ -4742,9 +4742,10 @@
       "workingSetCount": 2,
       "workingTarget": {
         "load": {
-          "kind": "label",
-          "label": "Lowest available machine load",
-          "mode": "base_resistance"
+          "kind": "numeric",
+          "mode": "total",
+          "unit": "kg",
+          "value": 22.7
         },
         "reps": [
           12,
@@ -6337,7 +6338,7 @@
         "actualSetCount": null,
         "completed": false,
         "currentSessionOverride": null,
-        "edited": false,
+        "edited": true,
         "exerciseFamilyId": "shoulder_abduction",
         "exerciseId": "machine_lateral_raise",
         "exerciseNote": null,
@@ -6425,9 +6426,10 @@
         "workingSetCount": 2,
         "workingTarget": {
           "load": {
-            "kind": "label",
-            "label": "Lowest available machine load",
-            "mode": "base_resistance"
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 22.7
           },
           "reps": [
             12,
@@ -12812,7 +12814,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-09-02T05:48:59.972Z",
+  "responseGeneratedAt": "2026-09-02T05:53:36.267Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -27507,7 +27509,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-09-02T05:48:22.320Z",
+  "sourceStateUpdatedAt": "2026-09-02T05:53:01.150Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
