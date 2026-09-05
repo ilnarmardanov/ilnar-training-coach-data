@@ -4904,9 +4904,19 @@
     },
     {
       "activeVariantId": "supported_calf_raise",
-      "actualResult": null,
-      "actualSetCount": null,
-      "completed": false,
+      "actualResult": {
+        "load": {
+          "kind": "label",
+          "label": "Body weight",
+          "mode": "base_resistance"
+        },
+        "reps": [
+          11,
+          11
+        ]
+      },
+      "actualSetCount": 2,
+      "completed": true,
       "currentSessionOverride": null,
       "edited": false,
       "exerciseFamilyId": "plantar_flexion",
@@ -4928,7 +4938,7 @@
       "issueNotes": null,
       "name": "Supported Calf Raise",
       "order": 7,
-      "outcome": "planned",
+      "outcome": "completed",
       "persistentPrimaryVariantId": "supported_calf_raise",
       "plannedPrimaryVariantId": "supported_calf_raise",
       "prescription": {
@@ -5078,7 +5088,7 @@
       "actualSetCount": null,
       "completed": false,
       "currentSessionOverride": null,
-      "edited": false,
+      "edited": true,
       "exerciseFamilyId": "trunk_control",
       "exerciseId": "dead_bug",
       "exerciseNote": null,
@@ -5281,8 +5291,8 @@
           "mode": "base_resistance"
         },
         "reps": [
-          8,
-          8
+          12,
+          12
         ]
       }
     }
@@ -6537,9 +6547,19 @@
       },
       {
         "activeVariantId": "supported_calf_raise",
-        "actualResult": null,
-        "actualSetCount": null,
-        "completed": false,
+        "actualResult": {
+          "load": {
+            "kind": "label",
+            "label": "Body weight",
+            "mode": "base_resistance"
+          },
+          "reps": [
+            11,
+            11
+          ]
+        },
+        "actualSetCount": 2,
+        "completed": true,
         "currentSessionOverride": null,
         "edited": false,
         "exerciseFamilyId": "plantar_flexion",
@@ -6561,7 +6581,7 @@
         "issueNotes": null,
         "name": "Supported Calf Raise",
         "order": 7,
-        "outcome": "planned",
+        "outcome": "completed",
         "persistentPrimaryVariantId": "supported_calf_raise",
         "plannedPrimaryVariantId": "supported_calf_raise",
         "prescription": {
@@ -6711,7 +6731,7 @@
         "actualSetCount": null,
         "completed": false,
         "currentSessionOverride": null,
-        "edited": false,
+        "edited": true,
         "exerciseFamilyId": "trunk_control",
         "exerciseId": "dead_bug",
         "exerciseNote": null,
@@ -6914,8 +6934,8 @@
             "mode": "base_resistance"
           },
           "reps": [
-            8,
-            8
+            12,
+            12
           ]
         }
       }
@@ -12969,7 +12989,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-09-05T05:28:58.898Z",
+  "responseGeneratedAt": "2026-09-05T05:34:55.515Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -28523,7 +28543,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-09-05T05:27:57.553Z",
+  "sourceStateUpdatedAt": "2026-09-05T05:34:35.694Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
