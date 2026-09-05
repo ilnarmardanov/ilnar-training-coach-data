@@ -4792,7 +4792,7 @@
       "actualSetCount": null,
       "completed": false,
       "currentSessionOverride": null,
-      "edited": false,
+      "edited": true,
       "exerciseFamilyId": "rear_deltoid_horizontal_abduction",
       "exerciseId": "reverse_pec_deck",
       "exerciseNote": null,
@@ -4880,9 +4880,10 @@
       "workingSetCount": 2,
       "workingTarget": {
         "load": {
-          "kind": "label",
-          "label": "Lowest practical machine load",
-          "mode": "base_resistance"
+          "kind": "numeric",
+          "mode": "total",
+          "unit": "kg",
+          "value": 6
         },
         "reps": [
           12,
@@ -6413,7 +6414,7 @@
         "actualSetCount": null,
         "completed": false,
         "currentSessionOverride": null,
-        "edited": false,
+        "edited": true,
         "exerciseFamilyId": "rear_deltoid_horizontal_abduction",
         "exerciseId": "reverse_pec_deck",
         "exerciseNote": null,
@@ -6501,9 +6502,10 @@
         "workingSetCount": 2,
         "workingTarget": {
           "load": {
-            "kind": "label",
-            "label": "Lowest practical machine load",
-            "mode": "base_resistance"
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 6
           },
           "reps": [
             12,
@@ -12945,7 +12947,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-09-05T05:15:21.237Z",
+  "responseGeneratedAt": "2026-09-05T05:27:53.143Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -28499,7 +28501,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-09-05T05:14:45.396Z",
+  "sourceStateUpdatedAt": "2026-09-05T05:27:41.881Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
