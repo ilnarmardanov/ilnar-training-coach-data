@@ -3737,6 +3737,11 @@
       "date": "2026-08-28",
       "recordedAt": "2026-08-28T07:45:01.983Z",
       "valueKg": 56
+    },
+    {
+      "date": "2026-09-05",
+      "recordedAt": "2026-09-05T06:15:18.033Z",
+      "valueKg": 54.9
     }
   ],
   "cardioPlan": {
@@ -13282,7 +13287,7 @@
       "amountKcalPerDay": 0,
       "requiresConfirmation": false,
       "type": "keep",
-      "weeklyChangeKg": 0.24907338769458814
+      "weeklyChangeKg": 0.1495460210076549
     },
     "weightGainTargetKgPerWeek": {
       "maximum": 0.3,
@@ -13412,7 +13417,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-09-05T05:44:21.457Z",
+  "responseGeneratedAt": "2026-09-05T06:15:53.741Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -29704,7 +29709,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-09-05T05:44:10.576Z",
+  "sourceStateUpdatedAt": "2026-09-05T06:15:18.033Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
