@@ -3664,11 +3664,22 @@
   "currentExercises": [
     {
       "activeVariantId": "pendulum_squat",
-      "actualResult": null,
-      "actualSetCount": null,
-      "completed": false,
+      "actualResult": {
+        "load": {
+          "kind": "numeric",
+          "mode": "per_side",
+          "unit": "kg",
+          "value": 5
+        },
+        "reps": [
+          10,
+          10
+        ]
+      },
+      "actualSetCount": 2,
+      "completed": true,
       "currentSessionOverride": null,
-      "edited": false,
+      "edited": true,
       "exerciseFamilyId": "strength_b_knee_dominant",
       "exerciseId": "pendulum_squat",
       "exerciseNote": null,
@@ -3689,7 +3700,7 @@
       "issueNotes": null,
       "name": "Pendulum Squat",
       "order": 1,
-      "outcome": "planned",
+      "outcome": "completed",
       "persistentPrimaryVariantId": "pendulum_squat",
       "plannedPrimaryVariantId": "pendulum_squat",
       "prescription": {
@@ -3829,7 +3840,7 @@
           "kind": "numeric",
           "mode": "per_side",
           "unit": "kg",
-          "value": 0
+          "value": 5
         },
         "reps": [
           10,
@@ -5230,11 +5241,22 @@
     "exercises": [
       {
         "activeVariantId": "pendulum_squat",
-        "actualResult": null,
-        "actualSetCount": null,
-        "completed": false,
+        "actualResult": {
+          "load": {
+            "kind": "numeric",
+            "mode": "per_side",
+            "unit": "kg",
+            "value": 5
+          },
+          "reps": [
+            10,
+            10
+          ]
+        },
+        "actualSetCount": 2,
+        "completed": true,
         "currentSessionOverride": null,
-        "edited": false,
+        "edited": true,
         "exerciseFamilyId": "strength_b_knee_dominant",
         "exerciseId": "pendulum_squat",
         "exerciseNote": null,
@@ -5255,7 +5277,7 @@
         "issueNotes": null,
         "name": "Pendulum Squat",
         "order": 1,
-        "outcome": "planned",
+        "outcome": "completed",
         "persistentPrimaryVariantId": "pendulum_squat",
         "plannedPrimaryVariantId": "pendulum_squat",
         "prescription": {
@@ -5395,7 +5417,7 @@
             "kind": "numeric",
             "mode": "per_side",
             "unit": "kg",
-            "value": 0
+            "value": 5
           },
           "reps": [
             10,
@@ -12835,7 +12857,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-09-02T06:05:40.564Z",
+  "responseGeneratedAt": "2026-09-05T04:36:42.672Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -28389,7 +28411,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-09-02T06:05:23.908Z",
+  "sourceStateUpdatedAt": "2026-09-05T04:36:10.652Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
