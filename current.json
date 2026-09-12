@@ -5119,9 +5119,20 @@
     },
     {
       "activeVariantId": "supported_calf_raise",
-      "actualResult": null,
-      "actualSetCount": null,
-      "completed": false,
+      "actualResult": {
+        "load": {
+          "kind": "numeric",
+          "mode": "total",
+          "unit": "kg",
+          "value": 10
+        },
+        "reps": [
+          10,
+          10
+        ]
+      },
+      "actualSetCount": 2,
+      "completed": true,
       "currentSessionOverride": null,
       "edited": false,
       "exerciseFamilyId": "plantar_flexion",
@@ -5144,7 +5155,7 @@
       "issueNotes": null,
       "name": "Supported Calf Raise",
       "order": 7,
-      "outcome": "planned",
+      "outcome": "completed",
       "persistentPrimaryVariantId": "supported_calf_raise",
       "plannedPrimaryVariantId": "supported_calf_raise",
       "prescription": {
@@ -6834,9 +6845,20 @@
       },
       {
         "activeVariantId": "supported_calf_raise",
-        "actualResult": null,
-        "actualSetCount": null,
-        "completed": false,
+        "actualResult": {
+          "load": {
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 10
+          },
+          "reps": [
+            10,
+            10
+          ]
+        },
+        "actualSetCount": 2,
+        "completed": true,
         "currentSessionOverride": null,
         "edited": false,
         "exerciseFamilyId": "plantar_flexion",
@@ -6859,7 +6881,7 @@
         "issueNotes": null,
         "name": "Supported Calf Raise",
         "order": 7,
-        "outcome": "planned",
+        "outcome": "completed",
         "persistentPrimaryVariantId": "supported_calf_raise",
         "plannedPrimaryVariantId": "supported_calf_raise",
         "prescription": {
@@ -13275,7 +13297,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-09-12T11:33:29.159Z",
+  "responseGeneratedAt": "2026-09-12T11:40:45.716Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -30176,7 +30198,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-09-12T11:32:53.360Z",
+  "sourceStateUpdatedAt": "2026-09-12T11:40:09.040Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
