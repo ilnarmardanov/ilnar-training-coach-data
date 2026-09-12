@@ -3801,9 +3801,20 @@
   "currentExercises": [
     {
       "activeVariantId": "pendulum_squat",
-      "actualResult": null,
-      "actualSetCount": null,
-      "completed": false,
+      "actualResult": {
+        "load": {
+          "kind": "numeric",
+          "mode": "per_side",
+          "unit": "kg",
+          "value": 5
+        },
+        "reps": [
+          10,
+          10
+        ]
+      },
+      "actualSetCount": 2,
+      "completed": true,
       "currentSessionOverride": null,
       "edited": false,
       "exerciseFamilyId": "strength_b_knee_dominant",
@@ -3826,7 +3837,7 @@
       "issueNotes": null,
       "name": "Pendulum Squat",
       "order": 1,
-      "outcome": "planned",
+      "outcome": "completed",
       "persistentPrimaryVariantId": "pendulum_squat",
       "plannedPrimaryVariantId": "pendulum_squat",
       "prescription": {
@@ -5450,9 +5461,20 @@
     "exercises": [
       {
         "activeVariantId": "pendulum_squat",
-        "actualResult": null,
-        "actualSetCount": null,
-        "completed": false,
+        "actualResult": {
+          "load": {
+            "kind": "numeric",
+            "mode": "per_side",
+            "unit": "kg",
+            "value": 5
+          },
+          "reps": [
+            10,
+            10
+          ]
+        },
+        "actualSetCount": 2,
+        "completed": true,
         "currentSessionOverride": null,
         "edited": false,
         "exerciseFamilyId": "strength_b_knee_dominant",
@@ -5475,7 +5497,7 @@
         "issueNotes": null,
         "name": "Pendulum Squat",
         "order": 1,
-        "outcome": "planned",
+        "outcome": "completed",
         "persistentPrimaryVariantId": "pendulum_squat",
         "plannedPrimaryVariantId": "pendulum_squat",
         "prescription": {
@@ -13143,7 +13165,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-09-10T08:42:40.125Z",
+  "responseGeneratedAt": "2026-09-12T11:03:43.870Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -30044,7 +30066,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-09-10T08:42:26.430Z",
+  "sourceStateUpdatedAt": "2026-09-12T11:03:05.203Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
