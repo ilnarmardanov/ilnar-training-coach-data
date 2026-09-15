@@ -2305,7 +2305,7 @@
       },
       "phase2_strength_b": {
         "exerciseIds": [
-          "pendulum_squat",
+          "supported_step_up",
           "seated_leg_curl",
           "machine_shoulder_press",
           "low_row",
@@ -2316,10 +2316,10 @@
         ],
         "exercises": [
           {
-            "exerciseId": "pendulum_squat",
+            "exerciseId": "supported_step_up",
             "repRange": {
               "lower": 8,
-              "perSide": false,
+              "perSide": true,
               "upper": 10
             },
             "workingSets": 2
@@ -2400,7 +2400,7 @@
           "low_row",
           "hip_thrust",
           "machine_lateral_raise",
-          "standing_machine_calf_raise",
+          "supported_single_leg_dumbbell_calf_raise",
           "pallof_press"
         ],
         "exercises": [
@@ -2459,10 +2459,10 @@
             "workingSets": 2
           },
           {
-            "exerciseId": "standing_machine_calf_raise",
+            "exerciseId": "supported_single_leg_dumbbell_calf_raise",
             "repRange": {
               "lower": 10,
-              "perSide": false,
+              "perSide": true,
               "upper": 15
             },
             "workingSets": 2
@@ -2488,9 +2488,9 @@
           "machine_shoulder_press",
           "lat_pulldown",
           "hip_thrust",
-          "reverse_pec_deck",
-          "standing_machine_calf_raise",
-          "dead_bug"
+          "chest_supported_incline_dumbbell_reverse_fly",
+          "supported_single_leg_dumbbell_calf_raise",
+          "loaded_dead_bug_dumbbells"
         ],
         "exercises": [
           {
@@ -2539,7 +2539,7 @@
             "workingSets": 3
           },
           {
-            "exerciseId": "reverse_pec_deck",
+            "exerciseId": "chest_supported_incline_dumbbell_reverse_fly",
             "repRange": {
               "lower": 12,
               "perSide": false,
@@ -2548,16 +2548,16 @@
             "workingSets": 2
           },
           {
-            "exerciseId": "standing_machine_calf_raise",
+            "exerciseId": "supported_single_leg_dumbbell_calf_raise",
             "repRange": {
               "lower": 10,
-              "perSide": false,
+              "perSide": true,
               "upper": 15
             },
             "workingSets": 2
           },
           {
-            "exerciseId": "dead_bug",
+            "exerciseId": "loaded_dead_bug_dumbbells",
             "repRange": {
               "lower": 8,
               "perSide": true,
@@ -2578,7 +2578,7 @@
           "low_row",
           "hip_thrust",
           "machine_lateral_raise",
-          "standing_machine_calf_raise",
+          "supported_single_leg_dumbbell_calf_raise",
           "pallof_press"
         ],
         "exercises": [
@@ -2637,10 +2637,10 @@
             "workingSets": 2
           },
           {
-            "exerciseId": "standing_machine_calf_raise",
+            "exerciseId": "supported_single_leg_dumbbell_calf_raise",
             "repRange": {
               "lower": 10,
-              "perSide": false,
+              "perSide": true,
               "upper": 15
             },
             "workingSets": 2
@@ -2666,9 +2666,9 @@
           "machine_shoulder_press",
           "lat_pulldown",
           "hip_thrust",
-          "reverse_pec_deck",
-          "standing_machine_calf_raise",
-          "dead_bug"
+          "chest_supported_incline_dumbbell_reverse_fly",
+          "supported_single_leg_dumbbell_calf_raise",
+          "loaded_dead_bug_dumbbells"
         ],
         "exercises": [
           {
@@ -2717,7 +2717,7 @@
             "workingSets": 3
           },
           {
-            "exerciseId": "reverse_pec_deck",
+            "exerciseId": "chest_supported_incline_dumbbell_reverse_fly",
             "repRange": {
               "lower": 12,
               "perSide": false,
@@ -2726,16 +2726,16 @@
             "workingSets": 2
           },
           {
-            "exerciseId": "standing_machine_calf_raise",
+            "exerciseId": "supported_single_leg_dumbbell_calf_raise",
             "repRange": {
               "lower": 10,
-              "perSide": false,
+              "perSide": true,
               "upper": 15
             },
             "workingSets": 2
           },
           {
-            "exerciseId": "dead_bug",
+            "exerciseId": "loaded_dead_bug_dumbbells",
             "repRange": {
               "lower": 8,
               "perSide": true,
@@ -2756,7 +2756,7 @@
           "low_row",
           "machine_lateral_raise",
           "triceps_pressdown",
-          "standing_machine_calf_raise",
+          "supported_single_leg_dumbbell_calf_raise",
           "pallof_press"
         ],
         "exercises": [
@@ -2815,10 +2815,10 @@
             "workingSets": 2
           },
           {
-            "exerciseId": "standing_machine_calf_raise",
+            "exerciseId": "supported_single_leg_dumbbell_calf_raise",
             "repRange": {
               "lower": 10,
-              "perSide": false,
+              "perSide": true,
               "upper": 15
             },
             "workingSets": 3
@@ -2843,10 +2843,10 @@
           "leg_extension",
           "machine_shoulder_press",
           "lat_pulldown",
-          "reverse_pec_deck",
+          "chest_supported_incline_dumbbell_reverse_fly",
           "cable_biceps_curl",
           "hip_thrust",
-          "dead_bug"
+          "loaded_dead_bug_dumbbells"
         ],
         "exercises": [
           {
@@ -2886,7 +2886,7 @@
             "workingSets": 3
           },
           {
-            "exerciseId": "reverse_pec_deck",
+            "exerciseId": "chest_supported_incline_dumbbell_reverse_fly",
             "repRange": {
               "lower": 12,
               "perSide": false,
@@ -2913,7 +2913,7 @@
             "workingSets": 3
           },
           {
-            "exerciseId": "dead_bug",
+            "exerciseId": "loaded_dead_bug_dumbbells",
             "repRange": {
               "lower": 8,
               "perSide": true,
@@ -2935,7 +2935,7 @@
           "lat_pulldown",
           "machine_lateral_raise",
           "seated_leg_curl",
-          "standing_machine_calf_raise"
+          "supported_single_leg_dumbbell_calf_raise"
         ],
         "exercises": [
           {
@@ -3002,10 +3002,10 @@
             "workingSets": 2
           },
           {
-            "exerciseId": "standing_machine_calf_raise",
+            "exerciseId": "supported_single_leg_dumbbell_calf_raise",
             "repRange": {
               "lower": 12,
-              "perSide": false,
+              "perSide": true,
               "upper": 20
             },
             "workingSets": 2
@@ -3023,7 +3023,7 @@
           "hip_thrust",
           "seated_leg_curl",
           "machine_lateral_raise",
-          "standing_machine_calf_raise",
+          "supported_single_leg_dumbbell_calf_raise",
           "pallof_press"
         ],
         "exercises": [
@@ -3082,10 +3082,10 @@
             "workingSets": 2
           },
           {
-            "exerciseId": "standing_machine_calf_raise",
+            "exerciseId": "supported_single_leg_dumbbell_calf_raise",
             "repRange": {
               "lower": 10,
-              "perSide": false,
+              "perSide": true,
               "upper": 15
             },
             "workingSets": 2
@@ -3111,9 +3111,9 @@
           "lat_pulldown",
           "leg_extension",
           "hip_thrust",
-          "reverse_pec_deck",
+          "chest_supported_incline_dumbbell_reverse_fly",
           "cable_biceps_curl",
-          "dead_bug"
+          "loaded_dead_bug_dumbbells"
         ],
         "exercises": [
           {
@@ -3162,7 +3162,7 @@
             "workingSets": 2
           },
           {
-            "exerciseId": "reverse_pec_deck",
+            "exerciseId": "chest_supported_incline_dumbbell_reverse_fly",
             "repRange": {
               "lower": 12,
               "perSide": false,
@@ -3180,7 +3180,7 @@
             "workingSets": 2
           },
           {
-            "exerciseId": "dead_bug",
+            "exerciseId": "loaded_dead_bug_dumbbells",
             "repRange": {
               "lower": 8,
               "perSide": true,
@@ -3202,7 +3202,7 @@
           "seated_leg_curl",
           "machine_lateral_raise",
           "triceps_pressdown",
-          "standing_machine_calf_raise"
+          "supported_single_leg_dumbbell_calf_raise"
         ],
         "exercises": [
           {
@@ -3269,10 +3269,10 @@
             "workingSets": 2
           },
           {
-            "exerciseId": "standing_machine_calf_raise",
+            "exerciseId": "supported_single_leg_dumbbell_calf_raise",
             "repRange": {
               "lower": 12,
-              "perSide": false,
+              "perSide": true,
               "upper": 20
             },
             "workingSets": 2
@@ -3290,7 +3290,7 @@
           "lat_pulldown",
           "seated_leg_curl",
           "machine_lateral_raise",
-          "standing_machine_calf_raise",
+          "supported_single_leg_dumbbell_calf_raise",
           "pallof_press"
         ],
         "exercises": [
@@ -3349,10 +3349,10 @@
             "workingSets": 3
           },
           {
-            "exerciseId": "standing_machine_calf_raise",
+            "exerciseId": "supported_single_leg_dumbbell_calf_raise",
             "repRange": {
               "lower": 10,
-              "perSide": false,
+              "perSide": true,
               "upper": 15
             },
             "workingSets": 2
@@ -3378,9 +3378,9 @@
           "lat_pulldown",
           "hip_thrust",
           "leg_extension",
-          "reverse_pec_deck",
+          "chest_supported_incline_dumbbell_reverse_fly",
           "cable_biceps_curl",
-          "dead_bug"
+          "loaded_dead_bug_dumbbells"
         ],
         "exercises": [
           {
@@ -3429,7 +3429,7 @@
             "workingSets": 2
           },
           {
-            "exerciseId": "reverse_pec_deck",
+            "exerciseId": "chest_supported_incline_dumbbell_reverse_fly",
             "repRange": {
               "lower": 12,
               "perSide": false,
@@ -3447,7 +3447,7 @@
             "workingSets": 2
           },
           {
-            "exerciseId": "dead_bug",
+            "exerciseId": "loaded_dead_bug_dumbbells",
             "repRange": {
               "lower": 8,
               "perSide": true,
@@ -3646,8 +3646,8 @@
           "lat_pulldown",
           "low_row",
           "hip_thrust",
-          "standing_machine_calf_raise",
-          "dead_bug"
+          "supported_single_leg_dumbbell_calf_raise",
+          "loaded_dead_bug_dumbbells"
         ],
         "exercises": [
           {
@@ -3705,16 +3705,16 @@
             "workingSets": 2
           },
           {
-            "exerciseId": "standing_machine_calf_raise",
+            "exerciseId": "supported_single_leg_dumbbell_calf_raise",
             "repRange": {
               "lower": 10,
-              "perSide": false,
+              "perSide": true,
               "upper": 15
             },
             "workingSets": 2
           },
           {
-            "exerciseId": "dead_bug",
+            "exerciseId": "loaded_dead_bug_dumbbells",
             "repRange": {
               "lower": 8,
               "perSide": true,
@@ -3847,6 +3847,7 @@
         },
         "reps": [
           12,
+          12,
           12
         ]
       },
@@ -3860,11 +3861,11 @@
       "prescription": {
         "exerciseId": "leg_press",
         "repRange": {
-          "lower": 10,
+          "lower": 8,
           "perSide": false,
           "upper": 12
         },
-        "workingSets": 2
+        "workingSets": 3
       },
       "previousResult": {
         "load": {
@@ -4047,7 +4048,7 @@
         "orientation": "9:16",
         "setupApproved": true
       },
-      "workingSetCount": 2,
+      "workingSetCount": 3,
       "workingTarget": {
         "load": {
           "kind": "numeric",
@@ -4056,6 +4057,7 @@
           "value": 0
         },
         "reps": [
+          12,
           12,
           12
         ]
@@ -4096,7 +4098,7 @@
         "repRange": {
           "lower": 10,
           "perSide": false,
-          "upper": 12
+          "upper": 15
         },
         "workingSets": 2
       },
@@ -4305,6 +4307,7 @@
         },
         "reps": [
           11,
+          11,
           11
         ]
       },
@@ -4318,11 +4321,11 @@
       "prescription": {
         "exerciseId": "chest_press",
         "repRange": {
-          "lower": 10,
+          "lower": 8,
           "perSide": false,
           "upper": 12
         },
-        "workingSets": 2
+        "workingSets": 3
       },
       "previousResult": {
         "load": {
@@ -4510,7 +4513,7 @@
         "orientation": "9:16",
         "setupApproved": true
       },
-      "workingSetCount": 2,
+      "workingSetCount": 3,
       "workingTarget": {
         "load": {
           "kind": "numeric",
@@ -4519,6 +4522,7 @@
           "value": 15
         },
         "reps": [
+          11,
           11,
           11
         ]
@@ -4544,6 +4548,7 @@
         },
         "reps": [
           10,
+          10,
           10
         ]
       },
@@ -4557,11 +4562,11 @@
       "prescription": {
         "exerciseId": "low_row",
         "repRange": {
-          "lower": 10,
+          "lower": 8,
           "perSide": false,
           "upper": 12
         },
-        "workingSets": 2
+        "workingSets": 3
       },
       "previousResult": {
         "load": {
@@ -4764,7 +4769,7 @@
         "orientation": "9:16",
         "setupApproved": true
       },
-      "workingSetCount": 2,
+      "workingSetCount": 3,
       "workingTarget": {
         "load": {
           "kind": "numeric",
@@ -4773,6 +4778,7 @@
           "value": 70
         },
         "reps": [
+          10,
           10,
           10
         ]
@@ -4798,6 +4804,7 @@
         },
         "reps": [
           14,
+          14,
           14
         ]
       },
@@ -4811,11 +4818,11 @@
       "prescription": {
         "exerciseId": "hip_thrust",
         "repRange": {
-          "lower": 12,
+          "lower": 10,
           "perSide": false,
           "upper": 15
         },
-        "workingSets": 2
+        "workingSets": 3
       },
       "previousResult": {
         "load": {
@@ -4992,7 +4999,7 @@
         "orientation": "9:16",
         "setupApproved": true
       },
-      "workingSetCount": 2,
+      "workingSetCount": 3,
       "workingTarget": {
         "load": {
           "kind": "numeric",
@@ -5001,6 +5008,7 @@
           "value": 75
         },
         "reps": [
+          14,
           14,
           14
         ]
@@ -5082,11 +5090,6 @@
           "Confirmed load behavior",
           "Approved vertical setup Short",
           "Approved vertical correct-execution Short"
-        ],
-        "machine_lateral_raise": [
-          "Confirmed equipment profile",
-          "Approved vertical setup Short",
-          "Approved vertical correct-execution Short"
         ]
       },
       "variantProgression": {
@@ -5155,15 +5158,13 @@
       "variantStatus": "active",
       "variantTier": "primary",
       "videoPair": {
-        "complete": false,
-        "count": 0,
-        "executionApproved": false,
-        "missingRequirements": [
-          "Approved vertical setup Short",
-          "Approved vertical correct-execution Short"
-        ],
-        "orientation": null,
-        "setupApproved": false
+        "complete": true,
+        "count": 2,
+        "executionApproved": true,
+        "missingRequirements": [],
+        "mode": "primary_plus_alternative",
+        "orientation": "9:16",
+        "setupApproved": true
       },
       "workingSetCount": 2,
       "workingTarget": {
@@ -5180,60 +5181,48 @@
       }
     },
     {
-      "activeVariantId": "supported_calf_raise",
+      "activeVariantId": "supported_single_leg_dumbbell_calf_raise",
       "actualResult": null,
       "actualSetCount": null,
       "completed": false,
       "currentSessionOverride": null,
       "edited": false,
       "exerciseFamilyId": "plantar_flexion",
-      "exerciseId": "supported_calf_raise",
+      "exerciseId": "supported_single_leg_dumbbell_calf_raise",
       "exerciseNote": null,
-      "firstUse": false,
+      "firstUse": true,
       "generatedTarget": {
         "load": {
-          "kind": "numeric",
-          "mode": "total",
-          "unit": "kg",
-          "value": 10
-        },
-        "reps": [
-          11,
-          11
-        ]
-      },
-      "issue": null,
-      "issueNotes": null,
-      "name": "Supported Calf Raise",
-      "order": 7,
-      "outcome": "planned",
-      "persistentPrimaryVariantId": "supported_calf_raise",
-      "plannedPrimaryVariantId": "supported_calf_raise",
-      "prescription": {
-        "exerciseId": "supported_calf_raise",
-        "repRange": {
-          "lower": 10,
-          "perSide": false,
-          "upper": 15
-        },
-        "workingSets": 2
-      },
-      "previousResult": {
-        "load": {
-          "kind": "numeric",
-          "mode": "total",
-          "unit": "kg",
-          "value": 10
+          "kind": "label",
+          "label": "Set load",
+          "mode": "base_resistance"
         },
         "reps": [
           10,
           10
         ]
       },
+      "issue": null,
+      "issueNotes": null,
+      "name": "Supported Single-Leg Dumbbell Calf Raise on Step",
+      "order": 7,
+      "outcome": "planned",
+      "persistentPrimaryVariantId": "supported_calf_raise",
+      "plannedPrimaryVariantId": "supported_single_leg_dumbbell_calf_raise",
+      "prescription": {
+        "exerciseId": "supported_single_leg_dumbbell_calf_raise",
+        "repRange": {
+          "lower": 10,
+          "perSide": true,
+          "upper": 15
+        },
+        "workingSets": 2
+      },
+      "previousResult": null,
       "progressionContext": {
         "automaticLoadIncreasePending": false,
         "consecutiveTopConfirmations": 0,
-        "equipmentSetupRequired": false,
+        "equipmentSetupRequired": true,
         "increaseMessage": null,
         "increaseWarningRequired": false,
         "loadIncreaseDue": false,
@@ -5257,7 +5246,6 @@
           "Approved vertical correct-execution Short"
         ],
         "standing_machine_calf_raise": [
-          "Confirmed equipment profile",
           "Approved vertical setup Short",
           "Approved vertical correct-execution Short"
         ],
@@ -5267,91 +5255,33 @@
         ]
       },
       "variantProgression": {
-        "baselineConfirmedAt": "2026-09-02T06:05:23.908Z",
-        "baselineLoad": {
-          "kind": "label",
-          "label": "Body weight",
-          "mode": "base_resistance"
-        },
-        "retainedTarget": {
-          "exerciseId": "supported_calf_raise",
-          "generatedTarget": {
-            "load": {
-              "kind": "numeric",
-              "mode": "total",
-              "unit": "kg",
-              "value": 10
-            },
-            "reps": [
-              11,
-              11
-            ]
-          },
-          "previousResult": {
-            "load": {
-              "kind": "numeric",
-              "mode": "total",
-              "unit": "kg",
-              "value": 10
-            },
-            "reps": [
-              10,
-              10
-            ]
-          },
-          "progressionContext": {
-            "automaticLoadIncreasePending": false,
-            "consecutiveTopConfirmations": 0,
-            "equipmentSetupRequired": false,
-            "increaseMessage": null,
-            "increaseWarningRequired": false,
-            "loadIncreaseDue": false,
-            "masteredLoad": null,
-            "progressionBlocked": false,
-            "proposedLoad": null,
-            "recentLoadIncrease": false,
-            "reviewRequired": false
-          },
-          "workingTarget": {
-            "load": {
-              "kind": "numeric",
-              "mode": "total",
-              "unit": "kg",
-              "value": 10
-            },
-            "reps": [
-              11,
-              11
-            ]
-          }
-        },
+        "baselineConfirmedAt": null,
+        "baselineLoad": null,
+        "retainedTarget": null,
         "tracks": {},
-        "variantId": "supported_calf_raise"
+        "variantId": "supported_single_leg_dumbbell_calf_raise"
       },
       "variantStatus": "active",
-      "variantTier": "primary",
+      "variantTier": "equivalent_equipment",
       "videoPair": {
-        "complete": false,
-        "count": 0,
-        "executionApproved": false,
-        "missingRequirements": [
-          "Approved vertical setup Short",
-          "Approved vertical correct-execution Short"
-        ],
-        "orientation": null,
-        "setupApproved": false
+        "complete": true,
+        "count": 2,
+        "executionApproved": true,
+        "missingRequirements": [],
+        "mode": "primary_plus_alternative",
+        "orientation": "9:16",
+        "setupApproved": true
       },
       "workingSetCount": 2,
       "workingTarget": {
         "load": {
-          "kind": "numeric",
-          "mode": "total",
-          "unit": "kg",
-          "value": 10
+          "kind": "label",
+          "label": "Set load",
+          "mode": "base_resistance"
         },
         "reps": [
-          11,
-          11
+          10,
+          10
         ]
       }
     },
@@ -5602,6 +5532,7 @@
           },
           "reps": [
             12,
+            12,
             12
           ]
         },
@@ -5615,11 +5546,11 @@
         "prescription": {
           "exerciseId": "leg_press",
           "repRange": {
-            "lower": 10,
+            "lower": 8,
             "perSide": false,
             "upper": 12
           },
-          "workingSets": 2
+          "workingSets": 3
         },
         "previousResult": {
           "load": {
@@ -5802,7 +5733,7 @@
           "orientation": "9:16",
           "setupApproved": true
         },
-        "workingSetCount": 2,
+        "workingSetCount": 3,
         "workingTarget": {
           "load": {
             "kind": "numeric",
@@ -5811,6 +5742,7 @@
             "value": 0
           },
           "reps": [
+            12,
             12,
             12
           ]
@@ -5851,7 +5783,7 @@
           "repRange": {
             "lower": 10,
             "perSide": false,
-            "upper": 12
+            "upper": 15
           },
           "workingSets": 2
         },
@@ -6060,6 +5992,7 @@
           },
           "reps": [
             11,
+            11,
             11
           ]
         },
@@ -6073,11 +6006,11 @@
         "prescription": {
           "exerciseId": "chest_press",
           "repRange": {
-            "lower": 10,
+            "lower": 8,
             "perSide": false,
             "upper": 12
           },
-          "workingSets": 2
+          "workingSets": 3
         },
         "previousResult": {
           "load": {
@@ -6265,7 +6198,7 @@
           "orientation": "9:16",
           "setupApproved": true
         },
-        "workingSetCount": 2,
+        "workingSetCount": 3,
         "workingTarget": {
           "load": {
             "kind": "numeric",
@@ -6274,6 +6207,7 @@
             "value": 15
           },
           "reps": [
+            11,
             11,
             11
           ]
@@ -6299,6 +6233,7 @@
           },
           "reps": [
             10,
+            10,
             10
           ]
         },
@@ -6312,11 +6247,11 @@
         "prescription": {
           "exerciseId": "low_row",
           "repRange": {
-            "lower": 10,
+            "lower": 8,
             "perSide": false,
             "upper": 12
           },
-          "workingSets": 2
+          "workingSets": 3
         },
         "previousResult": {
           "load": {
@@ -6519,7 +6454,7 @@
           "orientation": "9:16",
           "setupApproved": true
         },
-        "workingSetCount": 2,
+        "workingSetCount": 3,
         "workingTarget": {
           "load": {
             "kind": "numeric",
@@ -6528,6 +6463,7 @@
             "value": 70
           },
           "reps": [
+            10,
             10,
             10
           ]
@@ -6553,6 +6489,7 @@
           },
           "reps": [
             14,
+            14,
             14
           ]
         },
@@ -6566,11 +6503,11 @@
         "prescription": {
           "exerciseId": "hip_thrust",
           "repRange": {
-            "lower": 12,
+            "lower": 10,
             "perSide": false,
             "upper": 15
           },
-          "workingSets": 2
+          "workingSets": 3
         },
         "previousResult": {
           "load": {
@@ -6747,7 +6684,7 @@
           "orientation": "9:16",
           "setupApproved": true
         },
-        "workingSetCount": 2,
+        "workingSetCount": 3,
         "workingTarget": {
           "load": {
             "kind": "numeric",
@@ -6756,6 +6693,7 @@
             "value": 75
           },
           "reps": [
+            14,
             14,
             14
           ]
@@ -6837,11 +6775,6 @@
             "Confirmed load behavior",
             "Approved vertical setup Short",
             "Approved vertical correct-execution Short"
-          ],
-          "machine_lateral_raise": [
-            "Confirmed equipment profile",
-            "Approved vertical setup Short",
-            "Approved vertical correct-execution Short"
           ]
         },
         "variantProgression": {
@@ -6910,15 +6843,13 @@
         "variantStatus": "active",
         "variantTier": "primary",
         "videoPair": {
-          "complete": false,
-          "count": 0,
-          "executionApproved": false,
-          "missingRequirements": [
-            "Approved vertical setup Short",
-            "Approved vertical correct-execution Short"
-          ],
-          "orientation": null,
-          "setupApproved": false
+          "complete": true,
+          "count": 2,
+          "executionApproved": true,
+          "missingRequirements": [],
+          "mode": "primary_plus_alternative",
+          "orientation": "9:16",
+          "setupApproved": true
         },
         "workingSetCount": 2,
         "workingTarget": {
@@ -6935,60 +6866,48 @@
         }
       },
       {
-        "activeVariantId": "supported_calf_raise",
+        "activeVariantId": "supported_single_leg_dumbbell_calf_raise",
         "actualResult": null,
         "actualSetCount": null,
         "completed": false,
         "currentSessionOverride": null,
         "edited": false,
         "exerciseFamilyId": "plantar_flexion",
-        "exerciseId": "supported_calf_raise",
+        "exerciseId": "supported_single_leg_dumbbell_calf_raise",
         "exerciseNote": null,
-        "firstUse": false,
+        "firstUse": true,
         "generatedTarget": {
           "load": {
-            "kind": "numeric",
-            "mode": "total",
-            "unit": "kg",
-            "value": 10
-          },
-          "reps": [
-            11,
-            11
-          ]
-        },
-        "issue": null,
-        "issueNotes": null,
-        "name": "Supported Calf Raise",
-        "order": 7,
-        "outcome": "planned",
-        "persistentPrimaryVariantId": "supported_calf_raise",
-        "plannedPrimaryVariantId": "supported_calf_raise",
-        "prescription": {
-          "exerciseId": "supported_calf_raise",
-          "repRange": {
-            "lower": 10,
-            "perSide": false,
-            "upper": 15
-          },
-          "workingSets": 2
-        },
-        "previousResult": {
-          "load": {
-            "kind": "numeric",
-            "mode": "total",
-            "unit": "kg",
-            "value": 10
+            "kind": "label",
+            "label": "Set load",
+            "mode": "base_resistance"
           },
           "reps": [
             10,
             10
           ]
         },
+        "issue": null,
+        "issueNotes": null,
+        "name": "Supported Single-Leg Dumbbell Calf Raise on Step",
+        "order": 7,
+        "outcome": "planned",
+        "persistentPrimaryVariantId": "supported_calf_raise",
+        "plannedPrimaryVariantId": "supported_single_leg_dumbbell_calf_raise",
+        "prescription": {
+          "exerciseId": "supported_single_leg_dumbbell_calf_raise",
+          "repRange": {
+            "lower": 10,
+            "perSide": true,
+            "upper": 15
+          },
+          "workingSets": 2
+        },
+        "previousResult": null,
         "progressionContext": {
           "automaticLoadIncreasePending": false,
           "consecutiveTopConfirmations": 0,
-          "equipmentSetupRequired": false,
+          "equipmentSetupRequired": true,
           "increaseMessage": null,
           "increaseWarningRequired": false,
           "loadIncreaseDue": false,
@@ -7012,7 +6931,6 @@
             "Approved vertical correct-execution Short"
           ],
           "standing_machine_calf_raise": [
-            "Confirmed equipment profile",
             "Approved vertical setup Short",
             "Approved vertical correct-execution Short"
           ],
@@ -7022,91 +6940,33 @@
           ]
         },
         "variantProgression": {
-          "baselineConfirmedAt": "2026-09-02T06:05:23.908Z",
-          "baselineLoad": {
-            "kind": "label",
-            "label": "Body weight",
-            "mode": "base_resistance"
-          },
-          "retainedTarget": {
-            "exerciseId": "supported_calf_raise",
-            "generatedTarget": {
-              "load": {
-                "kind": "numeric",
-                "mode": "total",
-                "unit": "kg",
-                "value": 10
-              },
-              "reps": [
-                11,
-                11
-              ]
-            },
-            "previousResult": {
-              "load": {
-                "kind": "numeric",
-                "mode": "total",
-                "unit": "kg",
-                "value": 10
-              },
-              "reps": [
-                10,
-                10
-              ]
-            },
-            "progressionContext": {
-              "automaticLoadIncreasePending": false,
-              "consecutiveTopConfirmations": 0,
-              "equipmentSetupRequired": false,
-              "increaseMessage": null,
-              "increaseWarningRequired": false,
-              "loadIncreaseDue": false,
-              "masteredLoad": null,
-              "progressionBlocked": false,
-              "proposedLoad": null,
-              "recentLoadIncrease": false,
-              "reviewRequired": false
-            },
-            "workingTarget": {
-              "load": {
-                "kind": "numeric",
-                "mode": "total",
-                "unit": "kg",
-                "value": 10
-              },
-              "reps": [
-                11,
-                11
-              ]
-            }
-          },
+          "baselineConfirmedAt": null,
+          "baselineLoad": null,
+          "retainedTarget": null,
           "tracks": {},
-          "variantId": "supported_calf_raise"
+          "variantId": "supported_single_leg_dumbbell_calf_raise"
         },
         "variantStatus": "active",
-        "variantTier": "primary",
+        "variantTier": "equivalent_equipment",
         "videoPair": {
-          "complete": false,
-          "count": 0,
-          "executionApproved": false,
-          "missingRequirements": [
-            "Approved vertical setup Short",
-            "Approved vertical correct-execution Short"
-          ],
-          "orientation": null,
-          "setupApproved": false
+          "complete": true,
+          "count": 2,
+          "executionApproved": true,
+          "missingRequirements": [],
+          "mode": "primary_plus_alternative",
+          "orientation": "9:16",
+          "setupApproved": true
         },
         "workingSetCount": 2,
         "workingTarget": {
           "load": {
-            "kind": "numeric",
-            "mode": "total",
-            "unit": "kg",
-            "value": 10
+            "kind": "label",
+            "label": "Set load",
+            "mode": "base_resistance"
           },
           "reps": [
-            11,
-            11
+            10,
+            10
           ]
         }
       },
@@ -7403,41 +7263,33 @@
       "upperRepetitions": 20
     },
     "chest_press": {
-      "availableLoads": [
-        2.5,
-        5,
-        7.5,
-        10,
-        12.5,
-        15,
-        17.5,
-        20,
-        22.5,
-        25,
-        27.5,
-        30
-      ],
-      "configured": true,
+      "availableLoads": [],
+      "configured": false,
       "loadMode": "per_side",
       "lowerRepetitions": 10,
       "maximumAutomaticPercentageJump": 10,
       "mode": "plates_per_side",
-      "plateIncrementPerSide": 2.5,
       "requiredTopConfirmations": 2,
       "roundingBehavior": "next_available",
       "unit": "kg",
       "upperRepetitions": 12
     },
+    "chest_supported_incline_dumbbell_reverse_fly": {
+      "availableLoads": [],
+      "configured": false,
+      "loadMode": "per_hand",
+      "lowerRepetitions": 12,
+      "manualFirstUseLoad": true,
+      "maximumAutomaticPercentageJump": 10,
+      "mode": "available_loads",
+      "requiredTopConfirmations": 2,
+      "roundingBehavior": "next_available",
+      "unit": "kg",
+      "upperRepetitions": 15
+    },
     "dead_bug": {
-      "availableLoads": [
-        "Body weight",
-        "Body weight + 2.5 kg",
-        "Body weight + 5 kg",
-        "Body weight + 7.5 kg",
-        "Body weight + 10 kg"
-      ],
-      "configured": true,
-      "fixedIncrement": 2.5,
+      "availableLoads": [],
+      "configured": false,
       "loadMode": "base_resistance",
       "lowerRepetitions": 8,
       "maximumAutomaticPercentageJump": 10,
@@ -7448,37 +7300,19 @@
       "upperRepetitions": 12
     },
     "hip_thrust": {
-      "configured": true,
-      "fixedIncrement": 5,
+      "configured": false,
       "loadMode": "total",
       "lowerRepetitions": 12,
       "maximumAutomaticPercentageJump": 10,
       "mode": "fixed_increment",
-      "realIncrement": 5,
       "requiredTopConfirmations": 2,
       "roundingBehavior": "next_available",
       "unit": "kg",
       "upperRepetitions": 15
     },
     "lat_pulldown": {
-      "availableLoads": [
-        30,
-        35,
-        40,
-        45,
-        50,
-        55,
-        60,
-        65,
-        70,
-        75,
-        80,
-        85,
-        90,
-        95,
-        100
-      ],
-      "configured": true,
+      "availableLoads": [],
+      "configured": false,
       "loadMode": "total",
       "lowerRepetitions": 10,
       "maximumAutomaticPercentageJump": 10,
@@ -7489,24 +7323,8 @@
       "upperRepetitions": 12
     },
     "leg_extension": {
-      "availableLoads": [
-        30,
-        35,
-        40,
-        45,
-        50,
-        55,
-        60,
-        65,
-        70,
-        75,
-        80,
-        85,
-        90,
-        95,
-        100
-      ],
-      "configured": true,
+      "availableLoads": [],
+      "configured": false,
       "loadMode": "total",
       "lowerRepetitions": 10,
       "maximumAutomaticPercentageJump": 10,
@@ -7517,45 +7335,33 @@
       "upperRepetitions": 12
     },
     "leg_press": {
-      "availableLoads": [
-        "Base",
-        "Base + 5 kg per side",
-        "Base + 10 kg per side",
-        "Base + 15 kg per side",
-        "Base + 20 kg per side",
-        "Base + 25 kg per side",
-        "Base + 30 kg per side"
-      ],
-      "configured": true,
+      "availableLoads": [],
+      "configured": false,
       "loadMode": "base_resistance",
       "lowerRepetitions": 10,
       "maximumAutomaticPercentageJump": 10,
       "mode": "base_plus_plates",
-      "plateIncrementPerSide": 5,
+      "requiredTopConfirmations": 2,
+      "roundingBehavior": "next_available",
+      "unit": "kg",
+      "upperRepetitions": 12
+    },
+    "loaded_dead_bug_dumbbells": {
+      "availableLoads": [],
+      "configured": false,
+      "loadMode": "per_hand",
+      "lowerRepetitions": 8,
+      "manualFirstUseLoad": true,
+      "maximumAutomaticPercentageJump": 10,
+      "mode": "available_loads",
       "requiredTopConfirmations": 2,
       "roundingBehavior": "next_available",
       "unit": "kg",
       "upperRepetitions": 12
     },
     "low_row": {
-      "availableLoads": [
-        30,
-        35,
-        40,
-        45,
-        50,
-        55,
-        60,
-        65,
-        70,
-        75,
-        80,
-        85,
-        90,
-        95,
-        100
-      ],
-      "configured": true,
+      "availableLoads": [],
+      "configured": false,
       "loadMode": "total",
       "lowerRepetitions": 10,
       "maximumAutomaticPercentageJump": 10,
@@ -7578,24 +7384,8 @@
       "upperRepetitions": 15
     },
     "machine_shoulder_press": {
-      "availableLoads": [
-        10,
-        15,
-        20,
-        25,
-        30,
-        35,
-        40,
-        45,
-        50,
-        55,
-        60,
-        65,
-        70,
-        75,
-        80
-      ],
-      "configured": true,
+      "availableLoads": [],
+      "configured": false,
       "loadMode": "total",
       "lowerRepetitions": 10,
       "maximumAutomaticPercentageJump": 10,
@@ -7662,24 +7452,8 @@
       "upperRepetitions": 15
     },
     "seated_leg_curl": {
-      "availableLoads": [
-        30,
-        35,
-        40,
-        45,
-        50,
-        55,
-        60,
-        65,
-        70,
-        75,
-        80,
-        85,
-        90,
-        95,
-        100
-      ],
-      "configured": true,
+      "availableLoads": [],
+      "configured": false,
       "loadMode": "total",
       "lowerRepetitions": 10,
       "maximumAutomaticPercentageJump": 10,
@@ -7727,6 +7501,19 @@
       "lowerRepetitions": 10,
       "maximumAutomaticPercentageJump": 10,
       "mode": "bodyweight_plus_external_load",
+      "requiredTopConfirmations": 2,
+      "roundingBehavior": "next_available",
+      "unit": "kg",
+      "upperRepetitions": 15
+    },
+    "supported_single_leg_dumbbell_calf_raise": {
+      "availableLoads": [],
+      "configured": false,
+      "loadMode": "per_hand",
+      "lowerRepetitions": 10,
+      "manualFirstUseLoad": true,
+      "maximumAutomaticPercentageJump": 10,
+      "mode": "available_loads",
       "requiredTopConfirmations": 2,
       "roundingBehavior": "next_available",
       "unit": "kg",
@@ -8140,26 +7927,12 @@
       "effortGuidanceRu": "Останавливайтесь с запасом примерно 2 повтора; не доводите рабочие подходы до технического отказа.",
       "equipment": "Chest-press machine",
       "equipmentProfile": {
-        "availableLoads": [
-          2.5,
-          5,
-          7.5,
-          10,
-          12.5,
-          15,
-          17.5,
-          20,
-          22.5,
-          25,
-          27.5,
-          30
-        ],
-        "configured": true,
+        "availableLoads": [],
+        "configured": false,
         "loadMode": "per_side",
         "lowerRepetitions": 10,
         "maximumAutomaticPercentageJump": 10,
         "mode": "plates_per_side",
-        "plateIncrementPerSide": 2.5,
         "requiredTopConfirmations": 2,
         "roundingBehavior": "next_available",
         "unit": "kg",
@@ -8253,6 +8026,196 @@
       "videoUrls": [],
       "workingSets": 2
     },
+    "chest_supported_incline_dumbbell_reverse_fly": {
+      "active": true,
+      "actualBaselineLoad": null,
+      "adjustmentRu": "Немного измените угол скамьи, если это помогает непрерывно сохранять опору грудью и свободную траекторию рук.",
+      "alternatives": [
+        {
+          "category": "equivalent_equipment",
+          "name": "Reverse Pec Deck",
+          "suggestedRepRange": "12–20",
+          "techniqueDifferenceRu": "Отдельная машинная прогрессия.",
+          "whenToUseRu": "Если позже будет подтверждён подходящий тренажёр."
+        },
+        {
+          "category": "similar_machine",
+          "name": "Cable Reverse Fly",
+          "suggestedRepRange": "12–20",
+          "techniqueDifferenceRu": "Сохраняйте неподвижный корпус.",
+          "whenToUseRu": "Когда доступен двойной блок."
+        },
+        {
+          "category": "minimal_equipment",
+          "name": "Band Pull-Apart",
+          "suggestedRepRange": "15–25",
+          "techniqueDifferenceRu": "Отдельная исходная точка.",
+          "whenToUseRu": "Когда доступны только резины."
+        }
+      ],
+      "approvedVideo": {
+        "approvalStatus": "explicit_user_approval_2026-09-14",
+        "aspectRatio": "9:16",
+        "contentType": "short",
+        "dimensions": "1080x1920",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/sIQNCJ6Xwsk",
+        "language": "en",
+        "platform": "youtube",
+        "publicUrl": "https://www.youtube.com/watch?v=sIQNCJ6Xwsk",
+        "reviewedAt": "2026-09-14",
+        "role": "primary",
+        "shortsUrl": "https://www.youtube.com/shorts/sIQNCJ6Xwsk",
+        "source": "Andrew Kwong (DeltaBolic)",
+        "sourceName": "Andrew Kwong (DeltaBolic)",
+        "thumbnailUrl": "https://i.ytimg.com/vi/sIQNCJ6Xwsk/hqdefault.jpg",
+        "title": "The PERFECT Chest-Supported Rear Delt Fly",
+        "validationNotes": "Bilateral chest-supported incline dumbbell reverse fly",
+        "verifiedAt": "2026-09-14",
+        "videoId": "sIQNCJ6Xwsk",
+        "watchUrl": "https://www.youtube.com/watch?v=sIQNCJ6Xwsk"
+      },
+      "baselineConfirmedAt": null,
+      "breathingRu": [
+        "Выдыхайте при разведении.",
+        "Вдыхайте при контролируемом опускании."
+      ],
+      "commonMistakesRu": [
+        "Тяга локтей назад вместо разведения.",
+        "Отрыв груди от скамьи.",
+        "Слишком тяжёлые гантели и инерция."
+      ],
+      "effortGuidanceRu": "Оставляйте около 2 повторов в запасе; задняя дельта, а не поясница или трапеция, должна ограничивать подход.",
+      "equipment": "Adjustable incline bench and two dumbbells",
+      "equipmentProfile": {
+        "availableLoads": [],
+        "configured": false,
+        "loadMode": "per_hand",
+        "lowerRepetitions": 12,
+        "manualFirstUseLoad": true,
+        "maximumAutomaticPercentageJump": 10,
+        "mode": "available_loads",
+        "requiredTopConfirmations": 2,
+        "roundingBehavior": "next_available",
+        "unit": "kg",
+        "upperRepetitions": 15
+      },
+      "executionStepsRu": [
+        "Разведите руки по широкой дуге, направляя движение задними дельтами.",
+        "Не превращайте движение в тягу и не поднимайте плечи к ушам.",
+        "Плавно опустите гантели под плечи."
+      ],
+      "exerciseId": "chest_supported_incline_dumbbell_reverse_fly",
+      "keyCuesRu": [
+        "Широкая дуга, не тяга.",
+        "Плечи далеко от ушей.",
+        "Нагрузка записывается на одну руку."
+      ],
+      "loadIncrement": null,
+      "movementFamily": "horizontal_abduction",
+      "name": "Chest-Supported Incline Dumbbell Reverse Fly",
+      "primaryMuscles": [
+        "rear_deltoids"
+      ],
+      "progressionExplanationRu": "Первое успешное выполнение создаёт отдельную базу. Сначала увеличивайте повторы, затем выбирайте минимальный реально доступный шаг гантелей; прогрессию Reverse Pec Deck не переносите.",
+      "progressionType": "double_progression",
+      "releaseStatus": "approved_2026-09-14",
+      "repRange": {
+        "lower": 12,
+        "perSide": false,
+        "upper": 15
+      },
+      "restIntervalSeconds": 75,
+      "restRecommendationSeconds": 75,
+      "secondaryMuscles": [
+        "rhomboids",
+        "middle_traps"
+      ],
+      "setupInstructionRu": "Установите скамью примерно на 30° и лягте грудью на опору.",
+      "setupInstructionsRu": [
+        "Поставьте стопы устойчиво.",
+        "Держите по гантели в каждой руке; руки свободно опущены под плечами."
+      ],
+      "startingPositionRu": "Грудь прижата к скамье, корпус неподвижен, локти слегка согнуты и сохраняют этот угол.",
+      "stopReportConditionsRu": [
+        "Острая боль в плече.",
+        "Невозможность удержать грудь на опоре или контролировать опускание."
+      ],
+      "suggestedStartLoad": {
+        "kind": "label",
+        "label": "Set load",
+        "mode": "base_resistance"
+      },
+      "techniquePointsRu": [
+        "Грудь остаётся на опоре.",
+        "Сгиб локтя почти не меняется.",
+        "Работайте без рывка и пожимания плечами."
+      ],
+      "tempoRecommendationRu": "Разводите за 1–2 секунды и опускайте 2–3 секунды.",
+      "videoCandidates": {
+        "backupPrimary": {
+          "approvalStatus": "candidate_pending_user_approval",
+          "aspectRatio": "9:16",
+          "contentType": "short",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/cXlSUlur-9s",
+          "language": "en",
+          "platform": "youtube",
+          "publicUrl": "https://www.youtube.com/watch?v=cXlSUlur-9s",
+          "role": "primary",
+          "thumbnailUrl": "https://i.ytimg.com/vi/cXlSUlur-9s/hqdefault.jpg",
+          "title": "Dumbbell Chest Supported Rear Delt Fly",
+          "validationConcern": "Validated backup/reference only; not activated",
+          "videoId": "cXlSUlur-9s",
+          "watchUrl": "https://www.youtube.com/watch?v=cXlSUlur-9s"
+        }
+      },
+      "videoFallbackTextRu": "Если видео недоступно, сохраняйте опору грудью, широкую дугу и контролируемое опускание.",
+      "videoGuides": {
+        "alternative": {
+          "approvalStatus": "explicit_user_approval_2026-09-14",
+          "aspectRatio": "9:16",
+          "contentType": "short",
+          "dimensions": "1080x1920",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/Gr7QipHZV9U",
+          "language": "en",
+          "platform": "youtube",
+          "publicUrl": "https://www.youtube.com/watch?v=Gr7QipHZV9U",
+          "reviewedAt": "2026-09-14",
+          "role": "alternative",
+          "shortsUrl": "https://www.youtube.com/shorts/Gr7QipHZV9U",
+          "source": "Fitness@40",
+          "sourceName": "Fitness@40",
+          "thumbnailUrl": "https://i.ytimg.com/vi/Gr7QipHZV9U/hqdefault.jpg",
+          "title": "Reverse Pec Deck for Bigger Rear Delts",
+          "validationNotes": "Equivalent-equipment alternative; availability must be confirmed",
+          "verifiedAt": "2026-09-14",
+          "videoId": "Gr7QipHZV9U",
+          "watchUrl": "https://www.youtube.com/watch?v=Gr7QipHZV9U"
+        },
+        "primary": {
+          "approvalStatus": "explicit_user_approval_2026-09-14",
+          "aspectRatio": "9:16",
+          "contentType": "short",
+          "dimensions": "1080x1920",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/sIQNCJ6Xwsk",
+          "language": "en",
+          "platform": "youtube",
+          "publicUrl": "https://www.youtube.com/watch?v=sIQNCJ6Xwsk",
+          "reviewedAt": "2026-09-14",
+          "role": "primary",
+          "shortsUrl": "https://www.youtube.com/shorts/sIQNCJ6Xwsk",
+          "source": "Andrew Kwong (DeltaBolic)",
+          "sourceName": "Andrew Kwong (DeltaBolic)",
+          "thumbnailUrl": "https://i.ytimg.com/vi/sIQNCJ6Xwsk/hqdefault.jpg",
+          "title": "The PERFECT Chest-Supported Rear Delt Fly",
+          "validationNotes": "Bilateral chest-supported incline dumbbell reverse fly",
+          "verifiedAt": "2026-09-14",
+          "videoId": "sIQNCJ6Xwsk",
+          "watchUrl": "https://www.youtube.com/watch?v=sIQNCJ6Xwsk"
+        }
+      },
+      "videoMode": "primary_plus_alternative",
+      "workingSets": 2
+    },
     "dead_bug": {
       "active": true,
       "actualBaselineLoad": {
@@ -8309,15 +8272,8 @@
       "effortGuidanceRu": "Останавливайтесь с запасом примерно 2 повтора; не доводите рабочие подходы до технического отказа.",
       "equipment": "Floor mat",
       "equipmentProfile": {
-        "availableLoads": [
-          "Body weight",
-          "Body weight + 2.5 kg",
-          "Body weight + 5 kg",
-          "Body weight + 7.5 kg",
-          "Body weight + 10 kg"
-        ],
-        "configured": true,
-        "fixedIncrement": 2.5,
+        "availableLoads": [],
+        "configured": false,
         "loadMode": "base_resistance",
         "lowerRepetitions": 8,
         "maximumAutomaticPercentageJump": 10,
@@ -8465,13 +8421,11 @@
       "effortGuidanceRu": "Останавливайтесь с запасом примерно 2 повтора; не доводите рабочие подходы до технического отказа.",
       "equipment": "Hip-thrust machine",
       "equipmentProfile": {
-        "configured": true,
-        "fixedIncrement": 5,
+        "configured": false,
         "loadMode": "total",
         "lowerRepetitions": 12,
         "maximumAutomaticPercentageJump": 10,
         "mode": "fixed_increment",
-        "realIncrement": 5,
         "requiredTopConfirmations": 2,
         "roundingBehavior": "next_available",
         "unit": "kg",
@@ -8615,24 +8569,8 @@
       "effortGuidanceRu": "Останавливайтесь с запасом примерно 2 повтора; не доводите рабочие подходы до технического отказа.",
       "equipment": "Lat-pulldown machine",
       "equipmentProfile": {
-        "availableLoads": [
-          30,
-          35,
-          40,
-          45,
-          50,
-          55,
-          60,
-          65,
-          70,
-          75,
-          80,
-          85,
-          90,
-          95,
-          100
-        ],
-        "configured": true,
+        "availableLoads": [],
+        "configured": false,
         "loadMode": "total",
         "lowerRepetitions": 10,
         "maximumAutomaticPercentageJump": 10,
@@ -8782,24 +8720,8 @@
       "effortGuidanceRu": "Останавливайтесь с запасом примерно 2 повтора; не доводите рабочие подходы до технического отказа.",
       "equipment": "Leg-extension machine",
       "equipmentProfile": {
-        "availableLoads": [
-          30,
-          35,
-          40,
-          45,
-          50,
-          55,
-          60,
-          65,
-          70,
-          75,
-          80,
-          85,
-          90,
-          95,
-          100
-        ],
-        "configured": true,
+        "availableLoads": [],
+        "configured": false,
         "loadMode": "total",
         "lowerRepetitions": 10,
         "maximumAutomaticPercentageJump": 10,
@@ -8946,21 +8868,12 @@
       "effortGuidanceRu": "Останавливайтесь с запасом примерно 2 повтора; не доводите рабочие подходы до технического отказа.",
       "equipment": "Leg press machine",
       "equipmentProfile": {
-        "availableLoads": [
-          "Base",
-          "Base + 5 kg per side",
-          "Base + 10 kg per side",
-          "Base + 15 kg per side",
-          "Base + 20 kg per side",
-          "Base + 25 kg per side",
-          "Base + 30 kg per side"
-        ],
-        "configured": true,
+        "availableLoads": [],
+        "configured": false,
         "loadMode": "base_resistance",
         "lowerRepetitions": 10,
         "maximumAutomaticPercentageJump": 10,
         "mode": "base_plus_plates",
-        "plateIncrementPerSide": 5,
         "requiredTopConfirmations": 2,
         "roundingBehavior": "next_available",
         "unit": "kg",
@@ -9054,6 +8967,197 @@
       "videoUrls": [],
       "workingSets": 2
     },
+    "loaded_dead_bug_dumbbells": {
+      "active": true,
+      "actualBaselineLoad": null,
+      "adjustmentRu": "Уменьшите амплитуду руки и ноги, если поясница или положение рёбер меняется.",
+      "alternatives": [
+        {
+          "category": "minimal_equipment",
+          "name": "Bodyweight Dead Bug",
+          "suggestedRepRange": "8–12 per side",
+          "techniqueDifferenceRu": "Отдельная прогрессия без нагрузки.",
+          "whenToUseRu": "Когда гантели ухудшают контроль."
+        },
+        {
+          "category": "field_fallback",
+          "name": "Heel Tap",
+          "suggestedRepRange": "8–15 per side",
+          "techniqueDifferenceRu": "Двигается только нога.",
+          "whenToUseRu": "Когда координация пока сложна."
+        },
+        {
+          "category": "field_fallback",
+          "name": "Supine March",
+          "suggestedRepRange": "8–12 per side",
+          "techniqueDifferenceRu": "Короткий рычаг ноги.",
+          "whenToUseRu": "Когда поясница теряет положение."
+        }
+      ],
+      "approvedVideo": {
+        "approvalStatus": "explicit_user_approval_2026-09-14",
+        "aspectRatio": "9:16",
+        "contentType": "short",
+        "dimensions": "1080x1920",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/VAVrsPX9GHY",
+        "language": "en",
+        "platform": "youtube",
+        "publicUrl": "https://www.youtube.com/watch?v=VAVrsPX9GHY",
+        "reviewedAt": "2026-09-14",
+        "role": "primary",
+        "shortsUrl": "https://www.youtube.com/shorts/VAVrsPX9GHY",
+        "source": "Austin Bennett",
+        "sourceName": "Austin Bennett",
+        "thumbnailUrl": "https://i.ytimg.com/vi/VAVrsPX9GHY/hqdefault.jpg",
+        "title": "DB dead bugs",
+        "validationNotes": "Two dumbbells with contralateral loaded-arm and unloaded-leg motion",
+        "verifiedAt": "2026-09-14",
+        "videoId": "VAVrsPX9GHY",
+        "watchUrl": "https://www.youtube.com/watch?v=VAVrsPX9GHY"
+      },
+      "baselineConfirmedAt": null,
+      "breathingRu": [
+        "Сделайте спокойный вдох в исходном положении.",
+        "Длинно выдыхайте во время разгибания, сохраняя брейс."
+      ],
+      "commonMistakesRu": [
+        "Прогиб поясницы.",
+        "Слишком большая амплитуда.",
+        "Ускорение или потеря контроля гантели."
+      ],
+      "effortGuidanceRu": "Контроль корпуса ограничивает подход; не доводите движение до отказа плеча.",
+      "equipment": "Floor mat and two dumbbells",
+      "equipmentProfile": {
+        "availableLoads": [],
+        "configured": false,
+        "loadMode": "per_hand",
+        "lowerRepetitions": 8,
+        "manualFirstUseLoad": true,
+        "maximumAutomaticPercentageJump": 10,
+        "mode": "available_loads",
+        "requiredTopConfirmations": 2,
+        "roundingBehavior": "next_available",
+        "unit": "kg",
+        "upperRepetitions": 12
+      },
+      "executionStepsRu": [
+        "Одновременно опускайте одну нагруженную руку и противоположную ногу.",
+        "Вернитесь под контролем и повторите другой стороной.",
+        "Остановите движение раньше, если теряется положение рёбер, таза или поясницы."
+      ],
+      "exerciseId": "loaded_dead_bug_dumbbells",
+      "keyCuesRu": [
+        "Рёбра вниз.",
+        "Поясница под контролем.",
+        "Противоположные рука и нога."
+      ],
+      "loadIncrement": null,
+      "movementFamily": "anti_extension",
+      "name": "Loaded Dead Bug (Dumbbells)",
+      "primaryMuscles": [
+        "core"
+      ],
+      "progressionExplanationRu": "Начните с подтверждённых 2,5 кг на руку. Сначала улучшайте контроль и повторы; затем используйте только минимальный реально доступный шаг, не переходя автоматически к 5 кг на руку.",
+      "progressionType": "double_progression",
+      "releaseStatus": "approved_2026-09-14",
+      "repRange": {
+        "lower": 8,
+        "perSide": true,
+        "upper": 12
+      },
+      "restIntervalSeconds": 60,
+      "restRecommendationSeconds": 60,
+      "secondaryMuscles": [
+        "hip_flexors",
+        "shoulder_stabilizers"
+      ],
+      "setupInstructionRu": "Лягте на спину, держите по гантели в каждой руке; бёдра и колени примерно под 90°, руки направлены вверх.",
+      "setupInstructionsRu": [
+        "Опустите рёбра и слегка подкрутите таз.",
+        "Создайте брейс и сохраните контроль поясницы до начала движения; ноги остаются без внешней нагрузки."
+      ],
+      "startingPositionRu": "Обе нагруженные руки контролируются над плечами, колени над тазом, поясница сохраняет выбранный контакт с полом.",
+      "stopReportConditionsRu": [
+        "Острая боль в спине или плече.",
+        "Невозможность безопасно удерживать гантель или положение позвоночника."
+      ],
+      "suggestedStartLoad": {
+        "kind": "numeric",
+        "mode": "per_hand",
+        "unit": "kg",
+        "value": 2.5
+      },
+      "techniquePointsRu": [
+        "Повторы считаются на каждую сторону.",
+        "Нагрузка записывается для одной гантели.",
+        "Если первой устаёт рука или плечо, вес слишком велик."
+      ],
+      "tempoRecommendationRu": "Разгибайте конечности 2–3 секунды, коротко остановитесь и так же плавно вернитесь.",
+      "videoCandidates": {
+        "rejectedPrimary": {
+          "approvalStatus": "candidate_pending_user_approval",
+          "aspectRatio": "9:16",
+          "contentType": "short",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/9zTIA8-45GE",
+          "language": "en",
+          "platform": "youtube",
+          "publicUrl": "https://www.youtube.com/watch?v=9zTIA8-45GE",
+          "role": "primary",
+          "thumbnailUrl": "https://i.ytimg.com/vi/9zTIA8-45GE/hqdefault.jpg",
+          "title": "Weighted Dead Bug Exercise: Perfect Core and Control",
+          "validationConcern": "Fails exact semantics: dumbbells remain static",
+          "videoId": "9zTIA8-45GE",
+          "watchUrl": "https://www.youtube.com/watch?v=9zTIA8-45GE"
+        }
+      },
+      "videoFallbackTextRu": "Если видео недоступно, уменьшите амплитуду и удерживайте рёбра, таз и поясницу неподвижными.",
+      "videoGuides": {
+        "alternative": {
+          "approvalStatus": "explicit_user_approval_2026-09-14",
+          "aspectRatio": "9:16",
+          "contentType": "short",
+          "dimensions": "720x1280",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/HrxOWhPdsOY",
+          "language": "en",
+          "platform": "youtube",
+          "publicUrl": "https://www.youtube.com/watch?v=HrxOWhPdsOY",
+          "reviewedAt": "2026-09-14",
+          "role": "alternative",
+          "shortsUrl": "https://www.youtube.com/shorts/HrxOWhPdsOY",
+          "source": "Dr. Jordan Weber",
+          "sourceName": "Dr. Jordan Weber",
+          "thumbnailUrl": "https://i.ytimg.com/vi/HrxOWhPdsOY/hqdefault.jpg",
+          "title": "Dead bug core exercise",
+          "validationNotes": "Bodyweight contralateral alternative",
+          "verifiedAt": "2026-09-14",
+          "videoId": "HrxOWhPdsOY",
+          "watchUrl": "https://www.youtube.com/watch?v=HrxOWhPdsOY"
+        },
+        "primary": {
+          "approvalStatus": "explicit_user_approval_2026-09-14",
+          "aspectRatio": "9:16",
+          "contentType": "short",
+          "dimensions": "1080x1920",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/VAVrsPX9GHY",
+          "language": "en",
+          "platform": "youtube",
+          "publicUrl": "https://www.youtube.com/watch?v=VAVrsPX9GHY",
+          "reviewedAt": "2026-09-14",
+          "role": "primary",
+          "shortsUrl": "https://www.youtube.com/shorts/VAVrsPX9GHY",
+          "source": "Austin Bennett",
+          "sourceName": "Austin Bennett",
+          "thumbnailUrl": "https://i.ytimg.com/vi/VAVrsPX9GHY/hqdefault.jpg",
+          "title": "DB dead bugs",
+          "validationNotes": "Two dumbbells with contralateral loaded-arm and unloaded-leg motion",
+          "verifiedAt": "2026-09-14",
+          "videoId": "VAVrsPX9GHY",
+          "watchUrl": "https://www.youtube.com/watch?v=VAVrsPX9GHY"
+        }
+      },
+      "videoMode": "primary_plus_alternative",
+      "workingSets": 2
+    },
     "low_row": {
       "active": true,
       "actualBaselineLoad": null,
@@ -9106,24 +9210,8 @@
       "effortGuidanceRu": "Останавливайтесь с запасом примерно 2 повтора; не доводите рабочие подходы до технического отказа.",
       "equipment": "Row machine",
       "equipmentProfile": {
-        "availableLoads": [
-          30,
-          35,
-          40,
-          45,
-          50,
-          55,
-          60,
-          65,
-          70,
-          75,
-          80,
-          85,
-          90,
-          95,
-          100
-        ],
-        "configured": true,
+        "availableLoads": [],
+        "configured": false,
         "loadMode": "total",
         "lowerRepetitions": 10,
         "maximumAutomaticPercentageJump": 10,
@@ -9224,12 +9312,7 @@
     },
     "machine_lateral_raise": {
       "active": true,
-      "actualBaselineLoad": {
-        "kind": "numeric",
-        "mode": "total",
-        "unit": "kg",
-        "value": 25
-      },
+      "actualBaselineLoad": null,
       "adjustmentRu": "Настройте сиденье так, чтобы оси тренажёра совпадали с плечами, а подушки лежали над локтями.",
       "alternatives": [
         {
@@ -9266,7 +9349,7 @@
         "validatedAt": "2026-07-22",
         "videoId": "zlIENpEScsE"
       },
-      "baselineConfirmedAt": "2026-09-02T06:05:23.908Z",
+      "baselineConfirmedAt": null,
       "breathingRu": [
         "Выдыхайте в рабочей фазе.",
         "Вдыхайте при контролируемом возврате."
@@ -9309,6 +9392,7 @@
       ],
       "progressionExplanationRu": "Повышайте повторы внутри диапазона; после двух чистых подтверждений верхней границы приложение предложит следующий доступный шаг нагрузки.",
       "progressionType": "double_progression",
+      "releaseStatus": "approved_2026-09-14",
       "repRange": {
         "lower": 12,
         "perSide": false,
@@ -9340,26 +9424,69 @@
         "Опускайте вес медленно."
       ],
       "tempoRecommendationRu": "Подъём за 1–2 секунды, короткая пауза, возврат за 2–3 секунды.",
-      "videoFallbackTextRu": "Если видео временно недоступно, следуйте разделам Setup, Technique, Breathing и Key cues для Machine Lateral Raise.",
-      "videoGuides": {
-        "technique": {
-          "aspectRatio": "16:9",
-          "contentType": "reference",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/zlIENpEScsE",
+      "videoCandidates": {
+        "backupPrimary": {
+          "approvalStatus": "candidate_pending_user_approval",
+          "aspectRatio": "9:16",
+          "contentType": "short",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/Zi9nYtLsuz0",
           "language": "en",
           "platform": "youtube",
-          "publicUrl": "https://www.fitmetrics.ch/en/exercise/6522abac97dcd-machine-lateral-raise",
-          "role": "technique",
-          "source": "FitMetrics",
-          "sourceName": "FitMetrics",
-          "thumbnailUrl": "https://i.ytimg.com/vi/zlIENpEScsE/hqdefault.jpg",
-          "title": "Machine Lateral Raise",
-          "validatedAt": "2026-07-22",
-          "verifiedAt": "2026-07-22",
-          "videoId": "zlIENpEScsE",
-          "watchUrl": "https://www.fitmetrics.ch/en/exercise/6522abac97dcd-machine-lateral-raise"
+          "publicUrl": "https://www.youtube.com/watch?v=Zi9nYtLsuz0",
+          "role": "primary",
+          "thumbnailUrl": "https://i.ytimg.com/vi/Zi9nYtLsuz0/hqdefault.jpg",
+          "title": "Freemotion Lateral Raise Machine",
+          "validationConcern": "Validated backup/reference only; not activated",
+          "videoId": "Zi9nYtLsuz0",
+          "watchUrl": "https://www.youtube.com/watch?v=Zi9nYtLsuz0"
         }
       },
+      "videoFallbackTextRu": "Если видео временно недоступно, следуйте разделам Setup, Technique, Breathing и Key cues для Machine Lateral Raise.",
+      "videoGuides": {
+        "alternative": {
+          "approvalStatus": "explicit_user_approval_2026-09-14",
+          "aspectRatio": "9:16",
+          "contentType": "short",
+          "dimensions": "1080x1920",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/Kl3LEzQ5Zqs",
+          "language": "en",
+          "platform": "youtube",
+          "publicUrl": "https://www.youtube.com/watch?v=Kl3LEzQ5Zqs",
+          "reviewedAt": "2026-09-14",
+          "role": "alternative",
+          "shortsUrl": "https://www.youtube.com/shorts/Kl3LEzQ5Zqs",
+          "source": "Andrew Kwong (DeltaBolic)",
+          "sourceName": "Andrew Kwong (DeltaBolic)",
+          "thumbnailUrl": "https://i.ytimg.com/vi/Kl3LEzQ5Zqs/hqdefault.jpg",
+          "title": "The Perfect Lateral Raise",
+          "validationNotes": "Minimal-equipment dumbbell alternative",
+          "verifiedAt": "2026-09-14",
+          "videoId": "Kl3LEzQ5Zqs",
+          "watchUrl": "https://www.youtube.com/watch?v=Kl3LEzQ5Zqs"
+        },
+        "primary": {
+          "approvalStatus": "explicit_user_approval_2026-09-14",
+          "aspectRatio": "9:16",
+          "contentType": "short",
+          "dimensions": "1080x1920",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/jHlLFjhs54o",
+          "language": "en",
+          "platform": "youtube",
+          "publicUrl": "https://www.youtube.com/watch?v=jHlLFjhs54o",
+          "reviewedAt": "2026-09-14",
+          "role": "primary",
+          "shortsUrl": "https://www.youtube.com/shorts/jHlLFjhs54o",
+          "source": "Gain Resultz Fitness",
+          "sourceName": "Gain Resultz Fitness",
+          "thumbnailUrl": "https://i.ytimg.com/vi/jHlLFjhs54o/hqdefault.jpg",
+          "title": "LATERAL RAISE MACHINE",
+          "validationNotes": "Equivalent seated selectorized pad-driven machine class; not exact SHUA SH-G8821",
+          "verifiedAt": "2026-09-14",
+          "videoId": "jHlLFjhs54o",
+          "watchUrl": "https://www.youtube.com/watch?v=jHlLFjhs54o"
+        }
+      },
+      "videoMode": "primary_plus_alternative",
       "workingSets": 2
     },
     "machine_shoulder_press": {
@@ -9419,24 +9546,8 @@
       "effortGuidanceRu": "Останавливайтесь с запасом примерно 2 повтора; не доводите рабочие подходы до технического отказа.",
       "equipment": "Shoulder-press machine",
       "equipmentProfile": {
-        "availableLoads": [
-          10,
-          15,
-          20,
-          25,
-          30,
-          35,
-          40,
-          45,
-          50,
-          55,
-          60,
-          65,
-          70,
-          75,
-          80
-        ],
-        "configured": true,
+        "availableLoads": [],
+        "configured": false,
         "loadMode": "total",
         "lowerRepetitions": 10,
         "maximumAutomaticPercentageJump": 10,
@@ -9931,13 +10042,8 @@
       "workingSets": 2
     },
     "reverse_pec_deck": {
-      "active": true,
-      "actualBaselineLoad": {
-        "kind": "numeric",
-        "mode": "total",
-        "unit": "kg",
-        "value": 6
-      },
+      "active": false,
+      "actualBaselineLoad": null,
       "adjustmentRu": "Разверните рукояти для обратного разведения и настройте сиденье на высоту плеч.",
       "alternatives": [
         {
@@ -9974,7 +10080,7 @@
         "validatedAt": "2026-07-22",
         "videoId": "XcyXXQTj7sk"
       },
-      "baselineConfirmedAt": "2026-09-05T05:44:10.576Z",
+      "baselineConfirmedAt": null,
       "breathingRu": [
         "Выдыхайте в рабочей фазе.",
         "Вдыхайте при контролируемом возврате."
@@ -10123,24 +10229,8 @@
       "effortGuidanceRu": "Останавливайтесь с запасом примерно 2 повтора; не доводите рабочие подходы до технического отказа.",
       "equipment": "Seated leg-curl machine",
       "equipmentProfile": {
-        "availableLoads": [
-          30,
-          35,
-          40,
-          45,
-          50,
-          55,
-          60,
-          65,
-          70,
-          75,
-          80,
-          85,
-          90,
-          95,
-          100
-        ],
-        "configured": true,
+        "availableLoads": [],
+        "configured": false,
         "loadMode": "total",
         "lowerRepetitions": 10,
         "maximumAutomaticPercentageJump": 10,
@@ -10414,7 +10504,7 @@
     "standing_machine_calf_raise": {
       "active": false,
       "actualBaselineLoad": null,
-      "adjustmentRu": "Выберите устойчивую опору; при работе на ступени оставьте переднюю часть стопы полностью на краю.",
+      "adjustmentRu": "Настройте тренажёр только после подтверждения его точной модели и доступных нагрузок.",
       "alternatives": [
         {
           "category": "similar_machine",
@@ -10438,18 +10528,7 @@
           "whenToUseRu": "Когда нет оборудования."
         }
       ],
-      "approvedVideo": {
-        "embedUrl": "https://www.youtube-nocookie.com/embed/qcfwh0cQLd8",
-        "language": "en",
-        "platform": "youtube",
-        "publicUrl": "https://www.fitmetrics.ch/en/exercise/6733d711d4587-calf-raises",
-        "source": "FitMetrics",
-        "sourceName": "FitMetrics",
-        "thumbnailUrl": "https://i.ytimg.com/vi/qcfwh0cQLd8/hqdefault.jpg",
-        "title": "Calf Raises",
-        "validatedAt": "2026-07-22",
-        "videoId": "qcfwh0cQLd8"
-      },
+      "approvedVideo": null,
       "baselineConfirmedAt": null,
       "breathingRu": [
         "Выдыхайте в рабочей фазе.",
@@ -10506,7 +10585,7 @@
       "setupInstructionsRu": [
         "Используйте устойчивую опору рукой и поставьте стопы параллельно."
       ],
-      "startingPositionRu": "Встаньте высоко, колени мягкие, корпус неподвижен.",
+      "startingPositionRu": "Встаньте устойчиво, колени оставьте мягкими, корпус держите неподвижно.",
       "stopReportConditionsRu": [
         "Острая или нарастающая боль.",
         "Головокружение, необычная одышка или слабость.",
@@ -10523,17 +10602,13 @@
         "Опустите пятки под контролем."
       ],
       "tempoRecommendationRu": "Подъём за 1–2 секунды, короткая пауза, возврат за 2–3 секунды.",
-      "videoFallbackTextRu": "Видео для точного тренажёра ещё не утверждены.",
+      "videoFallbackTextRu": "Если видео временно недоступно, следуйте разделам Setup, Technique, Breathing и Key cues для Standing Machine Calf Raise.",
       "videoGuides": {},
       "workingSets": 2
     },
     "supported_calf_raise": {
-      "active": true,
-      "actualBaselineLoad": {
-        "kind": "label",
-        "label": "Body weight",
-        "mode": "base_resistance"
-      },
+      "active": false,
+      "actualBaselineLoad": null,
       "adjustmentRu": "Выберите устойчивую опору; при работе на ступени оставьте переднюю часть стопы полностью на краю.",
       "alternatives": [
         {
@@ -10570,7 +10645,7 @@
         "validatedAt": "2026-07-22",
         "videoId": "qcfwh0cQLd8"
       },
-      "baselineConfirmedAt": "2026-09-02T06:05:23.908Z",
+      "baselineConfirmedAt": null,
       "breathingRu": [
         "Выдыхайте в рабочей фазе.",
         "Вдыхайте при контролируемом возврате."
@@ -10673,8 +10748,198 @@
       },
       "workingSets": 2
     },
-    "supported_step_up": {
+    "supported_single_leg_dumbbell_calf_raise": {
       "active": true,
+      "actualBaselineLoad": null,
+      "adjustmentRu": "Выберите высоту ступени, позволяющую опускать пятку до комфортного растяжения без потери опоры.",
+      "alternatives": [
+        {
+          "category": "minimal_equipment",
+          "name": "Two-Leg Dumbbell Calf Raise on Step",
+          "suggestedRepRange": "10–20",
+          "techniqueDifferenceRu": "Обе ноги работают одновременно.",
+          "whenToUseRu": "Когда односторонний вариант пока неустойчив."
+        },
+        {
+          "category": "equivalent_equipment",
+          "name": "Standing Calf Machine",
+          "suggestedRepRange": "10–15",
+          "techniqueDifferenceRu": "Нужна отдельная исходная нагрузка.",
+          "whenToUseRu": "Только после подтверждения реального тренажёра."
+        },
+        {
+          "category": "field_fallback",
+          "name": "Smith / Leg-Press Calf Raise",
+          "suggestedRepRange": "10–15",
+          "techniqueDifferenceRu": "Не переносите нагрузку между вариантами.",
+          "whenToUseRu": "Только после проверки оборудования и техники."
+        }
+      ],
+      "approvedVideo": {
+        "approvalStatus": "explicit_user_approval_2026-09-14",
+        "aspectRatio": "9:16",
+        "contentType": "short",
+        "dimensions": "1080x1920",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/Gib5N2U6gDM",
+        "language": "en",
+        "platform": "youtube",
+        "publicUrl": "https://www.youtube.com/watch?v=Gib5N2U6gDM",
+        "reviewedAt": "2026-09-14",
+        "role": "primary",
+        "shortsUrl": "https://www.youtube.com/shorts/Gib5N2U6gDM",
+        "source": "The Game Plan Physical Therapy",
+        "sourceName": "The Game Plan Physical Therapy",
+        "thumbnailUrl": "https://i.ytimg.com/vi/Gib5N2U6gDM/hqdefault.jpg",
+        "title": "Deficit Single Leg Calf Raises with Weight",
+        "validationNotes": "Exact supported unilateral weighted deficit variant",
+        "verifiedAt": "2026-09-14",
+        "videoId": "Gib5N2U6gDM",
+        "watchUrl": "https://www.youtube.com/watch?v=Gib5N2U6gDM"
+      },
+      "baselineConfirmedAt": null,
+      "breathingRu": [
+        "Вдохните при опускании пятки.",
+        "Выдыхайте во время подъёма."
+      ],
+      "commonMistakesRu": [
+        "Пружинящий подъём.",
+        "Сгибание колена в присед.",
+        "Перенос усилия на опорную руку."
+      ],
+      "effortGuidanceRu": "Оставляйте около 2 повторов в запасе и прекращайте подход при потере амплитуды.",
+      "equipment": "One dumbbell, stable step, and stable support",
+      "equipmentProfile": {
+        "availableLoads": [],
+        "configured": false,
+        "loadMode": "per_hand",
+        "lowerRepetitions": 10,
+        "manualFirstUseLoad": true,
+        "maximumAutomaticPercentageJump": 10,
+        "mode": "available_loads",
+        "requiredTopConfirmations": 2,
+        "roundingBehavior": "next_available",
+        "unit": "kg",
+        "upperRepetitions": 15
+      },
+      "executionStepsRu": [
+        "Плавно опустите пятку до комфортного растяжения.",
+        "Поднимитесь максимально высоко без подскока и коротко зафиксируйте верхнюю точку.",
+        "Выполните одинаковое число повторов на обе стороны; слабая сторона ограничивает подход."
+      ],
+      "exerciseId": "supported_single_leg_dumbbell_calf_raise",
+      "keyCuesRu": [
+        "Гантель со стороны рабочей ноги.",
+        "Опора — только для баланса.",
+        "Повторы считаются на каждую сторону."
+      ],
+      "loadIncrement": null,
+      "movementFamily": "plantar_flexion",
+      "name": "Supported Single-Leg Dumbbell Calf Raise on Step",
+      "primaryMuscles": [
+        "gastrocnemius",
+        "soleus"
+      ],
+      "progressionExplanationRu": "Сначала увеличивайте повторы на обеих сторонах. После чистого достижения верхней границы выбирайте только следующую реально доступную гантель; при слишком большом шаге повторяйте текущую нагрузку.",
+      "progressionType": "double_progression",
+      "releaseStatus": "approved_2026-09-14",
+      "repRange": {
+        "lower": 10,
+        "perSide": true,
+        "upper": 15
+      },
+      "restIntervalSeconds": 60,
+      "restRecommendationSeconds": 60,
+      "secondaryMuscles": [
+        "foot_stabilizers"
+      ],
+      "setupInstructionRu": "Поставьте переднюю часть рабочей стопы на устойчивую ступень и возьмите одну гантель в руку с той же стороны.",
+      "setupInstructionsRu": [
+        "Свободной рукой слегка держитесь за устойчивую опору.",
+        "Нерабочую ногу уберите со ступени; колено рабочей ноги держите прямым или мягко разблокированным."
+      ],
+      "startingPositionRu": "Корпус устойчив, вес на рабочей стопе, гантель со стороны рабочей ноги; опорная рука помогает только сохранять равновесие.",
+      "stopReportConditionsRu": [
+        "Острая боль в стопе, голеностопе, ахилле или икре.",
+        "Невозможность устойчиво удерживаться на ступени."
+      ],
+      "suggestedStartLoad": {
+        "kind": "label",
+        "label": "Set load",
+        "mode": "base_resistance"
+      },
+      "techniquePointsRu": [
+        "Не приседайте на рабочей ноге.",
+        "Не раскачивайтесь и не отталкивайтесь опорной рукой.",
+        "Контролируйте нижнюю и верхнюю точки."
+      ],
+      "tempoRecommendationRu": "Опускайтесь 2–3 секунды, поднимайтесь плавно и сделайте короткую паузу сверху.",
+      "videoCandidates": {
+        "rejectedPrimary": {
+          "approvalStatus": "candidate_pending_user_approval",
+          "aspectRatio": "4:5",
+          "contentType": "short",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/1-wRhI_8D9E",
+          "language": "en",
+          "platform": "youtube",
+          "publicUrl": "https://www.youtube.com/watch?v=1-wRhI_8D9E",
+          "role": "primary",
+          "thumbnailUrl": "https://i.ytimg.com/vi/1-wRhI_8D9E/hqdefault.jpg",
+          "title": "Dumbbell/Kettlebell Weighted Single Leg Calf Raise Off Step",
+          "validationConcern": "Fails the locked 9:16 primary-video gate",
+          "videoId": "1-wRhI_8D9E",
+          "watchUrl": "https://www.youtube.com/watch?v=1-wRhI_8D9E"
+        }
+      },
+      "videoFallbackTextRu": "Если видео недоступно, используйте устойчивую опору, одну гантель со стороны рабочей ноги и контролируемую амплитуду.",
+      "videoGuides": {
+        "alternative": {
+          "approvalStatus": "explicit_user_approval_2026-09-14",
+          "aspectRatio": "9:16",
+          "contentType": "short",
+          "dimensions": "1080x1920",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/C8gR_i25oI0",
+          "language": "en",
+          "platform": "youtube",
+          "publicUrl": "https://www.youtube.com/watch?v=C8gR_i25oI0",
+          "reviewedAt": "2026-09-14",
+          "role": "alternative",
+          "shortsUrl": "https://www.youtube.com/shorts/C8gR_i25oI0",
+          "source": "Girls Gone Strong / Women's Health & Fitness",
+          "sourceName": "Girls Gone Strong / Women's Health & Fitness",
+          "thumbnailUrl": "https://i.ytimg.com/vi/C8gR_i25oI0/hqdefault.jpg",
+          "title": "Dumbbell Calf Raise from Deficit",
+          "validationNotes": "Bilateral dumbbell deficit alternative",
+          "verifiedAt": "2026-09-14",
+          "videoId": "C8gR_i25oI0",
+          "watchUrl": "https://www.youtube.com/watch?v=C8gR_i25oI0"
+        },
+        "primary": {
+          "approvalStatus": "explicit_user_approval_2026-09-14",
+          "aspectRatio": "9:16",
+          "contentType": "short",
+          "dimensions": "1080x1920",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/Gib5N2U6gDM",
+          "language": "en",
+          "platform": "youtube",
+          "publicUrl": "https://www.youtube.com/watch?v=Gib5N2U6gDM",
+          "reviewedAt": "2026-09-14",
+          "role": "primary",
+          "shortsUrl": "https://www.youtube.com/shorts/Gib5N2U6gDM",
+          "source": "The Game Plan Physical Therapy",
+          "sourceName": "The Game Plan Physical Therapy",
+          "thumbnailUrl": "https://i.ytimg.com/vi/Gib5N2U6gDM/hqdefault.jpg",
+          "title": "Deficit Single Leg Calf Raises with Weight",
+          "validationNotes": "Exact supported unilateral weighted deficit variant",
+          "verifiedAt": "2026-09-14",
+          "videoId": "Gib5N2U6gDM",
+          "watchUrl": "https://www.youtube.com/watch?v=Gib5N2U6gDM"
+        }
+      },
+      "videoMode": "primary_plus_alternative",
+      "workingSets": 2
+    },
+    "supported_step_up": {
+      "active": false,
       "actualBaselineLoad": null,
       "adjustmentRu": "Выберите устойчивую невысокую платформу; рядом должна быть надёжная опора рукой.",
       "alternatives": [
@@ -11998,6 +12263,7 @@
       "availableVariantIds": [
         "supported_calf_raise",
         "standing_machine_calf_raise",
+        "supported_single_leg_dumbbell_calf_raise",
         "dumbbell_supported_calf_raise",
         "bodyweight_supported_calf_raise"
       ],
@@ -12074,7 +12340,6 @@
           "exerciseId": "standing_machine_calf_raise",
           "firstUseNoteRu": "Первый завершённый результат создаёт отдельную исходную точку.",
           "missingRequirements": [
-            "Confirmed equipment profile",
             "Approved vertical setup Short",
             "Approved vertical correct-execution Short"
           ],
@@ -12099,14 +12364,14 @@
         "supported_calf_raise": {
           "exerciseFamilyId": "plantar_flexion",
           "exerciseId": "supported_calf_raise",
-          "firstUseNoteRu": "Base resistance is recorded explicitly.",
+          "firstUseNoteRu": "Первый завершённый результат создаёт отдельную исходную точку.",
           "missingRequirements": [
             "Approved vertical setup Short",
             "Approved vertical correct-execution Short"
           ],
           "name": "Supported Calf Raise",
           "selectable": false,
-          "status": "active",
+          "status": "incomplete",
           "tier": "primary",
           "variantId": "supported_calf_raise",
           "videoPair": {
@@ -12121,12 +12386,34 @@
             "setupApproved": false
           },
           "whenToUseRu": "Текущий основной вариант этой роли."
+        },
+        "supported_single_leg_dumbbell_calf_raise": {
+          "exerciseFamilyId": "plantar_flexion",
+          "exerciseId": "supported_single_leg_dumbbell_calf_raise",
+          "firstUseNoteRu": "Первый завершённый результат создаёт отдельную исходную точку.",
+          "missingRequirements": [],
+          "name": "Supported Single-Leg Dumbbell Calf Raise on Step",
+          "selectable": true,
+          "status": "active",
+          "tier": "equivalent_equipment",
+          "variantId": "supported_single_leg_dumbbell_calf_raise",
+          "videoPair": {
+            "complete": true,
+            "count": 2,
+            "executionApproved": true,
+            "missingRequirements": [],
+            "mode": "primary_plus_alternative",
+            "orientation": "9:16",
+            "setupApproved": true
+          },
+          "whenToUseRu": "Используйте только как подтверждённую замену в той же роли."
         }
       }
     },
     "rear_deltoid_horizontal_abduction": {
       "availableVariantIds": [
         "reverse_pec_deck",
+        "chest_supported_incline_dumbbell_reverse_fly",
         "chest_supported_dumbbell_reverse_fly",
         "prone_w_raise_rear_delt"
       ],
@@ -12170,6 +12457,27 @@
           },
           "whenToUseRu": "Практичная замена с минимальным оборудованием."
         },
+        "chest_supported_incline_dumbbell_reverse_fly": {
+          "exerciseFamilyId": "rear_deltoid_horizontal_abduction",
+          "exerciseId": "chest_supported_incline_dumbbell_reverse_fly",
+          "firstUseNoteRu": "Первый завершённый результат создаёт отдельную исходную точку.",
+          "missingRequirements": [],
+          "name": "Chest-Supported Incline Dumbbell Reverse Fly",
+          "selectable": true,
+          "status": "active",
+          "tier": "equivalent_equipment",
+          "variantId": "chest_supported_incline_dumbbell_reverse_fly",
+          "videoPair": {
+            "complete": true,
+            "count": 2,
+            "executionApproved": true,
+            "missingRequirements": [],
+            "mode": "primary_plus_alternative",
+            "orientation": "9:16",
+            "setupApproved": true
+          },
+          "whenToUseRu": "Используйте только как подтверждённую замену в той же роли."
+        },
         "prone_w_raise_rear_delt": {
           "exerciseFamilyId": "rear_deltoid_horizontal_abduction",
           "exerciseId": null,
@@ -12201,15 +12509,14 @@
         "reverse_pec_deck": {
           "exerciseFamilyId": "rear_deltoid_horizontal_abduction",
           "exerciseId": "reverse_pec_deck",
-          "firstUseNoteRu": "Equipment profile not confirmed.",
+          "firstUseNoteRu": "Первый завершённый результат создаёт отдельную исходную точку.",
           "missingRequirements": [
-            "Confirmed equipment profile",
             "Approved vertical setup Short",
             "Approved vertical correct-execution Short"
           ],
           "name": "Reverse Pec Deck",
           "selectable": false,
-          "status": "active",
+          "status": "incomplete",
           "tier": "primary",
           "variantId": "reverse_pec_deck",
           "videoPair": {
@@ -12406,27 +12713,21 @@
         "machine_lateral_raise": {
           "exerciseFamilyId": "shoulder_abduction",
           "exerciseId": "machine_lateral_raise",
-          "firstUseNoteRu": "Equipment profile not confirmed.",
-          "missingRequirements": [
-            "Confirmed equipment profile",
-            "Approved vertical setup Short",
-            "Approved vertical correct-execution Short"
-          ],
+          "firstUseNoteRu": "Первый завершённый результат создаёт отдельную исходную точку.",
+          "missingRequirements": [],
           "name": "Machine Lateral Raise",
-          "selectable": false,
+          "selectable": true,
           "status": "active",
           "tier": "primary",
           "variantId": "machine_lateral_raise",
           "videoPair": {
-            "complete": false,
-            "count": 0,
-            "executionApproved": false,
-            "missingRequirements": [
-              "Approved vertical setup Short",
-              "Approved vertical correct-execution Short"
-            ],
-            "orientation": null,
-            "setupApproved": false
+            "complete": true,
+            "count": 2,
+            "executionApproved": true,
+            "missingRequirements": [],
+            "mode": "primary_plus_alternative",
+            "orientation": "9:16",
+            "setupApproved": true
           },
           "whenToUseRu": "Текущий основной вариант этой роли."
         }
@@ -12682,7 +12983,7 @@
           "missingRequirements": [],
           "name": "Supported Step-Up",
           "selectable": true,
-          "status": "active",
+          "status": "available",
           "tier": "minimal_equipment",
           "variantId": "supported_step_up",
           "videoPair": {
@@ -12700,6 +13001,7 @@
     "trunk_control": {
       "availableVariantIds": [
         "dead_bug",
+        "loaded_dead_bug_dumbbells",
         "band_dead_bug",
         "bird_dog"
       ],
@@ -12774,7 +13076,7 @@
         "dead_bug": {
           "exerciseFamilyId": "trunk_control",
           "exerciseId": "dead_bug",
-          "firstUseNoteRu": "Base resistance is recorded explicitly.",
+          "firstUseNoteRu": "Equipment profile not confirmed.",
           "missingRequirements": [],
           "name": "Dead Bug",
           "selectable": true,
@@ -12790,6 +13092,27 @@
             "setupApproved": true
           },
           "whenToUseRu": "Текущий основной вариант этой роли."
+        },
+        "loaded_dead_bug_dumbbells": {
+          "exerciseFamilyId": "trunk_control",
+          "exerciseId": "loaded_dead_bug_dumbbells",
+          "firstUseNoteRu": "Первый завершённый результат создаёт отдельную исходную точку.",
+          "missingRequirements": [],
+          "name": "Loaded Dead Bug (Dumbbells)",
+          "selectable": true,
+          "status": "active",
+          "tier": "equivalent_equipment",
+          "variantId": "loaded_dead_bug_dumbbells",
+          "videoPair": {
+            "complete": true,
+            "count": 2,
+            "executionApproved": true,
+            "missingRequirements": [],
+            "mode": "primary_plus_alternative",
+            "orientation": "9:16",
+            "setupApproved": true
+          },
+          "whenToUseRu": "Используйте только как подтверждённую замену в той же роли."
         }
       }
     },
@@ -12845,7 +13168,7 @@
         "machine_shoulder_press": {
           "exerciseFamilyId": "vertical_press",
           "exerciseId": "machine_shoulder_press",
-          "firstUseNoteRu": "Load is recorded as total kilograms.",
+          "firstUseNoteRu": "Equipment profile not confirmed.",
           "missingRequirements": [],
           "name": "Machine Shoulder Press",
           "selectable": true,
@@ -13017,15 +13340,61 @@
       }
     }
   },
+  "historyCorrectionsBySessionId": {
+    "phase_2-phase2_strength_a-14": {
+      "countsAsPerformance": false,
+      "reason": "navigation_artifact / accidental_workout_completion",
+      "recordedAt": "2026-09-15T02:06:35.943Z",
+      "schedulingEffect": "none_forward_position_preserved",
+      "sessionId": "phase_2-phase2_strength_a-14"
+    },
+    "phase_2-phase2_strength_a-6": {
+      "countsAsPerformance": false,
+      "reason": "navigation_artifact / accidental_workout_completion",
+      "recordedAt": "2026-09-15T02:06:35.943Z",
+      "schedulingEffect": "none_forward_position_preserved",
+      "sessionId": "phase_2-phase2_strength_a-6"
+    },
+    "phase_2-phase2_strength_a-8": {
+      "countsAsPerformance": false,
+      "reason": "navigation_artifact / accidental_workout_completion",
+      "recordedAt": "2026-09-15T02:06:35.943Z",
+      "schedulingEffect": "none_forward_position_preserved",
+      "sessionId": "phase_2-phase2_strength_a-8"
+    },
+    "phase_2-phase2_strength_b-13": {
+      "countsAsPerformance": false,
+      "reason": "navigation_artifact / accidental_workout_completion",
+      "recordedAt": "2026-09-15T02:06:35.943Z",
+      "schedulingEffect": "none_forward_position_preserved",
+      "sessionId": "phase_2-phase2_strength_b-13"
+    },
+    "phase_2-phase2_strength_b-15": {
+      "countsAsPerformance": false,
+      "reason": "navigation_artifact / accidental_workout_completion",
+      "recordedAt": "2026-09-15T02:06:35.943Z",
+      "schedulingEffect": "none_forward_position_preserved",
+      "sessionId": "phase_2-phase2_strength_b-15"
+    },
+    "phase_2-phase2_strength_b-7": {
+      "countsAsPerformance": false,
+      "reason": "navigation_artifact / accidental_workout_completion",
+      "recordedAt": "2026-09-15T02:06:35.943Z",
+      "schedulingEffect": "none_forward_position_preserved",
+      "sessionId": "phase_2-phase2_strength_b-7"
+    }
+  },
   "legacyExerciseVariantMap": {
     "cable_biceps_curl": "cable_biceps_curl",
     "cable_face_pull": "cable_face_pull",
     "chest_press": "chest_press",
+    "chest_supported_incline_dumbbell_reverse_fly": "chest_supported_incline_dumbbell_reverse_fly",
     "dead_bug": "dead_bug",
     "hip_thrust": "hip_thrust",
     "lat_pulldown": "lat_pulldown",
     "leg_extension": "leg_extension",
     "leg_press": "leg_press",
+    "loaded_dead_bug_dumbbells": "loaded_dead_bug_dumbbells",
     "low_row": "low_row",
     "machine_lateral_raise": "machine_lateral_raise",
     "machine_shoulder_press": "machine_shoulder_press",
@@ -13036,6 +13405,7 @@
     "single_leg_leg_press": "single_leg_leg_press",
     "standing_machine_calf_raise": "standing_machine_calf_raise",
     "supported_calf_raise": "supported_calf_raise",
+    "supported_single_leg_dumbbell_calf_raise": "supported_single_leg_dumbbell_calf_raise",
     "supported_step_up": "supported_step_up",
     "triceps_pressdown": "triceps_pressdown"
   },
@@ -13102,7 +13472,7 @@
         "workingSets": 3
       },
       {
-        "exerciseId": "reverse_pec_deck",
+        "exerciseId": "chest_supported_incline_dumbbell_reverse_fly",
         "repRange": {
           "lower": 12,
           "perSide": false,
@@ -13111,16 +13481,16 @@
         "workingSets": 2
       },
       {
-        "exerciseId": "standing_machine_calf_raise",
+        "exerciseId": "supported_single_leg_dumbbell_calf_raise",
         "repRange": {
           "lower": 10,
-          "perSide": false,
+          "perSide": true,
           "upper": 15
         },
         "workingSets": 2
       },
       {
-        "exerciseId": "dead_bug",
+        "exerciseId": "loaded_dead_bug_dumbbells",
         "repRange": {
           "lower": 8,
           "perSide": true,
@@ -13268,16 +13638,19 @@
     "phases": {
       "phase_1": {
         "completedStrengthSessions": 6,
+        "sequence": [
+          "phase1_strength_a"
+        ],
         "status": "completed",
         "totalStrengthSessions": 6
       },
       "phase_2": {
-        "completedStrengthSessions": 17,
+        "completedStrengthSessions": 18,
         "sequence": [
           "phase2_strength_b",
           "phase2_strength_a"
         ],
-        "status": "active",
+        "status": "completed",
         "totalStrengthSessions": 18
       },
       "phase_3": {
@@ -13288,6 +13661,54 @@
         ],
         "status": "active",
         "totalStrengthSessions": 24
+      },
+      "phase_4": {
+        "completedStrengthSessions": 0,
+        "sequence": [
+          "phase4_strength_a",
+          "phase4_strength_b"
+        ],
+        "status": "pending",
+        "totalStrengthSessions": 18
+      },
+      "phase_5": {
+        "completedStrengthSessions": 0,
+        "sequence": [
+          "phase5_strength_a",
+          "phase5_strength_b",
+          "phase5_strength_c"
+        ],
+        "status": "pending",
+        "totalStrengthSessions": 24
+      },
+      "phase_6": {
+        "completedStrengthSessions": 0,
+        "sequence": [
+          "phase6_heavy_a",
+          "phase6_moderate_b",
+          "phase6_volume_c"
+        ],
+        "status": "pending",
+        "totalStrengthSessions": 24
+      },
+      "phase_7": {
+        "completedStrengthSessions": 0,
+        "sequence": [
+          "phase7_specialization_a",
+          "phase7_specialization_b",
+          "phase7_specialization_c"
+        ],
+        "status": "pending",
+        "totalStrengthSessions": 24
+      },
+      "phase_8": {
+        "completedStrengthSessions": 0,
+        "sequence": [
+          "phase8_consolidation_a",
+          "phase8_consolidation_b"
+        ],
+        "status": "pending",
+        "totalStrengthSessions": 18
       }
     }
   },
@@ -13383,7 +13804,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-09-13T04:54:44.689Z",
+  "responseGeneratedAt": "2026-09-15T02:07:18.136Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -30920,7 +31341,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-09-13T04:54:32.608Z",
+  "sourceStateUpdatedAt": "2026-09-15T02:06:35.943Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
@@ -31111,6 +31532,13 @@
         }
       },
       "variantId": "chest_press"
+    },
+    "chest_supported_incline_dumbbell_reverse_fly": {
+      "baselineConfirmedAt": null,
+      "baselineLoad": null,
+      "retainedTarget": null,
+      "tracks": {},
+      "variantId": "chest_supported_incline_dumbbell_reverse_fly"
     },
     "dead_bug": {
       "baselineConfirmedAt": "2026-07-24T05:16:42.248Z",
@@ -31717,6 +32145,13 @@
         }
       },
       "variantId": "leg_press"
+    },
+    "loaded_dead_bug_dumbbells": {
+      "baselineConfirmedAt": null,
+      "baselineLoad": null,
+      "retainedTarget": null,
+      "tracks": {},
+      "variantId": "loaded_dead_bug_dumbbells"
     },
     "low_row": {
       "baselineConfirmedAt": "2026-07-24T05:16:42.248Z",
@@ -32466,6 +32901,13 @@
       "tracks": {},
       "variantId": "supported_calf_raise"
     },
+    "supported_single_leg_dumbbell_calf_raise": {
+      "baselineConfirmedAt": null,
+      "baselineLoad": null,
+      "retainedTarget": null,
+      "tracks": {},
+      "variantId": "supported_single_leg_dumbbell_calf_raise"
+    },
     "supported_step_up": {
       "baselineConfirmedAt": null,
       "baselineLoad": null,
@@ -32590,7 +33032,6 @@
   },
   "workoutTemplates": {
     "phase1_strength_a": {
-      "active": true,
       "exerciseIds": [
         "leg_press",
         "seated_leg_curl",
@@ -32601,12 +33042,85 @@
         "leg_extension",
         "pallof_press"
       ],
+      "exercises": [
+        {
+          "exerciseId": "leg_press",
+          "repRange": {
+            "lower": 10,
+            "perSide": false,
+            "upper": 12
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "seated_leg_curl",
+          "repRange": {
+            "lower": 10,
+            "perSide": false,
+            "upper": 12
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "chest_press",
+          "repRange": {
+            "lower": 10,
+            "perSide": false,
+            "upper": 12
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "low_row",
+          "repRange": {
+            "lower": 10,
+            "perSide": false,
+            "upper": 12
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "lat_pulldown",
+          "repRange": {
+            "lower": 10,
+            "perSide": false,
+            "upper": 12
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "hip_thrust",
+          "repRange": {
+            "lower": 12,
+            "perSide": false,
+            "upper": 15
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "leg_extension",
+          "repRange": {
+            "lower": 10,
+            "perSide": false,
+            "upper": 12
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "pallof_press",
+          "repRange": {
+            "lower": 8,
+            "perSide": true,
+            "upper": 12
+          },
+          "workingSets": 2
+        }
+      ],
       "name": "Strength A",
-      "phaseId": "phase_1",
+      "phaseId": "phase1_strength",
       "templateId": "phase1_strength_a"
     },
     "phase2_strength_a": {
-      "active": true,
       "exerciseIds": [
         "leg_press",
         "seated_leg_curl",
@@ -32696,9 +33210,8 @@
       "templateId": "phase2_strength_a"
     },
     "phase2_strength_b": {
-      "active": true,
       "exerciseIds": [
-        "pendulum_squat",
+        "supported_step_up",
         "seated_leg_curl",
         "machine_shoulder_press",
         "low_row",
@@ -32709,10 +33222,10 @@
       ],
       "exercises": [
         {
-          "exerciseId": "pendulum_squat",
+          "exerciseId": "supported_step_up",
           "repRange": {
             "lower": 8,
-            "perSide": false,
+            "perSide": true,
             "upper": 10
           },
           "workingSets": 2
@@ -32784,6 +33297,1341 @@
       "name": "Strength B",
       "phaseId": "phase2_strength",
       "templateId": "phase2_strength_b"
+    },
+    "phase3_strength_a": {
+      "exerciseIds": [
+        "leg_press",
+        "seated_leg_curl",
+        "chest_press",
+        "low_row",
+        "hip_thrust",
+        "machine_lateral_raise",
+        "supported_single_leg_dumbbell_calf_raise",
+        "pallof_press"
+      ],
+      "exercises": [
+        {
+          "exerciseId": "leg_press",
+          "repRange": {
+            "lower": 8,
+            "perSide": false,
+            "upper": 12
+          },
+          "workingSets": 3
+        },
+        {
+          "exerciseId": "seated_leg_curl",
+          "repRange": {
+            "lower": 10,
+            "perSide": false,
+            "upper": 15
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "chest_press",
+          "repRange": {
+            "lower": 8,
+            "perSide": false,
+            "upper": 12
+          },
+          "workingSets": 3
+        },
+        {
+          "exerciseId": "low_row",
+          "repRange": {
+            "lower": 8,
+            "perSide": false,
+            "upper": 12
+          },
+          "workingSets": 3
+        },
+        {
+          "exerciseId": "hip_thrust",
+          "repRange": {
+            "lower": 10,
+            "perSide": false,
+            "upper": 15
+          },
+          "workingSets": 3
+        },
+        {
+          "exerciseId": "machine_lateral_raise",
+          "repRange": {
+            "lower": 12,
+            "perSide": false,
+            "upper": 15
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "supported_single_leg_dumbbell_calf_raise",
+          "repRange": {
+            "lower": 10,
+            "perSide": true,
+            "upper": 15
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "pallof_press",
+          "repRange": {
+            "lower": 8,
+            "perSide": true,
+            "upper": 12
+          },
+          "workingSets": 2
+        }
+      ],
+      "name": "Strength A",
+      "phaseId": "phase3_strength",
+      "templateId": "phase3_strength_a"
+    },
+    "phase3_strength_b": {
+      "exerciseIds": [
+        "supported_step_up",
+        "leg_extension",
+        "machine_shoulder_press",
+        "lat_pulldown",
+        "hip_thrust",
+        "chest_supported_incline_dumbbell_reverse_fly",
+        "supported_single_leg_dumbbell_calf_raise",
+        "loaded_dead_bug_dumbbells"
+      ],
+      "exercises": [
+        {
+          "exerciseId": "supported_step_up",
+          "repRange": {
+            "lower": 8,
+            "perSide": true,
+            "upper": 10
+          },
+          "workingSets": 3
+        },
+        {
+          "exerciseId": "leg_extension",
+          "repRange": {
+            "lower": 10,
+            "perSide": false,
+            "upper": 15
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "machine_shoulder_press",
+          "repRange": {
+            "lower": 8,
+            "perSide": false,
+            "upper": 12
+          },
+          "workingSets": 3
+        },
+        {
+          "exerciseId": "lat_pulldown",
+          "repRange": {
+            "lower": 8,
+            "perSide": false,
+            "upper": 12
+          },
+          "workingSets": 3
+        },
+        {
+          "exerciseId": "hip_thrust",
+          "repRange": {
+            "lower": 10,
+            "perSide": false,
+            "upper": 15
+          },
+          "workingSets": 3
+        },
+        {
+          "exerciseId": "chest_supported_incline_dumbbell_reverse_fly",
+          "repRange": {
+            "lower": 12,
+            "perSide": false,
+            "upper": 15
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "supported_single_leg_dumbbell_calf_raise",
+          "repRange": {
+            "lower": 10,
+            "perSide": true,
+            "upper": 15
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "loaded_dead_bug_dumbbells",
+          "repRange": {
+            "lower": 8,
+            "perSide": true,
+            "upper": 12
+          },
+          "workingSets": 2
+        }
+      ],
+      "name": "Strength B",
+      "phaseId": "phase3_strength",
+      "templateId": "phase3_strength_b"
+    },
+    "phase4_strength_a": {
+      "exerciseIds": [
+        "leg_press",
+        "seated_leg_curl",
+        "chest_press",
+        "low_row",
+        "hip_thrust",
+        "machine_lateral_raise",
+        "supported_single_leg_dumbbell_calf_raise",
+        "pallof_press"
+      ],
+      "exercises": [
+        {
+          "exerciseId": "leg_press",
+          "repRange": {
+            "lower": 6,
+            "perSide": false,
+            "upper": 10
+          },
+          "workingSets": 3
+        },
+        {
+          "exerciseId": "seated_leg_curl",
+          "repRange": {
+            "lower": 8,
+            "perSide": false,
+            "upper": 12
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "chest_press",
+          "repRange": {
+            "lower": 6,
+            "perSide": false,
+            "upper": 10
+          },
+          "workingSets": 3
+        },
+        {
+          "exerciseId": "low_row",
+          "repRange": {
+            "lower": 6,
+            "perSide": false,
+            "upper": 10
+          },
+          "workingSets": 3
+        },
+        {
+          "exerciseId": "hip_thrust",
+          "repRange": {
+            "lower": 8,
+            "perSide": false,
+            "upper": 12
+          },
+          "workingSets": 3
+        },
+        {
+          "exerciseId": "machine_lateral_raise",
+          "repRange": {
+            "lower": 12,
+            "perSide": false,
+            "upper": 15
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "supported_single_leg_dumbbell_calf_raise",
+          "repRange": {
+            "lower": 10,
+            "perSide": true,
+            "upper": 15
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "pallof_press",
+          "repRange": {
+            "lower": 8,
+            "perSide": true,
+            "upper": 12
+          },
+          "workingSets": 2
+        }
+      ],
+      "name": "Strength A",
+      "phaseId": "phase4_strength",
+      "templateId": "phase4_strength_a"
+    },
+    "phase4_strength_b": {
+      "exerciseIds": [
+        "supported_step_up",
+        "leg_extension",
+        "machine_shoulder_press",
+        "lat_pulldown",
+        "hip_thrust",
+        "chest_supported_incline_dumbbell_reverse_fly",
+        "supported_single_leg_dumbbell_calf_raise",
+        "loaded_dead_bug_dumbbells"
+      ],
+      "exercises": [
+        {
+          "exerciseId": "supported_step_up",
+          "repRange": {
+            "lower": 8,
+            "perSide": true,
+            "upper": 10
+          },
+          "workingSets": 3
+        },
+        {
+          "exerciseId": "leg_extension",
+          "repRange": {
+            "lower": 10,
+            "perSide": false,
+            "upper": 15
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "machine_shoulder_press",
+          "repRange": {
+            "lower": 6,
+            "perSide": false,
+            "upper": 10
+          },
+          "workingSets": 3
+        },
+        {
+          "exerciseId": "lat_pulldown",
+          "repRange": {
+            "lower": 6,
+            "perSide": false,
+            "upper": 10
+          },
+          "workingSets": 3
+        },
+        {
+          "exerciseId": "hip_thrust",
+          "repRange": {
+            "lower": 8,
+            "perSide": false,
+            "upper": 12
+          },
+          "workingSets": 3
+        },
+        {
+          "exerciseId": "chest_supported_incline_dumbbell_reverse_fly",
+          "repRange": {
+            "lower": 12,
+            "perSide": false,
+            "upper": 15
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "supported_single_leg_dumbbell_calf_raise",
+          "repRange": {
+            "lower": 10,
+            "perSide": true,
+            "upper": 15
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "loaded_dead_bug_dumbbells",
+          "repRange": {
+            "lower": 8,
+            "perSide": true,
+            "upper": 12
+          },
+          "workingSets": 2
+        }
+      ],
+      "name": "Strength B",
+      "phaseId": "phase4_strength",
+      "templateId": "phase4_strength_b"
+    },
+    "phase5_strength_a": {
+      "exerciseIds": [
+        "leg_press",
+        "seated_leg_curl",
+        "chest_press",
+        "low_row",
+        "machine_lateral_raise",
+        "triceps_pressdown",
+        "supported_single_leg_dumbbell_calf_raise",
+        "pallof_press"
+      ],
+      "exercises": [
+        {
+          "exerciseId": "leg_press",
+          "repRange": {
+            "lower": 8,
+            "perSide": false,
+            "upper": 12
+          },
+          "workingSets": 3
+        },
+        {
+          "exerciseId": "seated_leg_curl",
+          "repRange": {
+            "lower": 10,
+            "perSide": false,
+            "upper": 15
+          },
+          "workingSets": 3
+        },
+        {
+          "exerciseId": "chest_press",
+          "repRange": {
+            "lower": 8,
+            "perSide": false,
+            "upper": 12
+          },
+          "workingSets": 3
+        },
+        {
+          "exerciseId": "low_row",
+          "repRange": {
+            "lower": 8,
+            "perSide": false,
+            "upper": 12
+          },
+          "workingSets": 3
+        },
+        {
+          "exerciseId": "machine_lateral_raise",
+          "repRange": {
+            "lower": 12,
+            "perSide": false,
+            "upper": 15
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "triceps_pressdown",
+          "repRange": {
+            "lower": 10,
+            "perSide": false,
+            "upper": 15
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "supported_single_leg_dumbbell_calf_raise",
+          "repRange": {
+            "lower": 10,
+            "perSide": true,
+            "upper": 15
+          },
+          "workingSets": 3
+        },
+        {
+          "exerciseId": "pallof_press",
+          "repRange": {
+            "lower": 10,
+            "perSide": true,
+            "upper": 12
+          },
+          "workingSets": 2
+        }
+      ],
+      "name": "Strength A",
+      "phaseId": "phase5_strength",
+      "templateId": "phase5_strength_a"
+    },
+    "phase5_strength_b": {
+      "exerciseIds": [
+        "supported_step_up",
+        "leg_extension",
+        "machine_shoulder_press",
+        "lat_pulldown",
+        "chest_supported_incline_dumbbell_reverse_fly",
+        "cable_biceps_curl",
+        "hip_thrust",
+        "loaded_dead_bug_dumbbells"
+      ],
+      "exercises": [
+        {
+          "exerciseId": "supported_step_up",
+          "repRange": {
+            "lower": 8,
+            "perSide": true,
+            "upper": 10
+          },
+          "workingSets": 3
+        },
+        {
+          "exerciseId": "leg_extension",
+          "repRange": {
+            "lower": 10,
+            "perSide": false,
+            "upper": 15
+          },
+          "workingSets": 3
+        },
+        {
+          "exerciseId": "machine_shoulder_press",
+          "repRange": {
+            "lower": 8,
+            "perSide": false,
+            "upper": 12
+          },
+          "workingSets": 3
+        },
+        {
+          "exerciseId": "lat_pulldown",
+          "repRange": {
+            "lower": 8,
+            "perSide": false,
+            "upper": 12
+          },
+          "workingSets": 3
+        },
+        {
+          "exerciseId": "chest_supported_incline_dumbbell_reverse_fly",
+          "repRange": {
+            "lower": 12,
+            "perSide": false,
+            "upper": 15
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "cable_biceps_curl",
+          "repRange": {
+            "lower": 10,
+            "perSide": false,
+            "upper": 15
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "hip_thrust",
+          "repRange": {
+            "lower": 10,
+            "perSide": false,
+            "upper": 15
+          },
+          "workingSets": 3
+        },
+        {
+          "exerciseId": "loaded_dead_bug_dumbbells",
+          "repRange": {
+            "lower": 8,
+            "perSide": true,
+            "upper": 12
+          },
+          "workingSets": 2
+        }
+      ],
+      "name": "Strength B",
+      "phaseId": "phase5_strength",
+      "templateId": "phase5_strength_b"
+    },
+    "phase5_strength_c": {
+      "exerciseIds": [
+        "hip_thrust",
+        "leg_press",
+        "chest_press",
+        "low_row",
+        "lat_pulldown",
+        "machine_lateral_raise",
+        "seated_leg_curl",
+        "supported_single_leg_dumbbell_calf_raise"
+      ],
+      "exercises": [
+        {
+          "exerciseId": "hip_thrust",
+          "repRange": {
+            "lower": 8,
+            "perSide": false,
+            "upper": 12
+          },
+          "workingSets": 3
+        },
+        {
+          "exerciseId": "leg_press",
+          "repRange": {
+            "lower": 10,
+            "perSide": false,
+            "upper": 15
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "chest_press",
+          "repRange": {
+            "lower": 10,
+            "perSide": false,
+            "upper": 15
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "low_row",
+          "repRange": {
+            "lower": 10,
+            "perSide": false,
+            "upper": 15
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "lat_pulldown",
+          "repRange": {
+            "lower": 10,
+            "perSide": false,
+            "upper": 15
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "machine_lateral_raise",
+          "repRange": {
+            "lower": 12,
+            "perSide": false,
+            "upper": 20
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "seated_leg_curl",
+          "repRange": {
+            "lower": 12,
+            "perSide": false,
+            "upper": 15
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "supported_single_leg_dumbbell_calf_raise",
+          "repRange": {
+            "lower": 12,
+            "perSide": true,
+            "upper": 20
+          },
+          "workingSets": 2
+        }
+      ],
+      "name": "Strength C",
+      "phaseId": "phase5_strength",
+      "templateId": "phase5_strength_c"
+    },
+    "phase6_heavy_a": {
+      "exerciseIds": [
+        "leg_press",
+        "chest_press",
+        "low_row",
+        "hip_thrust",
+        "seated_leg_curl",
+        "machine_lateral_raise",
+        "supported_single_leg_dumbbell_calf_raise",
+        "pallof_press"
+      ],
+      "exercises": [
+        {
+          "exerciseId": "leg_press",
+          "repRange": {
+            "lower": 6,
+            "perSide": false,
+            "upper": 8
+          },
+          "workingSets": 3
+        },
+        {
+          "exerciseId": "chest_press",
+          "repRange": {
+            "lower": 6,
+            "perSide": false,
+            "upper": 8
+          },
+          "workingSets": 3
+        },
+        {
+          "exerciseId": "low_row",
+          "repRange": {
+            "lower": 6,
+            "perSide": false,
+            "upper": 8
+          },
+          "workingSets": 3
+        },
+        {
+          "exerciseId": "hip_thrust",
+          "repRange": {
+            "lower": 8,
+            "perSide": false,
+            "upper": 10
+          },
+          "workingSets": 3
+        },
+        {
+          "exerciseId": "seated_leg_curl",
+          "repRange": {
+            "lower": 8,
+            "perSide": false,
+            "upper": 12
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "machine_lateral_raise",
+          "repRange": {
+            "lower": 12,
+            "perSide": false,
+            "upper": 15
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "supported_single_leg_dumbbell_calf_raise",
+          "repRange": {
+            "lower": 10,
+            "perSide": true,
+            "upper": 15
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "pallof_press",
+          "repRange": {
+            "lower": 8,
+            "perSide": true,
+            "upper": 12
+          },
+          "workingSets": 2
+        }
+      ],
+      "name": "Heavy A",
+      "phaseId": "phase6_heavy",
+      "templateId": "phase6_heavy_a"
+    },
+    "phase6_moderate_b": {
+      "exerciseIds": [
+        "supported_step_up",
+        "machine_shoulder_press",
+        "lat_pulldown",
+        "leg_extension",
+        "hip_thrust",
+        "chest_supported_incline_dumbbell_reverse_fly",
+        "cable_biceps_curl",
+        "loaded_dead_bug_dumbbells"
+      ],
+      "exercises": [
+        {
+          "exerciseId": "supported_step_up",
+          "repRange": {
+            "lower": 8,
+            "perSide": true,
+            "upper": 10
+          },
+          "workingSets": 3
+        },
+        {
+          "exerciseId": "machine_shoulder_press",
+          "repRange": {
+            "lower": 8,
+            "perSide": false,
+            "upper": 12
+          },
+          "workingSets": 3
+        },
+        {
+          "exerciseId": "lat_pulldown",
+          "repRange": {
+            "lower": 8,
+            "perSide": false,
+            "upper": 12
+          },
+          "workingSets": 3
+        },
+        {
+          "exerciseId": "leg_extension",
+          "repRange": {
+            "lower": 10,
+            "perSide": false,
+            "upper": 15
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "hip_thrust",
+          "repRange": {
+            "lower": 8,
+            "perSide": false,
+            "upper": 12
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "chest_supported_incline_dumbbell_reverse_fly",
+          "repRange": {
+            "lower": 12,
+            "perSide": false,
+            "upper": 15
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "cable_biceps_curl",
+          "repRange": {
+            "lower": 10,
+            "perSide": false,
+            "upper": 15
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "loaded_dead_bug_dumbbells",
+          "repRange": {
+            "lower": 8,
+            "perSide": true,
+            "upper": 12
+          },
+          "workingSets": 2
+        }
+      ],
+      "name": "Moderate B",
+      "phaseId": "phase6_moderate",
+      "templateId": "phase6_moderate_b"
+    },
+    "phase6_volume_c": {
+      "exerciseIds": [
+        "leg_press",
+        "chest_press",
+        "low_row",
+        "lat_pulldown",
+        "seated_leg_curl",
+        "machine_lateral_raise",
+        "triceps_pressdown",
+        "supported_single_leg_dumbbell_calf_raise"
+      ],
+      "exercises": [
+        {
+          "exerciseId": "leg_press",
+          "repRange": {
+            "lower": 12,
+            "perSide": false,
+            "upper": 15
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "chest_press",
+          "repRange": {
+            "lower": 12,
+            "perSide": false,
+            "upper": 15
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "low_row",
+          "repRange": {
+            "lower": 12,
+            "perSide": false,
+            "upper": 15
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "lat_pulldown",
+          "repRange": {
+            "lower": 12,
+            "perSide": false,
+            "upper": 15
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "seated_leg_curl",
+          "repRange": {
+            "lower": 12,
+            "perSide": false,
+            "upper": 15
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "machine_lateral_raise",
+          "repRange": {
+            "lower": 15,
+            "perSide": false,
+            "upper": 20
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "triceps_pressdown",
+          "repRange": {
+            "lower": 12,
+            "perSide": false,
+            "upper": 20
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "supported_single_leg_dumbbell_calf_raise",
+          "repRange": {
+            "lower": 12,
+            "perSide": true,
+            "upper": 20
+          },
+          "workingSets": 2
+        }
+      ],
+      "name": "Volume C",
+      "phaseId": "phase6_volume",
+      "templateId": "phase6_volume_c"
+    },
+    "phase7_specialization_a": {
+      "exerciseIds": [
+        "leg_press",
+        "chest_press",
+        "low_row",
+        "lat_pulldown",
+        "seated_leg_curl",
+        "machine_lateral_raise",
+        "supported_single_leg_dumbbell_calf_raise",
+        "pallof_press"
+      ],
+      "exercises": [
+        {
+          "exerciseId": "leg_press",
+          "repRange": {
+            "lower": 8,
+            "perSide": false,
+            "upper": 12
+          },
+          "workingSets": 3
+        },
+        {
+          "exerciseId": "chest_press",
+          "repRange": {
+            "lower": 8,
+            "perSide": false,
+            "upper": 12
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "low_row",
+          "repRange": {
+            "lower": 8,
+            "perSide": false,
+            "upper": 12
+          },
+          "workingSets": 4
+        },
+        {
+          "exerciseId": "lat_pulldown",
+          "repRange": {
+            "lower": 8,
+            "perSide": false,
+            "upper": 12
+          },
+          "workingSets": 3
+        },
+        {
+          "exerciseId": "seated_leg_curl",
+          "repRange": {
+            "lower": 10,
+            "perSide": false,
+            "upper": 15
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "machine_lateral_raise",
+          "repRange": {
+            "lower": 12,
+            "perSide": false,
+            "upper": 20
+          },
+          "workingSets": 3
+        },
+        {
+          "exerciseId": "supported_single_leg_dumbbell_calf_raise",
+          "repRange": {
+            "lower": 10,
+            "perSide": true,
+            "upper": 15
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "pallof_press",
+          "repRange": {
+            "lower": 8,
+            "perSide": true,
+            "upper": 12
+          },
+          "workingSets": 2
+        }
+      ],
+      "name": "Specialization A",
+      "phaseId": "phase7_specialization",
+      "templateId": "phase7_specialization_a"
+    },
+    "phase7_specialization_b": {
+      "exerciseIds": [
+        "supported_step_up",
+        "machine_shoulder_press",
+        "lat_pulldown",
+        "hip_thrust",
+        "leg_extension",
+        "chest_supported_incline_dumbbell_reverse_fly",
+        "cable_biceps_curl",
+        "loaded_dead_bug_dumbbells"
+      ],
+      "exercises": [
+        {
+          "exerciseId": "supported_step_up",
+          "repRange": {
+            "lower": 8,
+            "perSide": true,
+            "upper": 10
+          },
+          "workingSets": 3
+        },
+        {
+          "exerciseId": "machine_shoulder_press",
+          "repRange": {
+            "lower": 8,
+            "perSide": false,
+            "upper": 12
+          },
+          "workingSets": 4
+        },
+        {
+          "exerciseId": "lat_pulldown",
+          "repRange": {
+            "lower": 8,
+            "perSide": false,
+            "upper": 12
+          },
+          "workingSets": 4
+        },
+        {
+          "exerciseId": "hip_thrust",
+          "repRange": {
+            "lower": 8,
+            "perSide": false,
+            "upper": 12
+          },
+          "workingSets": 3
+        },
+        {
+          "exerciseId": "leg_extension",
+          "repRange": {
+            "lower": 10,
+            "perSide": false,
+            "upper": 15
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "chest_supported_incline_dumbbell_reverse_fly",
+          "repRange": {
+            "lower": 12,
+            "perSide": false,
+            "upper": 20
+          },
+          "workingSets": 3
+        },
+        {
+          "exerciseId": "cable_biceps_curl",
+          "repRange": {
+            "lower": 10,
+            "perSide": false,
+            "upper": 15
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "loaded_dead_bug_dumbbells",
+          "repRange": {
+            "lower": 8,
+            "perSide": true,
+            "upper": 12
+          },
+          "workingSets": 2
+        }
+      ],
+      "name": "Specialization B",
+      "phaseId": "phase7_specialization",
+      "templateId": "phase7_specialization_b"
+    },
+    "phase7_specialization_c": {
+      "exerciseIds": [
+        "hip_thrust",
+        "chest_press",
+        "low_row",
+        "machine_shoulder_press",
+        "machine_lateral_raise",
+        "cable_face_pull",
+        "seated_leg_curl",
+        "triceps_pressdown"
+      ],
+      "exercises": [
+        {
+          "exerciseId": "hip_thrust",
+          "repRange": {
+            "lower": 10,
+            "perSide": false,
+            "upper": 15
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "chest_press",
+          "repRange": {
+            "lower": 10,
+            "perSide": false,
+            "upper": 15
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "low_row",
+          "repRange": {
+            "lower": 8,
+            "perSide": false,
+            "upper": 12
+          },
+          "workingSets": 3
+        },
+        {
+          "exerciseId": "machine_shoulder_press",
+          "repRange": {
+            "lower": 8,
+            "perSide": false,
+            "upper": 12
+          },
+          "workingSets": 3
+        },
+        {
+          "exerciseId": "machine_lateral_raise",
+          "repRange": {
+            "lower": 12,
+            "perSide": false,
+            "upper": 20
+          },
+          "workingSets": 3
+        },
+        {
+          "exerciseId": "cable_face_pull",
+          "repRange": {
+            "lower": 12,
+            "perSide": false,
+            "upper": 20
+          },
+          "workingSets": 3
+        },
+        {
+          "exerciseId": "seated_leg_curl",
+          "repRange": {
+            "lower": 10,
+            "perSide": false,
+            "upper": 15
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "triceps_pressdown",
+          "repRange": {
+            "lower": 10,
+            "perSide": false,
+            "upper": 15
+          },
+          "workingSets": 2
+        }
+      ],
+      "name": "Specialization C",
+      "phaseId": "phase7_specialization",
+      "templateId": "phase7_specialization_c"
+    },
+    "phase8_consolidation_a": {
+      "exerciseIds": [
+        "leg_press",
+        "seated_leg_curl",
+        "chest_press",
+        "low_row",
+        "lat_pulldown",
+        "hip_thrust",
+        "machine_lateral_raise",
+        "pallof_press"
+      ],
+      "exercises": [
+        {
+          "exerciseId": "leg_press",
+          "repRange": {
+            "lower": 8,
+            "perSide": false,
+            "upper": 12
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "seated_leg_curl",
+          "repRange": {
+            "lower": 10,
+            "perSide": false,
+            "upper": 15
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "chest_press",
+          "repRange": {
+            "lower": 8,
+            "perSide": false,
+            "upper": 12
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "low_row",
+          "repRange": {
+            "lower": 8,
+            "perSide": false,
+            "upper": 12
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "lat_pulldown",
+          "repRange": {
+            "lower": 8,
+            "perSide": false,
+            "upper": 12
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "hip_thrust",
+          "repRange": {
+            "lower": 10,
+            "perSide": false,
+            "upper": 15
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "machine_lateral_raise",
+          "repRange": {
+            "lower": 12,
+            "perSide": false,
+            "upper": 15
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "pallof_press",
+          "repRange": {
+            "lower": 8,
+            "perSide": true,
+            "upper": 12
+          },
+          "workingSets": 2
+        }
+      ],
+      "name": "Consolidation A",
+      "phaseId": "phase8_consolidation",
+      "templateId": "phase8_consolidation_a"
+    },
+    "phase8_consolidation_b": {
+      "exerciseIds": [
+        "supported_step_up",
+        "leg_extension",
+        "machine_shoulder_press",
+        "lat_pulldown",
+        "low_row",
+        "hip_thrust",
+        "supported_single_leg_dumbbell_calf_raise",
+        "loaded_dead_bug_dumbbells"
+      ],
+      "exercises": [
+        {
+          "exerciseId": "supported_step_up",
+          "repRange": {
+            "lower": 8,
+            "perSide": true,
+            "upper": 10
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "leg_extension",
+          "repRange": {
+            "lower": 10,
+            "perSide": false,
+            "upper": 15
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "machine_shoulder_press",
+          "repRange": {
+            "lower": 8,
+            "perSide": false,
+            "upper": 12
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "lat_pulldown",
+          "repRange": {
+            "lower": 8,
+            "perSide": false,
+            "upper": 12
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "low_row",
+          "repRange": {
+            "lower": 8,
+            "perSide": false,
+            "upper": 12
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "hip_thrust",
+          "repRange": {
+            "lower": 10,
+            "perSide": false,
+            "upper": 15
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "supported_single_leg_dumbbell_calf_raise",
+          "repRange": {
+            "lower": 10,
+            "perSide": true,
+            "upper": 15
+          },
+          "workingSets": 2
+        },
+        {
+          "exerciseId": "loaded_dead_bug_dumbbells",
+          "repRange": {
+            "lower": 8,
+            "perSide": true,
+            "upper": 12
+          },
+          "workingSets": 2
+        }
+      ],
+      "name": "Consolidation B",
+      "phaseId": "phase8_consolidation",
+      "templateId": "phase8_consolidation_b"
     }
   }
 }
