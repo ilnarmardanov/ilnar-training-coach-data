@@ -3829,9 +3829,21 @@
   "currentExercises": [
     {
       "activeVariantId": "leg_press",
-      "actualResult": null,
-      "actualSetCount": null,
-      "completed": false,
+      "actualResult": {
+        "load": {
+          "kind": "numeric",
+          "mode": "total",
+          "unit": "kg",
+          "value": 0
+        },
+        "reps": [
+          12,
+          12,
+          12
+        ]
+      },
+      "actualSetCount": 3,
+      "completed": true,
       "currentSessionOverride": null,
       "edited": false,
       "exerciseFamilyId": "strength_a_knee_dominant",
@@ -3855,7 +3867,7 @@
       "issueNotes": null,
       "name": "Leg Press",
       "order": 1,
-      "outcome": "planned",
+      "outcome": "completed",
       "persistentPrimaryVariantId": "leg_press",
       "plannedPrimaryVariantId": "leg_press",
       "prescription": {
@@ -5514,9 +5526,21 @@
     "exercises": [
       {
         "activeVariantId": "leg_press",
-        "actualResult": null,
-        "actualSetCount": null,
-        "completed": false,
+        "actualResult": {
+          "load": {
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 0
+          },
+          "reps": [
+            12,
+            12,
+            12
+          ]
+        },
+        "actualSetCount": 3,
+        "completed": true,
         "currentSessionOverride": null,
         "edited": false,
         "exerciseFamilyId": "strength_a_knee_dominant",
@@ -5540,7 +5564,7 @@
         "issueNotes": null,
         "name": "Leg Press",
         "order": 1,
-        "outcome": "planned",
+        "outcome": "completed",
         "persistentPrimaryVariantId": "leg_press",
         "plannedPrimaryVariantId": "leg_press",
         "prescription": {
@@ -13804,7 +13828,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-09-15T02:07:18.136Z",
+  "responseGeneratedAt": "2026-09-18T05:21:10.887Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -31341,7 +31365,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-09-15T02:06:35.943Z",
+  "sourceStateUpdatedAt": "2026-09-18T05:20:29.072Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
