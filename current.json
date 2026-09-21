@@ -5765,7 +5765,7 @@
       "actualSetCount": null,
       "completed": false,
       "currentSessionOverride": null,
-      "edited": false,
+      "edited": true,
       "exerciseFamilyId": "trunk_control",
       "exerciseId": "dead_bug",
       "exerciseNote": null,
@@ -5950,13 +5950,14 @@
       "workingSetCount": 2,
       "workingTarget": {
         "load": {
-          "kind": "label",
-          "label": "Body weight",
-          "mode": "base_resistance"
+          "kind": "numeric",
+          "mode": "total",
+          "unit": "kg",
+          "value": 2.5
         },
         "reps": [
-          9,
-          9
+          15,
+          15
         ]
       }
     }
@@ -7493,7 +7494,7 @@
         "actualSetCount": null,
         "completed": false,
         "currentSessionOverride": null,
-        "edited": false,
+        "edited": true,
         "exerciseFamilyId": "trunk_control",
         "exerciseId": "dead_bug",
         "exerciseNote": null,
@@ -7678,13 +7679,14 @@
         "workingSetCount": 2,
         "workingTarget": {
           "load": {
-            "kind": "label",
-            "label": "Body weight",
-            "mode": "base_resistance"
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 2.5
           },
           "reps": [
-            9,
-            9
+            15,
+            15
           ]
         }
       }
@@ -14308,7 +14310,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-09-21T06:03:53.419Z",
+  "responseGeneratedAt": "2026-09-21T06:07:39.064Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -32864,7 +32866,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-09-21T06:02:39.638Z",
+  "sourceStateUpdatedAt": "2026-09-21T06:07:18.011Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
