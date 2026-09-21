@@ -4916,21 +4916,9 @@
     },
     {
       "activeVariantId": "lat_pulldown",
-      "actualResult": {
-        "load": {
-          "kind": "numeric",
-          "mode": "total",
-          "unit": "kg",
-          "value": 75
-        },
-        "reps": [
-          8,
-          8,
-          8
-        ]
-      },
-      "actualSetCount": 3,
-      "completed": true,
+      "actualResult": null,
+      "actualSetCount": null,
+      "completed": false,
       "currentSessionOverride": null,
       "edited": false,
       "exerciseFamilyId": "vertical_pull",
@@ -4954,7 +4942,7 @@
       "issueNotes": null,
       "name": "Lat Pulldown",
       "order": 4,
-      "outcome": "completed",
+      "outcome": "planned",
       "persistentPrimaryVariantId": "lat_pulldown",
       "plannedPrimaryVariantId": "lat_pulldown",
       "prescription": {
@@ -5157,9 +5145,21 @@
     },
     {
       "activeVariantId": "hip_thrust",
-      "actualResult": null,
-      "actualSetCount": null,
-      "completed": false,
+      "actualResult": {
+        "load": {
+          "kind": "numeric",
+          "mode": "total",
+          "unit": "kg",
+          "value": 75
+        },
+        "reps": [
+          15,
+          15,
+          15
+        ]
+      },
+      "actualSetCount": 3,
+      "completed": true,
       "currentSessionOverride": null,
       "edited": false,
       "exerciseFamilyId": "hip_extension",
@@ -5183,7 +5183,7 @@
       "issueNotes": null,
       "name": "Hip Thrust",
       "order": 5,
-      "outcome": "planned",
+      "outcome": "completed",
       "persistentPrimaryVariantId": "hip_thrust",
       "plannedPrimaryVariantId": "hip_thrust",
       "prescription": {
@@ -6621,21 +6621,9 @@
       },
       {
         "activeVariantId": "lat_pulldown",
-        "actualResult": {
-          "load": {
-            "kind": "numeric",
-            "mode": "total",
-            "unit": "kg",
-            "value": 75
-          },
-          "reps": [
-            8,
-            8,
-            8
-          ]
-        },
-        "actualSetCount": 3,
-        "completed": true,
+        "actualResult": null,
+        "actualSetCount": null,
+        "completed": false,
         "currentSessionOverride": null,
         "edited": false,
         "exerciseFamilyId": "vertical_pull",
@@ -6659,7 +6647,7 @@
         "issueNotes": null,
         "name": "Lat Pulldown",
         "order": 4,
-        "outcome": "completed",
+        "outcome": "planned",
         "persistentPrimaryVariantId": "lat_pulldown",
         "plannedPrimaryVariantId": "lat_pulldown",
         "prescription": {
@@ -6862,9 +6850,21 @@
       },
       {
         "activeVariantId": "hip_thrust",
-        "actualResult": null,
-        "actualSetCount": null,
-        "completed": false,
+        "actualResult": {
+          "load": {
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 75
+          },
+          "reps": [
+            15,
+            15,
+            15
+          ]
+        },
+        "actualSetCount": 3,
+        "completed": true,
         "currentSessionOverride": null,
         "edited": false,
         "exerciseFamilyId": "hip_extension",
@@ -6888,7 +6888,7 @@
         "issueNotes": null,
         "name": "Hip Thrust",
         "order": 5,
-        "outcome": "planned",
+        "outcome": "completed",
         "persistentPrimaryVariantId": "hip_thrust",
         "plannedPrimaryVariantId": "hip_thrust",
         "prescription": {
@@ -14262,7 +14262,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-09-21T05:44:01.176Z",
+  "responseGeneratedAt": "2026-09-21T05:45:12.969Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -32818,7 +32818,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-09-21T05:43:25.166Z",
+  "sourceStateUpdatedAt": "2026-09-21T05:44:02.610Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
