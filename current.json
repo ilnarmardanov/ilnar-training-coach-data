@@ -4672,9 +4672,21 @@
     },
     {
       "activeVariantId": "machine_shoulder_press",
-      "actualResult": null,
-      "actualSetCount": null,
-      "completed": false,
+      "actualResult": {
+        "load": {
+          "kind": "numeric",
+          "mode": "total",
+          "unit": "kg",
+          "value": 20
+        },
+        "reps": [
+          8,
+          8,
+          8
+        ]
+      },
+      "actualSetCount": 3,
+      "completed": true,
       "currentSessionOverride": null,
       "edited": false,
       "exerciseFamilyId": "vertical_press",
@@ -4698,7 +4710,7 @@
       "issueNotes": null,
       "name": "Machine Shoulder Press",
       "order": 3,
-      "outcome": "planned",
+      "outcome": "completed",
       "persistentPrimaryVariantId": "machine_shoulder_press",
       "plannedPrimaryVariantId": "machine_shoulder_press",
       "prescription": {
@@ -6353,9 +6365,21 @@
       },
       {
         "activeVariantId": "machine_shoulder_press",
-        "actualResult": null,
-        "actualSetCount": null,
-        "completed": false,
+        "actualResult": {
+          "load": {
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 20
+          },
+          "reps": [
+            8,
+            8,
+            8
+          ]
+        },
+        "actualSetCount": 3,
+        "completed": true,
         "currentSessionOverride": null,
         "edited": false,
         "exerciseFamilyId": "vertical_press",
@@ -6379,7 +6403,7 @@
         "issueNotes": null,
         "name": "Machine Shoulder Press",
         "order": 3,
-        "outcome": "planned",
+        "outcome": "completed",
         "persistentPrimaryVariantId": "machine_shoulder_press",
         "plannedPrimaryVariantId": "machine_shoulder_press",
         "prescription": {
@@ -14214,7 +14238,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-09-21T05:28:35.433Z",
+  "responseGeneratedAt": "2026-09-21T05:35:40.291Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -32770,7 +32794,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-09-21T05:27:57.476Z",
+  "sourceStateUpdatedAt": "2026-09-21T05:35:02.066Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
