@@ -5172,7 +5172,7 @@
       "actualSetCount": null,
       "completed": false,
       "currentSessionOverride": null,
-      "edited": false,
+      "edited": true,
       "exerciseFamilyId": "vertical_pull",
       "exerciseId": "lat_pulldown",
       "exerciseNote": null,
@@ -5380,7 +5380,7 @@
           "kind": "numeric",
           "mode": "total",
           "unit": "kg",
-          "value": 75
+          "value": 70
         },
         "reps": [
           9,
@@ -6860,7 +6860,7 @@
         "actualSetCount": null,
         "completed": false,
         "currentSessionOverride": null,
-        "edited": false,
+        "edited": true,
         "exerciseFamilyId": "vertical_pull",
         "exerciseId": "lat_pulldown",
         "exerciseNote": null,
@@ -7068,7 +7068,7 @@
             "kind": "numeric",
             "mode": "total",
             "unit": "kg",
-            "value": 75
+            "value": 70
           },
           "reps": [
             9,
@@ -14492,7 +14492,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-10-02T03:50:59.607Z",
+  "responseGeneratedAt": "2026-10-02T03:55:59.083Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -34490,7 +34490,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-10-02T03:50:23.725Z",
+  "sourceStateUpdatedAt": "2026-10-02T03:55:25.956Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
