@@ -5148,9 +5148,9 @@
           "value": 15
         },
         "reps": [
-          9,
-          9,
-          9
+          10,
+          10,
+          10
         ]
       }
     },
@@ -6824,9 +6824,9 @@
             "value": 15
           },
           "reps": [
-            9,
-            9,
-            9
+            10,
+            10,
+            10
           ]
         }
       },
@@ -14468,7 +14468,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-10-02T03:42:27.410Z",
+  "responseGeneratedAt": "2026-10-02T03:44:24.574Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -34466,7 +34466,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-10-02T03:41:52.765Z",
+  "sourceStateUpdatedAt": "2026-10-02T03:43:47.196Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
