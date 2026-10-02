@@ -4934,7 +4934,7 @@
       "actualSetCount": null,
       "completed": false,
       "currentSessionOverride": null,
-      "edited": false,
+      "edited": true,
       "exerciseFamilyId": "vertical_press",
       "exerciseId": "machine_shoulder_press",
       "exerciseNote": null,
@@ -5145,7 +5145,7 @@
           "kind": "numeric",
           "mode": "total",
           "unit": "kg",
-          "value": 20
+          "value": 15
         },
         "reps": [
           9,
@@ -6610,7 +6610,7 @@
         "actualSetCount": null,
         "completed": false,
         "currentSessionOverride": null,
-        "edited": false,
+        "edited": true,
         "exerciseFamilyId": "vertical_press",
         "exerciseId": "machine_shoulder_press",
         "exerciseNote": null,
@@ -6821,7 +6821,7 @@
             "kind": "numeric",
             "mode": "total",
             "unit": "kg",
-            "value": 20
+            "value": 15
           },
           "reps": [
             9,
@@ -14468,7 +14468,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-10-02T03:34:28.605Z",
+  "responseGeneratedAt": "2026-10-02T03:42:27.410Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -34466,7 +34466,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-10-02T03:33:53.961Z",
+  "sourceStateUpdatedAt": "2026-10-02T03:41:52.765Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
