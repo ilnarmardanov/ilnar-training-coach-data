@@ -5998,7 +5998,7 @@
       "actualSetCount": null,
       "completed": false,
       "currentSessionOverride": null,
-      "edited": false,
+      "edited": true,
       "exerciseFamilyId": "trunk_control",
       "exerciseId": "dead_bug",
       "exerciseNote": null,
@@ -6191,8 +6191,8 @@
           "value": 2.5
         },
         "reps": [
-          8,
-          8
+          15,
+          15
         ]
       }
     }
@@ -7698,7 +7698,7 @@
         "actualSetCount": null,
         "completed": false,
         "currentSessionOverride": null,
-        "edited": false,
+        "edited": true,
         "exerciseFamilyId": "trunk_control",
         "exerciseId": "dead_bug",
         "exerciseNote": null,
@@ -7891,8 +7891,8 @@
             "value": 2.5
           },
           "reps": [
-            8,
-            8
+            15,
+            15
           ]
         }
       }
@@ -14516,7 +14516,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-10-02T04:01:30.625Z",
+  "responseGeneratedAt": "2026-10-02T04:07:49.519Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -34514,7 +34514,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-10-02T04:00:56.467Z",
+  "sourceStateUpdatedAt": "2026-10-02T04:07:11.971Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
