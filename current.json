@@ -4930,21 +4930,9 @@
     },
     {
       "activeVariantId": "machine_shoulder_press",
-      "actualResult": {
-        "load": {
-          "kind": "numeric",
-          "mode": "total",
-          "unit": "kg",
-          "value": 15
-        },
-        "reps": [
-          10,
-          10,
-          10
-        ]
-      },
-      "actualSetCount": 3,
-      "completed": true,
+      "actualResult": null,
+      "actualSetCount": null,
+      "completed": false,
       "currentSessionOverride": null,
       "edited": true,
       "exerciseFamilyId": "vertical_press",
@@ -4968,7 +4956,7 @@
       "issueNotes": null,
       "name": "Machine Shoulder Press",
       "order": 3,
-      "outcome": "completed",
+      "outcome": "planned",
       "persistentPrimaryVariantId": "machine_shoulder_press",
       "plannedPrimaryVariantId": "machine_shoulder_press",
       "prescription": {
@@ -5168,21 +5156,9 @@
     },
     {
       "activeVariantId": "lat_pulldown",
-      "actualResult": {
-        "load": {
-          "kind": "numeric",
-          "mode": "total",
-          "unit": "kg",
-          "value": 70
-        },
-        "reps": [
-          10,
-          10,
-          10
-        ]
-      },
-      "actualSetCount": 3,
-      "completed": true,
+      "actualResult": null,
+      "actualSetCount": null,
+      "completed": false,
       "currentSessionOverride": null,
       "edited": true,
       "exerciseFamilyId": "vertical_pull",
@@ -5206,7 +5182,7 @@
       "issueNotes": null,
       "name": "Lat Pulldown",
       "order": 4,
-      "outcome": "completed",
+      "outcome": "planned",
       "persistentPrimaryVariantId": "lat_pulldown",
       "plannedPrimaryVariantId": "lat_pulldown",
       "prescription": {
@@ -6642,21 +6618,9 @@
       },
       {
         "activeVariantId": "machine_shoulder_press",
-        "actualResult": {
-          "load": {
-            "kind": "numeric",
-            "mode": "total",
-            "unit": "kg",
-            "value": 15
-          },
-          "reps": [
-            10,
-            10,
-            10
-          ]
-        },
-        "actualSetCount": 3,
-        "completed": true,
+        "actualResult": null,
+        "actualSetCount": null,
+        "completed": false,
         "currentSessionOverride": null,
         "edited": true,
         "exerciseFamilyId": "vertical_press",
@@ -6680,7 +6644,7 @@
         "issueNotes": null,
         "name": "Machine Shoulder Press",
         "order": 3,
-        "outcome": "completed",
+        "outcome": "planned",
         "persistentPrimaryVariantId": "machine_shoulder_press",
         "plannedPrimaryVariantId": "machine_shoulder_press",
         "prescription": {
@@ -6880,21 +6844,9 @@
       },
       {
         "activeVariantId": "lat_pulldown",
-        "actualResult": {
-          "load": {
-            "kind": "numeric",
-            "mode": "total",
-            "unit": "kg",
-            "value": 70
-          },
-          "reps": [
-            10,
-            10,
-            10
-          ]
-        },
-        "actualSetCount": 3,
-        "completed": true,
+        "actualResult": null,
+        "actualSetCount": null,
+        "completed": false,
         "currentSessionOverride": null,
         "edited": true,
         "exerciseFamilyId": "vertical_pull",
@@ -6918,7 +6870,7 @@
         "issueNotes": null,
         "name": "Lat Pulldown",
         "order": 4,
-        "outcome": "completed",
+        "outcome": "planned",
         "persistentPrimaryVariantId": "lat_pulldown",
         "plannedPrimaryVariantId": "lat_pulldown",
         "prescription": {
@@ -14540,7 +14492,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-10-02T04:18:31.278Z",
+  "responseGeneratedAt": "2026-10-02T04:21:54.163Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -34538,7 +34490,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-10-02T04:17:53.694Z",
+  "sourceStateUpdatedAt": "2026-10-02T04:21:20.417Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
