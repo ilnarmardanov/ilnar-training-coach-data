@@ -5770,9 +5770,20 @@
     },
     {
       "activeVariantId": "machine_lateral_raise",
-      "actualResult": null,
-      "actualSetCount": null,
-      "completed": false,
+      "actualResult": {
+        "load": {
+          "kind": "numeric",
+          "mode": "total",
+          "unit": "kg",
+          "value": 25
+        },
+        "reps": [
+          15,
+          15
+        ]
+      },
+      "actualSetCount": 2,
+      "completed": true,
       "currentSessionOverride": null,
       "edited": false,
       "exerciseFamilyId": "shoulder_abduction",
@@ -5795,7 +5806,7 @@
       "issueNotes": null,
       "name": "Machine Lateral Raise",
       "order": 6,
-      "outcome": "planned",
+      "outcome": "completed",
       "persistentPrimaryVariantId": "machine_lateral_raise",
       "plannedPrimaryVariantId": "machine_lateral_raise",
       "prescription": {
@@ -5936,9 +5947,20 @@
     },
     {
       "activeVariantId": "supported_calf_raise",
-      "actualResult": null,
-      "actualSetCount": null,
-      "completed": false,
+      "actualResult": {
+        "load": {
+          "kind": "numeric",
+          "mode": "total",
+          "unit": "kg",
+          "value": 20
+        },
+        "reps": [
+          11,
+          11
+        ]
+      },
+      "actualSetCount": 2,
+      "completed": true,
       "currentSessionOverride": null,
       "edited": false,
       "exerciseFamilyId": "plantar_flexion",
@@ -5961,7 +5983,7 @@
       "issueNotes": null,
       "name": "Supported Calf Raise",
       "order": 7,
-      "outcome": "planned",
+      "outcome": "completed",
       "persistentPrimaryVariantId": "supported_calf_raise",
       "plannedPrimaryVariantId": "supported_calf_raise",
       "prescription": {
@@ -6111,9 +6133,20 @@
     },
     {
       "activeVariantId": "pallof_press",
-      "actualResult": null,
-      "actualSetCount": null,
-      "completed": false,
+      "actualResult": {
+        "load": {
+          "kind": "numeric",
+          "mode": "total",
+          "unit": "kg",
+          "value": 31.8
+        },
+        "reps": [
+          12,
+          12
+        ]
+      },
+      "actualSetCount": 2,
+      "completed": true,
       "currentSessionOverride": null,
       "edited": false,
       "exerciseFamilyId": "anti_rotation",
@@ -6136,7 +6169,7 @@
       "issueNotes": null,
       "name": "Pallof Press",
       "order": 8,
-      "outcome": "planned",
+      "outcome": "completed",
       "persistentPrimaryVariantId": "pallof_press",
       "plannedPrimaryVariantId": "pallof_press",
       "prescription": {
@@ -7600,9 +7633,20 @@
       },
       {
         "activeVariantId": "machine_lateral_raise",
-        "actualResult": null,
-        "actualSetCount": null,
-        "completed": false,
+        "actualResult": {
+          "load": {
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 25
+          },
+          "reps": [
+            15,
+            15
+          ]
+        },
+        "actualSetCount": 2,
+        "completed": true,
         "currentSessionOverride": null,
         "edited": false,
         "exerciseFamilyId": "shoulder_abduction",
@@ -7625,7 +7669,7 @@
         "issueNotes": null,
         "name": "Machine Lateral Raise",
         "order": 6,
-        "outcome": "planned",
+        "outcome": "completed",
         "persistentPrimaryVariantId": "machine_lateral_raise",
         "plannedPrimaryVariantId": "machine_lateral_raise",
         "prescription": {
@@ -7766,9 +7810,20 @@
       },
       {
         "activeVariantId": "supported_calf_raise",
-        "actualResult": null,
-        "actualSetCount": null,
-        "completed": false,
+        "actualResult": {
+          "load": {
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 20
+          },
+          "reps": [
+            11,
+            11
+          ]
+        },
+        "actualSetCount": 2,
+        "completed": true,
         "currentSessionOverride": null,
         "edited": false,
         "exerciseFamilyId": "plantar_flexion",
@@ -7791,7 +7846,7 @@
         "issueNotes": null,
         "name": "Supported Calf Raise",
         "order": 7,
-        "outcome": "planned",
+        "outcome": "completed",
         "persistentPrimaryVariantId": "supported_calf_raise",
         "plannedPrimaryVariantId": "supported_calf_raise",
         "prescription": {
@@ -7941,9 +7996,20 @@
       },
       {
         "activeVariantId": "pallof_press",
-        "actualResult": null,
-        "actualSetCount": null,
-        "completed": false,
+        "actualResult": {
+          "load": {
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 31.8
+          },
+          "reps": [
+            12,
+            12
+          ]
+        },
+        "actualSetCount": 2,
+        "completed": true,
         "currentSessionOverride": null,
         "edited": false,
         "exerciseFamilyId": "anti_rotation",
@@ -7966,7 +8032,7 @@
         "issueNotes": null,
         "name": "Pallof Press",
         "order": 8,
-        "outcome": "planned",
+        "outcome": "completed",
         "persistentPrimaryVariantId": "pallof_press",
         "plannedPrimaryVariantId": "pallof_press",
         "prescription": {
@@ -14777,7 +14843,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-10-04T03:32:50.586Z",
+  "responseGeneratedAt": "2026-10-04T03:43:21.553Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -35358,7 +35424,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-10-04T03:32:15.907Z",
+  "sourceStateUpdatedAt": "2026-10-04T03:42:51.904Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
