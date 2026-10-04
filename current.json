@@ -5657,7 +5657,7 @@
       "name": "Reverse Pec Deck",
       "order": 6,
       "outcome": "planned",
-      "persistentPrimaryVariantId": "reverse_pec_deck",
+      "persistentPrimaryVariantId": "chest_supported_incline_dumbbell_reverse_fly",
       "plannedPrimaryVariantId": "reverse_pec_deck",
       "prescription": {
         "exerciseId": "reverse_pec_deck",
@@ -5775,7 +5775,7 @@
         "variantId": "reverse_pec_deck"
       },
       "variantStatus": "active",
-      "variantTier": "primary",
+      "variantTier": "equivalent_equipment",
       "videoPair": {
         "complete": false,
         "count": 0,
@@ -5829,7 +5829,7 @@
       "name": "Supported Calf Raise",
       "order": 7,
       "outcome": "planned",
-      "persistentPrimaryVariantId": "supported_calf_raise",
+      "persistentPrimaryVariantId": "supported_single_leg_dumbbell_calf_raise",
       "plannedPrimaryVariantId": "supported_calf_raise",
       "prescription": {
         "exerciseId": "supported_calf_raise",
@@ -5950,7 +5950,7 @@
         "variantId": "supported_calf_raise"
       },
       "variantStatus": "active",
-      "variantTier": "primary",
+      "variantTier": "equivalent_equipment",
       "videoPair": {
         "complete": false,
         "count": 0,
@@ -6004,7 +6004,7 @@
       "name": "Dead Bug",
       "order": 8,
       "outcome": "planned",
-      "persistentPrimaryVariantId": "dead_bug",
+      "persistentPrimaryVariantId": "loaded_dead_bug_dumbbells",
       "plannedPrimaryVariantId": "dead_bug",
       "prescription": {
         "exerciseId": "dead_bug",
@@ -6157,7 +6157,7 @@
         "variantId": "dead_bug"
       },
       "variantStatus": "active",
-      "variantTier": "primary",
+      "variantTier": "equivalent_equipment",
       "videoPair": {
         "complete": true,
         "count": 2,
@@ -7310,7 +7310,7 @@
         "name": "Reverse Pec Deck",
         "order": 6,
         "outcome": "planned",
-        "persistentPrimaryVariantId": "reverse_pec_deck",
+        "persistentPrimaryVariantId": "chest_supported_incline_dumbbell_reverse_fly",
         "plannedPrimaryVariantId": "reverse_pec_deck",
         "prescription": {
           "exerciseId": "reverse_pec_deck",
@@ -7428,7 +7428,7 @@
           "variantId": "reverse_pec_deck"
         },
         "variantStatus": "active",
-        "variantTier": "primary",
+        "variantTier": "equivalent_equipment",
         "videoPair": {
           "complete": false,
           "count": 0,
@@ -7482,7 +7482,7 @@
         "name": "Supported Calf Raise",
         "order": 7,
         "outcome": "planned",
-        "persistentPrimaryVariantId": "supported_calf_raise",
+        "persistentPrimaryVariantId": "supported_single_leg_dumbbell_calf_raise",
         "plannedPrimaryVariantId": "supported_calf_raise",
         "prescription": {
           "exerciseId": "supported_calf_raise",
@@ -7603,7 +7603,7 @@
           "variantId": "supported_calf_raise"
         },
         "variantStatus": "active",
-        "variantTier": "primary",
+        "variantTier": "equivalent_equipment",
         "videoPair": {
           "complete": false,
           "count": 0,
@@ -7657,7 +7657,7 @@
         "name": "Dead Bug",
         "order": 8,
         "outcome": "planned",
-        "persistentPrimaryVariantId": "dead_bug",
+        "persistentPrimaryVariantId": "loaded_dead_bug_dumbbells",
         "plannedPrimaryVariantId": "dead_bug",
         "prescription": {
           "exerciseId": "dead_bug",
@@ -7810,7 +7810,7 @@
           "variantId": "dead_bug"
         },
         "variantStatus": "active",
-        "variantTier": "primary",
+        "variantTier": "equivalent_equipment",
         "videoPair": {
           "complete": true,
           "count": 2,
@@ -7874,7 +7874,7 @@
       "lowerRepetitions": 10,
       "maximumAutomaticPercentageJump": 10,
       "mode": "available_loads",
-      "requiredTopConfirmations": 2,
+      "requiredTopConfirmations": 3,
       "roundingBehavior": "next_available",
       "unit": "kg",
       "upperRepetitions": 15
@@ -7902,7 +7902,7 @@
       "lowerRepetitions": 12,
       "maximumAutomaticPercentageJump": 10,
       "mode": "available_loads",
-      "requiredTopConfirmations": 2,
+      "requiredTopConfirmations": 3,
       "roundingBehavior": "next_available",
       "unit": "kg",
       "upperRepetitions": 20
@@ -7914,7 +7914,7 @@
       "lowerRepetitions": 10,
       "maximumAutomaticPercentageJump": 10,
       "mode": "plates_per_side",
-      "requiredTopConfirmations": 2,
+      "requiredTopConfirmations": 3,
       "roundingBehavior": "next_available",
       "unit": "kg",
       "upperRepetitions": 12
@@ -7927,7 +7927,7 @@
       "manualFirstUseLoad": true,
       "maximumAutomaticPercentageJump": 10,
       "mode": "available_loads",
-      "requiredTopConfirmations": 2,
+      "requiredTopConfirmations": 3,
       "roundingBehavior": "next_available",
       "unit": "kg",
       "upperRepetitions": 15
@@ -7939,7 +7939,7 @@
       "lowerRepetitions": 8,
       "maximumAutomaticPercentageJump": 10,
       "mode": "bodyweight_plus_external_load",
-      "requiredTopConfirmations": 2,
+      "requiredTopConfirmations": 3,
       "roundingBehavior": "next_available",
       "unit": "kg",
       "upperRepetitions": 12
@@ -7950,7 +7950,7 @@
       "lowerRepetitions": 12,
       "maximumAutomaticPercentageJump": 10,
       "mode": "fixed_increment",
-      "requiredTopConfirmations": 2,
+      "requiredTopConfirmations": 3,
       "roundingBehavior": "next_available",
       "unit": "kg",
       "upperRepetitions": 15
@@ -7962,7 +7962,7 @@
       "lowerRepetitions": 10,
       "maximumAutomaticPercentageJump": 10,
       "mode": "available_loads",
-      "requiredTopConfirmations": 2,
+      "requiredTopConfirmations": 3,
       "roundingBehavior": "next_available",
       "unit": "kg",
       "upperRepetitions": 12
@@ -7974,7 +7974,7 @@
       "lowerRepetitions": 10,
       "maximumAutomaticPercentageJump": 10,
       "mode": "available_loads",
-      "requiredTopConfirmations": 2,
+      "requiredTopConfirmations": 3,
       "roundingBehavior": "next_available",
       "unit": "kg",
       "upperRepetitions": 12
@@ -7986,7 +7986,7 @@
       "lowerRepetitions": 10,
       "maximumAutomaticPercentageJump": 10,
       "mode": "base_plus_plates",
-      "requiredTopConfirmations": 2,
+      "requiredTopConfirmations": 3,
       "roundingBehavior": "next_available",
       "unit": "kg",
       "upperRepetitions": 12
@@ -7999,7 +7999,7 @@
       "manualFirstUseLoad": true,
       "maximumAutomaticPercentageJump": 10,
       "mode": "available_loads",
-      "requiredTopConfirmations": 2,
+      "requiredTopConfirmations": 3,
       "roundingBehavior": "next_available",
       "unit": "kg",
       "upperRepetitions": 12
@@ -8011,7 +8011,7 @@
       "lowerRepetitions": 10,
       "maximumAutomaticPercentageJump": 10,
       "mode": "available_loads",
-      "requiredTopConfirmations": 2,
+      "requiredTopConfirmations": 3,
       "roundingBehavior": "next_available",
       "unit": "kg",
       "upperRepetitions": 12
@@ -8023,7 +8023,7 @@
       "lowerRepetitions": 12,
       "maximumAutomaticPercentageJump": 10,
       "mode": "available_loads",
-      "requiredTopConfirmations": 2,
+      "requiredTopConfirmations": 3,
       "roundingBehavior": "next_available",
       "unit": "kg",
       "upperRepetitions": 15
@@ -8035,7 +8035,7 @@
       "lowerRepetitions": 10,
       "maximumAutomaticPercentageJump": 10,
       "mode": "available_loads",
-      "requiredTopConfirmations": 2,
+      "requiredTopConfirmations": 3,
       "roundingBehavior": "next_available",
       "unit": "kg",
       "upperRepetitions": 12
@@ -8063,7 +8063,7 @@
       "lowerRepetitions": 8,
       "maximumAutomaticPercentageJump": 10,
       "mode": "available_loads",
-      "requiredTopConfirmations": 2,
+      "requiredTopConfirmations": 3,
       "roundingBehavior": "next_available",
       "unit": "kg",
       "upperRepetitions": 12
@@ -8079,7 +8079,7 @@
       "machineStartingResistanceExcluded": true,
       "maximumAutomaticPercentageJump": 10,
       "mode": "available_loads",
-      "requiredTopConfirmations": 2,
+      "requiredTopConfirmations": 3,
       "roundingBehavior": "next_available",
       "unit": "kg",
       "upperRepetitions": 10
@@ -8091,7 +8091,7 @@
       "lowerRepetitions": 12,
       "maximumAutomaticPercentageJump": 10,
       "mode": "available_loads",
-      "requiredTopConfirmations": 2,
+      "requiredTopConfirmations": 3,
       "roundingBehavior": "next_available",
       "unit": "kg",
       "upperRepetitions": 15
@@ -8103,7 +8103,7 @@
       "lowerRepetitions": 10,
       "maximumAutomaticPercentageJump": 10,
       "mode": "available_loads",
-      "requiredTopConfirmations": 2,
+      "requiredTopConfirmations": 3,
       "roundingBehavior": "next_available",
       "unit": "kg",
       "upperRepetitions": 12
@@ -8116,7 +8116,7 @@
       "manualFirstUseLoad": true,
       "maximumAutomaticPercentageJump": 10,
       "mode": "available_loads",
-      "requiredTopConfirmations": 2,
+      "requiredTopConfirmations": 3,
       "roundingBehavior": "next_available",
       "unit": "kg",
       "upperRepetitions": 10
@@ -8127,7 +8127,7 @@
       "lowerRepetitions": 10,
       "maximumAutomaticPercentageJump": 10,
       "mode": "bodyweight_plus_external_load",
-      "requiredTopConfirmations": 2,
+      "requiredTopConfirmations": 3,
       "roundingBehavior": "next_available",
       "unit": "kg",
       "upperRepetitions": 15
@@ -8146,7 +8146,7 @@
       "lowerRepetitions": 10,
       "maximumAutomaticPercentageJump": 10,
       "mode": "bodyweight_plus_external_load",
-      "requiredTopConfirmations": 2,
+      "requiredTopConfirmations": 3,
       "roundingBehavior": "next_available",
       "unit": "kg",
       "upperRepetitions": 15
@@ -8159,7 +8159,7 @@
       "manualFirstUseLoad": true,
       "maximumAutomaticPercentageJump": 10,
       "mode": "available_loads",
-      "requiredTopConfirmations": 2,
+      "requiredTopConfirmations": 3,
       "roundingBehavior": "next_available",
       "unit": "kg",
       "upperRepetitions": 15
@@ -8178,7 +8178,7 @@
       "lowerRepetitions": 8,
       "maximumAutomaticPercentageJump": 10,
       "mode": "bodyweight_plus_external_load",
-      "requiredTopConfirmations": 2,
+      "requiredTopConfirmations": 3,
       "roundingBehavior": "next_available",
       "unit": "kg",
       "upperRepetitions": 10
@@ -8206,7 +8206,7 @@
       "lowerRepetitions": 10,
       "maximumAutomaticPercentageJump": 10,
       "mode": "available_loads",
-      "requiredTopConfirmations": 2,
+      "requiredTopConfirmations": 3,
       "roundingBehavior": "next_available",
       "unit": "kg",
       "upperRepetitions": 15
@@ -8287,7 +8287,7 @@
         "lowerRepetitions": 10,
         "maximumAutomaticPercentageJump": 10,
         "mode": "available_loads",
-        "requiredTopConfirmations": 2,
+        "requiredTopConfirmations": 3,
         "roundingBehavior": "next_available",
         "unit": "kg",
         "upperRepetitions": 15
@@ -8440,7 +8440,7 @@
         "lowerRepetitions": 12,
         "maximumAutomaticPercentageJump": 10,
         "mode": "available_loads",
-        "requiredTopConfirmations": 2,
+        "requiredTopConfirmations": 3,
         "roundingBehavior": "next_available",
         "unit": "kg",
         "upperRepetitions": 20
@@ -8578,7 +8578,7 @@
         "lowerRepetitions": 10,
         "maximumAutomaticPercentageJump": 10,
         "mode": "plates_per_side",
-        "requiredTopConfirmations": 2,
+        "requiredTopConfirmations": 3,
         "roundingBehavior": "next_available",
         "unit": "kg",
         "upperRepetitions": 12
@@ -8739,7 +8739,7 @@
         "manualFirstUseLoad": true,
         "maximumAutomaticPercentageJump": 10,
         "mode": "available_loads",
-        "requiredTopConfirmations": 2,
+        "requiredTopConfirmations": 3,
         "roundingBehavior": "next_available",
         "unit": "kg",
         "upperRepetitions": 15
@@ -8923,7 +8923,7 @@
         "lowerRepetitions": 8,
         "maximumAutomaticPercentageJump": 10,
         "mode": "bodyweight_plus_external_load",
-        "requiredTopConfirmations": 2,
+        "requiredTopConfirmations": 3,
         "roundingBehavior": "next_available",
         "unit": "kg",
         "upperRepetitions": 12
@@ -9071,7 +9071,7 @@
         "lowerRepetitions": 12,
         "maximumAutomaticPercentageJump": 10,
         "mode": "fixed_increment",
-        "requiredTopConfirmations": 2,
+        "requiredTopConfirmations": 3,
         "roundingBehavior": "next_available",
         "unit": "kg",
         "upperRepetitions": 15
@@ -9220,7 +9220,7 @@
         "lowerRepetitions": 10,
         "maximumAutomaticPercentageJump": 10,
         "mode": "available_loads",
-        "requiredTopConfirmations": 2,
+        "requiredTopConfirmations": 3,
         "roundingBehavior": "next_available",
         "unit": "kg",
         "upperRepetitions": 12
@@ -9371,7 +9371,7 @@
         "lowerRepetitions": 10,
         "maximumAutomaticPercentageJump": 10,
         "mode": "available_loads",
-        "requiredTopConfirmations": 2,
+        "requiredTopConfirmations": 3,
         "roundingBehavior": "next_available",
         "unit": "kg",
         "upperRepetitions": 12
@@ -9519,7 +9519,7 @@
         "lowerRepetitions": 10,
         "maximumAutomaticPercentageJump": 10,
         "mode": "base_plus_plates",
-        "requiredTopConfirmations": 2,
+        "requiredTopConfirmations": 3,
         "roundingBehavior": "next_available",
         "unit": "kg",
         "upperRepetitions": 12
@@ -9680,7 +9680,7 @@
         "manualFirstUseLoad": true,
         "maximumAutomaticPercentageJump": 10,
         "mode": "available_loads",
-        "requiredTopConfirmations": 2,
+        "requiredTopConfirmations": 3,
         "roundingBehavior": "next_available",
         "unit": "kg",
         "upperRepetitions": 12
@@ -9861,7 +9861,7 @@
         "lowerRepetitions": 10,
         "maximumAutomaticPercentageJump": 10,
         "mode": "available_loads",
-        "requiredTopConfirmations": 2,
+        "requiredTopConfirmations": 3,
         "roundingBehavior": "next_available",
         "unit": "kg",
         "upperRepetitions": 12
@@ -10013,7 +10013,7 @@
         "lowerRepetitions": 12,
         "maximumAutomaticPercentageJump": 10,
         "mode": "available_loads",
-        "requiredTopConfirmations": 2,
+        "requiredTopConfirmations": 3,
         "roundingBehavior": "next_available",
         "unit": "kg",
         "upperRepetitions": 15
@@ -10197,7 +10197,7 @@
         "lowerRepetitions": 10,
         "maximumAutomaticPercentageJump": 10,
         "mode": "available_loads",
-        "requiredTopConfirmations": 2,
+        "requiredTopConfirmations": 3,
         "roundingBehavior": "next_available",
         "unit": "kg",
         "upperRepetitions": 12
@@ -10363,7 +10363,7 @@
         "lowerRepetitions": 8,
         "maximumAutomaticPercentageJump": 10,
         "mode": "available_loads",
-        "requiredTopConfirmations": 2,
+        "requiredTopConfirmations": 3,
         "roundingBehavior": "next_available",
         "unit": "kg",
         "upperRepetitions": 12
@@ -10538,7 +10538,7 @@
         "machineStartingResistanceExcluded": true,
         "maximumAutomaticPercentageJump": 10,
         "mode": "available_loads",
-        "requiredTopConfirmations": 2,
+        "requiredTopConfirmations": 3,
         "roundingBehavior": "next_available",
         "unit": "kg",
         "upperRepetitions": 10
@@ -10744,7 +10744,7 @@
         "lowerRepetitions": 12,
         "maximumAutomaticPercentageJump": 10,
         "mode": "available_loads",
-        "requiredTopConfirmations": 2,
+        "requiredTopConfirmations": 3,
         "roundingBehavior": "next_available",
         "unit": "kg",
         "upperRepetitions": 15
@@ -10880,7 +10880,7 @@
         "lowerRepetitions": 10,
         "maximumAutomaticPercentageJump": 10,
         "mode": "available_loads",
-        "requiredTopConfirmations": 2,
+        "requiredTopConfirmations": 3,
         "roundingBehavior": "next_available",
         "unit": "kg",
         "upperRepetitions": 12
@@ -11038,7 +11038,7 @@
         "manualFirstUseLoad": true,
         "maximumAutomaticPercentageJump": 10,
         "mode": "available_loads",
-        "requiredTopConfirmations": 2,
+        "requiredTopConfirmations": 3,
         "roundingBehavior": "next_available",
         "unit": "kg",
         "upperRepetitions": 10
@@ -11192,7 +11192,7 @@
         "lowerRepetitions": 10,
         "maximumAutomaticPercentageJump": 10,
         "mode": "bodyweight_plus_external_load",
-        "requiredTopConfirmations": 2,
+        "requiredTopConfirmations": 3,
         "roundingBehavior": "next_available",
         "unit": "kg",
         "upperRepetitions": 15
@@ -11316,7 +11316,7 @@
         "lowerRepetitions": 10,
         "maximumAutomaticPercentageJump": 10,
         "mode": "bodyweight_plus_external_load",
-        "requiredTopConfirmations": 2,
+        "requiredTopConfirmations": 3,
         "roundingBehavior": "next_available",
         "unit": "kg",
         "upperRepetitions": 15
@@ -11465,7 +11465,7 @@
         "manualFirstUseLoad": true,
         "maximumAutomaticPercentageJump": 10,
         "mode": "available_loads",
-        "requiredTopConfirmations": 2,
+        "requiredTopConfirmations": 3,
         "roundingBehavior": "next_available",
         "unit": "kg",
         "upperRepetitions": 15
@@ -11658,7 +11658,7 @@
         "lowerRepetitions": 8,
         "maximumAutomaticPercentageJump": 10,
         "mode": "bodyweight_plus_external_load",
-        "requiredTopConfirmations": 2,
+        "requiredTopConfirmations": 3,
         "roundingBehavior": "next_available",
         "unit": "kg",
         "upperRepetitions": 10
@@ -11835,7 +11835,7 @@
         "lowerRepetitions": 10,
         "maximumAutomaticPercentageJump": 10,
         "mode": "available_loads",
-        "requiredTopConfirmations": 2,
+        "requiredTopConfirmations": 3,
         "roundingBehavior": "next_available",
         "unit": "kg",
         "upperRepetitions": 15
@@ -11925,6 +11925,7 @@
       "lockedPrimaryVariantId": null,
       "name": "Pallof Press",
       "previousPrimaryVariantIds": [],
+      "primarySelectionOrigin": null,
       "primaryVariantId": "pallof_press",
       "temporaryPrimaryReason": null,
       "userFacingAlternativeLimit": 3,
@@ -12022,6 +12023,7 @@
       "lockedPrimaryVariantId": null,
       "name": "Triceps Pressdown",
       "previousPrimaryVariantIds": [],
+      "primarySelectionOrigin": null,
       "primaryVariantId": "triceps_pressdown",
       "temporaryPrimaryReason": null,
       "userFacingAlternativeLimit": 3,
@@ -12154,6 +12156,7 @@
       "lockedPrimaryVariantId": null,
       "name": "Cable Biceps Curl",
       "previousPrimaryVariantIds": [],
+      "primarySelectionOrigin": null,
       "primaryVariantId": "cable_biceps_curl",
       "temporaryPrimaryReason": null,
       "userFacingAlternativeLimit": 3,
@@ -12286,6 +12289,7 @@
       "lockedPrimaryVariantId": null,
       "name": "Hip extension",
       "previousPrimaryVariantIds": [],
+      "primarySelectionOrigin": null,
       "primaryVariantId": "hip_thrust",
       "temporaryPrimaryReason": null,
       "userFacingAlternativeLimit": 3,
@@ -12414,6 +12418,7 @@
       "lockedPrimaryVariantId": null,
       "name": "Chest Press",
       "previousPrimaryVariantIds": [],
+      "primarySelectionOrigin": null,
       "primaryVariantId": "chest_press",
       "temporaryPrimaryReason": null,
       "userFacingAlternativeLimit": 3,
@@ -12540,6 +12545,7 @@
       "lockedPrimaryVariantId": null,
       "name": "Upper-back row",
       "previousPrimaryVariantIds": [],
+      "primarySelectionOrigin": null,
       "primaryVariantId": "low_row",
       "temporaryPrimaryReason": null,
       "userFacingAlternativeLimit": 3,
@@ -12667,6 +12673,7 @@
       "lockedPrimaryVariantId": null,
       "name": "Leg Extension",
       "previousPrimaryVariantIds": [],
+      "primarySelectionOrigin": null,
       "primaryVariantId": "leg_extension",
       "temporaryPrimaryReason": null,
       "userFacingAlternativeLimit": 3,
@@ -12793,6 +12800,7 @@
       "lockedPrimaryVariantId": null,
       "name": "Seated Leg Curl",
       "previousPrimaryVariantIds": [],
+      "primarySelectionOrigin": null,
       "primaryVariantId": "seated_leg_curl",
       "temporaryPrimaryReason": null,
       "userFacingAlternativeLimit": 3,
@@ -12920,7 +12928,8 @@
       "lockedPrimaryVariantId": null,
       "name": "Calf raise",
       "previousPrimaryVariantIds": [],
-      "primaryVariantId": "supported_calf_raise",
+      "primarySelectionOrigin": "template",
+      "primaryVariantId": "supported_single_leg_dumbbell_calf_raise",
       "temporaryPrimaryReason": null,
       "userFacingAlternativeLimit": 3,
       "userFacingAlternativeVariantIds": [
@@ -13021,7 +13030,7 @@
           "name": "Supported Calf Raise",
           "selectable": false,
           "status": "active",
-          "tier": "primary",
+          "tier": "equivalent_equipment",
           "variantId": "supported_calf_raise",
           "videoPair": {
             "complete": false,
@@ -13034,7 +13043,7 @@
             "orientation": null,
             "setupApproved": false
           },
-          "whenToUseRu": "Текущий основной вариант этой роли."
+          "whenToUseRu": "Используйте только как подтверждённую замену в той же роли."
         },
         "supported_single_leg_dumbbell_calf_raise": {
           "exerciseFamilyId": "plantar_flexion",
@@ -13044,7 +13053,7 @@
           "name": "Supported Single-Leg Dumbbell Calf Raise on Step",
           "selectable": true,
           "status": "active",
-          "tier": "equivalent_equipment",
+          "tier": "primary",
           "variantId": "supported_single_leg_dumbbell_calf_raise",
           "videoPair": {
             "complete": true,
@@ -13055,7 +13064,7 @@
             "orientation": "9:16",
             "setupApproved": true
           },
-          "whenToUseRu": "Используйте только как подтверждённую замену в той же роли."
+          "whenToUseRu": "Текущий основной вариант этой роли."
         }
       }
     },
@@ -13070,7 +13079,8 @@
       "lockedPrimaryVariantId": null,
       "name": "Reverse Pec Deck",
       "previousPrimaryVariantIds": [],
-      "primaryVariantId": "reverse_pec_deck",
+      "primarySelectionOrigin": "template",
+      "primaryVariantId": "chest_supported_incline_dumbbell_reverse_fly",
       "temporaryPrimaryReason": null,
       "userFacingAlternativeLimit": 3,
       "userFacingAlternativeVariantIds": [
@@ -13114,7 +13124,7 @@
           "name": "Chest-Supported Incline Dumbbell Reverse Fly",
           "selectable": true,
           "status": "active",
-          "tier": "equivalent_equipment",
+          "tier": "primary",
           "variantId": "chest_supported_incline_dumbbell_reverse_fly",
           "videoPair": {
             "complete": true,
@@ -13125,7 +13135,7 @@
             "orientation": "9:16",
             "setupApproved": true
           },
-          "whenToUseRu": "Используйте только как подтверждённую замену в той же роли."
+          "whenToUseRu": "Текущий основной вариант этой роли."
         },
         "prone_w_raise_rear_delt": {
           "exerciseFamilyId": "rear_deltoid_horizontal_abduction",
@@ -13166,7 +13176,7 @@
           "name": "Reverse Pec Deck",
           "selectable": false,
           "status": "active",
-          "tier": "primary",
+          "tier": "equivalent_equipment",
           "variantId": "reverse_pec_deck",
           "videoPair": {
             "complete": false,
@@ -13179,7 +13189,7 @@
             "orientation": null,
             "setupApproved": false
           },
-          "whenToUseRu": "Текущий основной вариант этой роли."
+          "whenToUseRu": "Используйте только как подтверждённую замену в той же роли."
         }
       }
     },
@@ -13193,6 +13203,7 @@
       "lockedPrimaryVariantId": null,
       "name": "Cable Face Pull",
       "previousPrimaryVariantIds": [],
+      "primarySelectionOrigin": null,
       "primaryVariantId": "cable_face_pull",
       "temporaryPrimaryReason": null,
       "userFacingAlternativeLimit": 3,
@@ -13295,6 +13306,7 @@
       "lockedPrimaryVariantId": null,
       "name": "Machine Lateral Raise",
       "previousPrimaryVariantIds": [],
+      "primarySelectionOrigin": null,
       "primaryVariantId": "machine_lateral_raise",
       "temporaryPrimaryReason": null,
       "userFacingAlternativeLimit": 3,
@@ -13393,6 +13405,7 @@
       "lockedPrimaryVariantId": null,
       "name": "Strength A knee-dominant",
       "previousPrimaryVariantIds": [],
+      "primarySelectionOrigin": null,
       "primaryVariantId": "leg_press",
       "temporaryPrimaryReason": null,
       "userFacingAlternativeLimit": 3,
@@ -13520,6 +13533,7 @@
       "lockedPrimaryVariantId": "pendulum_squat",
       "name": "Strength B knee-dominant",
       "previousPrimaryVariantIds": [],
+      "primarySelectionOrigin": null,
       "primaryVariantId": "pendulum_squat",
       "temporaryPrimaryReason": null,
       "userFacingAlternativeLimit": 3,
@@ -13658,7 +13672,8 @@
       "lockedPrimaryVariantId": null,
       "name": "Dead Bug",
       "previousPrimaryVariantIds": [],
-      "primaryVariantId": "dead_bug",
+      "primarySelectionOrigin": "template",
+      "primaryVariantId": "loaded_dead_bug_dumbbells",
       "temporaryPrimaryReason": null,
       "userFacingAlternativeLimit": 3,
       "userFacingAlternativeVariantIds": [
@@ -13730,7 +13745,7 @@
           "name": "Dead Bug",
           "selectable": true,
           "status": "active",
-          "tier": "primary",
+          "tier": "equivalent_equipment",
           "variantId": "dead_bug",
           "videoPair": {
             "complete": true,
@@ -13740,7 +13755,7 @@
             "orientation": "9:16",
             "setupApproved": true
           },
-          "whenToUseRu": "Текущий основной вариант этой роли."
+          "whenToUseRu": "Используйте только как подтверждённую замену в той же роли."
         },
         "loaded_dead_bug_dumbbells": {
           "exerciseFamilyId": "trunk_control",
@@ -13750,7 +13765,7 @@
           "name": "Loaded Dead Bug (Dumbbells)",
           "selectable": true,
           "status": "active",
-          "tier": "equivalent_equipment",
+          "tier": "primary",
           "variantId": "loaded_dead_bug_dumbbells",
           "videoPair": {
             "complete": true,
@@ -13761,7 +13776,7 @@
             "orientation": "9:16",
             "setupApproved": true
           },
-          "whenToUseRu": "Используйте только как подтверждённую замену в той же роли."
+          "whenToUseRu": "Текущий основной вариант этой роли."
         }
       }
     },
@@ -13777,6 +13792,7 @@
       "lockedPrimaryVariantId": null,
       "name": "Vertical press",
       "previousPrimaryVariantIds": [],
+      "primarySelectionOrigin": null,
       "primaryVariantId": "machine_shoulder_press",
       "temporaryPrimaryReason": null,
       "userFacingAlternativeLimit": 3,
@@ -13931,6 +13947,7 @@
       "lockedPrimaryVariantId": null,
       "name": "Vertical pull",
       "previousPrimaryVariantIds": [],
+      "primarySelectionOrigin": null,
       "primaryVariantId": "lat_pulldown",
       "temporaryPrimaryReason": null,
       "userFacingAlternativeLimit": 3,
@@ -14453,7 +14470,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-10-04T03:44:15.963Z",
+  "responseGeneratedAt": "2026-10-04T09:06:59.711Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -35691,7 +35708,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-10-04T03:43:30.933Z",
+  "sourceStateUpdatedAt": "2026-10-04T09:06:27.461Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
