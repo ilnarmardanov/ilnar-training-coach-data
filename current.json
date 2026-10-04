@@ -4995,9 +4995,21 @@
     },
     {
       "activeVariantId": "chest_press",
-      "actualResult": null,
-      "actualSetCount": null,
-      "completed": false,
+      "actualResult": {
+        "load": {
+          "kind": "numeric",
+          "mode": "per_side",
+          "unit": "kg",
+          "value": 15
+        },
+        "reps": [
+          12,
+          12,
+          12
+        ]
+      },
+      "actualSetCount": 3,
+      "completed": true,
       "currentSessionOverride": null,
       "edited": false,
       "exerciseFamilyId": "horizontal_press",
@@ -5021,7 +5033,7 @@
       "issueNotes": null,
       "name": "Chest Press",
       "order": 3,
-      "outcome": "planned",
+      "outcome": "completed",
       "persistentPrimaryVariantId": "chest_press",
       "plannedPrimaryVariantId": "chest_press",
       "prescription": {
@@ -5234,7 +5246,7 @@
       "actualSetCount": null,
       "completed": false,
       "currentSessionOverride": null,
-      "edited": false,
+      "edited": true,
       "exerciseFamilyId": "horizontal_row",
       "exerciseId": "low_row",
       "exerciseNote": null,
@@ -5479,12 +5491,12 @@
           "kind": "numeric",
           "mode": "total",
           "unit": "kg",
-          "value": 70
+          "value": 65
         },
         "reps": [
-          8,
-          8,
-          8
+          12,
+          12,
+          12
         ]
       }
     },
@@ -6789,9 +6801,21 @@
       },
       {
         "activeVariantId": "chest_press",
-        "actualResult": null,
-        "actualSetCount": null,
-        "completed": false,
+        "actualResult": {
+          "load": {
+            "kind": "numeric",
+            "mode": "per_side",
+            "unit": "kg",
+            "value": 15
+          },
+          "reps": [
+            12,
+            12,
+            12
+          ]
+        },
+        "actualSetCount": 3,
+        "completed": true,
         "currentSessionOverride": null,
         "edited": false,
         "exerciseFamilyId": "horizontal_press",
@@ -6815,7 +6839,7 @@
         "issueNotes": null,
         "name": "Chest Press",
         "order": 3,
-        "outcome": "planned",
+        "outcome": "completed",
         "persistentPrimaryVariantId": "chest_press",
         "plannedPrimaryVariantId": "chest_press",
         "prescription": {
@@ -7028,7 +7052,7 @@
         "actualSetCount": null,
         "completed": false,
         "currentSessionOverride": null,
-        "edited": false,
+        "edited": true,
         "exerciseFamilyId": "horizontal_row",
         "exerciseId": "low_row",
         "exerciseNote": null,
@@ -7273,12 +7297,12 @@
             "kind": "numeric",
             "mode": "total",
             "unit": "kg",
-            "value": 70
+            "value": 65
           },
           "reps": [
-            8,
-            8,
-            8
+            12,
+            12,
+            12
           ]
         }
       },
@@ -14705,7 +14729,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-10-04T02:58:40.101Z",
+  "responseGeneratedAt": "2026-10-04T03:05:56.261Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -35286,7 +35310,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-10-04T02:58:08.643Z",
+  "sourceStateUpdatedAt": "2026-10-04T03:05:43.286Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
