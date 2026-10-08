@@ -4545,7 +4545,7 @@
       "edited": false,
       "exerciseFamilyId": "strength_b_knee_dominant",
       "exerciseId": "pendulum_squat",
-      "exerciseNote": "Run",
+      "exerciseNote": null,
       "firstUse": false,
       "generatedTarget": {
         "load": {
@@ -6198,7 +6198,7 @@
         "edited": false,
         "exerciseFamilyId": "strength_b_knee_dominant",
         "exerciseId": "pendulum_squat",
-        "exerciseNote": "Run",
+        "exerciseNote": null,
         "firstUse": false,
         "generatedTarget": {
           "load": {
@@ -14470,7 +14470,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-10-04T09:28:43.764Z",
+  "responseGeneratedAt": "2026-10-08T03:29:32.903Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -35708,7 +35708,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-10-04T09:27:38.147Z",
+  "sourceStateUpdatedAt": "2026-10-08T03:28:57.367Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
