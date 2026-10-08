@@ -5678,9 +5678,20 @@
     },
     {
       "activeVariantId": "reverse_pec_deck",
-      "actualResult": null,
-      "actualSetCount": null,
-      "completed": false,
+      "actualResult": {
+        "load": {
+          "kind": "numeric",
+          "mode": "total",
+          "unit": "kg",
+          "value": 6
+        },
+        "reps": [
+          15,
+          15
+        ]
+      },
+      "actualSetCount": 2,
+      "completed": true,
       "currentSessionOverride": null,
       "edited": false,
       "exerciseFamilyId": "rear_deltoid_horizontal_abduction",
@@ -5703,7 +5714,7 @@
       "issueNotes": null,
       "name": "Reverse Pec Deck",
       "order": 6,
-      "outcome": "planned",
+      "outcome": "completed",
       "persistentPrimaryVariantId": "chest_supported_incline_dumbbell_reverse_fly",
       "plannedPrimaryVariantId": "reverse_pec_deck",
       "prescription": {
@@ -7378,9 +7389,20 @@
       },
       {
         "activeVariantId": "reverse_pec_deck",
-        "actualResult": null,
-        "actualSetCount": null,
-        "completed": false,
+        "actualResult": {
+          "load": {
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 6
+          },
+          "reps": [
+            15,
+            15
+          ]
+        },
+        "actualSetCount": 2,
+        "completed": true,
         "currentSessionOverride": null,
         "edited": false,
         "exerciseFamilyId": "rear_deltoid_horizontal_abduction",
@@ -7403,7 +7425,7 @@
         "issueNotes": null,
         "name": "Reverse Pec Deck",
         "order": 6,
-        "outcome": "planned",
+        "outcome": "completed",
         "persistentPrimaryVariantId": "chest_supported_incline_dumbbell_reverse_fly",
         "plannedPrimaryVariantId": "reverse_pec_deck",
         "prescription": {
@@ -14564,7 +14586,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-10-08T04:00:53.514Z",
+  "responseGeneratedAt": "2026-10-08T04:08:16.565Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -35802,7 +35824,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-10-08T04:00:16.853Z",
+  "sourceStateUpdatedAt": "2026-10-08T04:07:40.682Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
