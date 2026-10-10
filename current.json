@@ -6120,7 +6120,7 @@
       "actualSetCount": null,
       "completed": false,
       "currentSessionOverride": null,
-      "edited": false,
+      "edited": true,
       "exerciseFamilyId": "plantar_flexion",
       "exerciseId": "supported_single_leg_dumbbell_calf_raise",
       "exerciseNote": null,
@@ -6271,9 +6271,10 @@
       "workingSetCount": 2,
       "workingTarget": {
         "load": {
-          "kind": "label",
-          "label": "Set load",
-          "mode": "base_resistance"
+          "kind": "numeric",
+          "mode": "total",
+          "unit": "kg",
+          "value": 20
         },
         "reps": [
           11,
@@ -7988,7 +7989,7 @@
         "actualSetCount": null,
         "completed": false,
         "currentSessionOverride": null,
-        "edited": false,
+        "edited": true,
         "exerciseFamilyId": "plantar_flexion",
         "exerciseId": "supported_single_leg_dumbbell_calf_raise",
         "exerciseNote": null,
@@ -8139,9 +8140,10 @@
         "workingSetCount": 2,
         "workingTarget": {
           "load": {
-            "kind": "label",
-            "label": "Set load",
-            "mode": "base_resistance"
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 20
           },
           "reps": [
             11,
@@ -15156,7 +15158,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-10-10T05:08:44.451Z",
+  "responseGeneratedAt": "2026-10-10T05:10:01.028Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -37188,7 +37190,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-10-10T05:08:09.149Z",
+  "sourceStateUpdatedAt": "2026-10-10T05:09:36.041Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
