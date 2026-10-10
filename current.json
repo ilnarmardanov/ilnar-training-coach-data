@@ -6127,9 +6127,20 @@
     },
     {
       "activeVariantId": "supported_single_leg_dumbbell_calf_raise",
-      "actualResult": null,
-      "actualSetCount": null,
-      "completed": false,
+      "actualResult": {
+        "load": {
+          "kind": "numeric",
+          "mode": "total",
+          "unit": "kg",
+          "value": 20
+        },
+        "reps": [
+          11,
+          11
+        ]
+      },
+      "actualSetCount": 2,
+      "completed": true,
       "currentSessionOverride": null,
       "edited": true,
       "exerciseFamilyId": "plantar_flexion",
@@ -6151,7 +6162,7 @@
       "issueNotes": null,
       "name": "Supported Single-Leg Dumbbell Calf Raise on Step",
       "order": 7,
-      "outcome": "planned",
+      "outcome": "completed",
       "persistentPrimaryVariantId": "supported_single_leg_dumbbell_calf_raise",
       "plannedPrimaryVariantId": "supported_single_leg_dumbbell_calf_raise",
       "prescription": {
@@ -8007,9 +8018,20 @@
       },
       {
         "activeVariantId": "supported_single_leg_dumbbell_calf_raise",
-        "actualResult": null,
-        "actualSetCount": null,
-        "completed": false,
+        "actualResult": {
+          "load": {
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 20
+          },
+          "reps": [
+            11,
+            11
+          ]
+        },
+        "actualSetCount": 2,
+        "completed": true,
         "currentSessionOverride": null,
         "edited": true,
         "exerciseFamilyId": "plantar_flexion",
@@ -8031,7 +8053,7 @@
         "issueNotes": null,
         "name": "Supported Single-Leg Dumbbell Calf Raise on Step",
         "order": 7,
-        "outcome": "planned",
+        "outcome": "completed",
         "persistentPrimaryVariantId": "supported_single_leg_dumbbell_calf_raise",
         "plannedPrimaryVariantId": "supported_single_leg_dumbbell_calf_raise",
         "prescription": {
@@ -15180,7 +15202,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-10-10T05:16:23.612Z",
+  "responseGeneratedAt": "2026-10-10T05:22:01.173Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -37212,7 +37234,7 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-10-10T05:15:48.211Z",
+  "sourceStateUpdatedAt": "2026-10-10T05:21:27.289Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
