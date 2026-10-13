@@ -4780,7 +4780,7 @@
       "name": "Pendulum Squat",
       "order": 1,
       "outcome": "planned",
-      "persistentPrimaryVariantId": "pendulum_squat",
+      "persistentPrimaryVariantId": "supported_step_up",
       "plannedPrimaryVariantId": "pendulum_squat",
       "prescription": {
         "exerciseId": "pendulum_squat",
@@ -4804,6 +4804,7 @@
           10
         ]
       },
+      "programmedVariantId": "supported_step_up",
       "progressionContext": {
         "automaticLoadIncreasePending": false,
         "confirmationContext": "{\"scope\":\"{\\\"exerciseId\\\":\\\"pendulum_squat\\\",\\\"profileId\\\":\\\"pendulum_squat\\\",\\\"mode\\\":\\\"available_loads\\\",\\\"loadMode\\\":\\\"per_side\\\",\\\"configuredLoadMode\\\":\\\"per_side\\\",\\\"configured\\\":true,\\\"availableLoads\\\":[0],\\\"fixedIncrement\\\":null,\\\"plateIncrementPerSide\\\":null,\\\"realIncrement\\\":null}\",\"sets\":3,\"lower\":8,\"upper\":10,\"perSide\":true}",
@@ -4989,6 +4990,7 @@
           12
         ]
       },
+      "programmedVariantId": "leg_extension",
       "progressionContext": {
         "automaticLoadIncreasePending": false,
         "confirmationContext": "{\"scope\":\"{\\\"exerciseId\\\":\\\"leg_extension\\\",\\\"profileId\\\":\\\"leg_extension\\\",\\\"mode\\\":\\\"available_loads\\\",\\\"loadMode\\\":\\\"total\\\",\\\"configuredLoadMode\\\":\\\"total\\\",\\\"configured\\\":false,\\\"availableLoads\\\":[],\\\"fixedIncrement\\\":null,\\\"plateIncrementPerSide\\\":null,\\\"realIncrement\\\":null}\",\"sets\":2,\"lower\":10,\"upper\":15,\"perSide\":false}",
@@ -5236,6 +5238,7 @@
           8
         ]
       },
+      "programmedVariantId": "machine_shoulder_press",
       "progressionContext": {
         "automaticLoadIncreasePending": false,
         "confirmationContext": "{\"scope\":\"{\\\"exerciseId\\\":\\\"machine_shoulder_press\\\",\\\"profileId\\\":\\\"machine_shoulder_press\\\",\\\"mode\\\":\\\"available_loads\\\",\\\"loadMode\\\":\\\"total\\\",\\\"configuredLoadMode\\\":\\\"total\\\",\\\"configured\\\":false,\\\"availableLoads\\\":[],\\\"fixedIncrement\\\":null,\\\"plateIncrementPerSide\\\":null,\\\"realIncrement\\\":null}\",\"sets\":3,\"lower\":8,\"upper\":12,\"perSide\":false}",
@@ -5478,6 +5481,7 @@
           8
         ]
       },
+      "programmedVariantId": "lat_pulldown",
       "progressionContext": {
         "automaticLoadIncreasePending": false,
         "confirmationContext": "{\"scope\":\"{\\\"exerciseId\\\":\\\"lat_pulldown\\\",\\\"profileId\\\":\\\"lat_pulldown\\\",\\\"mode\\\":\\\"available_loads\\\",\\\"loadMode\\\":\\\"total\\\",\\\"configuredLoadMode\\\":\\\"total\\\",\\\"configured\\\":false,\\\"availableLoads\\\":[],\\\"fixedIncrement\\\":null,\\\"plateIncrementPerSide\\\":null,\\\"realIncrement\\\":null}\",\"sets\":3,\"lower\":8,\"upper\":12,\"perSide\":false}",
@@ -5717,6 +5721,7 @@
           15
         ]
       },
+      "programmedVariantId": "hip_thrust",
       "progressionContext": {
         "automaticLoadIncreasePending": false,
         "confirmationContext": "{\"scope\":\"{\\\"exerciseId\\\":\\\"hip_thrust\\\",\\\"profileId\\\":\\\"hip_thrust\\\",\\\"mode\\\":\\\"fixed_increment\\\",\\\"loadMode\\\":\\\"total\\\",\\\"configuredLoadMode\\\":\\\"total\\\",\\\"configured\\\":false,\\\"availableLoads\\\":[],\\\"fixedIncrement\\\":null,\\\"plateIncrementPerSide\\\":null,\\\"realIncrement\\\":null}\",\"sets\":3,\"lower\":10,\"upper\":15,\"perSide\":false}",
@@ -5934,16 +5939,17 @@
       "exerciseFamilyId": "rear_deltoid_horizontal_abduction",
       "exerciseId": "chest_supported_incline_dumbbell_reverse_fly",
       "exerciseNote": null,
-      "firstUse": true,
+      "firstUse": false,
       "generatedTarget": {
         "load": {
-          "kind": "label",
-          "label": "Set load",
-          "mode": "base_resistance"
+          "kind": "numeric",
+          "mode": "per_hand",
+          "unit": "kg",
+          "value": 6
         },
         "reps": [
-          12,
-          12
+          15,
+          15
         ]
       },
       "issue": null,
@@ -5962,10 +5968,29 @@
         },
         "workingSets": 2
       },
-      "previousResult": null,
+      "previousResult": {
+        "load": {
+          "kind": "numeric",
+          "mode": "per_hand",
+          "unit": "kg",
+          "value": 6
+        },
+        "reps": [
+          15,
+          15
+        ]
+      },
+      "programmedVariantId": "chest_supported_incline_dumbbell_reverse_fly",
       "progressionContext": {
         "automaticLoadIncreasePending": false,
-        "consecutiveTopConfirmations": 0,
+        "confirmationContext": "{\"scope\":\"{\\\"exerciseId\\\":\\\"chest_supported_incline_dumbbell_reverse_fly\\\",\\\"profileId\\\":\\\"chest_supported_incline_dumbbell_reverse_fly\\\",\\\"mode\\\":\\\"available_loads\\\",\\\"loadMode\\\":\\\"per_hand\\\",\\\"configuredLoadMode\\\":\\\"per_hand\\\",\\\"configured\\\":false,\\\"availableLoads\\\":[],\\\"fixedIncrement\\\":null,\\\"plateIncrementPerSide\\\":null,\\\"realIncrement\\\":null}\",\"sets\":2,\"lower\":12,\"upper\":15,\"perSide\":false}",
+        "confirmationLoad": {
+          "kind": "numeric",
+          "mode": "per_hand",
+          "unit": "kg",
+          "value": 6
+        },
+        "consecutiveTopConfirmations": 1,
         "deferredIncrease": null,
         "equipmentSetupRequired": false,
         "increaseMessage": null,
@@ -5996,9 +6021,83 @@
         ]
       },
       "variantProgression": {
-        "baselineConfirmedAt": null,
-        "baselineLoad": null,
-        "retainedTarget": null,
+        "baselineConfirmedAt": "2026-09-05T05:44:10.576Z",
+        "baselineLoad": {
+          "kind": "numeric",
+          "mode": "per_hand",
+          "unit": "kg",
+          "value": 6
+        },
+        "retainedTarget": {
+          "exerciseId": "chest_supported_incline_dumbbell_reverse_fly",
+          "generatedTarget": {
+            "load": {
+              "kind": "numeric",
+              "mode": "per_hand",
+              "unit": "kg",
+              "value": 6
+            },
+            "reps": [
+              15,
+              15
+            ]
+          },
+          "prescription": {
+            "exerciseId": "chest_supported_incline_dumbbell_reverse_fly",
+            "repRange": {
+              "lower": 12,
+              "perSide": false,
+              "upper": 15
+            },
+            "workingSets": 2
+          },
+          "previousResult": {
+            "load": {
+              "kind": "numeric",
+              "mode": "per_hand",
+              "unit": "kg",
+              "value": 6
+            },
+            "reps": [
+              15,
+              15
+            ]
+          },
+          "progressionContext": {
+            "automaticLoadIncreasePending": false,
+            "confirmationContext": "{\"scope\":\"{\\\"exerciseId\\\":\\\"chest_supported_incline_dumbbell_reverse_fly\\\",\\\"profileId\\\":\\\"chest_supported_incline_dumbbell_reverse_fly\\\",\\\"mode\\\":\\\"available_loads\\\",\\\"loadMode\\\":\\\"per_hand\\\",\\\"configuredLoadMode\\\":\\\"per_hand\\\",\\\"configured\\\":false,\\\"availableLoads\\\":[],\\\"fixedIncrement\\\":null,\\\"plateIncrementPerSide\\\":null,\\\"realIncrement\\\":null}\",\"sets\":2,\"lower\":12,\"upper\":15,\"perSide\":false}",
+            "confirmationLoad": {
+              "kind": "numeric",
+              "mode": "per_hand",
+              "unit": "kg",
+              "value": 6
+            },
+            "consecutiveTopConfirmations": 1,
+            "deferredIncrease": null,
+            "equipmentSetupRequired": false,
+            "increaseMessage": null,
+            "increaseWarningRequired": false,
+            "loadIncreaseDue": false,
+            "masteredLoad": null,
+            "progressionBlocked": false,
+            "proposedLoad": null,
+            "recentLoadIncrease": false,
+            "reviewRequired": false
+          },
+          "sourceCompletedAt": "2026-10-08T04:27:50.382Z",
+          "workingTarget": {
+            "load": {
+              "kind": "numeric",
+              "mode": "per_hand",
+              "unit": "kg",
+              "value": 6
+            },
+            "reps": [
+              15,
+              15
+            ]
+          }
+        },
         "tracks": {},
         "variantId": "chest_supported_incline_dumbbell_reverse_fly"
       },
@@ -6016,13 +6115,14 @@
       "workingSetCount": 2,
       "workingTarget": {
         "load": {
-          "kind": "label",
-          "label": "Set load",
-          "mode": "base_resistance"
+          "kind": "numeric",
+          "mode": "per_hand",
+          "unit": "kg",
+          "value": 6
         },
         "reps": [
-          12,
-          12
+          15,
+          15
         ]
       }
     },
@@ -6077,6 +6177,7 @@
           11
         ]
       },
+      "programmedVariantId": "supported_single_leg_dumbbell_calf_raise",
       "progressionContext": {
         "automaticLoadIncreasePending": false,
         "confirmationContext": "{\"scope\":\"{\\\"exerciseId\\\":\\\"supported_single_leg_dumbbell_calf_raise\\\",\\\"profileId\\\":\\\"supported_single_leg_dumbbell_calf_raise\\\",\\\"mode\\\":\\\"available_loads\\\",\\\"loadMode\\\":\\\"total\\\",\\\"configuredLoadMode\\\":\\\"per_hand\\\",\\\"configured\\\":false,\\\"availableLoads\\\":[],\\\"fixedIncrement\\\":null,\\\"plateIncrementPerSide\\\":null,\\\"realIncrement\\\":null}\",\"sets\":2,\"lower\":10,\"upper\":15,\"perSide\":true}",
@@ -6225,7 +6326,7 @@
       "exerciseFamilyId": "trunk_control",
       "exerciseId": "loaded_dead_bug_dumbbells",
       "exerciseNote": null,
-      "firstUse": true,
+      "firstUse": false,
       "generatedTarget": {
         "load": {
           "kind": "numeric",
@@ -6234,8 +6335,8 @@
           "value": 2.5
         },
         "reps": [
-          8,
-          8
+          12,
+          12
         ]
       },
       "issue": null,
@@ -6254,16 +6355,40 @@
         },
         "workingSets": 2
       },
-      "previousResult": null,
+      "previousResult": {
+        "load": {
+          "kind": "numeric",
+          "mode": "per_hand",
+          "unit": "kg",
+          "value": 2.5
+        },
+        "reps": [
+          12,
+          12
+        ]
+      },
+      "programmedVariantId": "loaded_dead_bug_dumbbells",
       "progressionContext": {
         "automaticLoadIncreasePending": false,
-        "consecutiveTopConfirmations": 0,
+        "confirmationContext": "{\"scope\":\"{\\\"exerciseId\\\":\\\"loaded_dead_bug_dumbbells\\\",\\\"profileId\\\":\\\"loaded_dead_bug_dumbbells\\\",\\\"mode\\\":\\\"available_loads\\\",\\\"loadMode\\\":\\\"per_hand\\\",\\\"configuredLoadMode\\\":\\\"per_hand\\\",\\\"configured\\\":false,\\\"availableLoads\\\":[],\\\"fixedIncrement\\\":null,\\\"plateIncrementPerSide\\\":null,\\\"realIncrement\\\":null}\",\"sets\":2,\"lower\":8,\"upper\":12,\"perSide\":true}",
+        "confirmationLoad": {
+          "kind": "numeric",
+          "mode": "per_hand",
+          "unit": "kg",
+          "value": 2.5
+        },
+        "consecutiveTopConfirmations": 3,
         "deferredIncrease": null,
         "equipmentSetupRequired": false,
         "increaseMessage": null,
         "increaseWarningRequired": false,
-        "loadIncreaseDue": false,
-        "masteredLoad": null,
+        "loadIncreaseDue": true,
+        "masteredLoad": {
+          "kind": "numeric",
+          "mode": "per_hand",
+          "unit": "kg",
+          "value": 2.5
+        },
         "progressionBlocked": false,
         "proposedLoad": null,
         "recentLoadIncrease": false,
@@ -6284,9 +6409,88 @@
         ]
       },
       "variantProgression": {
-        "baselineConfirmedAt": null,
-        "baselineLoad": null,
-        "retainedTarget": null,
+        "baselineConfirmedAt": "2026-09-21T06:09:26.373Z",
+        "baselineLoad": {
+          "kind": "numeric",
+          "mode": "per_hand",
+          "unit": "kg",
+          "value": 2.5
+        },
+        "retainedTarget": {
+          "exerciseId": "loaded_dead_bug_dumbbells",
+          "generatedTarget": {
+            "load": {
+              "kind": "numeric",
+              "mode": "per_hand",
+              "unit": "kg",
+              "value": 2.5
+            },
+            "reps": [
+              12,
+              12
+            ]
+          },
+          "prescription": {
+            "exerciseId": "loaded_dead_bug_dumbbells",
+            "repRange": {
+              "lower": 8,
+              "perSide": true,
+              "upper": 12
+            },
+            "workingSets": 2
+          },
+          "previousResult": {
+            "load": {
+              "kind": "numeric",
+              "mode": "per_hand",
+              "unit": "kg",
+              "value": 2.5
+            },
+            "reps": [
+              12,
+              12
+            ]
+          },
+          "progressionContext": {
+            "automaticLoadIncreasePending": false,
+            "confirmationContext": "{\"scope\":\"{\\\"exerciseId\\\":\\\"loaded_dead_bug_dumbbells\\\",\\\"profileId\\\":\\\"loaded_dead_bug_dumbbells\\\",\\\"mode\\\":\\\"available_loads\\\",\\\"loadMode\\\":\\\"per_hand\\\",\\\"configuredLoadMode\\\":\\\"per_hand\\\",\\\"configured\\\":false,\\\"availableLoads\\\":[],\\\"fixedIncrement\\\":null,\\\"plateIncrementPerSide\\\":null,\\\"realIncrement\\\":null}\",\"sets\":2,\"lower\":8,\"upper\":12,\"perSide\":true}",
+            "confirmationLoad": {
+              "kind": "numeric",
+              "mode": "per_hand",
+              "unit": "kg",
+              "value": 2.5
+            },
+            "consecutiveTopConfirmations": 3,
+            "deferredIncrease": null,
+            "equipmentSetupRequired": false,
+            "increaseMessage": null,
+            "increaseWarningRequired": false,
+            "loadIncreaseDue": true,
+            "masteredLoad": {
+              "kind": "numeric",
+              "mode": "per_hand",
+              "unit": "kg",
+              "value": 2.5
+            },
+            "progressionBlocked": false,
+            "proposedLoad": null,
+            "recentLoadIncrease": false,
+            "reviewRequired": false
+          },
+          "sourceCompletedAt": "2026-10-08T04:27:50.382Z",
+          "workingTarget": {
+            "load": {
+              "kind": "numeric",
+              "mode": "per_hand",
+              "unit": "kg",
+              "value": 2.5
+            },
+            "reps": [
+              12,
+              12
+            ]
+          }
+        },
         "tracks": {},
         "variantId": "loaded_dead_bug_dumbbells"
       },
@@ -6310,8 +6514,8 @@
           "value": 2.5
         },
         "reps": [
-          8,
-          8
+          12,
+          12
         ]
       }
     }
@@ -6353,7 +6557,7 @@
         "name": "Pendulum Squat",
         "order": 1,
         "outcome": "planned",
-        "persistentPrimaryVariantId": "pendulum_squat",
+        "persistentPrimaryVariantId": "supported_step_up",
         "plannedPrimaryVariantId": "pendulum_squat",
         "prescription": {
           "exerciseId": "pendulum_squat",
@@ -6377,6 +6581,7 @@
             10
           ]
         },
+        "programmedVariantId": "supported_step_up",
         "progressionContext": {
           "automaticLoadIncreasePending": false,
           "confirmationContext": "{\"scope\":\"{\\\"exerciseId\\\":\\\"pendulum_squat\\\",\\\"profileId\\\":\\\"pendulum_squat\\\",\\\"mode\\\":\\\"available_loads\\\",\\\"loadMode\\\":\\\"per_side\\\",\\\"configuredLoadMode\\\":\\\"per_side\\\",\\\"configured\\\":true,\\\"availableLoads\\\":[0],\\\"fixedIncrement\\\":null,\\\"plateIncrementPerSide\\\":null,\\\"realIncrement\\\":null}\",\"sets\":3,\"lower\":8,\"upper\":10,\"perSide\":true}",
@@ -6562,6 +6767,7 @@
             12
           ]
         },
+        "programmedVariantId": "leg_extension",
         "progressionContext": {
           "automaticLoadIncreasePending": false,
           "confirmationContext": "{\"scope\":\"{\\\"exerciseId\\\":\\\"leg_extension\\\",\\\"profileId\\\":\\\"leg_extension\\\",\\\"mode\\\":\\\"available_loads\\\",\\\"loadMode\\\":\\\"total\\\",\\\"configuredLoadMode\\\":\\\"total\\\",\\\"configured\\\":false,\\\"availableLoads\\\":[],\\\"fixedIncrement\\\":null,\\\"plateIncrementPerSide\\\":null,\\\"realIncrement\\\":null}\",\"sets\":2,\"lower\":10,\"upper\":15,\"perSide\":false}",
@@ -6809,6 +7015,7 @@
             8
           ]
         },
+        "programmedVariantId": "machine_shoulder_press",
         "progressionContext": {
           "automaticLoadIncreasePending": false,
           "confirmationContext": "{\"scope\":\"{\\\"exerciseId\\\":\\\"machine_shoulder_press\\\",\\\"profileId\\\":\\\"machine_shoulder_press\\\",\\\"mode\\\":\\\"available_loads\\\",\\\"loadMode\\\":\\\"total\\\",\\\"configuredLoadMode\\\":\\\"total\\\",\\\"configured\\\":false,\\\"availableLoads\\\":[],\\\"fixedIncrement\\\":null,\\\"plateIncrementPerSide\\\":null,\\\"realIncrement\\\":null}\",\"sets\":3,\"lower\":8,\"upper\":12,\"perSide\":false}",
@@ -7051,6 +7258,7 @@
             8
           ]
         },
+        "programmedVariantId": "lat_pulldown",
         "progressionContext": {
           "automaticLoadIncreasePending": false,
           "confirmationContext": "{\"scope\":\"{\\\"exerciseId\\\":\\\"lat_pulldown\\\",\\\"profileId\\\":\\\"lat_pulldown\\\",\\\"mode\\\":\\\"available_loads\\\",\\\"loadMode\\\":\\\"total\\\",\\\"configuredLoadMode\\\":\\\"total\\\",\\\"configured\\\":false,\\\"availableLoads\\\":[],\\\"fixedIncrement\\\":null,\\\"plateIncrementPerSide\\\":null,\\\"realIncrement\\\":null}\",\"sets\":3,\"lower\":8,\"upper\":12,\"perSide\":false}",
@@ -7290,6 +7498,7 @@
             15
           ]
         },
+        "programmedVariantId": "hip_thrust",
         "progressionContext": {
           "automaticLoadIncreasePending": false,
           "confirmationContext": "{\"scope\":\"{\\\"exerciseId\\\":\\\"hip_thrust\\\",\\\"profileId\\\":\\\"hip_thrust\\\",\\\"mode\\\":\\\"fixed_increment\\\",\\\"loadMode\\\":\\\"total\\\",\\\"configuredLoadMode\\\":\\\"total\\\",\\\"configured\\\":false,\\\"availableLoads\\\":[],\\\"fixedIncrement\\\":null,\\\"plateIncrementPerSide\\\":null,\\\"realIncrement\\\":null}\",\"sets\":3,\"lower\":10,\"upper\":15,\"perSide\":false}",
@@ -7507,16 +7716,17 @@
         "exerciseFamilyId": "rear_deltoid_horizontal_abduction",
         "exerciseId": "chest_supported_incline_dumbbell_reverse_fly",
         "exerciseNote": null,
-        "firstUse": true,
+        "firstUse": false,
         "generatedTarget": {
           "load": {
-            "kind": "label",
-            "label": "Set load",
-            "mode": "base_resistance"
+            "kind": "numeric",
+            "mode": "per_hand",
+            "unit": "kg",
+            "value": 6
           },
           "reps": [
-            12,
-            12
+            15,
+            15
           ]
         },
         "issue": null,
@@ -7535,10 +7745,29 @@
           },
           "workingSets": 2
         },
-        "previousResult": null,
+        "previousResult": {
+          "load": {
+            "kind": "numeric",
+            "mode": "per_hand",
+            "unit": "kg",
+            "value": 6
+          },
+          "reps": [
+            15,
+            15
+          ]
+        },
+        "programmedVariantId": "chest_supported_incline_dumbbell_reverse_fly",
         "progressionContext": {
           "automaticLoadIncreasePending": false,
-          "consecutiveTopConfirmations": 0,
+          "confirmationContext": "{\"scope\":\"{\\\"exerciseId\\\":\\\"chest_supported_incline_dumbbell_reverse_fly\\\",\\\"profileId\\\":\\\"chest_supported_incline_dumbbell_reverse_fly\\\",\\\"mode\\\":\\\"available_loads\\\",\\\"loadMode\\\":\\\"per_hand\\\",\\\"configuredLoadMode\\\":\\\"per_hand\\\",\\\"configured\\\":false,\\\"availableLoads\\\":[],\\\"fixedIncrement\\\":null,\\\"plateIncrementPerSide\\\":null,\\\"realIncrement\\\":null}\",\"sets\":2,\"lower\":12,\"upper\":15,\"perSide\":false}",
+          "confirmationLoad": {
+            "kind": "numeric",
+            "mode": "per_hand",
+            "unit": "kg",
+            "value": 6
+          },
+          "consecutiveTopConfirmations": 1,
           "deferredIncrease": null,
           "equipmentSetupRequired": false,
           "increaseMessage": null,
@@ -7569,9 +7798,83 @@
           ]
         },
         "variantProgression": {
-          "baselineConfirmedAt": null,
-          "baselineLoad": null,
-          "retainedTarget": null,
+          "baselineConfirmedAt": "2026-09-05T05:44:10.576Z",
+          "baselineLoad": {
+            "kind": "numeric",
+            "mode": "per_hand",
+            "unit": "kg",
+            "value": 6
+          },
+          "retainedTarget": {
+            "exerciseId": "chest_supported_incline_dumbbell_reverse_fly",
+            "generatedTarget": {
+              "load": {
+                "kind": "numeric",
+                "mode": "per_hand",
+                "unit": "kg",
+                "value": 6
+              },
+              "reps": [
+                15,
+                15
+              ]
+            },
+            "prescription": {
+              "exerciseId": "chest_supported_incline_dumbbell_reverse_fly",
+              "repRange": {
+                "lower": 12,
+                "perSide": false,
+                "upper": 15
+              },
+              "workingSets": 2
+            },
+            "previousResult": {
+              "load": {
+                "kind": "numeric",
+                "mode": "per_hand",
+                "unit": "kg",
+                "value": 6
+              },
+              "reps": [
+                15,
+                15
+              ]
+            },
+            "progressionContext": {
+              "automaticLoadIncreasePending": false,
+              "confirmationContext": "{\"scope\":\"{\\\"exerciseId\\\":\\\"chest_supported_incline_dumbbell_reverse_fly\\\",\\\"profileId\\\":\\\"chest_supported_incline_dumbbell_reverse_fly\\\",\\\"mode\\\":\\\"available_loads\\\",\\\"loadMode\\\":\\\"per_hand\\\",\\\"configuredLoadMode\\\":\\\"per_hand\\\",\\\"configured\\\":false,\\\"availableLoads\\\":[],\\\"fixedIncrement\\\":null,\\\"plateIncrementPerSide\\\":null,\\\"realIncrement\\\":null}\",\"sets\":2,\"lower\":12,\"upper\":15,\"perSide\":false}",
+              "confirmationLoad": {
+                "kind": "numeric",
+                "mode": "per_hand",
+                "unit": "kg",
+                "value": 6
+              },
+              "consecutiveTopConfirmations": 1,
+              "deferredIncrease": null,
+              "equipmentSetupRequired": false,
+              "increaseMessage": null,
+              "increaseWarningRequired": false,
+              "loadIncreaseDue": false,
+              "masteredLoad": null,
+              "progressionBlocked": false,
+              "proposedLoad": null,
+              "recentLoadIncrease": false,
+              "reviewRequired": false
+            },
+            "sourceCompletedAt": "2026-10-08T04:27:50.382Z",
+            "workingTarget": {
+              "load": {
+                "kind": "numeric",
+                "mode": "per_hand",
+                "unit": "kg",
+                "value": 6
+              },
+              "reps": [
+                15,
+                15
+              ]
+            }
+          },
           "tracks": {},
           "variantId": "chest_supported_incline_dumbbell_reverse_fly"
         },
@@ -7589,13 +7892,14 @@
         "workingSetCount": 2,
         "workingTarget": {
           "load": {
-            "kind": "label",
-            "label": "Set load",
-            "mode": "base_resistance"
+            "kind": "numeric",
+            "mode": "per_hand",
+            "unit": "kg",
+            "value": 6
           },
           "reps": [
-            12,
-            12
+            15,
+            15
           ]
         }
       },
@@ -7650,6 +7954,7 @@
             11
           ]
         },
+        "programmedVariantId": "supported_single_leg_dumbbell_calf_raise",
         "progressionContext": {
           "automaticLoadIncreasePending": false,
           "confirmationContext": "{\"scope\":\"{\\\"exerciseId\\\":\\\"supported_single_leg_dumbbell_calf_raise\\\",\\\"profileId\\\":\\\"supported_single_leg_dumbbell_calf_raise\\\",\\\"mode\\\":\\\"available_loads\\\",\\\"loadMode\\\":\\\"total\\\",\\\"configuredLoadMode\\\":\\\"per_hand\\\",\\\"configured\\\":false,\\\"availableLoads\\\":[],\\\"fixedIncrement\\\":null,\\\"plateIncrementPerSide\\\":null,\\\"realIncrement\\\":null}\",\"sets\":2,\"lower\":10,\"upper\":15,\"perSide\":true}",
@@ -7798,7 +8103,7 @@
         "exerciseFamilyId": "trunk_control",
         "exerciseId": "loaded_dead_bug_dumbbells",
         "exerciseNote": null,
-        "firstUse": true,
+        "firstUse": false,
         "generatedTarget": {
           "load": {
             "kind": "numeric",
@@ -7807,8 +8112,8 @@
             "value": 2.5
           },
           "reps": [
-            8,
-            8
+            12,
+            12
           ]
         },
         "issue": null,
@@ -7827,16 +8132,40 @@
           },
           "workingSets": 2
         },
-        "previousResult": null,
+        "previousResult": {
+          "load": {
+            "kind": "numeric",
+            "mode": "per_hand",
+            "unit": "kg",
+            "value": 2.5
+          },
+          "reps": [
+            12,
+            12
+          ]
+        },
+        "programmedVariantId": "loaded_dead_bug_dumbbells",
         "progressionContext": {
           "automaticLoadIncreasePending": false,
-          "consecutiveTopConfirmations": 0,
+          "confirmationContext": "{\"scope\":\"{\\\"exerciseId\\\":\\\"loaded_dead_bug_dumbbells\\\",\\\"profileId\\\":\\\"loaded_dead_bug_dumbbells\\\",\\\"mode\\\":\\\"available_loads\\\",\\\"loadMode\\\":\\\"per_hand\\\",\\\"configuredLoadMode\\\":\\\"per_hand\\\",\\\"configured\\\":false,\\\"availableLoads\\\":[],\\\"fixedIncrement\\\":null,\\\"plateIncrementPerSide\\\":null,\\\"realIncrement\\\":null}\",\"sets\":2,\"lower\":8,\"upper\":12,\"perSide\":true}",
+          "confirmationLoad": {
+            "kind": "numeric",
+            "mode": "per_hand",
+            "unit": "kg",
+            "value": 2.5
+          },
+          "consecutiveTopConfirmations": 3,
           "deferredIncrease": null,
           "equipmentSetupRequired": false,
           "increaseMessage": null,
           "increaseWarningRequired": false,
-          "loadIncreaseDue": false,
-          "masteredLoad": null,
+          "loadIncreaseDue": true,
+          "masteredLoad": {
+            "kind": "numeric",
+            "mode": "per_hand",
+            "unit": "kg",
+            "value": 2.5
+          },
           "progressionBlocked": false,
           "proposedLoad": null,
           "recentLoadIncrease": false,
@@ -7857,9 +8186,88 @@
           ]
         },
         "variantProgression": {
-          "baselineConfirmedAt": null,
-          "baselineLoad": null,
-          "retainedTarget": null,
+          "baselineConfirmedAt": "2026-09-21T06:09:26.373Z",
+          "baselineLoad": {
+            "kind": "numeric",
+            "mode": "per_hand",
+            "unit": "kg",
+            "value": 2.5
+          },
+          "retainedTarget": {
+            "exerciseId": "loaded_dead_bug_dumbbells",
+            "generatedTarget": {
+              "load": {
+                "kind": "numeric",
+                "mode": "per_hand",
+                "unit": "kg",
+                "value": 2.5
+              },
+              "reps": [
+                12,
+                12
+              ]
+            },
+            "prescription": {
+              "exerciseId": "loaded_dead_bug_dumbbells",
+              "repRange": {
+                "lower": 8,
+                "perSide": true,
+                "upper": 12
+              },
+              "workingSets": 2
+            },
+            "previousResult": {
+              "load": {
+                "kind": "numeric",
+                "mode": "per_hand",
+                "unit": "kg",
+                "value": 2.5
+              },
+              "reps": [
+                12,
+                12
+              ]
+            },
+            "progressionContext": {
+              "automaticLoadIncreasePending": false,
+              "confirmationContext": "{\"scope\":\"{\\\"exerciseId\\\":\\\"loaded_dead_bug_dumbbells\\\",\\\"profileId\\\":\\\"loaded_dead_bug_dumbbells\\\",\\\"mode\\\":\\\"available_loads\\\",\\\"loadMode\\\":\\\"per_hand\\\",\\\"configuredLoadMode\\\":\\\"per_hand\\\",\\\"configured\\\":false,\\\"availableLoads\\\":[],\\\"fixedIncrement\\\":null,\\\"plateIncrementPerSide\\\":null,\\\"realIncrement\\\":null}\",\"sets\":2,\"lower\":8,\"upper\":12,\"perSide\":true}",
+              "confirmationLoad": {
+                "kind": "numeric",
+                "mode": "per_hand",
+                "unit": "kg",
+                "value": 2.5
+              },
+              "consecutiveTopConfirmations": 3,
+              "deferredIncrease": null,
+              "equipmentSetupRequired": false,
+              "increaseMessage": null,
+              "increaseWarningRequired": false,
+              "loadIncreaseDue": true,
+              "masteredLoad": {
+                "kind": "numeric",
+                "mode": "per_hand",
+                "unit": "kg",
+                "value": 2.5
+              },
+              "progressionBlocked": false,
+              "proposedLoad": null,
+              "recentLoadIncrease": false,
+              "reviewRequired": false
+            },
+            "sourceCompletedAt": "2026-10-08T04:27:50.382Z",
+            "workingTarget": {
+              "load": {
+                "kind": "numeric",
+                "mode": "per_hand",
+                "unit": "kg",
+                "value": 2.5
+              },
+              "reps": [
+                12,
+                12
+              ]
+            }
+          },
           "tracks": {},
           "variantId": "loaded_dead_bug_dumbbells"
         },
@@ -7883,8 +8291,8 @@
             "value": 2.5
           },
           "reps": [
-            8,
-            8
+            12,
+            12
           ]
         }
       }
@@ -7995,6 +8403,17 @@
       "mode": "available_loads",
       "requiredTopConfirmations": 3,
       "roundingBehavior": "next_available",
+      "stepLearning": {
+        "learnedIncrement": null,
+        "observations": [
+          {
+            "completedAt": "2026-09-05T05:44:10.576Z",
+            "sessionId": "phase_3-phase3_strength_b-2",
+            "value": 6
+          }
+        ],
+        "scope": "{\"exerciseId\":\"chest_supported_incline_dumbbell_reverse_fly\",\"profileId\":\"chest_supported_incline_dumbbell_reverse_fly\",\"mode\":\"available_loads\",\"loadMode\":\"per_hand\",\"configuredLoadMode\":\"per_hand\",\"configured\":false,\"availableLoads\":[],\"fixedIncrement\":null,\"plateIncrementPerSide\":null,\"realIncrement\":null}"
+      },
       "unit": "kg",
       "upperRepetitions": 15
     },
@@ -8100,6 +8519,17 @@
       "mode": "available_loads",
       "requiredTopConfirmations": 3,
       "roundingBehavior": "next_available",
+      "stepLearning": {
+        "learnedIncrement": null,
+        "observations": [
+          {
+            "completedAt": "2026-09-21T06:09:26.373Z",
+            "sessionId": "phase_3-phase3_strength_b-6",
+            "value": 2.5
+          }
+        ],
+        "scope": "{\"exerciseId\":\"loaded_dead_bug_dumbbells\",\"profileId\":\"loaded_dead_bug_dumbbells\",\"mode\":\"available_loads\",\"loadMode\":\"per_hand\",\"configuredLoadMode\":\"per_hand\",\"configured\":false,\"availableLoads\":[],\"fixedIncrement\":null,\"plateIncrementPerSide\":null,\"realIncrement\":null}"
+      },
       "unit": "kg",
       "upperRepetitions": 12
     },
@@ -8245,6 +8675,7 @@
       "lowerRepetitions": 12,
       "maximumAutomaticPercentageJump": 10,
       "mode": "available_loads",
+      "profileId": "reverse_pec_deck:post_identity_correction",
       "requiredTopConfirmations": 3,
       "roundingBehavior": "next_available",
       "stepLearning": {
@@ -8860,7 +9291,12 @@
     },
     "chest_supported_incline_dumbbell_reverse_fly": {
       "active": true,
-      "actualBaselineLoad": null,
+      "actualBaselineLoad": {
+        "kind": "numeric",
+        "mode": "per_hand",
+        "unit": "kg",
+        "value": 6
+      },
       "adjustmentRu": "Немного измените угол скамьи, если это помогает непрерывно сохранять опору грудью и свободную траекторию рук.",
       "alternatives": [
         {
@@ -8906,7 +9342,7 @@
         "videoId": "sIQNCJ6Xwsk",
         "watchUrl": "https://www.youtube.com/watch?v=sIQNCJ6Xwsk"
       },
-      "baselineConfirmedAt": null,
+      "baselineConfirmedAt": "2026-09-05T05:44:10.576Z",
       "breathingRu": [
         "Выдыхайте при разведении.",
         "Вдыхайте при контролируемом опускании."
@@ -8928,6 +9364,17 @@
         "mode": "available_loads",
         "requiredTopConfirmations": 3,
         "roundingBehavior": "next_available",
+        "stepLearning": {
+          "learnedIncrement": null,
+          "observations": [
+            {
+              "completedAt": "2026-09-05T05:44:10.576Z",
+              "sessionId": "phase_3-phase3_strength_b-2",
+              "value": 6
+            }
+          ],
+          "scope": "{\"exerciseId\":\"chest_supported_incline_dumbbell_reverse_fly\",\"profileId\":\"chest_supported_incline_dumbbell_reverse_fly\",\"mode\":\"available_loads\",\"loadMode\":\"per_hand\",\"configuredLoadMode\":\"per_hand\",\"configured\":false,\"availableLoads\":[],\"fixedIncrement\":null,\"plateIncrementPerSide\":null,\"realIncrement\":null}"
+        },
         "unit": "kg",
         "upperRepetitions": 15
       },
@@ -9834,7 +10281,12 @@
     },
     "loaded_dead_bug_dumbbells": {
       "active": true,
-      "actualBaselineLoad": null,
+      "actualBaselineLoad": {
+        "kind": "numeric",
+        "mode": "per_hand",
+        "unit": "kg",
+        "value": 2.5
+      },
       "adjustmentRu": "Уменьшите амплитуду руки и ноги, если поясница или положение рёбер меняется.",
       "alternatives": [
         {
@@ -9880,7 +10332,7 @@
         "videoId": "VAVrsPX9GHY",
         "watchUrl": "https://www.youtube.com/watch?v=VAVrsPX9GHY"
       },
-      "baselineConfirmedAt": null,
+      "baselineConfirmedAt": "2026-09-21T06:09:26.373Z",
       "breathingRu": [
         "Сделайте спокойный вдох в исходном положении.",
         "Длинно выдыхайте во время разгибания, сохраняя брейс."
@@ -9902,6 +10354,17 @@
         "mode": "available_loads",
         "requiredTopConfirmations": 3,
         "roundingBehavior": "next_available",
+        "stepLearning": {
+          "learnedIncrement": null,
+          "observations": [
+            {
+              "completedAt": "2026-09-21T06:09:26.373Z",
+              "sessionId": "phase_3-phase3_strength_b-6",
+              "value": 2.5
+            }
+          ],
+          "scope": "{\"exerciseId\":\"loaded_dead_bug_dumbbells\",\"profileId\":\"loaded_dead_bug_dumbbells\",\"mode\":\"available_loads\",\"loadMode\":\"per_hand\",\"configuredLoadMode\":\"per_hand\",\"configured\":false,\"availableLoads\":[],\"fixedIncrement\":null,\"plateIncrementPerSide\":null,\"realIncrement\":null}"
+        },
         "unit": "kg",
         "upperRepetitions": 12
       },
@@ -11019,6 +11482,7 @@
         "lowerRepetitions": 12,
         "maximumAutomaticPercentageJump": 10,
         "mode": "available_loads",
+        "profileId": "reverse_pec_deck:post_identity_correction",
         "requiredTopConfirmations": 3,
         "roundingBehavior": "next_available",
         "stepLearning": {
@@ -13416,7 +13880,7 @@
         "chest_supported_incline_dumbbell_reverse_fly": {
           "exerciseFamilyId": "rear_deltoid_horizontal_abduction",
           "exerciseId": "chest_supported_incline_dumbbell_reverse_fly",
-          "firstUseNoteRu": "Первый завершённый результат создаёт отдельную исходную точку.",
+          "firstUseNoteRu": "Equipment profile not confirmed.",
           "missingRequirements": [],
           "name": "Chest-Supported Incline Dumbbell Reverse Fly",
           "selectable": true,
@@ -14057,7 +14521,7 @@
         "loaded_dead_bug_dumbbells": {
           "exerciseFamilyId": "trunk_control",
           "exerciseId": "loaded_dead_bug_dumbbells",
-          "firstUseNoteRu": "Первый завершённый результат создаёт отдельную исходную точку.",
+          "firstUseNoteRu": "Equipment profile not confirmed.",
           "missingRequirements": [],
           "name": "Loaded Dead Bug (Dumbbells)",
           "selectable": true,
@@ -14767,7 +15231,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-10-11T10:29:26.763Z",
+  "responseGeneratedAt": "2026-10-13T04:40:47.148Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -17652,6 +18116,7 @@
     }
   },
   "schemaVersion": 2,
+  "selectionModelVersion": 2,
   "sessionHistory": [
     {
       "completedAt": "2026-07-10T12:00:00.000Z",
@@ -37612,7 +38077,8 @@
     }
   ],
   "sessionIssues": [],
-  "sourceStateUpdatedAt": "2026-10-11T10:29:13.569Z",
+  "slotSelections": {},
+  "sourceStateUpdatedAt": "2026-10-13T04:40:06.583Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
@@ -37662,6 +38128,1208 @@
       "responseGeneratedAt"
     ],
     "serialization": "pretty-json-2-space-with-final-newline"
+  },
+  "variantIdentityLineage": {
+    "chest_supported_incline_dumbbell_reverse_fly": {
+      "approvedAt": "2026-10-13T04:40:06.583Z",
+      "correction": "confirmed_physical_identity_and_per_hand_semantics",
+      "evidence": [
+        {
+          "actualResult": {
+            "load": {
+              "kind": "numeric",
+              "mode": "per_hand",
+              "unit": "kg",
+              "value": 6
+            },
+            "reps": [
+              12,
+              12
+            ]
+          },
+          "completedAt": "2026-09-05T05:44:10.576Z",
+          "equipmentProfileKey": "{\"variantId\":\"chest_supported_incline_dumbbell_reverse_fly\",\"profileId\":\"chest_supported_incline_dumbbell_reverse_fly\",\"loadMode\":\"per_hand\"}",
+          "prescription": {
+            "exerciseId": "chest_supported_incline_dumbbell_reverse_fly",
+            "repRange": {
+              "lower": 12,
+              "perSide": false,
+              "upper": 15
+            },
+            "workingSets": 2
+          },
+          "progressionContext": {
+            "automaticLoadIncreasePending": false,
+            "confirmationContext": "{\"scope\":\"{\\\"exerciseId\\\":\\\"chest_supported_incline_dumbbell_reverse_fly\\\",\\\"profileId\\\":\\\"chest_supported_incline_dumbbell_reverse_fly\\\",\\\"mode\\\":\\\"available_loads\\\",\\\"loadMode\\\":\\\"per_hand\\\",\\\"configuredLoadMode\\\":\\\"per_hand\\\",\\\"configured\\\":false,\\\"availableLoads\\\":[],\\\"fixedIncrement\\\":null,\\\"plateIncrementPerSide\\\":null,\\\"realIncrement\\\":null}\",\"sets\":2,\"lower\":12,\"upper\":15,\"perSide\":false}",
+            "confirmationLoad": {
+              "kind": "numeric",
+              "mode": "per_hand",
+              "unit": "kg",
+              "value": 6
+            },
+            "consecutiveTopConfirmations": 0,
+            "deferredIncrease": null,
+            "equipmentSetupRequired": false,
+            "increaseMessage": null,
+            "increaseWarningRequired": false,
+            "loadIncreaseDue": false,
+            "masteredLoad": null,
+            "progressionBlocked": false,
+            "proposedLoad": null,
+            "recentLoadIncrease": false,
+            "reviewRequired": false
+          },
+          "sessionId": "phase_3-phase3_strength_b-2",
+          "sourceExerciseId": "reverse_pec_deck",
+          "sourceLoad": {
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 6
+          }
+        },
+        {
+          "actualResult": {
+            "load": {
+              "kind": "numeric",
+              "mode": "per_hand",
+              "unit": "kg",
+              "value": 6
+            },
+            "reps": [
+              12,
+              12
+            ]
+          },
+          "completedAt": "2026-09-12T11:40:49.266Z",
+          "equipmentProfileKey": "{\"variantId\":\"chest_supported_incline_dumbbell_reverse_fly\",\"profileId\":\"chest_supported_incline_dumbbell_reverse_fly\",\"loadMode\":\"per_hand\"}",
+          "prescription": {
+            "exerciseId": "chest_supported_incline_dumbbell_reverse_fly",
+            "repRange": {
+              "lower": 12,
+              "perSide": false,
+              "upper": 15
+            },
+            "workingSets": 2
+          },
+          "progressionContext": {
+            "automaticLoadIncreasePending": false,
+            "confirmationContext": "{\"scope\":\"{\\\"exerciseId\\\":\\\"chest_supported_incline_dumbbell_reverse_fly\\\",\\\"profileId\\\":\\\"chest_supported_incline_dumbbell_reverse_fly\\\",\\\"mode\\\":\\\"available_loads\\\",\\\"loadMode\\\":\\\"per_hand\\\",\\\"configuredLoadMode\\\":\\\"per_hand\\\",\\\"configured\\\":false,\\\"availableLoads\\\":[],\\\"fixedIncrement\\\":null,\\\"plateIncrementPerSide\\\":null,\\\"realIncrement\\\":null}\",\"sets\":2,\"lower\":12,\"upper\":15,\"perSide\":false}",
+            "confirmationLoad": {
+              "kind": "numeric",
+              "mode": "per_hand",
+              "unit": "kg",
+              "value": 6
+            },
+            "consecutiveTopConfirmations": 0,
+            "deferredIncrease": null,
+            "equipmentSetupRequired": false,
+            "increaseMessage": null,
+            "increaseWarningRequired": false,
+            "loadIncreaseDue": false,
+            "masteredLoad": null,
+            "progressionBlocked": false,
+            "proposedLoad": null,
+            "recentLoadIncrease": false,
+            "reviewRequired": false
+          },
+          "sessionId": "phase_3-phase3_strength_b-4",
+          "sourceExerciseId": "reverse_pec_deck",
+          "sourceLoad": {
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 6
+          }
+        },
+        {
+          "actualResult": {
+            "load": {
+              "kind": "numeric",
+              "mode": "per_hand",
+              "unit": "kg",
+              "value": 6
+            },
+            "reps": [
+              13,
+              13
+            ]
+          },
+          "completedAt": "2026-09-21T06:09:26.373Z",
+          "equipmentProfileKey": "{\"variantId\":\"chest_supported_incline_dumbbell_reverse_fly\",\"profileId\":\"chest_supported_incline_dumbbell_reverse_fly\",\"loadMode\":\"per_hand\"}",
+          "prescription": {
+            "exerciseId": "chest_supported_incline_dumbbell_reverse_fly",
+            "repRange": {
+              "lower": 12,
+              "perSide": false,
+              "upper": 15
+            },
+            "workingSets": 2
+          },
+          "progressionContext": {
+            "automaticLoadIncreasePending": false,
+            "confirmationContext": "{\"scope\":\"{\\\"exerciseId\\\":\\\"chest_supported_incline_dumbbell_reverse_fly\\\",\\\"profileId\\\":\\\"chest_supported_incline_dumbbell_reverse_fly\\\",\\\"mode\\\":\\\"available_loads\\\",\\\"loadMode\\\":\\\"per_hand\\\",\\\"configuredLoadMode\\\":\\\"per_hand\\\",\\\"configured\\\":false,\\\"availableLoads\\\":[],\\\"fixedIncrement\\\":null,\\\"plateIncrementPerSide\\\":null,\\\"realIncrement\\\":null}\",\"sets\":2,\"lower\":12,\"upper\":15,\"perSide\":false}",
+            "confirmationLoad": {
+              "kind": "numeric",
+              "mode": "per_hand",
+              "unit": "kg",
+              "value": 6
+            },
+            "consecutiveTopConfirmations": 0,
+            "deferredIncrease": null,
+            "equipmentSetupRequired": false,
+            "increaseMessage": null,
+            "increaseWarningRequired": false,
+            "loadIncreaseDue": false,
+            "masteredLoad": null,
+            "progressionBlocked": false,
+            "proposedLoad": null,
+            "recentLoadIncrease": false,
+            "reviewRequired": false
+          },
+          "sessionId": "phase_3-phase3_strength_b-6",
+          "sourceExerciseId": "reverse_pec_deck",
+          "sourceLoad": {
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 6
+          }
+        },
+        {
+          "actualResult": {
+            "load": {
+              "kind": "numeric",
+              "mode": "per_hand",
+              "unit": "kg",
+              "value": 6
+            },
+            "reps": [
+              14,
+              14
+            ]
+          },
+          "completedAt": "2026-10-04T02:06:59.060Z",
+          "equipmentProfileKey": "{\"variantId\":\"chest_supported_incline_dumbbell_reverse_fly\",\"profileId\":\"chest_supported_incline_dumbbell_reverse_fly\",\"loadMode\":\"per_hand\"}",
+          "prescription": {
+            "exerciseId": "chest_supported_incline_dumbbell_reverse_fly",
+            "repRange": {
+              "lower": 12,
+              "perSide": false,
+              "upper": 15
+            },
+            "workingSets": 2
+          },
+          "progressionContext": {
+            "automaticLoadIncreasePending": false,
+            "confirmationContext": "{\"scope\":\"{\\\"exerciseId\\\":\\\"chest_supported_incline_dumbbell_reverse_fly\\\",\\\"profileId\\\":\\\"chest_supported_incline_dumbbell_reverse_fly\\\",\\\"mode\\\":\\\"available_loads\\\",\\\"loadMode\\\":\\\"per_hand\\\",\\\"configuredLoadMode\\\":\\\"per_hand\\\",\\\"configured\\\":false,\\\"availableLoads\\\":[],\\\"fixedIncrement\\\":null,\\\"plateIncrementPerSide\\\":null,\\\"realIncrement\\\":null}\",\"sets\":2,\"lower\":12,\"upper\":15,\"perSide\":false}",
+            "confirmationLoad": {
+              "kind": "numeric",
+              "mode": "per_hand",
+              "unit": "kg",
+              "value": 6
+            },
+            "consecutiveTopConfirmations": 0,
+            "deferredIncrease": null,
+            "equipmentSetupRequired": false,
+            "increaseMessage": null,
+            "increaseWarningRequired": false,
+            "loadIncreaseDue": false,
+            "masteredLoad": null,
+            "progressionBlocked": false,
+            "proposedLoad": null,
+            "recentLoadIncrease": false,
+            "reviewRequired": false
+          },
+          "sessionId": "phase_3-phase3_strength_b-8",
+          "sourceExerciseId": "reverse_pec_deck",
+          "sourceLoad": {
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 6
+          }
+        },
+        {
+          "actualResult": {
+            "load": {
+              "kind": "numeric",
+              "mode": "per_hand",
+              "unit": "kg",
+              "value": 6
+            },
+            "reps": [
+              15,
+              15
+            ]
+          },
+          "completedAt": "2026-10-08T04:27:50.382Z",
+          "equipmentProfileKey": "{\"variantId\":\"chest_supported_incline_dumbbell_reverse_fly\",\"profileId\":\"chest_supported_incline_dumbbell_reverse_fly\",\"loadMode\":\"per_hand\"}",
+          "prescription": {
+            "exerciseId": "chest_supported_incline_dumbbell_reverse_fly",
+            "repRange": {
+              "lower": 12,
+              "perSide": false,
+              "upper": 15
+            },
+            "workingSets": 2
+          },
+          "progressionContext": {
+            "automaticLoadIncreasePending": false,
+            "confirmationContext": "{\"scope\":\"{\\\"exerciseId\\\":\\\"chest_supported_incline_dumbbell_reverse_fly\\\",\\\"profileId\\\":\\\"chest_supported_incline_dumbbell_reverse_fly\\\",\\\"mode\\\":\\\"available_loads\\\",\\\"loadMode\\\":\\\"per_hand\\\",\\\"configuredLoadMode\\\":\\\"per_hand\\\",\\\"configured\\\":false,\\\"availableLoads\\\":[],\\\"fixedIncrement\\\":null,\\\"plateIncrementPerSide\\\":null,\\\"realIncrement\\\":null}\",\"sets\":2,\"lower\":12,\"upper\":15,\"perSide\":false}",
+            "confirmationLoad": {
+              "kind": "numeric",
+              "mode": "per_hand",
+              "unit": "kg",
+              "value": 6
+            },
+            "consecutiveTopConfirmations": 1,
+            "deferredIncrease": null,
+            "equipmentSetupRequired": false,
+            "increaseMessage": null,
+            "increaseWarningRequired": false,
+            "loadIncreaseDue": false,
+            "masteredLoad": null,
+            "progressionBlocked": false,
+            "proposedLoad": null,
+            "recentLoadIncrease": false,
+            "reviewRequired": false
+          },
+          "sessionId": "phase_3-phase3_strength_b-10",
+          "sourceExerciseId": "reverse_pec_deck",
+          "sourceLoad": {
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 6
+          }
+        }
+      ],
+      "sourceVariantId": "reverse_pec_deck"
+    },
+    "loaded_dead_bug_dumbbells": {
+      "approvedAt": "2026-10-13T04:40:06.583Z",
+      "correction": "confirmed_physical_identity_and_per_hand_semantics",
+      "evidence": [
+        {
+          "actualResult": {
+            "load": {
+              "kind": "numeric",
+              "mode": "per_hand",
+              "unit": "kg",
+              "value": 2.5
+            },
+            "reps": [
+              15,
+              15
+            ]
+          },
+          "completedAt": "2026-09-21T06:09:26.373Z",
+          "equipmentProfileKey": "{\"variantId\":\"loaded_dead_bug_dumbbells\",\"profileId\":\"loaded_dead_bug_dumbbells\",\"loadMode\":\"per_hand\"}",
+          "prescription": {
+            "exerciseId": "loaded_dead_bug_dumbbells",
+            "repRange": {
+              "lower": 8,
+              "perSide": true,
+              "upper": 12
+            },
+            "workingSets": 2
+          },
+          "progressionContext": {
+            "automaticLoadIncreasePending": false,
+            "confirmationContext": "{\"scope\":\"{\\\"exerciseId\\\":\\\"loaded_dead_bug_dumbbells\\\",\\\"profileId\\\":\\\"loaded_dead_bug_dumbbells\\\",\\\"mode\\\":\\\"available_loads\\\",\\\"loadMode\\\":\\\"per_hand\\\",\\\"configuredLoadMode\\\":\\\"per_hand\\\",\\\"configured\\\":false,\\\"availableLoads\\\":[],\\\"fixedIncrement\\\":null,\\\"plateIncrementPerSide\\\":null,\\\"realIncrement\\\":null}\",\"sets\":2,\"lower\":8,\"upper\":12,\"perSide\":true}",
+            "confirmationLoad": {
+              "kind": "numeric",
+              "mode": "per_hand",
+              "unit": "kg",
+              "value": 2.5
+            },
+            "consecutiveTopConfirmations": 1,
+            "deferredIncrease": null,
+            "equipmentSetupRequired": false,
+            "increaseMessage": null,
+            "increaseWarningRequired": false,
+            "loadIncreaseDue": false,
+            "masteredLoad": null,
+            "progressionBlocked": false,
+            "proposedLoad": null,
+            "recentLoadIncrease": false,
+            "reviewRequired": false
+          },
+          "sessionId": "phase_3-phase3_strength_b-6",
+          "sourceExerciseId": "dead_bug",
+          "sourceLoad": {
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 2.5
+          }
+        },
+        {
+          "actualResult": {
+            "load": {
+              "kind": "numeric",
+              "mode": "per_hand",
+              "unit": "kg",
+              "value": 2.5
+            },
+            "reps": [
+              15,
+              15
+            ]
+          },
+          "completedAt": "2026-10-04T02:06:59.060Z",
+          "equipmentProfileKey": "{\"variantId\":\"loaded_dead_bug_dumbbells\",\"profileId\":\"loaded_dead_bug_dumbbells\",\"loadMode\":\"per_hand\"}",
+          "prescription": {
+            "exerciseId": "loaded_dead_bug_dumbbells",
+            "repRange": {
+              "lower": 8,
+              "perSide": true,
+              "upper": 12
+            },
+            "workingSets": 2
+          },
+          "progressionContext": {
+            "automaticLoadIncreasePending": false,
+            "confirmationContext": "{\"scope\":\"{\\\"exerciseId\\\":\\\"loaded_dead_bug_dumbbells\\\",\\\"profileId\\\":\\\"loaded_dead_bug_dumbbells\\\",\\\"mode\\\":\\\"available_loads\\\",\\\"loadMode\\\":\\\"per_hand\\\",\\\"configuredLoadMode\\\":\\\"per_hand\\\",\\\"configured\\\":false,\\\"availableLoads\\\":[],\\\"fixedIncrement\\\":null,\\\"plateIncrementPerSide\\\":null,\\\"realIncrement\\\":null}\",\"sets\":2,\"lower\":8,\"upper\":12,\"perSide\":true}",
+            "confirmationLoad": {
+              "kind": "numeric",
+              "mode": "per_hand",
+              "unit": "kg",
+              "value": 2.5
+            },
+            "consecutiveTopConfirmations": 2,
+            "deferredIncrease": null,
+            "equipmentSetupRequired": false,
+            "increaseMessage": null,
+            "increaseWarningRequired": false,
+            "loadIncreaseDue": false,
+            "masteredLoad": null,
+            "progressionBlocked": false,
+            "proposedLoad": null,
+            "recentLoadIncrease": false,
+            "reviewRequired": false
+          },
+          "sessionId": "phase_3-phase3_strength_b-8",
+          "sourceExerciseId": "dead_bug",
+          "sourceLoad": {
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 2.5
+          }
+        },
+        {
+          "actualResult": {
+            "load": {
+              "kind": "numeric",
+              "mode": "per_hand",
+              "unit": "kg",
+              "value": 2.5
+            },
+            "reps": [
+              12,
+              12
+            ]
+          },
+          "completedAt": "2026-10-08T04:27:50.382Z",
+          "equipmentProfileKey": "{\"variantId\":\"loaded_dead_bug_dumbbells\",\"profileId\":\"loaded_dead_bug_dumbbells\",\"loadMode\":\"per_hand\"}",
+          "prescription": {
+            "exerciseId": "loaded_dead_bug_dumbbells",
+            "repRange": {
+              "lower": 8,
+              "perSide": true,
+              "upper": 12
+            },
+            "workingSets": 2
+          },
+          "progressionContext": {
+            "automaticLoadIncreasePending": false,
+            "confirmationContext": "{\"scope\":\"{\\\"exerciseId\\\":\\\"loaded_dead_bug_dumbbells\\\",\\\"profileId\\\":\\\"loaded_dead_bug_dumbbells\\\",\\\"mode\\\":\\\"available_loads\\\",\\\"loadMode\\\":\\\"per_hand\\\",\\\"configuredLoadMode\\\":\\\"per_hand\\\",\\\"configured\\\":false,\\\"availableLoads\\\":[],\\\"fixedIncrement\\\":null,\\\"plateIncrementPerSide\\\":null,\\\"realIncrement\\\":null}\",\"sets\":2,\"lower\":8,\"upper\":12,\"perSide\":true}",
+            "confirmationLoad": {
+              "kind": "numeric",
+              "mode": "per_hand",
+              "unit": "kg",
+              "value": 2.5
+            },
+            "consecutiveTopConfirmations": 3,
+            "deferredIncrease": null,
+            "equipmentSetupRequired": false,
+            "increaseMessage": null,
+            "increaseWarningRequired": false,
+            "loadIncreaseDue": true,
+            "masteredLoad": {
+              "kind": "numeric",
+              "mode": "per_hand",
+              "unit": "kg",
+              "value": 2.5
+            },
+            "progressionBlocked": false,
+            "proposedLoad": null,
+            "recentLoadIncrease": false,
+            "reviewRequired": false
+          },
+          "sessionId": "phase_3-phase3_strength_b-10",
+          "sourceExerciseId": "dead_bug",
+          "sourceLoad": {
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 2.5
+          }
+        }
+      ],
+      "sourceVariantId": "dead_bug"
+    }
+  },
+  "variantProfileProgression": {
+    "{\"variantId\":\"chest_supported_incline_dumbbell_reverse_fly\",\"profileId\":\"chest_supported_incline_dumbbell_reverse_fly\",\"loadMode\":\"per_hand\"}": {
+      "baselineConfirmedAt": "2026-09-05T05:44:10.576Z",
+      "baselineLoad": {
+        "kind": "numeric",
+        "mode": "per_hand",
+        "unit": "kg",
+        "value": 6
+      },
+      "equipmentProfileKey": "{\"variantId\":\"chest_supported_incline_dumbbell_reverse_fly\",\"profileId\":\"chest_supported_incline_dumbbell_reverse_fly\",\"loadMode\":\"per_hand\"}",
+      "history": [
+        {
+          "actualResult": {
+            "load": {
+              "kind": "numeric",
+              "mode": "per_hand",
+              "unit": "kg",
+              "value": 6
+            },
+            "reps": [
+              12,
+              12
+            ]
+          },
+          "completedAt": "2026-09-05T05:44:10.576Z",
+          "equipmentProfileKey": "{\"variantId\":\"chest_supported_incline_dumbbell_reverse_fly\",\"profileId\":\"chest_supported_incline_dumbbell_reverse_fly\",\"loadMode\":\"per_hand\"}",
+          "prescription": {
+            "exerciseId": "chest_supported_incline_dumbbell_reverse_fly",
+            "repRange": {
+              "lower": 12,
+              "perSide": false,
+              "upper": 15
+            },
+            "workingSets": 2
+          },
+          "progressionContext": {
+            "automaticLoadIncreasePending": false,
+            "confirmationContext": "{\"scope\":\"{\\\"exerciseId\\\":\\\"chest_supported_incline_dumbbell_reverse_fly\\\",\\\"profileId\\\":\\\"chest_supported_incline_dumbbell_reverse_fly\\\",\\\"mode\\\":\\\"available_loads\\\",\\\"loadMode\\\":\\\"per_hand\\\",\\\"configuredLoadMode\\\":\\\"per_hand\\\",\\\"configured\\\":false,\\\"availableLoads\\\":[],\\\"fixedIncrement\\\":null,\\\"plateIncrementPerSide\\\":null,\\\"realIncrement\\\":null}\",\"sets\":2,\"lower\":12,\"upper\":15,\"perSide\":false}",
+            "confirmationLoad": {
+              "kind": "numeric",
+              "mode": "per_hand",
+              "unit": "kg",
+              "value": 6
+            },
+            "consecutiveTopConfirmations": 0,
+            "deferredIncrease": null,
+            "equipmentSetupRequired": false,
+            "increaseMessage": null,
+            "increaseWarningRequired": false,
+            "loadIncreaseDue": false,
+            "masteredLoad": null,
+            "progressionBlocked": false,
+            "proposedLoad": null,
+            "recentLoadIncrease": false,
+            "reviewRequired": false
+          },
+          "sessionId": "phase_3-phase3_strength_b-2",
+          "sourceExerciseId": "reverse_pec_deck",
+          "sourceLoad": {
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 6
+          }
+        },
+        {
+          "actualResult": {
+            "load": {
+              "kind": "numeric",
+              "mode": "per_hand",
+              "unit": "kg",
+              "value": 6
+            },
+            "reps": [
+              12,
+              12
+            ]
+          },
+          "completedAt": "2026-09-12T11:40:49.266Z",
+          "equipmentProfileKey": "{\"variantId\":\"chest_supported_incline_dumbbell_reverse_fly\",\"profileId\":\"chest_supported_incline_dumbbell_reverse_fly\",\"loadMode\":\"per_hand\"}",
+          "prescription": {
+            "exerciseId": "chest_supported_incline_dumbbell_reverse_fly",
+            "repRange": {
+              "lower": 12,
+              "perSide": false,
+              "upper": 15
+            },
+            "workingSets": 2
+          },
+          "progressionContext": {
+            "automaticLoadIncreasePending": false,
+            "confirmationContext": "{\"scope\":\"{\\\"exerciseId\\\":\\\"chest_supported_incline_dumbbell_reverse_fly\\\",\\\"profileId\\\":\\\"chest_supported_incline_dumbbell_reverse_fly\\\",\\\"mode\\\":\\\"available_loads\\\",\\\"loadMode\\\":\\\"per_hand\\\",\\\"configuredLoadMode\\\":\\\"per_hand\\\",\\\"configured\\\":false,\\\"availableLoads\\\":[],\\\"fixedIncrement\\\":null,\\\"plateIncrementPerSide\\\":null,\\\"realIncrement\\\":null}\",\"sets\":2,\"lower\":12,\"upper\":15,\"perSide\":false}",
+            "confirmationLoad": {
+              "kind": "numeric",
+              "mode": "per_hand",
+              "unit": "kg",
+              "value": 6
+            },
+            "consecutiveTopConfirmations": 0,
+            "deferredIncrease": null,
+            "equipmentSetupRequired": false,
+            "increaseMessage": null,
+            "increaseWarningRequired": false,
+            "loadIncreaseDue": false,
+            "masteredLoad": null,
+            "progressionBlocked": false,
+            "proposedLoad": null,
+            "recentLoadIncrease": false,
+            "reviewRequired": false
+          },
+          "sessionId": "phase_3-phase3_strength_b-4",
+          "sourceExerciseId": "reverse_pec_deck",
+          "sourceLoad": {
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 6
+          }
+        },
+        {
+          "actualResult": {
+            "load": {
+              "kind": "numeric",
+              "mode": "per_hand",
+              "unit": "kg",
+              "value": 6
+            },
+            "reps": [
+              13,
+              13
+            ]
+          },
+          "completedAt": "2026-09-21T06:09:26.373Z",
+          "equipmentProfileKey": "{\"variantId\":\"chest_supported_incline_dumbbell_reverse_fly\",\"profileId\":\"chest_supported_incline_dumbbell_reverse_fly\",\"loadMode\":\"per_hand\"}",
+          "prescription": {
+            "exerciseId": "chest_supported_incline_dumbbell_reverse_fly",
+            "repRange": {
+              "lower": 12,
+              "perSide": false,
+              "upper": 15
+            },
+            "workingSets": 2
+          },
+          "progressionContext": {
+            "automaticLoadIncreasePending": false,
+            "confirmationContext": "{\"scope\":\"{\\\"exerciseId\\\":\\\"chest_supported_incline_dumbbell_reverse_fly\\\",\\\"profileId\\\":\\\"chest_supported_incline_dumbbell_reverse_fly\\\",\\\"mode\\\":\\\"available_loads\\\",\\\"loadMode\\\":\\\"per_hand\\\",\\\"configuredLoadMode\\\":\\\"per_hand\\\",\\\"configured\\\":false,\\\"availableLoads\\\":[],\\\"fixedIncrement\\\":null,\\\"plateIncrementPerSide\\\":null,\\\"realIncrement\\\":null}\",\"sets\":2,\"lower\":12,\"upper\":15,\"perSide\":false}",
+            "confirmationLoad": {
+              "kind": "numeric",
+              "mode": "per_hand",
+              "unit": "kg",
+              "value": 6
+            },
+            "consecutiveTopConfirmations": 0,
+            "deferredIncrease": null,
+            "equipmentSetupRequired": false,
+            "increaseMessage": null,
+            "increaseWarningRequired": false,
+            "loadIncreaseDue": false,
+            "masteredLoad": null,
+            "progressionBlocked": false,
+            "proposedLoad": null,
+            "recentLoadIncrease": false,
+            "reviewRequired": false
+          },
+          "sessionId": "phase_3-phase3_strength_b-6",
+          "sourceExerciseId": "reverse_pec_deck",
+          "sourceLoad": {
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 6
+          }
+        },
+        {
+          "actualResult": {
+            "load": {
+              "kind": "numeric",
+              "mode": "per_hand",
+              "unit": "kg",
+              "value": 6
+            },
+            "reps": [
+              14,
+              14
+            ]
+          },
+          "completedAt": "2026-10-04T02:06:59.060Z",
+          "equipmentProfileKey": "{\"variantId\":\"chest_supported_incline_dumbbell_reverse_fly\",\"profileId\":\"chest_supported_incline_dumbbell_reverse_fly\",\"loadMode\":\"per_hand\"}",
+          "prescription": {
+            "exerciseId": "chest_supported_incline_dumbbell_reverse_fly",
+            "repRange": {
+              "lower": 12,
+              "perSide": false,
+              "upper": 15
+            },
+            "workingSets": 2
+          },
+          "progressionContext": {
+            "automaticLoadIncreasePending": false,
+            "confirmationContext": "{\"scope\":\"{\\\"exerciseId\\\":\\\"chest_supported_incline_dumbbell_reverse_fly\\\",\\\"profileId\\\":\\\"chest_supported_incline_dumbbell_reverse_fly\\\",\\\"mode\\\":\\\"available_loads\\\",\\\"loadMode\\\":\\\"per_hand\\\",\\\"configuredLoadMode\\\":\\\"per_hand\\\",\\\"configured\\\":false,\\\"availableLoads\\\":[],\\\"fixedIncrement\\\":null,\\\"plateIncrementPerSide\\\":null,\\\"realIncrement\\\":null}\",\"sets\":2,\"lower\":12,\"upper\":15,\"perSide\":false}",
+            "confirmationLoad": {
+              "kind": "numeric",
+              "mode": "per_hand",
+              "unit": "kg",
+              "value": 6
+            },
+            "consecutiveTopConfirmations": 0,
+            "deferredIncrease": null,
+            "equipmentSetupRequired": false,
+            "increaseMessage": null,
+            "increaseWarningRequired": false,
+            "loadIncreaseDue": false,
+            "masteredLoad": null,
+            "progressionBlocked": false,
+            "proposedLoad": null,
+            "recentLoadIncrease": false,
+            "reviewRequired": false
+          },
+          "sessionId": "phase_3-phase3_strength_b-8",
+          "sourceExerciseId": "reverse_pec_deck",
+          "sourceLoad": {
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 6
+          }
+        },
+        {
+          "actualResult": {
+            "load": {
+              "kind": "numeric",
+              "mode": "per_hand",
+              "unit": "kg",
+              "value": 6
+            },
+            "reps": [
+              15,
+              15
+            ]
+          },
+          "completedAt": "2026-10-08T04:27:50.382Z",
+          "equipmentProfileKey": "{\"variantId\":\"chest_supported_incline_dumbbell_reverse_fly\",\"profileId\":\"chest_supported_incline_dumbbell_reverse_fly\",\"loadMode\":\"per_hand\"}",
+          "prescription": {
+            "exerciseId": "chest_supported_incline_dumbbell_reverse_fly",
+            "repRange": {
+              "lower": 12,
+              "perSide": false,
+              "upper": 15
+            },
+            "workingSets": 2
+          },
+          "progressionContext": {
+            "automaticLoadIncreasePending": false,
+            "confirmationContext": "{\"scope\":\"{\\\"exerciseId\\\":\\\"chest_supported_incline_dumbbell_reverse_fly\\\",\\\"profileId\\\":\\\"chest_supported_incline_dumbbell_reverse_fly\\\",\\\"mode\\\":\\\"available_loads\\\",\\\"loadMode\\\":\\\"per_hand\\\",\\\"configuredLoadMode\\\":\\\"per_hand\\\",\\\"configured\\\":false,\\\"availableLoads\\\":[],\\\"fixedIncrement\\\":null,\\\"plateIncrementPerSide\\\":null,\\\"realIncrement\\\":null}\",\"sets\":2,\"lower\":12,\"upper\":15,\"perSide\":false}",
+            "confirmationLoad": {
+              "kind": "numeric",
+              "mode": "per_hand",
+              "unit": "kg",
+              "value": 6
+            },
+            "consecutiveTopConfirmations": 1,
+            "deferredIncrease": null,
+            "equipmentSetupRequired": false,
+            "increaseMessage": null,
+            "increaseWarningRequired": false,
+            "loadIncreaseDue": false,
+            "masteredLoad": null,
+            "progressionBlocked": false,
+            "proposedLoad": null,
+            "recentLoadIncrease": false,
+            "reviewRequired": false
+          },
+          "sessionId": "phase_3-phase3_strength_b-10",
+          "sourceExerciseId": "reverse_pec_deck",
+          "sourceLoad": {
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 6
+          }
+        }
+      ],
+      "latestCompleted": {
+        "actualResult": {
+          "load": {
+            "kind": "numeric",
+            "mode": "per_hand",
+            "unit": "kg",
+            "value": 6
+          },
+          "reps": [
+            15,
+            15
+          ]
+        },
+        "completedAt": "2026-10-08T04:27:50.382Z",
+        "equipmentProfileKey": "{\"variantId\":\"chest_supported_incline_dumbbell_reverse_fly\",\"profileId\":\"chest_supported_incline_dumbbell_reverse_fly\",\"loadMode\":\"per_hand\"}",
+        "prescription": {
+          "exerciseId": "chest_supported_incline_dumbbell_reverse_fly",
+          "repRange": {
+            "lower": 12,
+            "perSide": false,
+            "upper": 15
+          },
+          "workingSets": 2
+        },
+        "progressionContext": {
+          "automaticLoadIncreasePending": false,
+          "confirmationContext": "{\"scope\":\"{\\\"exerciseId\\\":\\\"chest_supported_incline_dumbbell_reverse_fly\\\",\\\"profileId\\\":\\\"chest_supported_incline_dumbbell_reverse_fly\\\",\\\"mode\\\":\\\"available_loads\\\",\\\"loadMode\\\":\\\"per_hand\\\",\\\"configuredLoadMode\\\":\\\"per_hand\\\",\\\"configured\\\":false,\\\"availableLoads\\\":[],\\\"fixedIncrement\\\":null,\\\"plateIncrementPerSide\\\":null,\\\"realIncrement\\\":null}\",\"sets\":2,\"lower\":12,\"upper\":15,\"perSide\":false}",
+          "confirmationLoad": {
+            "kind": "numeric",
+            "mode": "per_hand",
+            "unit": "kg",
+            "value": 6
+          },
+          "consecutiveTopConfirmations": 1,
+          "deferredIncrease": null,
+          "equipmentSetupRequired": false,
+          "increaseMessage": null,
+          "increaseWarningRequired": false,
+          "loadIncreaseDue": false,
+          "masteredLoad": null,
+          "progressionBlocked": false,
+          "proposedLoad": null,
+          "recentLoadIncrease": false,
+          "reviewRequired": false
+        },
+        "sessionId": "phase_3-phase3_strength_b-10",
+        "sourceExerciseId": "reverse_pec_deck",
+        "sourceLoad": {
+          "kind": "numeric",
+          "mode": "total",
+          "unit": "kg",
+          "value": 6
+        }
+      },
+      "learnedEquipmentIncrement": {
+        "learnedIncrement": null,
+        "observations": [
+          {
+            "completedAt": "2026-09-05T05:44:10.576Z",
+            "sessionId": "phase_3-phase3_strength_b-2",
+            "value": 6
+          }
+        ],
+        "scope": "{\"exerciseId\":\"chest_supported_incline_dumbbell_reverse_fly\",\"profileId\":\"chest_supported_incline_dumbbell_reverse_fly\",\"mode\":\"available_loads\",\"loadMode\":\"per_hand\",\"configuredLoadMode\":\"per_hand\",\"configured\":false,\"availableLoads\":[],\"fixedIncrement\":null,\"plateIncrementPerSide\":null,\"realIncrement\":null}"
+      },
+      "manualEquipmentStep": null,
+      "retainedTarget": {
+        "exerciseId": "chest_supported_incline_dumbbell_reverse_fly",
+        "generatedTarget": {
+          "load": {
+            "kind": "numeric",
+            "mode": "per_hand",
+            "unit": "kg",
+            "value": 6
+          },
+          "reps": [
+            15,
+            15
+          ]
+        },
+        "prescription": {
+          "exerciseId": "chest_supported_incline_dumbbell_reverse_fly",
+          "repRange": {
+            "lower": 12,
+            "perSide": false,
+            "upper": 15
+          },
+          "workingSets": 2
+        },
+        "previousResult": {
+          "load": {
+            "kind": "numeric",
+            "mode": "per_hand",
+            "unit": "kg",
+            "value": 6
+          },
+          "reps": [
+            15,
+            15
+          ]
+        },
+        "progressionContext": {
+          "automaticLoadIncreasePending": false,
+          "confirmationContext": "{\"scope\":\"{\\\"exerciseId\\\":\\\"chest_supported_incline_dumbbell_reverse_fly\\\",\\\"profileId\\\":\\\"chest_supported_incline_dumbbell_reverse_fly\\\",\\\"mode\\\":\\\"available_loads\\\",\\\"loadMode\\\":\\\"per_hand\\\",\\\"configuredLoadMode\\\":\\\"per_hand\\\",\\\"configured\\\":false,\\\"availableLoads\\\":[],\\\"fixedIncrement\\\":null,\\\"plateIncrementPerSide\\\":null,\\\"realIncrement\\\":null}\",\"sets\":2,\"lower\":12,\"upper\":15,\"perSide\":false}",
+          "confirmationLoad": {
+            "kind": "numeric",
+            "mode": "per_hand",
+            "unit": "kg",
+            "value": 6
+          },
+          "consecutiveTopConfirmations": 1,
+          "deferredIncrease": null,
+          "equipmentSetupRequired": false,
+          "increaseMessage": null,
+          "increaseWarningRequired": false,
+          "loadIncreaseDue": false,
+          "masteredLoad": null,
+          "progressionBlocked": false,
+          "proposedLoad": null,
+          "recentLoadIncrease": false,
+          "reviewRequired": false
+        },
+        "sourceCompletedAt": "2026-10-08T04:27:50.382Z",
+        "workingTarget": {
+          "load": {
+            "kind": "numeric",
+            "mode": "per_hand",
+            "unit": "kg",
+            "value": 6
+          },
+          "reps": [
+            15,
+            15
+          ]
+        }
+      },
+      "tracks": {},
+      "variantId": "chest_supported_incline_dumbbell_reverse_fly"
+    },
+    "{\"variantId\":\"loaded_dead_bug_dumbbells\",\"profileId\":\"loaded_dead_bug_dumbbells\",\"loadMode\":\"per_hand\"}": {
+      "baselineConfirmedAt": "2026-09-21T06:09:26.373Z",
+      "baselineLoad": {
+        "kind": "numeric",
+        "mode": "per_hand",
+        "unit": "kg",
+        "value": 2.5
+      },
+      "equipmentProfileKey": "{\"variantId\":\"loaded_dead_bug_dumbbells\",\"profileId\":\"loaded_dead_bug_dumbbells\",\"loadMode\":\"per_hand\"}",
+      "history": [
+        {
+          "actualResult": {
+            "load": {
+              "kind": "numeric",
+              "mode": "per_hand",
+              "unit": "kg",
+              "value": 2.5
+            },
+            "reps": [
+              15,
+              15
+            ]
+          },
+          "completedAt": "2026-09-21T06:09:26.373Z",
+          "equipmentProfileKey": "{\"variantId\":\"loaded_dead_bug_dumbbells\",\"profileId\":\"loaded_dead_bug_dumbbells\",\"loadMode\":\"per_hand\"}",
+          "prescription": {
+            "exerciseId": "loaded_dead_bug_dumbbells",
+            "repRange": {
+              "lower": 8,
+              "perSide": true,
+              "upper": 12
+            },
+            "workingSets": 2
+          },
+          "progressionContext": {
+            "automaticLoadIncreasePending": false,
+            "confirmationContext": "{\"scope\":\"{\\\"exerciseId\\\":\\\"loaded_dead_bug_dumbbells\\\",\\\"profileId\\\":\\\"loaded_dead_bug_dumbbells\\\",\\\"mode\\\":\\\"available_loads\\\",\\\"loadMode\\\":\\\"per_hand\\\",\\\"configuredLoadMode\\\":\\\"per_hand\\\",\\\"configured\\\":false,\\\"availableLoads\\\":[],\\\"fixedIncrement\\\":null,\\\"plateIncrementPerSide\\\":null,\\\"realIncrement\\\":null}\",\"sets\":2,\"lower\":8,\"upper\":12,\"perSide\":true}",
+            "confirmationLoad": {
+              "kind": "numeric",
+              "mode": "per_hand",
+              "unit": "kg",
+              "value": 2.5
+            },
+            "consecutiveTopConfirmations": 1,
+            "deferredIncrease": null,
+            "equipmentSetupRequired": false,
+            "increaseMessage": null,
+            "increaseWarningRequired": false,
+            "loadIncreaseDue": false,
+            "masteredLoad": null,
+            "progressionBlocked": false,
+            "proposedLoad": null,
+            "recentLoadIncrease": false,
+            "reviewRequired": false
+          },
+          "sessionId": "phase_3-phase3_strength_b-6",
+          "sourceExerciseId": "dead_bug",
+          "sourceLoad": {
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 2.5
+          }
+        },
+        {
+          "actualResult": {
+            "load": {
+              "kind": "numeric",
+              "mode": "per_hand",
+              "unit": "kg",
+              "value": 2.5
+            },
+            "reps": [
+              15,
+              15
+            ]
+          },
+          "completedAt": "2026-10-04T02:06:59.060Z",
+          "equipmentProfileKey": "{\"variantId\":\"loaded_dead_bug_dumbbells\",\"profileId\":\"loaded_dead_bug_dumbbells\",\"loadMode\":\"per_hand\"}",
+          "prescription": {
+            "exerciseId": "loaded_dead_bug_dumbbells",
+            "repRange": {
+              "lower": 8,
+              "perSide": true,
+              "upper": 12
+            },
+            "workingSets": 2
+          },
+          "progressionContext": {
+            "automaticLoadIncreasePending": false,
+            "confirmationContext": "{\"scope\":\"{\\\"exerciseId\\\":\\\"loaded_dead_bug_dumbbells\\\",\\\"profileId\\\":\\\"loaded_dead_bug_dumbbells\\\",\\\"mode\\\":\\\"available_loads\\\",\\\"loadMode\\\":\\\"per_hand\\\",\\\"configuredLoadMode\\\":\\\"per_hand\\\",\\\"configured\\\":false,\\\"availableLoads\\\":[],\\\"fixedIncrement\\\":null,\\\"plateIncrementPerSide\\\":null,\\\"realIncrement\\\":null}\",\"sets\":2,\"lower\":8,\"upper\":12,\"perSide\":true}",
+            "confirmationLoad": {
+              "kind": "numeric",
+              "mode": "per_hand",
+              "unit": "kg",
+              "value": 2.5
+            },
+            "consecutiveTopConfirmations": 2,
+            "deferredIncrease": null,
+            "equipmentSetupRequired": false,
+            "increaseMessage": null,
+            "increaseWarningRequired": false,
+            "loadIncreaseDue": false,
+            "masteredLoad": null,
+            "progressionBlocked": false,
+            "proposedLoad": null,
+            "recentLoadIncrease": false,
+            "reviewRequired": false
+          },
+          "sessionId": "phase_3-phase3_strength_b-8",
+          "sourceExerciseId": "dead_bug",
+          "sourceLoad": {
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 2.5
+          }
+        },
+        {
+          "actualResult": {
+            "load": {
+              "kind": "numeric",
+              "mode": "per_hand",
+              "unit": "kg",
+              "value": 2.5
+            },
+            "reps": [
+              12,
+              12
+            ]
+          },
+          "completedAt": "2026-10-08T04:27:50.382Z",
+          "equipmentProfileKey": "{\"variantId\":\"loaded_dead_bug_dumbbells\",\"profileId\":\"loaded_dead_bug_dumbbells\",\"loadMode\":\"per_hand\"}",
+          "prescription": {
+            "exerciseId": "loaded_dead_bug_dumbbells",
+            "repRange": {
+              "lower": 8,
+              "perSide": true,
+              "upper": 12
+            },
+            "workingSets": 2
+          },
+          "progressionContext": {
+            "automaticLoadIncreasePending": false,
+            "confirmationContext": "{\"scope\":\"{\\\"exerciseId\\\":\\\"loaded_dead_bug_dumbbells\\\",\\\"profileId\\\":\\\"loaded_dead_bug_dumbbells\\\",\\\"mode\\\":\\\"available_loads\\\",\\\"loadMode\\\":\\\"per_hand\\\",\\\"configuredLoadMode\\\":\\\"per_hand\\\",\\\"configured\\\":false,\\\"availableLoads\\\":[],\\\"fixedIncrement\\\":null,\\\"plateIncrementPerSide\\\":null,\\\"realIncrement\\\":null}\",\"sets\":2,\"lower\":8,\"upper\":12,\"perSide\":true}",
+            "confirmationLoad": {
+              "kind": "numeric",
+              "mode": "per_hand",
+              "unit": "kg",
+              "value": 2.5
+            },
+            "consecutiveTopConfirmations": 3,
+            "deferredIncrease": null,
+            "equipmentSetupRequired": false,
+            "increaseMessage": null,
+            "increaseWarningRequired": false,
+            "loadIncreaseDue": true,
+            "masteredLoad": {
+              "kind": "numeric",
+              "mode": "per_hand",
+              "unit": "kg",
+              "value": 2.5
+            },
+            "progressionBlocked": false,
+            "proposedLoad": null,
+            "recentLoadIncrease": false,
+            "reviewRequired": false
+          },
+          "sessionId": "phase_3-phase3_strength_b-10",
+          "sourceExerciseId": "dead_bug",
+          "sourceLoad": {
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 2.5
+          }
+        }
+      ],
+      "latestCompleted": {
+        "actualResult": {
+          "load": {
+            "kind": "numeric",
+            "mode": "per_hand",
+            "unit": "kg",
+            "value": 2.5
+          },
+          "reps": [
+            12,
+            12
+          ]
+        },
+        "completedAt": "2026-10-08T04:27:50.382Z",
+        "equipmentProfileKey": "{\"variantId\":\"loaded_dead_bug_dumbbells\",\"profileId\":\"loaded_dead_bug_dumbbells\",\"loadMode\":\"per_hand\"}",
+        "prescription": {
+          "exerciseId": "loaded_dead_bug_dumbbells",
+          "repRange": {
+            "lower": 8,
+            "perSide": true,
+            "upper": 12
+          },
+          "workingSets": 2
+        },
+        "progressionContext": {
+          "automaticLoadIncreasePending": false,
+          "confirmationContext": "{\"scope\":\"{\\\"exerciseId\\\":\\\"loaded_dead_bug_dumbbells\\\",\\\"profileId\\\":\\\"loaded_dead_bug_dumbbells\\\",\\\"mode\\\":\\\"available_loads\\\",\\\"loadMode\\\":\\\"per_hand\\\",\\\"configuredLoadMode\\\":\\\"per_hand\\\",\\\"configured\\\":false,\\\"availableLoads\\\":[],\\\"fixedIncrement\\\":null,\\\"plateIncrementPerSide\\\":null,\\\"realIncrement\\\":null}\",\"sets\":2,\"lower\":8,\"upper\":12,\"perSide\":true}",
+          "confirmationLoad": {
+            "kind": "numeric",
+            "mode": "per_hand",
+            "unit": "kg",
+            "value": 2.5
+          },
+          "consecutiveTopConfirmations": 3,
+          "deferredIncrease": null,
+          "equipmentSetupRequired": false,
+          "increaseMessage": null,
+          "increaseWarningRequired": false,
+          "loadIncreaseDue": true,
+          "masteredLoad": {
+            "kind": "numeric",
+            "mode": "per_hand",
+            "unit": "kg",
+            "value": 2.5
+          },
+          "progressionBlocked": false,
+          "proposedLoad": null,
+          "recentLoadIncrease": false,
+          "reviewRequired": false
+        },
+        "sessionId": "phase_3-phase3_strength_b-10",
+        "sourceExerciseId": "dead_bug",
+        "sourceLoad": {
+          "kind": "numeric",
+          "mode": "total",
+          "unit": "kg",
+          "value": 2.5
+        }
+      },
+      "learnedEquipmentIncrement": {
+        "learnedIncrement": null,
+        "observations": [
+          {
+            "completedAt": "2026-09-21T06:09:26.373Z",
+            "sessionId": "phase_3-phase3_strength_b-6",
+            "value": 2.5
+          }
+        ],
+        "scope": "{\"exerciseId\":\"loaded_dead_bug_dumbbells\",\"profileId\":\"loaded_dead_bug_dumbbells\",\"mode\":\"available_loads\",\"loadMode\":\"per_hand\",\"configuredLoadMode\":\"per_hand\",\"configured\":false,\"availableLoads\":[],\"fixedIncrement\":null,\"plateIncrementPerSide\":null,\"realIncrement\":null}"
+      },
+      "manualEquipmentStep": null,
+      "retainedTarget": {
+        "exerciseId": "loaded_dead_bug_dumbbells",
+        "generatedTarget": {
+          "load": {
+            "kind": "numeric",
+            "mode": "per_hand",
+            "unit": "kg",
+            "value": 2.5
+          },
+          "reps": [
+            12,
+            12
+          ]
+        },
+        "prescription": {
+          "exerciseId": "loaded_dead_bug_dumbbells",
+          "repRange": {
+            "lower": 8,
+            "perSide": true,
+            "upper": 12
+          },
+          "workingSets": 2
+        },
+        "previousResult": {
+          "load": {
+            "kind": "numeric",
+            "mode": "per_hand",
+            "unit": "kg",
+            "value": 2.5
+          },
+          "reps": [
+            12,
+            12
+          ]
+        },
+        "progressionContext": {
+          "automaticLoadIncreasePending": false,
+          "confirmationContext": "{\"scope\":\"{\\\"exerciseId\\\":\\\"loaded_dead_bug_dumbbells\\\",\\\"profileId\\\":\\\"loaded_dead_bug_dumbbells\\\",\\\"mode\\\":\\\"available_loads\\\",\\\"loadMode\\\":\\\"per_hand\\\",\\\"configuredLoadMode\\\":\\\"per_hand\\\",\\\"configured\\\":false,\\\"availableLoads\\\":[],\\\"fixedIncrement\\\":null,\\\"plateIncrementPerSide\\\":null,\\\"realIncrement\\\":null}\",\"sets\":2,\"lower\":8,\"upper\":12,\"perSide\":true}",
+          "confirmationLoad": {
+            "kind": "numeric",
+            "mode": "per_hand",
+            "unit": "kg",
+            "value": 2.5
+          },
+          "consecutiveTopConfirmations": 3,
+          "deferredIncrease": null,
+          "equipmentSetupRequired": false,
+          "increaseMessage": null,
+          "increaseWarningRequired": false,
+          "loadIncreaseDue": true,
+          "masteredLoad": {
+            "kind": "numeric",
+            "mode": "per_hand",
+            "unit": "kg",
+            "value": 2.5
+          },
+          "progressionBlocked": false,
+          "proposedLoad": null,
+          "recentLoadIncrease": false,
+          "reviewRequired": false
+        },
+        "sourceCompletedAt": "2026-10-08T04:27:50.382Z",
+        "workingTarget": {
+          "load": {
+            "kind": "numeric",
+            "mode": "per_hand",
+            "unit": "kg",
+            "value": 2.5
+          },
+          "reps": [
+            12,
+            12
+          ]
+        }
+      },
+      "tracks": {},
+      "variantId": "loaded_dead_bug_dumbbells"
+    }
   },
   "variantProgression": {
     "cable_biceps_curl": {
@@ -37816,9 +39484,83 @@
       "variantId": "chest_press"
     },
     "chest_supported_incline_dumbbell_reverse_fly": {
-      "baselineConfirmedAt": null,
-      "baselineLoad": null,
-      "retainedTarget": null,
+      "baselineConfirmedAt": "2026-09-05T05:44:10.576Z",
+      "baselineLoad": {
+        "kind": "numeric",
+        "mode": "per_hand",
+        "unit": "kg",
+        "value": 6
+      },
+      "retainedTarget": {
+        "exerciseId": "chest_supported_incline_dumbbell_reverse_fly",
+        "generatedTarget": {
+          "load": {
+            "kind": "numeric",
+            "mode": "per_hand",
+            "unit": "kg",
+            "value": 6
+          },
+          "reps": [
+            15,
+            15
+          ]
+        },
+        "prescription": {
+          "exerciseId": "chest_supported_incline_dumbbell_reverse_fly",
+          "repRange": {
+            "lower": 12,
+            "perSide": false,
+            "upper": 15
+          },
+          "workingSets": 2
+        },
+        "previousResult": {
+          "load": {
+            "kind": "numeric",
+            "mode": "per_hand",
+            "unit": "kg",
+            "value": 6
+          },
+          "reps": [
+            15,
+            15
+          ]
+        },
+        "progressionContext": {
+          "automaticLoadIncreasePending": false,
+          "confirmationContext": "{\"scope\":\"{\\\"exerciseId\\\":\\\"chest_supported_incline_dumbbell_reverse_fly\\\",\\\"profileId\\\":\\\"chest_supported_incline_dumbbell_reverse_fly\\\",\\\"mode\\\":\\\"available_loads\\\",\\\"loadMode\\\":\\\"per_hand\\\",\\\"configuredLoadMode\\\":\\\"per_hand\\\",\\\"configured\\\":false,\\\"availableLoads\\\":[],\\\"fixedIncrement\\\":null,\\\"plateIncrementPerSide\\\":null,\\\"realIncrement\\\":null}\",\"sets\":2,\"lower\":12,\"upper\":15,\"perSide\":false}",
+          "confirmationLoad": {
+            "kind": "numeric",
+            "mode": "per_hand",
+            "unit": "kg",
+            "value": 6
+          },
+          "consecutiveTopConfirmations": 1,
+          "deferredIncrease": null,
+          "equipmentSetupRequired": false,
+          "increaseMessage": null,
+          "increaseWarningRequired": false,
+          "loadIncreaseDue": false,
+          "masteredLoad": null,
+          "progressionBlocked": false,
+          "proposedLoad": null,
+          "recentLoadIncrease": false,
+          "reviewRequired": false
+        },
+        "sourceCompletedAt": "2026-10-08T04:27:50.382Z",
+        "workingTarget": {
+          "load": {
+            "kind": "numeric",
+            "mode": "per_hand",
+            "unit": "kg",
+            "value": 6
+          },
+          "reps": [
+            15,
+            15
+          ]
+        }
+      },
       "tracks": {},
       "variantId": "chest_supported_incline_dumbbell_reverse_fly"
     },
@@ -38463,9 +40205,88 @@
       "variantId": "leg_press"
     },
     "loaded_dead_bug_dumbbells": {
-      "baselineConfirmedAt": null,
-      "baselineLoad": null,
-      "retainedTarget": null,
+      "baselineConfirmedAt": "2026-09-21T06:09:26.373Z",
+      "baselineLoad": {
+        "kind": "numeric",
+        "mode": "per_hand",
+        "unit": "kg",
+        "value": 2.5
+      },
+      "retainedTarget": {
+        "exerciseId": "loaded_dead_bug_dumbbells",
+        "generatedTarget": {
+          "load": {
+            "kind": "numeric",
+            "mode": "per_hand",
+            "unit": "kg",
+            "value": 2.5
+          },
+          "reps": [
+            12,
+            12
+          ]
+        },
+        "prescription": {
+          "exerciseId": "loaded_dead_bug_dumbbells",
+          "repRange": {
+            "lower": 8,
+            "perSide": true,
+            "upper": 12
+          },
+          "workingSets": 2
+        },
+        "previousResult": {
+          "load": {
+            "kind": "numeric",
+            "mode": "per_hand",
+            "unit": "kg",
+            "value": 2.5
+          },
+          "reps": [
+            12,
+            12
+          ]
+        },
+        "progressionContext": {
+          "automaticLoadIncreasePending": false,
+          "confirmationContext": "{\"scope\":\"{\\\"exerciseId\\\":\\\"loaded_dead_bug_dumbbells\\\",\\\"profileId\\\":\\\"loaded_dead_bug_dumbbells\\\",\\\"mode\\\":\\\"available_loads\\\",\\\"loadMode\\\":\\\"per_hand\\\",\\\"configuredLoadMode\\\":\\\"per_hand\\\",\\\"configured\\\":false,\\\"availableLoads\\\":[],\\\"fixedIncrement\\\":null,\\\"plateIncrementPerSide\\\":null,\\\"realIncrement\\\":null}\",\"sets\":2,\"lower\":8,\"upper\":12,\"perSide\":true}",
+          "confirmationLoad": {
+            "kind": "numeric",
+            "mode": "per_hand",
+            "unit": "kg",
+            "value": 2.5
+          },
+          "consecutiveTopConfirmations": 3,
+          "deferredIncrease": null,
+          "equipmentSetupRequired": false,
+          "increaseMessage": null,
+          "increaseWarningRequired": false,
+          "loadIncreaseDue": true,
+          "masteredLoad": {
+            "kind": "numeric",
+            "mode": "per_hand",
+            "unit": "kg",
+            "value": 2.5
+          },
+          "progressionBlocked": false,
+          "proposedLoad": null,
+          "recentLoadIncrease": false,
+          "reviewRequired": false
+        },
+        "sourceCompletedAt": "2026-10-08T04:27:50.382Z",
+        "workingTarget": {
+          "load": {
+            "kind": "numeric",
+            "mode": "per_hand",
+            "unit": "kg",
+            "value": 2.5
+          },
+          "reps": [
+            12,
+            12
+          ]
+        }
+      },
       "tracks": {},
       "variantId": "loaded_dead_bug_dumbbells"
     },
