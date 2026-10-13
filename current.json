@@ -4953,9 +4953,20 @@
     },
     {
       "activeVariantId": "leg_extension",
-      "actualResult": null,
-      "actualSetCount": null,
-      "completed": false,
+      "actualResult": {
+        "load": {
+          "kind": "numeric",
+          "mode": "total",
+          "unit": "kg",
+          "value": 70
+        },
+        "reps": [
+          13,
+          13
+        ]
+      },
+      "actualSetCount": 2,
+      "completed": true,
       "currentSessionOverride": null,
       "edited": false,
       "exerciseFamilyId": "knee_extension",
@@ -4978,7 +4989,7 @@
       "issueNotes": null,
       "name": "Leg Extension",
       "order": 2,
-      "outcome": "planned",
+      "outcome": "completed",
       "persistentPrimaryVariantId": "leg_extension",
       "plannedPrimaryVariantId": "leg_extension",
       "prescription": {
@@ -6754,9 +6765,20 @@
       },
       {
         "activeVariantId": "leg_extension",
-        "actualResult": null,
-        "actualSetCount": null,
-        "completed": false,
+        "actualResult": {
+          "load": {
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 70
+          },
+          "reps": [
+            13,
+            13
+          ]
+        },
+        "actualSetCount": 2,
+        "completed": true,
         "currentSessionOverride": null,
         "edited": false,
         "exerciseFamilyId": "knee_extension",
@@ -6779,7 +6801,7 @@
         "issueNotes": null,
         "name": "Leg Extension",
         "order": 2,
-        "outcome": "planned",
+        "outcome": "completed",
         "persistentPrimaryVariantId": "leg_extension",
         "plannedPrimaryVariantId": "leg_extension",
         "prescription": {
@@ -15321,7 +15343,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-10-13T08:05:33.175Z",
+  "responseGeneratedAt": "2026-10-13T08:13:22.936Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -38168,7 +38190,7 @@
   ],
   "sessionIssues": [],
   "slotSelections": {},
-  "sourceStateUpdatedAt": "2026-10-13T08:04:57.634Z",
+  "sourceStateUpdatedAt": "2026-10-13T08:12:46.624Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
