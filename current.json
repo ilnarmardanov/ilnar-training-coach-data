@@ -4780,7 +4780,7 @@
       "name": "Pendulum Squat",
       "order": 1,
       "outcome": "planned",
-      "persistentPrimaryVariantId": "supported_step_up",
+      "persistentPrimaryVariantId": "pendulum_squat",
       "plannedPrimaryVariantId": "pendulum_squat",
       "prescription": {
         "exerciseId": "pendulum_squat",
@@ -4804,7 +4804,7 @@
           10
         ]
       },
-      "programmedVariantId": "supported_step_up",
+      "programmedVariantId": "pendulum_squat",
       "progressionContext": {
         "automaticLoadIncreasePending": false,
         "confirmationContext": "{\"scope\":\"{\\\"exerciseId\\\":\\\"pendulum_squat\\\",\\\"profileId\\\":\\\"pendulum_squat\\\",\\\"mode\\\":\\\"available_loads\\\",\\\"loadMode\\\":\\\"per_side\\\",\\\"configuredLoadMode\\\":\\\"per_side\\\",\\\"configured\\\":true,\\\"availableLoads\\\":[0],\\\"fixedIncrement\\\":null,\\\"plateIncrementPerSide\\\":null,\\\"realIncrement\\\":null}\",\"sets\":3,\"lower\":8,\"upper\":10,\"perSide\":true}",
@@ -6557,7 +6557,7 @@
         "name": "Pendulum Squat",
         "order": 1,
         "outcome": "planned",
-        "persistentPrimaryVariantId": "supported_step_up",
+        "persistentPrimaryVariantId": "pendulum_squat",
         "plannedPrimaryVariantId": "pendulum_squat",
         "prescription": {
           "exerciseId": "pendulum_squat",
@@ -6581,7 +6581,7 @@
             10
           ]
         },
-        "programmedVariantId": "supported_step_up",
+        "programmedVariantId": "pendulum_squat",
         "progressionContext": {
           "automaticLoadIncreasePending": false,
           "confirmationContext": "{\"scope\":\"{\\\"exerciseId\\\":\\\"pendulum_squat\\\",\\\"profileId\\\":\\\"pendulum_squat\\\",\\\"mode\\\":\\\"available_loads\\\",\\\"loadMode\\\":\\\"per_side\\\",\\\"configuredLoadMode\\\":\\\"per_side\\\",\\\"configured\\\":true,\\\"availableLoads\\\":[0],\\\"fixedIncrement\\\":null,\\\"plateIncrementPerSide\\\":null,\\\"realIncrement\\\":null}\",\"sets\":3,\"lower\":8,\"upper\":10,\"perSide\":true}",
@@ -14855,6 +14855,7 @@
     "exercises": [
       {
         "exerciseId": "leg_press",
+        "programmedVariantId": "leg_press",
         "repRange": {
           "lower": 8,
           "perSide": false,
@@ -14864,6 +14865,7 @@
       },
       {
         "exerciseId": "seated_leg_curl",
+        "programmedVariantId": "seated_leg_curl",
         "repRange": {
           "lower": 10,
           "perSide": false,
@@ -14873,6 +14875,7 @@
       },
       {
         "exerciseId": "chest_press",
+        "programmedVariantId": "chest_press",
         "repRange": {
           "lower": 8,
           "perSide": false,
@@ -14882,6 +14885,7 @@
       },
       {
         "exerciseId": "low_row",
+        "programmedVariantId": "low_row",
         "repRange": {
           "lower": 8,
           "perSide": false,
@@ -14891,6 +14895,7 @@
       },
       {
         "exerciseId": "hip_thrust",
+        "programmedVariantId": "hip_thrust",
         "repRange": {
           "lower": 10,
           "perSide": false,
@@ -14900,6 +14905,7 @@
       },
       {
         "exerciseId": "machine_lateral_raise",
+        "programmedVariantId": "machine_lateral_raise",
         "repRange": {
           "lower": 12,
           "perSide": false,
@@ -14909,6 +14915,7 @@
       },
       {
         "exerciseId": "supported_single_leg_dumbbell_calf_raise",
+        "programmedVariantId": "supported_single_leg_dumbbell_calf_raise",
         "repRange": {
           "lower": 10,
           "perSide": true,
@@ -14918,6 +14925,7 @@
       },
       {
         "exerciseId": "pallof_press",
+        "programmedVariantId": "pallof_press",
         "repRange": {
           "lower": 8,
           "perSide": true,
@@ -15055,6 +15063,40 @@
     "weightGainTargetKgPerWeek": {
       "maximum": 0.3,
       "minimum": 0.15
+    }
+  },
+  "programSlotRequirements": {
+    "annualProgramVersion": "1.0.0",
+    "programVersion": "1.3.0",
+    "slots": {
+      "phase2_strength_b:1": {
+        "reason": "locked_strength_b_primary_2026-07-24",
+        "variantId": "pendulum_squat"
+      },
+      "phase3_strength_b:1": {
+        "reason": "locked_strength_b_primary_2026-07-24",
+        "variantId": "pendulum_squat"
+      },
+      "phase4_strength_b:1": {
+        "reason": "locked_strength_b_primary_2026-07-24",
+        "variantId": "pendulum_squat"
+      },
+      "phase5_strength_b:1": {
+        "reason": "locked_strength_b_primary_2026-07-24",
+        "variantId": "pendulum_squat"
+      },
+      "phase6_moderate_b:1": {
+        "reason": "locked_strength_b_primary_2026-07-24",
+        "variantId": "pendulum_squat"
+      },
+      "phase7_specialization_b:1": {
+        "reason": "locked_strength_b_primary_2026-07-24",
+        "variantId": "pendulum_squat"
+      },
+      "phase8_consolidation_b:1": {
+        "reason": "locked_strength_b_primary_2026-07-24",
+        "variantId": "pendulum_squat"
+      }
     }
   },
   "programState": {
@@ -15231,7 +15273,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-10-13T04:40:47.148Z",
+  "responseGeneratedAt": "2026-10-13T06:09:33.771Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -38078,7 +38120,7 @@
   ],
   "sessionIssues": [],
   "slotSelections": {},
-  "sourceStateUpdatedAt": "2026-10-13T04:40:06.583Z",
+  "sourceStateUpdatedAt": "2026-10-13T06:08:59.058Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
