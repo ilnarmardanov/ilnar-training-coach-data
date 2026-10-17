@@ -6717,7 +6717,7 @@
       "actualSetCount": null,
       "completed": false,
       "currentSessionOverride": null,
-      "edited": true,
+      "edited": false,
       "exerciseFamilyId": "plantar_flexion",
       "exerciseId": "supported_single_leg_dumbbell_calf_raise",
       "exerciseNote": null,
@@ -6942,16 +6942,27 @@
           "value": 20
         },
         "reps": [
-          12,
-          12
+          13,
+          13
         ]
       }
     },
     {
       "activeVariantId": "pallof_press",
-      "actualResult": null,
-      "actualSetCount": null,
-      "completed": false,
+      "actualResult": {
+        "load": {
+          "kind": "numeric",
+          "mode": "total",
+          "unit": "kg",
+          "value": 20
+        },
+        "reps": [
+          12,
+          12
+        ]
+      },
+      "actualSetCount": 2,
+      "completed": true,
       "currentSessionOverride": null,
       "edited": true,
       "exerciseFamilyId": "anti_rotation",
@@ -6974,7 +6985,7 @@
       "issueNotes": null,
       "name": "Pallof Press",
       "order": 8,
-      "outcome": "planned",
+      "outcome": "completed",
       "persistentPrimaryVariantId": "pallof_press",
       "plannedPrimaryVariantId": "pallof_press",
       "prescription": {
@@ -8772,7 +8783,7 @@
         "actualSetCount": null,
         "completed": false,
         "currentSessionOverride": null,
-        "edited": true,
+        "edited": false,
         "exerciseFamilyId": "plantar_flexion",
         "exerciseId": "supported_single_leg_dumbbell_calf_raise",
         "exerciseNote": null,
@@ -8997,16 +9008,27 @@
             "value": 20
           },
           "reps": [
-            12,
-            12
+            13,
+            13
           ]
         }
       },
       {
         "activeVariantId": "pallof_press",
-        "actualResult": null,
-        "actualSetCount": null,
-        "completed": false,
+        "actualResult": {
+          "load": {
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 20
+          },
+          "reps": [
+            12,
+            12
+          ]
+        },
+        "actualSetCount": 2,
+        "completed": true,
         "currentSessionOverride": null,
         "edited": true,
         "exerciseFamilyId": "anti_rotation",
@@ -9029,7 +9051,7 @@
         "issueNotes": null,
         "name": "Pallof Press",
         "order": 8,
-        "outcome": "planned",
+        "outcome": "completed",
         "persistentPrimaryVariantId": "pallof_press",
         "plannedPrimaryVariantId": "pallof_press",
         "prescription": {
@@ -16224,7 +16246,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-10-17T07:43:54.610Z",
+  "responseGeneratedAt": "2026-10-17T07:44:52.010Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -40198,7 +40220,7 @@
   ],
   "sessionIssues": [],
   "slotSelections": {},
-  "sourceStateUpdatedAt": "2026-10-17T07:43:40.329Z",
+  "sourceStateUpdatedAt": "2026-10-17T07:43:54.846Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
