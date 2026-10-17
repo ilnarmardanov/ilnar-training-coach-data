@@ -6717,7 +6717,7 @@
       "actualSetCount": null,
       "completed": false,
       "currentSessionOverride": null,
-      "edited": false,
+      "edited": true,
       "exerciseFamilyId": "plantar_flexion",
       "exerciseId": "supported_single_leg_dumbbell_calf_raise",
       "exerciseNote": null,
@@ -6942,8 +6942,8 @@
           "value": 20
         },
         "reps": [
-          13,
-          13
+          12,
+          12
         ]
       }
     },
@@ -6953,7 +6953,7 @@
       "actualSetCount": null,
       "completed": false,
       "currentSessionOverride": null,
-      "edited": false,
+      "edited": true,
       "exerciseFamilyId": "anti_rotation",
       "exerciseId": "pallof_press",
       "exerciseNote": null,
@@ -7174,11 +7174,11 @@
           "kind": "numeric",
           "mode": "total",
           "unit": "kg",
-          "value": 36.3
+          "value": 20
         },
         "reps": [
-          9,
-          9
+          12,
+          12
         ]
       }
     }
@@ -8772,7 +8772,7 @@
         "actualSetCount": null,
         "completed": false,
         "currentSessionOverride": null,
-        "edited": false,
+        "edited": true,
         "exerciseFamilyId": "plantar_flexion",
         "exerciseId": "supported_single_leg_dumbbell_calf_raise",
         "exerciseNote": null,
@@ -8997,8 +8997,8 @@
             "value": 20
           },
           "reps": [
-            13,
-            13
+            12,
+            12
           ]
         }
       },
@@ -9008,7 +9008,7 @@
         "actualSetCount": null,
         "completed": false,
         "currentSessionOverride": null,
-        "edited": false,
+        "edited": true,
         "exerciseFamilyId": "anti_rotation",
         "exerciseId": "pallof_press",
         "exerciseNote": null,
@@ -9229,11 +9229,11 @@
             "kind": "numeric",
             "mode": "total",
             "unit": "kg",
-            "value": 36.3
+            "value": 20
           },
           "reps": [
-            9,
-            9
+            12,
+            12
           ]
         }
       }
@@ -16224,7 +16224,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-10-17T07:40:10.702Z",
+  "responseGeneratedAt": "2026-10-17T07:43:54.610Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -40198,7 +40198,7 @@
   ],
   "sessionIssues": [],
   "slotSelections": {},
-  "sourceStateUpdatedAt": "2026-10-17T07:39:31.834Z",
+  "sourceStateUpdatedAt": "2026-10-17T07:43:40.329Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
