@@ -5203,9 +5203,9 @@
           "value": 5
         },
         "reps": [
-          1,
-          1,
-          1
+          10,
+          10,
+          10
         ]
       },
       "actualSetCount": 3,
@@ -5427,9 +5427,9 @@
           "value": 5
         },
         "reps": [
-          1,
-          1,
-          1
+          10,
+          10,
+          10
         ]
       }
     },
@@ -6336,21 +6336,9 @@
     },
     {
       "activeVariantId": "hip_thrust",
-      "actualResult": {
-        "load": {
-          "kind": "numeric",
-          "mode": "total",
-          "unit": "kg",
-          "value": 75
-        },
-        "reps": [
-          15,
-          15,
-          15
-        ]
-      },
-      "actualSetCount": 3,
-      "completed": true,
+      "actualResult": null,
+      "actualSetCount": null,
+      "completed": false,
       "currentSessionOverride": null,
       "edited": false,
       "exerciseFamilyId": "hip_extension",
@@ -6374,7 +6362,7 @@
       "issueNotes": null,
       "name": "Hip Thrust",
       "order": 5,
-      "outcome": "completed",
+      "outcome": "planned",
       "persistentPrimaryVariantId": "hip_thrust",
       "plannedPrimaryVariantId": "hip_thrust",
       "prescription": {
@@ -7375,9 +7363,9 @@
             "value": 5
           },
           "reps": [
-            1,
-            1,
-            1
+            10,
+            10,
+            10
           ]
         },
         "actualSetCount": 3,
@@ -7599,9 +7587,9 @@
             "value": 5
           },
           "reps": [
-            1,
-            1,
-            1
+            10,
+            10,
+            10
           ]
         }
       },
@@ -8508,21 +8496,9 @@
       },
       {
         "activeVariantId": "hip_thrust",
-        "actualResult": {
-          "load": {
-            "kind": "numeric",
-            "mode": "total",
-            "unit": "kg",
-            "value": 75
-          },
-          "reps": [
-            15,
-            15,
-            15
-          ]
-        },
-        "actualSetCount": 3,
-        "completed": true,
+        "actualResult": null,
+        "actualSetCount": null,
+        "completed": false,
         "currentSessionOverride": null,
         "edited": false,
         "exerciseFamilyId": "hip_extension",
@@ -8546,7 +8522,7 @@
         "issueNotes": null,
         "name": "Hip Thrust",
         "order": 5,
-        "outcome": "completed",
+        "outcome": "planned",
         "persistentPrimaryVariantId": "hip_thrust",
         "plannedPrimaryVariantId": "hip_thrust",
         "prescription": {
@@ -16525,7 +16501,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-10-19T14:57:22.877Z",
+  "responseGeneratedAt": "2026-10-19T14:57:58.635Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -41314,7 +41290,7 @@
   ],
   "sessionIssues": [],
   "slotSelections": {},
-  "sourceStateUpdatedAt": "2026-10-19T14:57:10.481Z",
+  "sourceStateUpdatedAt": "2026-10-19T14:57:24.707Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
