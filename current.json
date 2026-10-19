@@ -7151,9 +7151,20 @@
     },
     {
       "activeVariantId": "loaded_dead_bug_dumbbells",
-      "actualResult": null,
-      "actualSetCount": null,
-      "completed": false,
+      "actualResult": {
+        "load": {
+          "kind": "numeric",
+          "mode": "per_hand",
+          "unit": "kg",
+          "value": 4
+        },
+        "reps": [
+          12,
+          12
+        ]
+      },
+      "actualSetCount": 2,
+      "completed": true,
       "currentSessionOverride": null,
       "edited": false,
       "exerciseFamilyId": "trunk_control",
@@ -7176,7 +7187,7 @@
       "issueNotes": null,
       "name": "Loaded Dead Bug (Dumbbells)",
       "order": 8,
-      "outcome": "planned",
+      "outcome": "completed",
       "persistentPrimaryVariantId": "loaded_dead_bug_dumbbells",
       "plannedPrimaryVariantId": "loaded_dead_bug_dumbbells",
       "prescription": {
@@ -9345,9 +9356,20 @@
       },
       {
         "activeVariantId": "loaded_dead_bug_dumbbells",
-        "actualResult": null,
-        "actualSetCount": null,
-        "completed": false,
+        "actualResult": {
+          "load": {
+            "kind": "numeric",
+            "mode": "per_hand",
+            "unit": "kg",
+            "value": 4
+          },
+          "reps": [
+            12,
+            12
+          ]
+        },
+        "actualSetCount": 2,
+        "completed": true,
         "currentSessionOverride": null,
         "edited": false,
         "exerciseFamilyId": "trunk_control",
@@ -9370,7 +9392,7 @@
         "issueNotes": null,
         "name": "Loaded Dead Bug (Dumbbells)",
         "order": 8,
-        "outcome": "planned",
+        "outcome": "completed",
         "persistentPrimaryVariantId": "loaded_dead_bug_dumbbells",
         "plannedPrimaryVariantId": "loaded_dead_bug_dumbbells",
         "prescription": {
@@ -16569,7 +16591,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-10-19T15:20:45.947Z",
+  "responseGeneratedAt": "2026-10-19T15:25:36.118Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -41358,7 +41380,7 @@
   ],
   "sessionIssues": [],
   "slotSelections": {},
-  "sourceStateUpdatedAt": "2026-10-19T15:19:30.379Z",
+  "sourceStateUpdatedAt": "2026-10-19T15:24:59.592Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
