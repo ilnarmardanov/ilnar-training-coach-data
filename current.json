@@ -6829,9 +6829,20 @@
     },
     {
       "activeVariantId": "machine_lateral_raise",
-      "actualResult": null,
-      "actualSetCount": null,
-      "completed": false,
+      "actualResult": {
+        "load": {
+          "kind": "numeric",
+          "mode": "total",
+          "unit": "kg",
+          "value": 25
+        },
+        "reps": [
+          15,
+          15
+        ]
+      },
+      "actualSetCount": 2,
+      "completed": true,
       "currentSessionOverride": null,
       "edited": false,
       "exerciseFamilyId": "shoulder_abduction",
@@ -6854,7 +6865,7 @@
       "issueNotes": null,
       "name": "Machine Lateral Raise",
       "order": 6,
-      "outcome": "planned",
+      "outcome": "completed",
       "persistentPrimaryVariantId": "machine_lateral_raise",
       "plannedPrimaryVariantId": "machine_lateral_raise",
       "prescription": {
@@ -9108,9 +9119,20 @@
       },
       {
         "activeVariantId": "machine_lateral_raise",
-        "actualResult": null,
-        "actualSetCount": null,
-        "completed": false,
+        "actualResult": {
+          "load": {
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 25
+          },
+          "reps": [
+            15,
+            15
+          ]
+        },
+        "actualSetCount": 2,
+        "completed": true,
         "currentSessionOverride": null,
         "edited": false,
         "exerciseFamilyId": "shoulder_abduction",
@@ -9133,7 +9155,7 @@
         "issueNotes": null,
         "name": "Machine Lateral Raise",
         "order": 6,
-        "outcome": "planned",
+        "outcome": "completed",
         "persistentPrimaryVariantId": "machine_lateral_raise",
         "plannedPrimaryVariantId": "machine_lateral_raise",
         "prescription": {
@@ -16811,7 +16833,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-10-22T14:16:23.091Z",
+  "responseGeneratedAt": "2026-10-22T14:24:37.625Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -42412,7 +42434,7 @@
   ],
   "sessionIssues": [],
   "slotSelections": {},
-  "sourceStateUpdatedAt": "2026-10-22T14:15:48.149Z",
+  "sourceStateUpdatedAt": "2026-10-22T14:23:59.037Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
