@@ -5553,9 +5553,20 @@
     },
     {
       "activeVariantId": "seated_leg_curl",
-      "actualResult": null,
-      "actualSetCount": null,
-      "completed": false,
+      "actualResult": {
+        "load": {
+          "kind": "numeric",
+          "mode": "total",
+          "unit": "kg",
+          "value": 70
+        },
+        "reps": [
+          12,
+          12
+        ]
+      },
+      "actualSetCount": 2,
+      "completed": true,
       "currentSessionOverride": null,
       "edited": false,
       "exerciseFamilyId": "knee_flexion",
@@ -5578,7 +5589,7 @@
       "issueNotes": null,
       "name": "Seated Leg Curl",
       "order": 2,
-      "outcome": "planned",
+      "outcome": "completed",
       "persistentPrimaryVariantId": "seated_leg_curl",
       "plannedPrimaryVariantId": "seated_leg_curl",
       "prescription": {
@@ -7785,9 +7796,20 @@
       },
       {
         "activeVariantId": "seated_leg_curl",
-        "actualResult": null,
-        "actualSetCount": null,
-        "completed": false,
+        "actualResult": {
+          "load": {
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 70
+          },
+          "reps": [
+            12,
+            12
+          ]
+        },
+        "actualSetCount": 2,
+        "completed": true,
         "currentSessionOverride": null,
         "edited": false,
         "exerciseFamilyId": "knee_flexion",
@@ -7810,7 +7832,7 @@
         "issueNotes": null,
         "name": "Seated Leg Curl",
         "order": 2,
-        "outcome": "planned",
+        "outcome": "completed",
         "persistentPrimaryVariantId": "seated_leg_curl",
         "plannedPrimaryVariantId": "seated_leg_curl",
         "prescription": {
@@ -16717,7 +16739,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-10-22T13:46:25.078Z",
+  "responseGeneratedAt": "2026-10-22T13:51:56.032Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -42318,7 +42340,7 @@
   ],
   "sessionIssues": [],
   "slotSelections": {},
-  "sourceStateUpdatedAt": "2026-10-22T13:45:44.345Z",
+  "sourceStateUpdatedAt": "2026-10-22T13:51:18.835Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
