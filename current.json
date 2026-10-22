@@ -6175,9 +6175,21 @@
     },
     {
       "activeVariantId": "low_row",
-      "actualResult": null,
-      "actualSetCount": null,
-      "completed": false,
+      "actualResult": {
+        "load": {
+          "kind": "numeric",
+          "mode": "total",
+          "unit": "kg",
+          "value": 65
+        },
+        "reps": [
+          12,
+          12,
+          12
+        ]
+      },
+      "actualSetCount": 3,
+      "completed": true,
       "currentSessionOverride": null,
       "edited": false,
       "exerciseFamilyId": "horizontal_row",
@@ -6201,7 +6213,7 @@
       "issueNotes": null,
       "name": "Low Row",
       "order": 4,
-      "outcome": "planned",
+      "outcome": "completed",
       "persistentPrimaryVariantId": "low_row",
       "plannedPrimaryVariantId": "low_row",
       "prescription": {
@@ -6493,9 +6505,21 @@
     },
     {
       "activeVariantId": "hip_thrust",
-      "actualResult": null,
-      "actualSetCount": null,
-      "completed": false,
+      "actualResult": {
+        "load": {
+          "kind": "numeric",
+          "mode": "total",
+          "unit": "kg",
+          "value": 75
+        },
+        "reps": [
+          15,
+          15,
+          15
+        ]
+      },
+      "actualSetCount": 3,
+      "completed": true,
       "currentSessionOverride": null,
       "edited": false,
       "exerciseFamilyId": "hip_extension",
@@ -6519,7 +6543,7 @@
       "issueNotes": null,
       "name": "Hip Thrust",
       "order": 5,
-      "outcome": "planned",
+      "outcome": "completed",
       "persistentPrimaryVariantId": "hip_thrust",
       "plannedPrimaryVariantId": "hip_thrust",
       "prescription": {
@@ -8430,9 +8454,21 @@
       },
       {
         "activeVariantId": "low_row",
-        "actualResult": null,
-        "actualSetCount": null,
-        "completed": false,
+        "actualResult": {
+          "load": {
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 65
+          },
+          "reps": [
+            12,
+            12,
+            12
+          ]
+        },
+        "actualSetCount": 3,
+        "completed": true,
         "currentSessionOverride": null,
         "edited": false,
         "exerciseFamilyId": "horizontal_row",
@@ -8456,7 +8492,7 @@
         "issueNotes": null,
         "name": "Low Row",
         "order": 4,
-        "outcome": "planned",
+        "outcome": "completed",
         "persistentPrimaryVariantId": "low_row",
         "plannedPrimaryVariantId": "low_row",
         "prescription": {
@@ -8748,9 +8784,21 @@
       },
       {
         "activeVariantId": "hip_thrust",
-        "actualResult": null,
-        "actualSetCount": null,
-        "completed": false,
+        "actualResult": {
+          "load": {
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 75
+          },
+          "reps": [
+            15,
+            15,
+            15
+          ]
+        },
+        "actualSetCount": 3,
+        "completed": true,
         "currentSessionOverride": null,
         "edited": false,
         "exerciseFamilyId": "hip_extension",
@@ -8774,7 +8822,7 @@
         "issueNotes": null,
         "name": "Hip Thrust",
         "order": 5,
-        "outcome": "planned",
+        "outcome": "completed",
         "persistentPrimaryVariantId": "hip_thrust",
         "plannedPrimaryVariantId": "hip_thrust",
         "prescription": {
@@ -16763,7 +16811,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-10-22T14:01:24.661Z",
+  "responseGeneratedAt": "2026-10-22T14:16:23.091Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -42364,7 +42412,7 @@
   ],
   "sessionIssues": [],
   "slotSelections": {},
-  "sourceStateUpdatedAt": "2026-10-22T14:00:46.761Z",
+  "sourceStateUpdatedAt": "2026-10-22T14:15:48.149Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
