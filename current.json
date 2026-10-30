@@ -6469,9 +6469,21 @@
     },
     {
       "activeVariantId": "hip_thrust",
-      "actualResult": null,
-      "actualSetCount": null,
-      "completed": false,
+      "actualResult": {
+        "load": {
+          "kind": "numeric",
+          "mode": "total",
+          "unit": "kg",
+          "value": 75
+        },
+        "reps": [
+          15,
+          15,
+          15
+        ]
+      },
+      "actualSetCount": 3,
+      "completed": true,
       "currentSessionOverride": null,
       "edited": false,
       "exerciseFamilyId": "hip_extension",
@@ -6495,7 +6507,7 @@
       "issueNotes": null,
       "name": "Hip Thrust",
       "order": 5,
-      "outcome": "planned",
+      "outcome": "completed",
       "persistentPrimaryVariantId": "hip_thrust",
       "plannedPrimaryVariantId": "hip_thrust",
       "prescription": {
@@ -6781,9 +6793,20 @@
     },
     {
       "activeVariantId": "chest_supported_incline_dumbbell_reverse_fly",
-      "actualResult": null,
-      "actualSetCount": null,
-      "completed": false,
+      "actualResult": {
+        "load": {
+          "kind": "numeric",
+          "mode": "per_hand",
+          "unit": "kg",
+          "value": 6
+        },
+        "reps": [
+          15,
+          15
+        ]
+      },
+      "actualSetCount": 2,
+      "completed": true,
       "currentSessionOverride": null,
       "edited": false,
       "exerciseFamilyId": "rear_deltoid_horizontal_abduction",
@@ -6806,7 +6829,7 @@
       "issueNotes": null,
       "name": "Chest-Supported Incline Dumbbell Reverse Fly",
       "order": 6,
-      "outcome": "planned",
+      "outcome": "completed",
       "persistentPrimaryVariantId": "chest_supported_incline_dumbbell_reverse_fly",
       "plannedPrimaryVariantId": "chest_supported_incline_dumbbell_reverse_fly",
       "prescription": {
@@ -8702,9 +8725,21 @@
       },
       {
         "activeVariantId": "hip_thrust",
-        "actualResult": null,
-        "actualSetCount": null,
-        "completed": false,
+        "actualResult": {
+          "load": {
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 75
+          },
+          "reps": [
+            15,
+            15,
+            15
+          ]
+        },
+        "actualSetCount": 3,
+        "completed": true,
         "currentSessionOverride": null,
         "edited": false,
         "exerciseFamilyId": "hip_extension",
@@ -8728,7 +8763,7 @@
         "issueNotes": null,
         "name": "Hip Thrust",
         "order": 5,
-        "outcome": "planned",
+        "outcome": "completed",
         "persistentPrimaryVariantId": "hip_thrust",
         "plannedPrimaryVariantId": "hip_thrust",
         "prescription": {
@@ -9014,9 +9049,20 @@
       },
       {
         "activeVariantId": "chest_supported_incline_dumbbell_reverse_fly",
-        "actualResult": null,
-        "actualSetCount": null,
-        "completed": false,
+        "actualResult": {
+          "load": {
+            "kind": "numeric",
+            "mode": "per_hand",
+            "unit": "kg",
+            "value": 6
+          },
+          "reps": [
+            15,
+            15
+          ]
+        },
+        "actualSetCount": 2,
+        "completed": true,
         "currentSessionOverride": null,
         "edited": false,
         "exerciseFamilyId": "rear_deltoid_horizontal_abduction",
@@ -9039,7 +9085,7 @@
         "issueNotes": null,
         "name": "Chest-Supported Incline Dumbbell Reverse Fly",
         "order": 6,
-        "outcome": "planned",
+        "outcome": "completed",
         "persistentPrimaryVariantId": "chest_supported_incline_dumbbell_reverse_fly",
         "plannedPrimaryVariantId": "chest_supported_incline_dumbbell_reverse_fly",
         "prescription": {
@@ -16737,7 +16783,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-10-30T14:10:00.066Z",
+  "responseGeneratedAt": "2026-10-30T14:29:58.892Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -44650,7 +44696,7 @@
   ],
   "sessionIssues": [],
   "slotSelections": {},
-  "sourceStateUpdatedAt": "2026-10-30T14:09:20.660Z",
+  "sourceStateUpdatedAt": "2026-10-30T14:29:15.946Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
