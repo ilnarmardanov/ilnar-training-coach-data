@@ -6171,9 +6171,21 @@
     },
     {
       "activeVariantId": "lat_pulldown",
-      "actualResult": null,
-      "actualSetCount": null,
-      "completed": false,
+      "actualResult": {
+        "load": {
+          "kind": "numeric",
+          "mode": "total",
+          "unit": "kg",
+          "value": 70
+        },
+        "reps": [
+          12,
+          12,
+          12
+        ]
+      },
+      "actualSetCount": 3,
+      "completed": true,
       "currentSessionOverride": null,
       "edited": false,
       "exerciseFamilyId": "vertical_pull",
@@ -6197,7 +6209,7 @@
       "issueNotes": null,
       "name": "Lat Pulldown",
       "order": 4,
-      "outcome": "planned",
+      "outcome": "completed",
       "persistentPrimaryVariantId": "lat_pulldown",
       "plannedPrimaryVariantId": "lat_pulldown",
       "prescription": {
@@ -8392,9 +8404,21 @@
       },
       {
         "activeVariantId": "lat_pulldown",
-        "actualResult": null,
-        "actualSetCount": null,
-        "completed": false,
+        "actualResult": {
+          "load": {
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 70
+          },
+          "reps": [
+            12,
+            12,
+            12
+          ]
+        },
+        "actualSetCount": 3,
+        "completed": true,
         "currentSessionOverride": null,
         "edited": false,
         "exerciseFamilyId": "vertical_pull",
@@ -8418,7 +8442,7 @@
         "issueNotes": null,
         "name": "Lat Pulldown",
         "order": 4,
-        "outcome": "planned",
+        "outcome": "completed",
         "persistentPrimaryVariantId": "lat_pulldown",
         "plannedPrimaryVariantId": "lat_pulldown",
         "prescription": {
@@ -16713,7 +16737,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-10-30T14:01:26.634Z",
+  "responseGeneratedAt": "2026-10-30T14:10:00.066Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -44626,7 +44650,7 @@
   ],
   "sessionIssues": [],
   "slotSelections": {},
-  "sourceStateUpdatedAt": "2026-10-30T14:00:45.140Z",
+  "sourceStateUpdatedAt": "2026-10-30T14:09:20.660Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
