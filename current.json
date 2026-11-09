@@ -5305,9 +5305,19 @@
   "currentExercises": [
     {
       "activeVariantId": "leg_press",
-      "actualResult": null,
-      "actualSetCount": null,
-      "completed": false,
+      "actualResult": {
+        "load": {
+          "kind": "label",
+          "label": "Base + 5 kg per side",
+          "mode": "base_resistance"
+        },
+        "reps": [
+          12,
+          12
+        ]
+      },
+      "actualSetCount": 2,
+      "completed": true,
       "currentSessionOverride": null,
       "edited": false,
       "exerciseFamilyId": "strength_a_knee_dominant",
@@ -5329,7 +5339,7 @@
       "issueNotes": null,
       "name": "Leg Press",
       "order": 1,
-      "outcome": "planned",
+      "outcome": "completed",
       "persistentPrimaryVariantId": "leg_press",
       "plannedPrimaryVariantId": "leg_press",
       "prescription": {
@@ -7557,9 +7567,19 @@
     "exercises": [
       {
         "activeVariantId": "leg_press",
-        "actualResult": null,
-        "actualSetCount": null,
-        "completed": false,
+        "actualResult": {
+          "load": {
+            "kind": "label",
+            "label": "Base + 5 kg per side",
+            "mode": "base_resistance"
+          },
+          "reps": [
+            12,
+            12
+          ]
+        },
+        "actualSetCount": 2,
+        "completed": true,
         "currentSessionOverride": null,
         "edited": false,
         "exerciseFamilyId": "strength_a_knee_dominant",
@@ -7581,7 +7601,7 @@
         "issueNotes": null,
         "name": "Leg Press",
         "order": 1,
-        "outcome": "planned",
+        "outcome": "completed",
         "persistentPrimaryVariantId": "leg_press",
         "plannedPrimaryVariantId": "leg_press",
         "prescription": {
@@ -16795,7 +16815,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-10-30T14:49:44.944Z",
+  "responseGeneratedAt": "2026-11-09T13:50:34.028Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -45500,7 +45520,7 @@
   ],
   "sessionIssues": [],
   "slotSelections": {},
-  "sourceStateUpdatedAt": "2026-10-30T14:49:28.828Z",
+  "sourceStateUpdatedAt": "2026-11-09T13:49:50.918Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
