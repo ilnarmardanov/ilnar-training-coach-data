@@ -5305,9 +5305,21 @@
   "currentExercises": [
     {
       "activeVariantId": "pendulum_squat",
-      "actualResult": null,
-      "actualSetCount": null,
-      "completed": false,
+      "actualResult": {
+        "load": {
+          "kind": "numeric",
+          "mode": "per_side",
+          "unit": "kg",
+          "value": 5
+        },
+        "reps": [
+          10,
+          10,
+          10
+        ]
+      },
+      "actualSetCount": 3,
+      "completed": true,
       "currentSessionOverride": null,
       "edited": false,
       "exerciseFamilyId": "strength_b_knee_dominant",
@@ -5331,7 +5343,7 @@
       "issueNotes": null,
       "name": "Pendulum Squat",
       "order": 1,
-      "outcome": "planned",
+      "outcome": "completed",
       "persistentPrimaryVariantId": "pendulum_squat",
       "plannedPrimaryVariantId": "pendulum_squat",
       "prescription": {
@@ -7523,9 +7535,21 @@
     "exercises": [
       {
         "activeVariantId": "pendulum_squat",
-        "actualResult": null,
-        "actualSetCount": null,
-        "completed": false,
+        "actualResult": {
+          "load": {
+            "kind": "numeric",
+            "mode": "per_side",
+            "unit": "kg",
+            "value": 5
+          },
+          "reps": [
+            10,
+            10,
+            10
+          ]
+        },
+        "actualSetCount": 3,
+        "completed": true,
         "currentSessionOverride": null,
         "edited": false,
         "exerciseFamilyId": "strength_b_knee_dominant",
@@ -7549,7 +7573,7 @@
         "issueNotes": null,
         "name": "Pendulum Squat",
         "order": 1,
-        "outcome": "planned",
+        "outcome": "completed",
         "persistentPrimaryVariantId": "pendulum_squat",
         "plannedPrimaryVariantId": "pendulum_squat",
         "prescription": {
@@ -16727,7 +16751,7 @@
     "progressionDisabledSessions": 1,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-11-09T15:15:24.805Z",
+  "responseGeneratedAt": "2026-11-11T13:18:59.576Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -46218,7 +46242,7 @@
   ],
   "sessionIssues": [],
   "slotSelections": {},
-  "sourceStateUpdatedAt": "2026-11-09T15:15:07.200Z",
+  "sourceStateUpdatedAt": "2026-11-11T13:18:13.552Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
