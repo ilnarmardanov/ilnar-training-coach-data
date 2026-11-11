@@ -7077,9 +7077,20 @@
     },
     {
       "activeVariantId": "supported_single_leg_dumbbell_calf_raise",
-      "actualResult": null,
-      "actualSetCount": null,
-      "completed": false,
+      "actualResult": {
+        "load": {
+          "kind": "numeric",
+          "mode": "total",
+          "unit": "kg",
+          "value": 20
+        },
+        "reps": [
+          15,
+          15
+        ]
+      },
+      "actualSetCount": 2,
+      "completed": true,
       "currentSessionOverride": null,
       "edited": false,
       "exerciseFamilyId": "plantar_flexion",
@@ -7102,7 +7113,7 @@
       "issueNotes": null,
       "name": "Supported Single-Leg Dumbbell Calf Raise on Step",
       "order": 7,
-      "outcome": "planned",
+      "outcome": "completed",
       "persistentPrimaryVariantId": "supported_single_leg_dumbbell_calf_raise",
       "plannedPrimaryVariantId": "supported_single_leg_dumbbell_calf_raise",
       "prescription": {
@@ -7148,7 +7159,7 @@
           "unit": "kg",
           "value": 20
         },
-        "progressionBlocked": true,
+        "progressionBlocked": false,
         "proposedLoad": null,
         "recentLoadIncrease": false,
         "reviewRequired": false
@@ -9354,9 +9365,20 @@
       },
       {
         "activeVariantId": "supported_single_leg_dumbbell_calf_raise",
-        "actualResult": null,
-        "actualSetCount": null,
-        "completed": false,
+        "actualResult": {
+          "load": {
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 20
+          },
+          "reps": [
+            15,
+            15
+          ]
+        },
+        "actualSetCount": 2,
+        "completed": true,
         "currentSessionOverride": null,
         "edited": false,
         "exerciseFamilyId": "plantar_flexion",
@@ -9379,7 +9401,7 @@
         "issueNotes": null,
         "name": "Supported Single-Leg Dumbbell Calf Raise on Step",
         "order": 7,
-        "outcome": "planned",
+        "outcome": "completed",
         "persistentPrimaryVariantId": "supported_single_leg_dumbbell_calf_raise",
         "plannedPrimaryVariantId": "supported_single_leg_dumbbell_calf_raise",
         "prescription": {
@@ -9425,7 +9447,7 @@
             "unit": "kg",
             "value": 20
           },
-          "progressionBlocked": true,
+          "progressionBlocked": false,
           "proposedLoad": null,
           "recentLoadIncrease": false,
           "reviewRequired": false
@@ -16845,7 +16867,7 @@
     "progressionDisabledSessions": 1,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-11-11T13:57:56.009Z",
+  "responseGeneratedAt": "2026-11-11T14:06:16.864Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -46336,7 +46358,7 @@
   ],
   "sessionIssues": [],
   "slotSelections": {},
-  "sourceStateUpdatedAt": "2026-11-11T13:57:20.278Z",
+  "sourceStateUpdatedAt": "2026-11-11T14:05:45.096Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
