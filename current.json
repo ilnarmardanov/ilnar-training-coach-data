@@ -6881,9 +6881,20 @@
     },
     {
       "activeVariantId": "machine_lateral_raise",
-      "actualResult": null,
-      "actualSetCount": null,
-      "completed": false,
+      "actualResult": {
+        "load": {
+          "kind": "numeric",
+          "mode": "total",
+          "unit": "kg",
+          "value": 25
+        },
+        "reps": [
+          15,
+          15
+        ]
+      },
+      "actualSetCount": 2,
+      "completed": true,
       "currentSessionOverride": null,
       "edited": false,
       "exerciseFamilyId": "shoulder_abduction",
@@ -6906,7 +6917,7 @@
       "issueNotes": null,
       "name": "Machine Lateral Raise",
       "order": 6,
-      "outcome": "planned",
+      "outcome": "completed",
       "persistentPrimaryVariantId": "machine_lateral_raise",
       "plannedPrimaryVariantId": "machine_lateral_raise",
       "prescription": {
@@ -6952,7 +6963,7 @@
           "unit": "kg",
           "value": 25
         },
-        "progressionBlocked": true,
+        "progressionBlocked": false,
         "proposedLoad": null,
         "recentLoadIncrease": false,
         "reviewRequired": false
@@ -9196,9 +9207,20 @@
       },
       {
         "activeVariantId": "machine_lateral_raise",
-        "actualResult": null,
-        "actualSetCount": null,
-        "completed": false,
+        "actualResult": {
+          "load": {
+            "kind": "numeric",
+            "mode": "total",
+            "unit": "kg",
+            "value": 25
+          },
+          "reps": [
+            15,
+            15
+          ]
+        },
+        "actualSetCount": 2,
+        "completed": true,
         "currentSessionOverride": null,
         "edited": false,
         "exerciseFamilyId": "shoulder_abduction",
@@ -9221,7 +9243,7 @@
         "issueNotes": null,
         "name": "Machine Lateral Raise",
         "order": 6,
-        "outcome": "planned",
+        "outcome": "completed",
         "persistentPrimaryVariantId": "machine_lateral_raise",
         "plannedPrimaryVariantId": "machine_lateral_raise",
         "prescription": {
@@ -9267,7 +9289,7 @@
             "unit": "kg",
             "value": 25
           },
-          "progressionBlocked": true,
+          "progressionBlocked": false,
           "proposedLoad": null,
           "recentLoadIncrease": false,
           "reviewRequired": false
@@ -16931,7 +16953,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-11-18T13:06:50.747Z",
+  "responseGeneratedAt": "2026-11-18T13:12:47.733Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -47219,7 +47241,7 @@
   ],
   "sessionIssues": [],
   "slotSelections": {},
-  "sourceStateUpdatedAt": "2026-11-18T13:06:09.237Z",
+  "sourceStateUpdatedAt": "2026-11-18T13:12:10.656Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
