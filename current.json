@@ -6849,9 +6849,20 @@
     },
     {
       "activeVariantId": "chest_supported_incline_dumbbell_reverse_fly",
-      "actualResult": null,
-      "actualSetCount": null,
-      "completed": false,
+      "actualResult": {
+        "load": {
+          "kind": "numeric",
+          "mode": "per_hand",
+          "unit": "kg",
+          "value": 6
+        },
+        "reps": [
+          15,
+          15
+        ]
+      },
+      "actualSetCount": 2,
+      "completed": true,
       "currentSessionOverride": null,
       "edited": false,
       "exerciseFamilyId": "rear_deltoid_horizontal_abduction",
@@ -6874,7 +6885,7 @@
       "issueNotes": null,
       "name": "Chest-Supported Incline Dumbbell Reverse Fly",
       "order": 6,
-      "outcome": "planned",
+      "outcome": "completed",
       "persistentPrimaryVariantId": "chest_supported_incline_dumbbell_reverse_fly",
       "plannedPrimaryVariantId": "chest_supported_incline_dumbbell_reverse_fly",
       "prescription": {
@@ -9127,9 +9138,20 @@
       },
       {
         "activeVariantId": "chest_supported_incline_dumbbell_reverse_fly",
-        "actualResult": null,
-        "actualSetCount": null,
-        "completed": false,
+        "actualResult": {
+          "load": {
+            "kind": "numeric",
+            "mode": "per_hand",
+            "unit": "kg",
+            "value": 6
+          },
+          "reps": [
+            15,
+            15
+          ]
+        },
+        "actualSetCount": 2,
+        "completed": true,
         "currentSessionOverride": null,
         "edited": false,
         "exerciseFamilyId": "rear_deltoid_horizontal_abduction",
@@ -9152,7 +9174,7 @@
         "issueNotes": null,
         "name": "Chest-Supported Incline Dumbbell Reverse Fly",
         "order": 6,
-        "outcome": "planned",
+        "outcome": "completed",
         "persistentPrimaryVariantId": "chest_supported_incline_dumbbell_reverse_fly",
         "plannedPrimaryVariantId": "chest_supported_incline_dumbbell_reverse_fly",
         "prescription": {
@@ -16865,7 +16887,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-11-20T08:15:46.625Z",
+  "responseGeneratedAt": "2026-11-20T08:24:33.315Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -47951,7 +47973,7 @@
   ],
   "sessionIssues": [],
   "slotSelections": {},
-  "sourceStateUpdatedAt": "2026-11-20T08:15:01.209Z",
+  "sourceStateUpdatedAt": "2026-11-20T08:23:55.803Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
