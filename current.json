@@ -16851,7 +16851,7 @@
     "progressionDisabledSessions": 0,
     "reviewRequired": false
   },
-  "responseGeneratedAt": "2026-11-22T14:19:31.750Z",
+  "responseGeneratedAt": "2026-11-25T14:28:18.408Z",
   "retainedProgression": {
     "progressionTracks": {
       "chest_press:2x10-12": {
@@ -49553,7 +49553,7 @@
   ],
   "sessionIssues": [],
   "slotSelections": {},
-  "sourceStateUpdatedAt": "2026-11-22T14:19:18.148Z",
+  "sourceStateUpdatedAt": "2026-11-25T14:27:59.003Z",
   "supplementReference": {
     "excluded": [
       "BCAA",
